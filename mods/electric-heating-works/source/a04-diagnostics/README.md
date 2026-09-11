@@ -2,10 +2,10 @@
 
 12 September 2026. Original project art: Copyright (c) 2026 Phobos A. D'thorga, MIT.
 These are diagnostic ModelViewer exports, not final replacements or a playable mod.
-The author reports that the dithering disappears with 02_RAISED.nmf and suspects
-that apparent tank/wall dithering was interference from the ground rather than
-direct surface defects. A [ground-only comparison](ground-check/README.md) is the
-next test; a permanent two-metre lift is not accepted.
+The author reports that the dithering disappears with 02_RAISED.nmf and, subsequently,
+with 07_NO_GROUND_SHEET.nmf at the original building height. The
+[ground-only result](ground-check/README.md) isolates the broad ground sheet in this
+viewer comparison; a permanent two-metre lift is not needed for the reported result.
 
 ## First author result
 

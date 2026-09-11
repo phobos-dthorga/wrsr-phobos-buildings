@@ -1,7 +1,35 @@
 # Ground-sheet isolation test
 
 12 September 2026. Original Phobos project geometry, MIT.
-Copyright (c) 2026 Phobos A. D'thorga. Native result pending author comparison.
+Copyright (c) 2026 Phobos A. D'thorga. The author reports no flickering with
+07_NO_GROUND_SHEET.nmf at the original building height.
+
+## Author result and visible reference grid
+
+The author supplied whole-plant and close facade views showing 07_NO_GROUND_SHEET.nmf
+with PLANT.mtl in Building / Day / Terrain, and reported "No flickering". This is
+the author's live observation; the assistant reviewed the still images rather than
+observing a new video. The [review record](author-review-2026-09-12.json) preserves
+the result and hashes of the two locally retained screenshots.
+
+Together with the earlier raised-model result, this isolates the broad ground
+sheet as the trigger for the reported flicker in this viewer comparison. The tanks,
+walls and other 23 native objects remain unchanged at their original height. No
+two-metre lift or fine-detail removal is needed to obtain this reported result.
+It does not yet validate a replacement site surface or all gameplay/viewing conditions.
+
+The fine regular square lines in the centre-area close view cross both the road
+and exposed terrain. They are consistent with ModelViewer's reference grid, also
+visible beneath the earlier sample models. The
+[official ModelViewer notes](https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Modelviewer)
+describe its measuring grid and one-unit squares. No wire grid was added to the
+model: this diagnostic only subtracts the ground-sheet component. Its increased
+visibility is consistent with removing the surface that previously obscured it;
+the viewer's exact grid display/depth rules have not been investigated.
+
+Preserve this successful diagnostic and the original baseline. The next modelling
+decision concerns permanent site-surface treatment at normal height; no final
+ground solution or playable packaging is selected by this evidence alone.
 
 The author suspects that the apparent dithering on tanks and walls was interference
 from the ground rather than a direct tank/wall issue. This experiment isolates the
@@ -35,7 +63,8 @@ native objects and the original 20 materials. The parsed vertex/index, UV, norma
 tangent, bitangent and material-subset data for the other 23 objects must match
 exactly between the two exports. Their complete native node blocks are also
 byte-identical, including bounds and face-plane data. Surviving site triangles are
-checked against their Blender source. Final geometry changes await the visual comparison.
+checked against their Blender source. The author result above is separate from
+these static checks; a permanent source revision remains a later step.
 
 The first build attempt detected changed data in unrelated objects after a whole
 re-export. It was rejected. The final diagnostic retains the original file's other

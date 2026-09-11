@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-12",
+  "evidence_type": "Author report and two supplied ModelViewer screenshots",
+  "loaded_nmf": "07_NO_GROUND_SHEET.nmf",
+  "loaded_material": "PLANT.mtl",
+  "visible_settings": {
+    "object_type": "Building",
+    "lighting": "Day",
+    "environment": "Terrain"
+  },
+  "author_report": "No flickering",
+  "assistant_motion_observation": false,
+  "conclusion": "Removal of the broad ground sheet eliminates the reported flicker in this author-observed viewer test at original building height.",
+  "limits": [
+    "Still images do not independently prove motion stability.",
+    "No gameplay, final site treatment or universal camera/lighting acceptance is claimed."
+  ],
+  "reference_grid": {
+    "interpretation": "The fine regular square overlay across road and grass is ModelViewer reference grid, consistent with earlier sample views.",
+    "source": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Modelviewer",
+    "new_grid_geometry_added": false
+  },
+  "screenshots_stored_outside_repository": true,
+  "frames": [
+    {
+      "file": "2026-09-12-no-ground-sheet-overall.jpg",
+      "view": "Whole plant",
+      "sha256": "5de0650a8ab9702ec1763477f179a2a626942ab0716f1c7a73faa81519bc6de5",
+      "bytes": 691759
+    },
+    {
+      "file": "2026-09-12-no-ground-sheet-facade.jpg",
+      "view": "Facade and reference grid",
+      "sha256": "91a155011d98cb82aa3a0890688bbba90bddef2235d3c44e49aa6d4f7ebaf511",
+      "bytes": 593505
+    }
+  ]
+}

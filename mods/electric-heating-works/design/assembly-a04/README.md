@@ -9,7 +9,9 @@ surface artifacts; native visual acceptance remains open. See the
 [inspection record](native-inspection-2026-09-12.md).
 
 The [controlled comparison set](../../source/a04-diagnostics/README.md) separates
-terrain height, fine detail and native object size. Its native results are pending.
+terrain height, fine detail and native object size. The author reports no flickering
+after removing only the broad ground sheet at original building height; see the
+[ground-only result](../../source/a04-diagnostics/ground-check/README.md).
 
 ![Original full-plant assembly rendered in Blender](../../source/assembly-a04/review/overall.png)
 
