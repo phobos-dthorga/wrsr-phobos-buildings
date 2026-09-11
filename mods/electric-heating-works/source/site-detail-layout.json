@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "revision": "a02",
+  "coordinate_system": "A01 site plan metres; subtract (75,56,0) for Blender world position",
+  "fence_panel_span_m": 3,
+  "fence_runs": [
+    {
+      "name": "outer_front",
+      "start": [
+        2,
+        2
+      ],
+      "end": [
+        149,
+        2
+      ]
+    },
+    {
+      "name": "outer_east",
+      "start": [
+        149,
+        2
+      ],
+      "end": [
+        149,
+        110
+      ]
+    },
+    {
+      "name": "outer_rear_left",
+      "start": [
+        2,
+        110
+      ],
+      "end": [
+        68,
+        110
+      ]
+    },
+    {
+      "name": "outer_rear_right",
+      "start": [
+        76,
+        110
+      ],
+      "end": [
+        149,
+        110
+      ]
+    },
+    {
+      "name": "outer_west",
+      "start": [
+        2,
+        2
+      ],
+      "end": [
+        2,
+        110
+      ]
+    },
+    {
+      "name": "yard_front",
+      "start": [
+        11.2,
+        12
+      ],
+      "end": [
+        107.1,
+        12
+      ]
+    },
+    {
+      "name": "yard_west",
+      "start": [
+        11.2,
+        12
+      ],
+      "end": [
+        11.2,
+        49.5
+      ]
+    },
+    {
+      "name": "yard_east",
+      "start": [
+        107.1,
+        12
+      ],
+      "end": [
+        107.1,
+        49.5
+      ]
+    },
+    {
+      "name": "yard_rear_left",
+      "start": [
+        11.2,
+        49.5
+      ],
+      "end": [
+        64,
+        49.5
+      ]
+    },
+    {
+      "name": "yard_rear_middle",
+      "start": [
+        74,
+        49.5
+      ],
+      "end": [
+        85,
+        49.5
+      ]
+    },
+    {
+      "name": "yard_rear_right",
+      "start": [
+        95,
+        49.5
+      ],
+      "end": [
+        107.1,
+        49.5
+      ]
+    }
+  ],
+  "gate_openings": [
+    {
+      "name": "site_entrance",
+      "start": [
+        68,
+        110
+      ],
+      "end": [
+        76,
+        110
+      ],
+      "state": "open; two sliding leaves parked along fence",
+      "leaf_span_m": 4
+    },
+    {
+      "name": "transformer_1_access",
+      "start": [
+        64,
+        49.5
+      ],
+      "end": [
+        74,
+        49.5
+      ],
+      "state": "open; two sliding leaves parked along fence",
+      "leaf_span_m": 5
+    },
+    {
+      "name": "transformer_2_access",
+      "start": [
+        85,
+        49.5
+      ],
+      "end": [
+        95,
+        49.5
+      ],
+      "state": "open; two sliding leaves parked along fence",
+      "leaf_span_m": 5
+    }
+  ],
+  "lamps": [
+    {
+      "name": "west_yard_1",
+      "position": [
+        10.5,
+        20
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "west_yard_2",
+      "position": [
+        10.5,
+        43
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "front_yard",
+      "position": [
+        56,
+        10.8
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "front_control",
+      "position": [
+        117,
+        10.8
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "east_1",
+      "position": [
+        138.5,
+        18
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "east_2",
+      "position": [
+        138.5,
+        68
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "east_3",
+      "position": [
+        138.5,
+        98
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "hall_front_1",
+      "position": [
+        17,
+        50.2
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "hall_front_2",
+      "position": [
+        109.5,
+        50.2
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "rear_1",
+      "position": [
+        63,
+        101.2
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "rear_2",
+      "position": [
+        133,
+        101.2
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "thermal_1",
+      "position": [
+        94.3,
+        65
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "thermal_2",
+      "position": [
+        94.3,
+        98
+      ],
+      "angle_deg": 0
+    }
+  ],
+  "barriers": [
+    {
+      "name": "control_apron_1",
+      "position": [
+        117.5,
+        31.2
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "control_apron_2",
+      "position": [
+        126.5,
+        31.2
+      ],
+      "angle_deg": 0
+    },
+    {
+      "name": "pipe_crossing_1",
+      "position": [
+        146.9,
+        79.2
+      ],
+      "angle_deg": 90
+    },
+    {
+      "name": "pipe_crossing_2",
+      "position": [
+        146.9,
+        85
+      ],
+      "angle_deg": 90
+    }
+  ],
+  "original_adjustments": [
+    "Move pump/service annex and its apron 1.5 m toward the hall to clear the rear service road.",
+    "Use original fixed posts/plinths and gate frames with reused fence-panel infill.",
+    "Apply original restrained concrete variation and base weathering."
+  ],
+  "source_policy": "3Division meshes/textures and the mixed scene stay outside the public repository. This layout and original component sources are MIT.",
+  "native_game_tested": false
+}

@@ -1,7 +1,7 @@
 # Phobos W&R Building Works contributor instructions
 
 - Respect the requested task scope. The author subsequently authorised Concept A's
-  visual prototype and review renders. Native mod installation, game tests and
+  visual prototype, A02 local site details and review renders. Native mod installation, game tests and
   Workshop publication remain later steps; do not infer deployment from modelling.
 - If a step requires the author to close the running game, use the mouse or otherwise
   intervene, pause and explain the required action before continuing.

@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "date": "2026-09-11",
-  "status": "targeted selection from existing audit; no external inputs in A01",
-  "purpose": "Preserve concrete reuse candidates for the detail pass without recreating ordinary props.",
+  "status": "Three prop families adopted in local A02; A01 remains all-original",
+  "purpose": "Preserve actual use, source ownership, modifications and verification boundaries.",
   "candidates": [
     {
       "element_set_directory": "muddy",
       "declared_set_id": "muddy",
       "element_id": "muddy_fence_mesh",
       "proposed_use": "Open mesh fencing for the yard and perimeter",
-      "status": "exact file candidate for detail pass; not placed or adopted",
+      "status": "Used in local A02 assembly; native game untested",
       "source_credit": "3Division / Workers & Resources base-game asset source; individual modeller not separately named in local element metadata",
       "source_reference": "media_soviet/buildingeditor/elements/muddy",
       "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
@@ -77,16 +77,70 @@
         ]
       ],
       "nmf_parsed_completely": true,
-      "geometry_or_textures_copied": false,
-      "visual_fit": "Pack preview inspected only; exact textured component appearance and placement still need review.",
-      "native_tested": false
+      "geometry_or_textures_copied": true,
+      "visual_fit": "Textured wire panel accepted; paired with original fixed supports and gate frames.",
+      "native_tested": false,
+      "a02_instance_count": 259,
+      "copy_scope": "Private staging and mixed Blender scene outside the repository and game installation.",
+      "external_payloads_in_public_repository": false,
+      "external_inputs_in_a01": false,
+      "textured_blender_inspection": {
+        "element_id": "muddy_fence_mesh",
+        "source_credit": "3Division / Workers & Resources base-game asset source",
+        "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+        "mesh": "buildingeditor/elements/muddy/muddy_fence_mesh.nmf",
+        "material": "buildingeditor/elements/muddy/muddy_fence_mesh.mtl",
+        "source_material_names": [
+          "lambert3"
+        ],
+        "material_bindings": [
+          {
+            "mesh_slot": "lambert3",
+            "material_sections": [
+              "lambert1"
+            ],
+            "preview_binding": "single mesh slot / single declared material section",
+            "native_binding_tested": false
+          }
+        ],
+        "blender_bounds_m": [
+          [
+            -0.006155976094305515,
+            2.991199016571045
+          ],
+          [
+            0.014608386904001236,
+            0.014608612284064293
+          ],
+          [
+            0.4658088684082031,
+            2.3545403480529785
+          ]
+        ],
+        "vertices": 8,
+        "triangles": 4,
+        "textures": [
+          {
+            "source": "buildingeditor/elements/muddy/fence_mesh.dds",
+            "size": [
+              1024,
+              1024
+            ],
+            "alpha_enabled": true
+          }
+        ],
+        "modifications": "Imported with original UVs and geometry; axis conversion only.",
+        "native_game_tested": false
+      },
+      "adaptation_credit": "Phobos A. D'thorga / phobosgekko: placement and assembly; explicit fence/gate span adjustments.",
+      "modifications": "Axis conversion and placement. Shared mesh retains source UVs; instance width scales are recorded in A02 verification."
     },
     {
       "element_set_directory": "parkinglot_lamps",
       "declared_set_id": "parkinglotlamps",
       "element_id": "lamp2",
       "proposed_use": "Double lamp for the service road",
-      "status": "exact file candidate for detail pass; not placed or adopted",
+      "status": "Used in local A02 assembly; native game untested",
       "source_credit": "3Division / Workers & Resources base-game asset source; individual modeller not separately named in local element metadata",
       "source_reference": "media_soviet/buildingeditor/elements/parkinglot_lamps",
       "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
@@ -154,16 +208,70 @@
         ]
       ],
       "nmf_parsed_completely": true,
-      "geometry_or_textures_copied": false,
-      "visual_fit": "Pack preview inspected only; exact textured component appearance and placement still need review.",
-      "native_tested": false
+      "geometry_or_textures_copied": true,
+      "visual_fit": "Textured double lamp accepted at original scale; approximately 10.4 m tall.",
+      "native_tested": false,
+      "a02_instance_count": 13,
+      "copy_scope": "Private staging and mixed Blender scene outside the repository and game installation.",
+      "external_payloads_in_public_repository": false,
+      "external_inputs_in_a01": false,
+      "textured_blender_inspection": {
+        "element_id": "lamp2",
+        "source_credit": "3Division / Workers & Resources base-game asset source",
+        "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+        "mesh": "buildingeditor/elements/parkinglot_lamps/lamp2.nmf",
+        "material": "buildingeditor/elements/parkinglot_lamps/material.mtl",
+        "source_material_names": [
+          "lampy_dm_1Material"
+        ],
+        "material_bindings": [
+          {
+            "mesh_slot": "lampy_dm_1Material",
+            "material_sections": [
+              "lambert1"
+            ],
+            "preview_binding": "single mesh slot / single declared material section",
+            "native_binding_tested": false
+          }
+        ],
+        "blender_bounds_m": [
+          [
+            -3.046049118041992,
+            3.1505942344665527
+          ],
+          [
+            -0.2329750955104828,
+            0.24664278328418732
+          ],
+          [
+            0.0291055329144001,
+            10.456676483154297
+          ]
+        ],
+        "vertices": 497,
+        "triangles": 496,
+        "textures": [
+          {
+            "source": "paths/lampa.dds",
+            "size": [
+              512,
+              512
+            ],
+            "alpha_enabled": false
+          }
+        ],
+        "modifications": "Imported with original UVs and geometry; axis conversion only.",
+        "native_game_tested": false
+      },
+      "adaptation_credit": "Phobos A. D'thorga / phobosgekko: placement and assembly; explicit fence/gate span adjustments.",
+      "modifications": "Axis conversion and placement only; source geometry, UVs and diffuse image retained."
     },
     {
       "element_set_directory": "muddy",
       "declared_set_id": "muddy",
       "element_id": "muddy_concrete_barrier_blank",
       "proposed_use": "Local maintenance barriers where needed",
-      "status": "exact file candidate for detail pass; not placed or adopted",
+      "status": "Used in local A02 assembly; native game untested",
       "source_credit": "3Division / Workers & Resources base-game asset source; individual modeller not separately named in local element metadata",
       "source_reference": "media_soviet/buildingeditor/elements/muddy",
       "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
@@ -231,10 +339,126 @@
         ]
       ],
       "nmf_parsed_completely": true,
-      "geometry_or_textures_copied": false,
-      "visual_fit": "Pack preview inspected only; exact textured component appearance and placement still need review.",
-      "native_tested": false
+      "geometry_or_textures_copied": true,
+      "visual_fit": "Plain weathered concrete barrier accepted at original scale.",
+      "native_tested": false,
+      "a02_instance_count": 4,
+      "copy_scope": "Private staging and mixed Blender scene outside the repository and game installation.",
+      "external_payloads_in_public_repository": false,
+      "external_inputs_in_a01": false,
+      "textured_blender_inspection": {
+        "element_id": "muddy_concrete_barrier_blank",
+        "source_credit": "3Division / Workers & Resources base-game asset source",
+        "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+        "mesh": "buildingeditor/elements/muddy/muddy_concrete_barrier_blank.nmf",
+        "material": "buildingeditor/elements/muddy/muddy_concrete_barrier_blank.mtl",
+        "source_material_names": [
+          "barrier_road:ConcreteBarrier_01_MT1"
+        ],
+        "material_bindings": [
+          {
+            "mesh_slot": "barrier_road:ConcreteBarrier_01_MT1",
+            "material_sections": [
+              "lambert4"
+            ],
+            "preview_binding": "single mesh slot / single declared material section",
+            "native_binding_tested": false
+          }
+        ],
+        "blender_bounds_m": [
+          [
+            -1.499160885810852,
+            1.4909396171569824
+          ],
+          [
+            -0.4063520133495331,
+            0.2874634861946106
+          ],
+          [
+            -0.0019417369039729238,
+            1.0613511800765991
+          ]
+        ],
+        "vertices": 60,
+        "triangles": 36,
+        "textures": [
+          {
+            "source": "buildingeditor/elements/muddy/barrier_blank.dds",
+            "size": [
+              1024,
+              1024
+            ],
+            "alpha_enabled": false
+          }
+        ],
+        "modifications": "Imported with original UVs and geometry; axis conversion only.",
+        "native_game_tested": false
+      },
+      "adaptation_credit": "Phobos A. D'thorga / phobosgekko: placement and assembly; explicit fence/gate span adjustments.",
+      "modifications": "Axis conversion and placement only; source geometry, UVs and diffuse image retained."
     }
   ],
-  "set_aside": "Mixed-provenance packages remain outside this shortlist; direct game sources cover these ordinary prop needs."
+  "set_aside": "Mixed-provenance packages remain outside this shortlist; direct game sources cover these ordinary prop needs.",
+  "rejected_after_inspection": [
+    {
+      "element_id": "muddy_fence_holder",
+      "source_credit": "3Division / Workers & Resources base-game asset source",
+      "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+      "mesh": "buildingeditor/elements/muddy/muddy_fence_holder.nmf",
+      "material": "buildingeditor/elements/muddy/muddy_wheels.mtl",
+      "source_material_names": [
+        "Liaz100dumper"
+      ],
+      "material_bindings": [
+        {
+          "mesh_slot": "Liaz100dumper",
+          "material_sections": [
+            "Liaz100dumper"
+          ],
+          "preview_binding": "matching name",
+          "native_binding_tested": false
+        }
+      ],
+      "blender_bounds_m": [
+        [
+          -0.5402582287788391,
+          0.5220567584037781
+        ],
+        [
+          -0.5155561566352844,
+          0.5477706789970398
+        ],
+        [
+          -0.03572152927517891,
+          2.338332176208496
+        ]
+      ],
+      "vertices": 400,
+      "triangles": 486,
+      "textures": [
+        {
+          "source": "buildingeditor/elements/muddy/dumper.dds",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_enabled": false
+        }
+      ],
+      "modifications": "Imported with original UVs and geometry; axis conversion only.",
+      "native_game_tested": false,
+      "status": "Inspected and rejected; absent from A02 assembly",
+      "reason": "Tyre-weighted temporary support; unsuitable for the permanent plant boundary.",
+      "replacement": "Original fixed posts, low plinths and sliding gate frames.",
+      "external_payloads_in_public_repository": false,
+      "source_input_sha256": {
+        "buildingeditor/elements/muddy/elements.ini": "63803490b6916632b523fe27178d1f2c8efeccde5eb0c7b2041f921ea5185e14",
+        "buildingeditor/elements/muddy/muddy_fence_holder.nmf": "d0deae3db023a7d82b962356c9e14d94c0c381f52edba5ab4d80fa0ca68f46fc",
+        "buildingeditor/elements/muddy/muddy_wheels.mtl": "81798490c8bb2b65f220edfb0f492a89fe930a89d1f5cc06b4b66330bea76944",
+        "buildingeditor/elements/muddy/dumper.dds": "4a26d2b48286cbe82b7817778e985ac24a6ae9a18d395a7b5dca8d0ea7b74819",
+        "vehicles/gravel_lz100_train/Specdump.dds": "73b65bf1eb163e232fff70c47a01aead34295dfdade8c6241a54340e4949a6c1",
+        "blankbump.dds": "01b38131955bb77e8effc9d64513420cd7a047987f2280d4bb787e2a7327e82f"
+      }
+    }
+  ]
 }

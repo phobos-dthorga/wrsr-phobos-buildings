@@ -140,10 +140,17 @@
     {
       "id": "site.fence-and-gate",
       "category": "site",
-      "description": "Perimeter fencing and maintenance gate",
-      "status": "planned",
+      "description": "Original fixed posts, plinths and sliding gate frames; external infill tracked separately",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/site_details.py",
+        "shared/site-details.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/site-details.md",
+      "prototype_revision": "a02",
+      "native_game_verified": false
     },
     {
       "id": "materials.industrial-palette",
@@ -153,12 +160,17 @@
       "intended_license": "MIT",
       "source_files": [
         "shared/prototype_parts.py",
-        "shared/prototype-parts.blend"
+        "shared/prototype-parts.blend",
+        "shared/site_details.py",
+        "shared/site-details.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
-      "prototype_revision": "a01",
-      "native_game_verified": false
+      "prototype_revision": "a01+a02",
+      "native_game_verified": false,
+      "additional_provenance": [
+        "shared/site-details.md"
+      ]
     }
   ]
 }

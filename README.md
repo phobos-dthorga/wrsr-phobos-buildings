@@ -3,15 +3,19 @@
 Original building mods for **Workers & Resources: Soviet Republic**, supported by a
 shared library of reusable architectural and industrial parts.
 
-**Status: first 3D visual prototype.** Concept A now has an editable Blender scene,
-a reusable original component library and three review renders. There are no playable
+**Status: 3D prototype with local site detail pass A02.** Concept A has an editable
+Blender scene, reusable original components and review renders. There are no playable
 mods, Workshop uploads or supported game releases yet. The first project is **Phobos'
 Electric Heating Works**: a large electric district-heating complex with a substantial
 receiving switchyard.
 
 [Review Concept A in 3D](mods/electric-heating-works/design/prototype-a01/README.md)
 
-![Concept A visual prototype, rendered in Blender](mods/electric-heating-works/design/prototype-a01/overall.png)
+[A02: actual reused props and original site details](mods/electric-heating-works/design/detail-a02/README.md)
+records the vanilla fence panels, lamps and barriers used in the local assembly.
+The mixed scene and its renders stay outside GitHub; the public image below is A01.
+
+![Earlier A01 all-original visual prototype, rendered in Blender](mods/electric-heating-works/design/prototype-a01/overall.png)
 
 ## Start here
 

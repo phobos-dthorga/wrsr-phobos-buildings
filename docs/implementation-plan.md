@@ -4,7 +4,9 @@
 it as the preferred layout; final dimensions, detail and game ratings remain open.
 The author subsequently authorised the visual prototype. [A01's scene and three
 renders](../mods/electric-heating-works/design/prototype-a01/README.md) now complete the
-first visual milestone. The rest of this document describes further detail, export
+first visual milestone. [A02](../mods/electric-heating-works/design/detail-a02/README.md)
+adds selected base-game props, original permanent supports and checked access routes
+in a separate local assembly. The rest of this document describes further detail, export
 and game work; the prototype is not a deployed or game-tested mod.
 
 **Author's sequencing decision:** create the model first. Electricity load and
@@ -67,13 +69,13 @@ needs testing; visible tanks alone do not establish it.
 | Tool | Role | Evidence/status |
 |---|---|---|
 | Blender 5.2.1 LTS | Original mesh sources, reusable components, UVs, baking, assembly and preview renders | Local executable verified; earlier original-mesh export/reimport was tested |
-| Blender Python API and small Python helpers | Repeatable dimensions, repeated parts, named anchors, exports and validation | Chosen authoring method; future building generators are not implemented |
+| Blender Python API and small Python helpers | Repeatable dimensions, repeated parts, named anchors, exports and validation | A01 original generator and A02 local assembly recipe verified |
 | 3Division beta NMF exporter | Preferred direct mesh export route already used in the geometry probe | Geometry roundtrip verified; native materials and current-game rendering still untested |
 | W&R ModelViewer | Native mesh/material inspection; OBJ-to-NMF fallback | Present in the local game installation; documentation checked, no UI session run for this plan |
 | Blender texture painting/baking; optional GIMP | Original surface maps and local wear/detail | Workflow proposed; maps must be checked in the game's material system |
 | Microsoft DirectXTex `texconv` | Reproducible DDS conversion, mipmaps and compression | Documented candidate; not installed or validated by this planning task |
 | Native building definitions and W&R's editors | Heating function, connections, access, construction stages and local test item | Future work; no runtime plugin planned |
-| Git, GitHub and small repository/build checks | Versioned source, provenance, reproducible packages and release records | Repository checks active; game-asset build pipeline still to be written |
+| Git, GitHub and small repository/build checks | Versioned source, provenance, reproducible packages and release records | Repository and saved-scene checks active; native package pipeline remains future work |
 
 Blender sources remain editable `.blend` files with meaningful collections and
 objects. Scripted creation supplies accuracy and repeatability; normal modelling,
@@ -151,8 +153,10 @@ valuable throughout; no paid modelling package is required by this plan.
 
 The first implementation deliverable, **A's original 3D massing review**, is now
 [available as A01](../mods/electric-heating-works/design/prototype-a01/README.md), with
-shared prototype sources. Next refine proportions and the detailed architectural/
-electrical sample, then complete the model and place suitable audited props. No early
+shared prototype sources. A02 has now placed the selected vanilla fence panels, lamps
+and barriers, replacing unsuitable tyre-mounted supports with original permanent
+supports. Next finish the detailed architectural/electrical material sample, then
+complete the model and native export preparation. No early
 electricity test or further broad donor audit is required. If any step needs the author
 to close the game, use the mouse or otherwise intervene, stop and explain first.
 

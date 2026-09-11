@@ -1,0 +1,359 @@
+{
+  "revision": "a02",
+  "status": "Local Blender assembly inspected; native game untested",
+  "blender_version": "5.2.1 LTS",
+  "native_game_tested": false,
+  "public_source_includes_external_assets": false,
+  "external_assets_in_local_scene": true,
+  "source_scene_sha256": "fe89cbf85f098ba2777cd869f7304b642bfb4b7496752599bdf1408e67ea1fc9",
+  "original_scene_unchanged": true,
+  "installed_sources_unchanged": true,
+  "render_device": "CPU",
+  "render_threads": 4,
+  "reused_counts": {
+    "fence-panel": 259,
+    "double-lamp": 13,
+    "concrete-barrier": 4
+  },
+  "original_counts": {
+    "fixed_post": 256,
+    "plinth": 253,
+    "sliding_gate_frame": 6
+  },
+  "fence_runs": [
+    {
+      "name": "outer_front",
+      "panels": 49,
+      "span_m": 3.0,
+      "panel_scale_x": 1.0
+    },
+    {
+      "name": "outer_east",
+      "panels": 36,
+      "span_m": 3.0,
+      "panel_scale_x": 1.0
+    },
+    {
+      "name": "outer_rear_left",
+      "panels": 22,
+      "span_m": 3.0,
+      "panel_scale_x": 1.0
+    },
+    {
+      "name": "outer_rear_right",
+      "panels": 25,
+      "span_m": 2.92,
+      "panel_scale_x": 0.9733333333333333
+    },
+    {
+      "name": "outer_west",
+      "panels": 36,
+      "span_m": 3.0,
+      "panel_scale_x": 1.0
+    },
+    {
+      "name": "yard_front",
+      "panels": 32,
+      "span_m": 2.9968750891024167,
+      "panel_scale_x": 0.9989583630341389
+    },
+    {
+      "name": "yard_west",
+      "panels": 13,
+      "span_m": 2.8846153846153846,
+      "panel_scale_x": 0.9615384615384616
+    },
+    {
+      "name": "yard_east",
+      "panels": 13,
+      "span_m": 2.8846153846153846,
+      "panel_scale_x": 0.9615384615384616
+    },
+    {
+      "name": "yard_rear_left",
+      "panels": 18,
+      "span_m": 2.9333332511311014,
+      "panel_scale_x": 0.9777777503770338
+    },
+    {
+      "name": "yard_rear_middle",
+      "panels": 4,
+      "span_m": 2.75,
+      "panel_scale_x": 0.9166666666666666
+    },
+    {
+      "name": "yard_rear_right",
+      "panels": 5,
+      "span_m": 2.4199996519482574,
+      "panel_scale_x": 0.8066665506494192
+    }
+  ],
+  "gates": [
+    {
+      "name": "site_entrance",
+      "nominal_post_spacing_m": 8,
+      "clear_width_between_post_bases_m": 7.6,
+      "state": "open visual study; no game animation",
+      "leaf_infill_scale_x": 1.3333333333333333
+    },
+    {
+      "name": "transformer_1_access",
+      "nominal_post_spacing_m": 10,
+      "clear_width_between_post_bases_m": 9.6,
+      "state": "open visual study; no game animation",
+      "leaf_infill_scale_x": 1.6666666666666667
+    },
+    {
+      "name": "transformer_2_access",
+      "nominal_post_spacing_m": 10,
+      "clear_width_between_post_bases_m": 9.6,
+      "state": "open visual study; no game animation",
+      "leaf_infill_scale_x": 1.6666666666666667
+    }
+  ],
+  "parts": {
+    "fence-panel": {
+      "element_id": "muddy_fence_mesh",
+      "source_credit": "3Division / Workers & Resources base-game asset source",
+      "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+      "mesh": "buildingeditor/elements/muddy/muddy_fence_mesh.nmf",
+      "material": "buildingeditor/elements/muddy/muddy_fence_mesh.mtl",
+      "source_material_names": [
+        "lambert3"
+      ],
+      "material_bindings": [
+        {
+          "mesh_slot": "lambert3",
+          "material_sections": [
+            "lambert1"
+          ],
+          "preview_binding": "single mesh slot / single declared material section",
+          "native_binding_tested": false
+        }
+      ],
+      "blender_bounds_m": [
+        [
+          -0.006155976094305515,
+          2.991199016571045
+        ],
+        [
+          0.014608386904001236,
+          0.014608612284064293
+        ],
+        [
+          0.4658088684082031,
+          2.3545403480529785
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 4,
+      "textures": [
+        {
+          "source": "buildingeditor/elements/muddy/fence_mesh.dds",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_enabled": true
+        }
+      ],
+      "modifications": "Imported with original UVs and geometry; axis conversion only.",
+      "native_game_tested": false
+    },
+    "double-lamp": {
+      "element_id": "lamp2",
+      "source_credit": "3Division / Workers & Resources base-game asset source",
+      "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+      "mesh": "buildingeditor/elements/parkinglot_lamps/lamp2.nmf",
+      "material": "buildingeditor/elements/parkinglot_lamps/material.mtl",
+      "source_material_names": [
+        "lampy_dm_1Material"
+      ],
+      "material_bindings": [
+        {
+          "mesh_slot": "lampy_dm_1Material",
+          "material_sections": [
+            "lambert1"
+          ],
+          "preview_binding": "single mesh slot / single declared material section",
+          "native_binding_tested": false
+        }
+      ],
+      "blender_bounds_m": [
+        [
+          -3.046049118041992,
+          3.1505942344665527
+        ],
+        [
+          -0.2329750955104828,
+          0.24664278328418732
+        ],
+        [
+          0.0291055329144001,
+          10.456676483154297
+        ]
+      ],
+      "vertices": 497,
+      "triangles": 496,
+      "textures": [
+        {
+          "source": "paths/lampa.dds",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_enabled": false
+        }
+      ],
+      "modifications": "Imported with original UVs and geometry; axis conversion only.",
+      "native_game_tested": false
+    },
+    "concrete-barrier": {
+      "element_id": "muddy_concrete_barrier_blank",
+      "source_credit": "3Division / Workers & Resources base-game asset source",
+      "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+      "mesh": "buildingeditor/elements/muddy/muddy_concrete_barrier_blank.nmf",
+      "material": "buildingeditor/elements/muddy/muddy_concrete_barrier_blank.mtl",
+      "source_material_names": [
+        "barrier_road:ConcreteBarrier_01_MT1"
+      ],
+      "material_bindings": [
+        {
+          "mesh_slot": "barrier_road:ConcreteBarrier_01_MT1",
+          "material_sections": [
+            "lambert4"
+          ],
+          "preview_binding": "single mesh slot / single declared material section",
+          "native_binding_tested": false
+        }
+      ],
+      "blender_bounds_m": [
+        [
+          -1.499160885810852,
+          1.4909396171569824
+        ],
+        [
+          -0.4063520133495331,
+          0.2874634861946106
+        ],
+        [
+          -0.0019417369039729238,
+          1.0613511800765991
+        ]
+      ],
+      "vertices": 60,
+      "triangles": 36,
+      "textures": [
+        {
+          "source": "buildingeditor/elements/muddy/barrier_blank.dds",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_enabled": false
+        }
+      ],
+      "modifications": "Imported with original UVs and geometry; axis conversion only.",
+      "native_game_tested": false
+    }
+  },
+  "source_input_sha256": {
+    "buildingeditor/elements/muddy/elements.ini": "63803490b6916632b523fe27178d1f2c8efeccde5eb0c7b2041f921ea5185e14",
+    "buildingeditor/elements/muddy/muddy_fence_mesh.nmf": "897623847ac02b05a22d18cf07c6732d30de26626f6d34c4930be31194af9058",
+    "buildingeditor/elements/muddy/muddy_fence_mesh.mtl": "cd0472f0db263f035ce2114a9fd98653c1835860627808ebb9d375fa5a5c6844",
+    "buildingeditor/elements/muddy/fence_mesh.dds": "fb0e42ced311ce49cc7da6931a4126d17a2931409fb96658f3405b55771e0e29",
+    "buildings/blankspecular.dds": "1b10d362b1e33aaf52124acb12e310a19d19eada90963618700cfb11499acfc3",
+    "buildings/blankbump.dds": "01b38131955bb77e8effc9d64513420cd7a047987f2280d4bb787e2a7327e82f",
+    "buildingeditor/elements/parkinglot_lamps/elements.ini": "efabbebc349fe5b89a1ea215fa686504e13b67e0ae3e416ec99dfdba97f114de",
+    "buildingeditor/elements/parkinglot_lamps/lamp2.nmf": "07a975f5473b960369980b5f0b8098c8eef01e7443bcf31947c2e55a292e9884",
+    "buildingeditor/elements/parkinglot_lamps/material.mtl": "b22728bac6111610a6130986461df6fab0fc8ea664a7748c9dc9e1c0bebc3f29",
+    "paths/lampa.dds": "11adeaea1a822adce65d01a7537c45d1b2eb84f98f81b3ba9cc9dfd7bf2c6591",
+    "buildingeditor/elements/muddy/muddy_concrete_barrier_blank.nmf": "35ef31f78d78e8004fc51c38b8d380b7a7f1344af70e8ff706e2cd37ef5c9534",
+    "buildingeditor/elements/muddy/muddy_concrete_barrier_blank.mtl": "00ac40dfca657640467659479a1234e7b9cf4e80e1c4b7305ceeec0c1549882f",
+    "buildingeditor/elements/muddy/barrier_blank.dds": "16921dee0c705539926a183ae8840021eab44a915d2f37692dcf356c5883c563",
+    "blankspecular.dds": "1b10d362b1e33aaf52124acb12e310a19d19eada90963618700cfb11499acfc3",
+    "blankbump.dds": "01b38131955bb77e8effc9d64513420cd7a047987f2280d4bb787e2a7327e82f"
+  },
+  "tool": {
+    "name": "3Division NMF Importer",
+    "authors": "Jan Kerkes (original), updated for Blender 5.0+ by Vladimir Baloga",
+    "version": [
+      2,
+      0,
+      2
+    ],
+    "sha256": "c22cedf5697401ede77fce74765e6230c75fb504dcd0b85b7bf2af5e1bf12c89",
+    "local_adapter": "Legacy fromObj header and NUL string handling; not vendored."
+  },
+  "source_recipe_sha256": {
+    "shared/wrsr_editor_inputs.py": "cf89bb8e80e512a1b5fbbfadac0a6ee3a9d850aa73f97a29f476806ca3a79a19",
+    "shared/site_details.py": "7353beeb14d97b7a31db00205e1d65e59c46f555feedf7a2fbe95b084649804b",
+    "mods/electric-heating-works/source/build_detail_pass.py": "d32aa2dd53e8831c126c06bbe32166fb1a495e32507db9ddbbb7d35f1f9e4665",
+    "mods/electric-heating-works/source/site-detail-layout.json": "a9c95f3d486b04efc4800dfe7f2487fe4cb86109e5f566a1b762c66872b1e352"
+  },
+  "original_adjustments": [
+    "Move pump/service annex and its apron 1.5 m toward the hall to clear the rear service road.",
+    "Use original fixed posts/plinths and gate frames with reused fence-panel infill.",
+    "Apply original restrained concrete variation and base weathering."
+  ],
+  "rejected_candidate": {
+    "element_id": "muddy_fence_holder",
+    "reason": "Tyre-weighted temporary support; unsuitable for the permanent plant boundary."
+  },
+  "visual_material_limits": "Original diffuse texture/UVs and declared alpha previewed. Native specular/normal shader behaviour remains untested.",
+  "saved_scene_verification": {
+    "reopened_successfully": true,
+    "packed_external_diffuse_images": 3,
+    "external_credits_preserved": true,
+    "one_mesh_per_reused_family": true,
+    "fence_alpha_connected": true,
+    "source_hashes_match": true,
+    "lamp_stems_and_barriers_outside_roads": 17,
+    "annex_outside_road": true,
+    "gate_checks": [
+      {
+        "name": "site_entrance",
+        "clear_between_post_bases_m": 7.6,
+        "central_corridor_clear": true
+      },
+      {
+        "name": "transformer_1_access",
+        "clear_between_post_bases_m": 9.6,
+        "central_corridor_clear": true
+      },
+      {
+        "name": "transformer_2_access",
+        "clear_between_post_bases_m": 9.6,
+        "central_corridor_clear": true
+      }
+    ],
+    "original_library_objects": [
+      "site.fixed_post",
+      "site.plinth",
+      "site.sliding_gate_frame"
+    ],
+    "original_library_external_images": 0,
+    "render_sizes": {
+      "overall": [
+        1800,
+        1200
+      ],
+      "yard": [
+        1800,
+        1200
+      ],
+      "entrance": [
+        1800,
+        1200
+      ]
+    },
+    "native_game_tested": false
+  },
+  "review_artifact_sha256": {
+    "concept-a-a02-local.blend": "7e0d249ca63ac9354a9731b207a7769f83e11efae87020d84f250ded84b8cb1d",
+    "original-site-details.blend": "1b5bf5a373aa2c9cdf0381be4988f53b137b0fcd4f83d191b6293567654752d7",
+    "overall.png": "b843786f7c3fa48a01a411bf912509269003cd6421e22675bdb76774666899f1",
+    "yard.png": "f6b45feeee97d7389fe9357eedab32bb79a737eef15fb4c0a3696955d36e40e7",
+    "entrance.png": "da7bfe554d0e939e216233b21bf1caa2e62e7d56aa8525f61fd040863fdc8073"
+  }
+}

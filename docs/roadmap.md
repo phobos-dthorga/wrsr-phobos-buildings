@@ -19,6 +19,9 @@ preferred direction; dimensions and details remain provisional. No native behavi
 tests have been run. The [implementation plan](implementation-plan.md) records tools
 and the sequence. [A01](../mods/electric-heating-works/design/prototype-a01/README.md)
 now provides an editable 3D scene, shared prototype parts and three rendered views.
+[A02](../mods/electric-heating-works/design/detail-a02/README.md) adds a verified local
+assembly of vanilla fence panels, double lamps and barriers with original permanent
+supports and open gates. The mixed scene and renders remain outside GitHub.
 
 The completed [asset/licence audit](../research/2026-09-11-installed-mod-license-audit.md)
 supports selective reuse alongside original plant components. Suitable vanilla/editor
@@ -27,12 +30,14 @@ rights are a separate question. Massing does not depend on a new donor-library s
 Complicated ownership chains stay aside.
 
 1. **Delivered:** A's original massing model and three review views.
-2. Finish one facade section and transformer/switching group; verify the visual workflow.
-3. Expand the original shared kit, select suitable audited props and complete the
+2. **Delivered:** targeted site-prop selection, textured inspection and local A02
+   placement with preserved credits; original site-support library.
+3. Finish one facade section and transformer/switching group; verify native materials.
+4. Expand the original shared kit and complete the
    model, preserving each contributor's credits and applicable terms.
-4. Configure the finished model in-game; test electricity delivery and tune heat/power
+5. Configure the finished model in-game; test electricity delivery and tune heat/power
    ratings and staffing. The author explicitly places these checks after modelling.
-5. Complete acceptance tests and prepare a standalone release.
+6. Complete acceptance tests and prepare a standalone release.
 
 ## Later: original implementation and acceptance
 

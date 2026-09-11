@@ -5,7 +5,12 @@ The author authorised the first visual prototype on 11 September 2026.
 
 - `concept-a-prototype.blend`: reviewed editable building scene.
 - `build_prototype.py`: original building-specific layout, routing and presentation.
-- `site-props-selection.json`: exact existing-prop candidates for the detail pass.
+- `site-props-selection.json`: actual A02 reuse records and the rejected tyre support.
+- `build_detail_pass.py` and `site-detail-layout.json`: local A02 assembly recipe.
+
+[A02 build and verification instructions](detail-pass.md) cover the mixed scene.
+Its game-asset payloads and review renders stay outside this repository; the committed
+A01 scene remains the earlier all-original source.
 
 The reusable geometry and material functions live in
 [shared/prototype_parts.py](../../../shared/prototype_parts.py). The separate

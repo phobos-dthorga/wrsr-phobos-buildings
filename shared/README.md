@@ -2,17 +2,20 @@
 
 This is the authoritative directory for reusable first-party building components.
 The [catalogue](catalog.json) now distinguishes original prototype components from
-remaining planned entries. The [A01 shared library](prototype-parts.md) supplies
+later export work. The [A01 shared library](prototype-parts.md) supplies
 editable Blender objects and their procedural source; native game acceptance is pending.
+The [A02 support library](site-details.md) adds original fixed posts, plinths and
+sliding-gate frames, plus a procedural concrete material study.
 
 Before creating ordinary props, consult the [game and Workshop parts investigation](../research/2026-09-11-reusable-game-and-workshop-parts.md).
 Some suitable fences, lamps or barriers may already exist. External candidates need
 their own source and permission records; the catalogue's intended MIT status is for
-original components and does not apply to those external assets. No candidate has
-been adopted or copied into this library.
+original components and does not apply to those external assets. A02 uses three
+base-game prop families in its separate local assembly; their payloads are absent
+from this public library. See the [actual selection records](../mods/electric-heating-works/source/site-props-selection.json).
 
 The [installed-mod licence audit](../research/2026-09-11-installed-mod-license-audit.md)
-sets aside mixed or unclear ownership chains. A future reused component needs a
+sets aside mixed or unclear ownership chains. Each reused component needs a
 completed [provenance record](../docs/asset-provenance-template.json), preserving
 original authors and upstream credits separately from Phobos changes.
 

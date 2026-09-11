@@ -9,7 +9,8 @@ The [Research and design milestone](https://github.com/phobos-dthorga/wrsr-phobo
 - [Document a reproducible Blender-to-W&R production workflow](https://github.com/phobos-dthorga/wrsr-phobos-buildings/issues/5)
 - [Define asset provenance and standalone release records](https://github.com/phobos-dthorga/wrsr-phobos-buildings/issues/6)
 
-Implementation and game testing follow only after the design and evidence gaps are reviewed in a later task.
+These records began as planning issues. The author subsequently authorised the
+visual modelling work recorded below; game installation and testing remain later steps.
 
 ## Proposal 01 delivered — 11 September 2026
 
@@ -66,3 +67,17 @@ has not resumed modelling or installed a test item.
 ## Visual prototype A01 delivered — 11 September 2026
 
 The author authorised the first modelling phase. [A01](../mods/electric-heating-works/design/prototype-a01/README.md) now contains an editable scene, a separate original shared-part library and three review renders. Exact existing-prop candidates have source/material records for the detail pass; no external assets are embedded in A01. Blender verification is separate from native game tests, which remain outstanding. The game remained open. Pause before any later step requiring the author to close it or intervene.
+
+## Local site detail pass A02 delivered — 11 September 2026
+
+[A02](../mods/electric-heating-works/design/detail-a02/README.md) records 259 vanilla
+fence panels (including gate infill), 13 double lamps and four concrete barriers in
+the local scene. The tyre-mounted support was rejected after textured inspection;
+original fixed posts, plinths and sliding frames replace it. Original architecture,
+electrical equipment and thermal equipment remain from A01.
+
+Issues 4–6 now have a concrete original support library, reproducible local assembly
+instructions and preserved external/tool credits. Independent saved-scene checks
+cover texture packing, source hashes, road clearance, gate access and the absence of
+external images in the original library. Mixed art payloads remain outside GitHub.
+Native material/export work and electricity/heat tests remain outstanding.
