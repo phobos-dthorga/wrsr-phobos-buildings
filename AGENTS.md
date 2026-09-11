@@ -27,6 +27,10 @@
   geometry probe's three schematic transformers do not satisfy that design brief.
 - Verify cable and connection capacity before choosing game power/heat ratings.
   Multiple drawn bays do not prove additive capacity or simulated redundancy.
+- Follow the author's model-first sequence for Electric Heating Works. Create the
+  model before electricity load/delivery testing; do not reintroduce an early power
+  experiment as a modelling prerequisite. Measure and balance during later in-game
+  configuration and acceptance, before publishing tested ratings.
 - Do not edit installed Workshop content or a player's save as part of research.
   Later behavioural tests use disposable saves and explicit installation scope.
 - Run python scripts/check_repository.py before committing. Match future checks

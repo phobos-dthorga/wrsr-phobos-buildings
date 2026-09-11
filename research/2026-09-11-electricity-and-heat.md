@@ -3,6 +3,11 @@
 Checked 11 September 2026. Scope: documentation and read-only inspection, not game
 execution or a prototype installation. No final mod ratings are chosen here.
 
+**Sequencing clarification:** the author wants the plant model created before
+electricity load/delivery tests. Use this protocol during subsequent native
+configuration and acceptance; it is not a prerequisite for modelling. Diagnostic
+definition variants can be prepared at that stage if needed.
+
 ## Findings that affect the design
 
 1. The official-hosted electricity wiki lists overhead HV cables up to **18 MW**,

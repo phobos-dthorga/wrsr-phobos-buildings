@@ -4,6 +4,10 @@
 it as the preferred layout; final dimensions, detail and game ratings remain open.
 This document plans future implementation and does not begin modelling or deployment.
 
+**Author's sequencing decision:** create the model first. Electricity load and
+delivery checks belong to later in-game configuration/testing and must not block
+massing or detailed modelling. Keep native connection settings and ratings adjustable.
+
 ## Recommended route after the asset and licence audits
 
 Proceed with **Concept A, assembled from an original Phobos component kit**. The
@@ -69,18 +73,15 @@ DDS conversion, mipmaps and compression. Choose formats only after game verifica
 
 The [licence audit](../research/2026-09-11-installed-mod-license-audit.md) now informs
 source selection rather than delaying this sequence. Its complicated ownership
-chains remain set aside. The next implementation milestone has two complementary
-deliverables, with native capacity as the first technical decision gate.
+chains remain set aside. Follow the author's model-first sequence; there is no early
+electricity experiment or external-component shortlist prerequisite.
 
-1. **Native feasibility and proportions.** Prepare a minimal original test model and
-   authored heating definition for the existing [electricity/heat protocol](../research/2026-09-11-electricity-and-heat.md).
-   Establish valid HV input, delivered power, the electricity-to-heat relationship,
-   demand/staffing response and whether extra feeds increase useful capacity. Use an
-   isolated test item and disposable republic when game testing proceeds. Alongside
-   that preparation, produce A's simple original 3D massing model with the hall, yard,
-   tanks, roads and connection reservations. Supply an overall view, a hall-height
-   view and a closer yard view. These are proportion studies, not finished art.
-   Choose the native power/input arrangement before detailed electrical modelling.
+1. **Original model and proportions.** Produce A's simple original 3D massing model
+   with the hall, substantial receiving yard, twin tanks, annexes, roads and connection
+   reservations. Supply an overall view, a hall-height view and a closer yard view.
+   These are proportion studies leading into the finished model. Refine the geometry
+   without waiting for an electricity/load test; native connection settings remain
+   separate from the editable visual assembly.
 2. **A finished sample section.** Build one facade/roof bay and one convincing
    transformer/switching group, with materials. Export and inspect them in the native
    material path as well as Blender. Review close-up and gameplay-distance views.
@@ -95,9 +96,13 @@ deliverables, with native capacity as the first technical decision gate.
    material sets; a detailed switchyard must remain readable at gameplay distance.
 5. **Native mod and acceptance.** Export NMF and verified DDS/material files; author
    `building.ini` and `renderconfig.ini`, access points, native electrical/heating
-   connections and construction stages. Run the full controlled tests for operation,
-   winter load, interruption, restart, save/reload and performance. Record actual
-   results; a successful Blender render is not a game pass.
+   connections and construction stages. With the model created, check electricity
+   load and delivery, then tune heat output and staffing using the existing
+   [electricity/heat protocol](../research/2026-09-11-electricity-and-heat.md). Verify
+   input behaviour, multiple-feed behaviour where used and power-loss response in
+   an isolated test item/disposable republic. Complete winter, restart, save/reload,
+   construction, access and performance checks. Record actual results; a successful
+   Blender render is not a game pass.
 6. **Standalone release preparation.** Pin the source commit and shared inputs,
    collect licences, validate all packaged references, make actual in-game screenshots
    and prepare the Workshop description. Publication remains a separate later action.
@@ -120,13 +125,13 @@ manual step unless a supported control route becomes available later. Prepare fi
 and exact instructions first. Visual selection and play-testing feedback remain
 valuable throughout; no paid modelling package is required by this plan.
 
-The next implementation deliverable is **A's original massing review plus the small
-native feasibility experiment**. No further broad donor audit is required. Both
-deliverables remain future work; this revision records the recommended route.
+The next implementation deliverable is **A's original 3D massing review**, followed
+by the finished model and reusable parts. No early electricity test or further broad
+donor audit is required. This revision records the route; it does not create a model.
 If any step needs the author's involvement or mouse control, stop and explain what
 is needed before continuing.
 
-## Decision after the first experiment
+## Balancing after the model is created
 
 Prefer one placeable native heating plant with its integrated visible yard when the
 measured capacity supports a substantial, honestly balanced facility. Set demand and
@@ -134,12 +139,12 @@ heat output from the measurements, retaining headroom where needed. Multiple dra
 receiving bays are not evidence of additive capacity or simulated redundancy.
 
 If the native consumer cannot support the intended scale, present the measured limit
-and the concrete choice between a lower rating and a campus of independent boiler
-buildings. A separate substation alone cannot be assumed to fix the bottleneck. That
-layout/function decision precedes detailed art; do not quietly substitute inflated
-heat output, a new runtime dependency or a different process.
+and propose the necessary configuration or rating adjustment at that stage. Discuss
+any material change to the intended placeable arrangement if measurements require
+it. A separate substation alone cannot be assumed to fix a bottleneck; do not quietly
+substitute inflated heat output, a new runtime dependency or a different process.
 
-The first milestone is complete when the massing views exist and the experiment has
-recorded enough evidence to choose that arrangement, or a clearly identified native
-limitation requiring the author's choice. Finished details, final staffing, advertised
-capacity, functional storage and Workshop publication belong to subsequent stages.
+The first milestone is complete when the original massing model and its review views
+exist. Detailed modelling follows. Electrical measurement, final staffing, advertised
+capacity, functional storage and full game acceptance come after the model has been
+created and before a release is presented as working.

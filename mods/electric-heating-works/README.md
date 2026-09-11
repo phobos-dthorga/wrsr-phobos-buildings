@@ -10,8 +10,9 @@ records the documented limits, static observations and future test protocol.
 
 Following the asset/licence audits, the [recommended implementation route](../../docs/implementation-plan.md)
 uses an original shared kit for A's architecture, receiving yard, thermal equipment,
-site props and materials. The next milestone is original massing plus a minimal
-native feasibility experiment; a donor-component shortlist is no longer required.
+site props and materials. The next milestone is original massing, followed by the
+finished model. Per the author's instruction, electricity load/delivery tests follow
+modelling; neither an early power experiment nor a donor shortlist is required.
 
 ## Core requirements
 

@@ -10,7 +10,7 @@ stages below are future work, not permission to begin them automatically.
 - Electric Heating Works brief with a substantial switchyard as a core requirement.
 - Sanitised prior research findings, contribution templates and repository checks.
 
-## Next: original massing and native feasibility
+## Next: original model
 
 Proposal 01 adds [three illustrated layouts](../mods/electric-heating-works/design/README.md),
 an [electricity/heat research protocol](../research/2026-09-11-electricity-and-heat.md)
@@ -23,12 +23,12 @@ The completed [asset/licence audit](../research/2026-09-11-installed-mod-license
 supports an original component kit for the first plant. Its next milestone no longer
 depends on finding a cleared donor library. Complicated ownership chains stay aside.
 
-1. Prepare A's original massing views and a minimal native heating test object.
-2. Measure the input-capacity and electricity/heat behaviour before detailed art or
-   final ratings; decide whether the preferred single-building arrangement works.
-3. Finish one facade section and transformer/switching group; verify native materials.
-4. Expand the original shared kit only for A's concrete needs, preserving creator records.
-5. Complete the plant and its full acceptance tests, then prepare a standalone release.
+1. Prepare A's original massing model and review views.
+2. Finish one facade section and transformer/switching group; verify the visual workflow.
+3. Expand the original shared kit and complete the model, preserving creator records.
+4. Configure the finished model in-game; test electricity delivery and tune heat/power
+   ratings and staffing. The author explicitly places these checks after modelling.
+5. Complete acceptance tests and prepare a standalone release.
 
 ## Later: original implementation and acceptance
 

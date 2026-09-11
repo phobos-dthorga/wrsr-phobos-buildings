@@ -48,8 +48,9 @@ Phobos kit for Concept A, including ordinary site props and surface materials. T
 supersedes the earlier external-component-shortlist prerequisite. The broad donor
 search is complete for this plant; unclear ownership remains excluded.
 
-The next implementation milestone combines original massing views with a minimal
-native electricity/heat experiment. Its results determine single-building feasibility
-before detailed models and ratings. One finished architectural/electrical sample then
-establishes the quality and native material workflow for the rest of the kit. This
-update is planning only; it has not resumed modelling or installed a test item.
+The author clarified the sequence: **create the model first; test electricity load
+and delivery afterwards**. The next deliverable is A's original massing review,
+followed by a finished architectural/electrical sample and the complete shared-kit
+assembly. Native configuration, power/heat balancing and acceptance follow modelling.
+There is no early electricity test prerequisite. This update is planning only; it
+has not resumed modelling or installed a test item.
