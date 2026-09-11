@@ -23,6 +23,14 @@ evidence, permitted modification/distribution, required notices and a content ha
 If the terms are unknown, it cannot enter a release. The project's MIT licence does
 not relicense someone else's work.
 
+The [game/Workshop reuse investigation](../research/2026-09-11-reusable-game-and-workshop-parts.md)
+records published game-specific reuse guidance and concrete local examples. Record
+permission for modification, Workshop distribution and public source distribution
+separately. An applicable existing grant can cover an intended use; game-specific
+permission must not be presented as an unrestricted MIT grant. Meshes and replacement
+textures in one component pack can have different origins. Public research may record
+source links, relative identifiers and hashes without embedding the referenced assets.
+
 Original textures or appropriately licensed CC0 assets are possible routes. Check the
 specific asset terms, not just a search-result image. [ambientCG](https://docs.ambientcg.com/license/)
 and [Poly Haven](https://polyhaven.com/license) publish their CC0 terms. These are

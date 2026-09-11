@@ -1,0 +1,780 @@
+{
+  "scope": [
+    "buildings",
+    "fences",
+    "buildingeditor/elements"
+  ],
+  "game_meshes": 690,
+  "workshop_meshes": 7475,
+  "matches": [
+    {
+      "workshop_file": "3783096129/40_ped_undegrund_1/pedestrian_podchod.nmf",
+      "game_files": [
+        "buildings/pedestrian_podchod.nmf"
+      ],
+      "sha256": "4136734c28fd3b24265fe495aa783dc6d98940ead05b20c26f8620aa78df3cb9"
+    },
+    {
+      "workshop_file": "3517231846/Endstation/tram_endstation.nmf",
+      "game_files": [
+        "buildings/tram_endstation.nmf"
+      ],
+      "sha256": "5a79cc492ec350af0e40548f32fabe213129845bb1f9d22158761b1a35c7323e"
+    },
+    {
+      "workshop_file": "3142229911/sewage_treatment_big/sewage_treatment_big.nmf",
+      "game_files": [
+        "buildings/sewage_treatment_big.nmf"
+      ],
+      "sha256": "7f9937dec3b7cbda445e7d8f419eff13619bb8ba032882f4861027b2733e55b0"
+    },
+    {
+      "workshop_file": "3142229911/sewage_treatment_big/sewage_treatment_big_underground.nmf",
+      "game_files": [
+        "buildings/sewage_treatment_big_underground.nmf"
+      ],
+      "sha256": "76e3f66a21bfa1b1ce77360a73d7520c748a2dafa6f4a9b22359b77de4db31f4"
+    },
+    {
+      "workshop_file": "3142229911/sewage_treatment_small/sewage_treatment_small.nmf",
+      "game_files": [
+        "buildings/sewage_treatment_small.nmf"
+      ],
+      "sha256": "606c1491622c837f324326bc5ade1b406e96402bc7c7eee1c63cda12c055c150"
+    },
+    {
+      "workshop_file": "3142229911/sewage_treatment_small/sewage_treatment_small_underground.nmf",
+      "game_files": [
+        "buildings/sewage_treatment_small_underground.nmf"
+      ],
+      "sha256": "d5faee9fe7b42c9e4a4757a75f967f6c539dc2ff991c1ffb65d77f17af071afb"
+    },
+    {
+      "workshop_file": "3136475409/fertilizer_v2/fertilizer_v2.nmf",
+      "game_files": [
+        "buildings/fertilizer.nmf"
+      ],
+      "sha256": "819d29f722e2e3b3239dfa3aa486918f99f465bc2779bbf08bd608b0b1a99b79"
+    },
+    {
+      "workshop_file": "3136475409/fertilizer_v2/final.nmf",
+      "game_files": [
+        "buildings/fertilizer.nmf"
+      ],
+      "sha256": "819d29f722e2e3b3239dfa3aa486918f99f465bc2779bbf08bd608b0b1a99b79"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnbauamt/rail_depo.nmf",
+      "game_files": [
+        "buildings/rail_depo.nmf"
+      ],
+      "sha256": "7bdc859d1af53691c45600babf2c64ca52d49b15b4168e763fbbadddfc166b13"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnbauamt/rail_depo_door_left.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_left.nmf"
+      ],
+      "sha256": "8158cf9a8458536b4e6f86ea1aab7a3aa5d680be8bb5454326c91bca559a784f"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnbauamt/rail_depo_door_right.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_right.nmf"
+      ],
+      "sha256": "f7a5d0b86ee1d05fe21ea7b8650ca475e1f05460b7890e07fb903b42e4d3c16d"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnbauamt/rail_depo_lod.nmf",
+      "game_files": [
+        "buildings/rail_depo_lod.nmf"
+      ],
+      "sha256": "ec54641cf9f13d308be49157b2db616a5e25ae34bfa686ed92d937b036ec4512"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahndepot/rail_depo.nmf",
+      "game_files": [
+        "buildings/rail_depo.nmf"
+      ],
+      "sha256": "7bdc859d1af53691c45600babf2c64ca52d49b15b4168e763fbbadddfc166b13"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahndepot/rail_depo_door_left.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_left.nmf"
+      ],
+      "sha256": "8158cf9a8458536b4e6f86ea1aab7a3aa5d680be8bb5454326c91bca559a784f"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahndepot/rail_depo_door_right.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_right.nmf"
+      ],
+      "sha256": "f7a5d0b86ee1d05fe21ea7b8650ca475e1f05460b7890e07fb903b42e4d3c16d"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahndepot/rail_depo_lod.nmf",
+      "game_files": [
+        "buildings/rail_depo_lod.nmf"
+      ],
+      "sha256": "ec54641cf9f13d308be49157b2db616a5e25ae34bfa686ed92d937b036ec4512"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnendstation/rail_depo.nmf",
+      "game_files": [
+        "buildings/rail_depo.nmf"
+      ],
+      "sha256": "7bdc859d1af53691c45600babf2c64ca52d49b15b4168e763fbbadddfc166b13"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnendstation/rail_depo_door_left.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_left.nmf"
+      ],
+      "sha256": "8158cf9a8458536b4e6f86ea1aab7a3aa5d680be8bb5454326c91bca559a784f"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnendstation/rail_depo_door_right.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_right.nmf"
+      ],
+      "sha256": "f7a5d0b86ee1d05fe21ea7b8650ca475e1f05460b7890e07fb903b42e4d3c16d"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnendstation/rail_depo_lod.nmf",
+      "game_files": [
+        "buildings/rail_depo_lod.nmf"
+      ],
+      "sha256": "ec54641cf9f13d308be49157b2db616a5e25ae34bfa686ed92d937b036ec4512"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnlager/rail_depo.nmf",
+      "game_files": [
+        "buildings/rail_depo.nmf"
+      ],
+      "sha256": "7bdc859d1af53691c45600babf2c64ca52d49b15b4168e763fbbadddfc166b13"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnlager/rail_depo_door_left.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_left.nmf"
+      ],
+      "sha256": "8158cf9a8458536b4e6f86ea1aab7a3aa5d680be8bb5454326c91bca559a784f"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnlager/rail_depo_door_right.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_right.nmf"
+      ],
+      "sha256": "f7a5d0b86ee1d05fe21ea7b8650ca475e1f05460b7890e07fb903b42e4d3c16d"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnlager/rail_depo_lod.nmf",
+      "game_files": [
+        "buildings/rail_depo_lod.nmf"
+      ],
+      "sha256": "ec54641cf9f13d308be49157b2db616a5e25ae34bfa686ed92d937b036ec4512"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnverteilzentrum/rail_depo.nmf",
+      "game_files": [
+        "buildings/rail_depo.nmf"
+      ],
+      "sha256": "7bdc859d1af53691c45600babf2c64ca52d49b15b4168e763fbbadddfc166b13"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnverteilzentrum/rail_depo_door_left.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_left.nmf"
+      ],
+      "sha256": "8158cf9a8458536b4e6f86ea1aab7a3aa5d680be8bb5454326c91bca559a784f"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnverteilzentrum/rail_depo_door_right.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_right.nmf"
+      ],
+      "sha256": "f7a5d0b86ee1d05fe21ea7b8650ca475e1f05460b7890e07fb903b42e4d3c16d"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnverteilzentrum/rail_depo_lod.nmf",
+      "game_files": [
+        "buildings/rail_depo_lod.nmf"
+      ],
+      "sha256": "ec54641cf9f13d308be49157b2db616a5e25ae34bfa686ed92d937b036ec4512"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnwerkstatt/rail_depo.nmf",
+      "game_files": [
+        "buildings/rail_depo.nmf"
+      ],
+      "sha256": "7bdc859d1af53691c45600babf2c64ca52d49b15b4168e763fbbadddfc166b13"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnwerkstatt/rail_depo_door_left.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_left.nmf"
+      ],
+      "sha256": "8158cf9a8458536b4e6f86ea1aab7a3aa5d680be8bb5454326c91bca559a784f"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnwerkstatt/rail_depo_door_right.nmf",
+      "game_files": [
+        "buildings/rail_depo_door_right.nmf"
+      ],
+      "sha256": "f7a5d0b86ee1d05fe21ea7b8650ca475e1f05460b7890e07fb903b42e4d3c16d"
+    },
+    {
+      "workshop_file": "3135501848/eisenbahnwerkstatt/rail_depo_lod.nmf",
+      "game_files": [
+        "buildings/rail_depo_lod.nmf"
+      ],
+      "sha256": "ec54641cf9f13d308be49157b2db616a5e25ae34bfa686ed92d937b036ec4512"
+    },
+    {
+      "workshop_file": "3050051812/DOP06/dop06.nmf",
+      "game_files": [
+        "buildings/construction_office5.nmf"
+      ],
+      "sha256": "ad4f1993f393febdc88f7a89270a7de10ca99dcbca228b4b14ef1cbd3d92a254"
+    },
+    {
+      "workshop_file": "3050051812/DOP12/dop12.nmf",
+      "game_files": [
+        "buildings/construction_office2.nmf"
+      ],
+      "sha256": "e749ab8d6858691e249d87f6e1fa021f08f79bd8f096de7927534c834b1b84e2"
+    },
+    {
+      "workshop_file": "3050051812/DOP16/dop16.nmf",
+      "game_files": [
+        "buildings/construction_office3.nmf"
+      ],
+      "sha256": "ffbce4fa5d8c42309686552055b2330415d814d9e1aba9729fbd1b04df072582"
+    },
+    {
+      "workshop_file": "3050051812/DOP24/dop24.nmf",
+      "game_files": [
+        "buildings/construction_office4.nmf"
+      ],
+      "sha256": "99096b7cb356376870c59e0643235734c139e59941a34d63cb14db8a91133be7"
+    },
+    {
+      "workshop_file": "3042592664/railway_container_transfer/custom.nmf",
+      "game_files": [
+        "buildings/waste_storage_crane_big_rail.nmf"
+      ],
+      "sha256": "0f1e40bef94ba0c3bc384bf0520db094cc17f2a3f2af224a411ded1825f8dbcb"
+    },
+    {
+      "workshop_file": "2934203546/pompa_woda/water_pump_big_underground.nmf",
+      "game_files": [
+        "buildings/water_pump_big_underground.nmf"
+      ],
+      "sha256": "6d52ac8a49e388a02244f817d32238876f12b85a00ad945888a06ade24a5a87d"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Bricks1/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Bricks1/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Bricks1/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Bricks1/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain1/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain1/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain1/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain1/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain2/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain2/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain2/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain2/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain3/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain3/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain3/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain3/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain4/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain4/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain4/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain4/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain5/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain5/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain5/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain5/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain6/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain6/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain6/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain6/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain7/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain7/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain7/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain7/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain8/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain8/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain8/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain8/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain9/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain9/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain9/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Plain9/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks1/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks1/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks1/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks1/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks2/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks2/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks2/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks2/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks3/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks3/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks3/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks3/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks4/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks4/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks4/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks4/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks5/m1_roofedge2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2.nmf"
+      ],
+      "sha256": "7770002863f9bcafaf28c7a55121cc5dde956d87f031c876dfc4c9784fc9a882"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks5/m1_roofedge2x2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge2x2.nmf"
+      ],
+      "sha256": "eabb24482d2e2d201ff0812bfbc05a573370db9970eb443a79f8f2c56246a54b"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks5/m1_roofedge4.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m1_roofedge4.nmf"
+      ],
+      "sha256": "ad9b48552b1d48e6a15c718fa66f92b45fbabde4f0dff2e5bb6d23eb056fb637"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Planks5/m3_wall_window2.nmf",
+      "game_files": [
+        "buildingeditor/elements/residential_prefab2/m3_wall_window2.nmf"
+      ],
+      "sha256": "3f378e91fb26477bdd6963eb2e55df428f38469c3aed411abc906fe9e0a48b1c"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Props1/fence-rail.nmf",
+      "game_files": [
+        "buildingeditor/elements/platform/fence.nmf"
+      ],
+      "sha256": "06fc524757ebf4e5fc804b25f27607fd8465f22e4ae4152cb7a4000b56e22931"
+    },
+    {
+      "workshop_file": "2781603355/Mal_Props1/muddy_fence_fullmetal.nmf",
+      "game_files": [
+        "buildingeditor/elements/muddy/muddy_fence_fullmetal.nmf"
+      ],
+      "sha256": "f7c91cf564d6c99b9c270e1adf5a3f54616e78180b96b61d7aae0e341ebe552f"
+    },
+    {
+      "workshop_file": "2680685216/fences/fence2.nmf",
+      "game_files": [
+        "buildings/fence.nmf"
+      ],
+      "sha256": "c750ba6aeb4e16977d62756caa6c55a3f55dd2b0d0a0f504d5f9f372dc095279"
+    },
+    {
+      "workshop_file": "2617466624/kiosk_2/1.nmf",
+      "game_files": [
+        "buildings/kiosk_alcohol.nmf"
+      ],
+      "sha256": "91bfcdfd37e63d1b23a9594b43e0c3faf2fd19b24798fc22602118dcefaa43c7"
+    },
+    {
+      "workshop_file": "2316054140/Electrolytic/aluminium_plant.nmf",
+      "game_files": [
+        "buildings/aluminium_plant.nmf"
+      ],
+      "sha256": "4d3c0230b9aa4b4725f050c4a409752a2584c2199e0ed252cadd2fd3ee85aabd"
+    },
+    {
+      "workshop_file": "1969058189/forkliftroadcrossing/model.nmf",
+      "game_files": [
+        "buildings/forklift_crossing.nmf"
+      ],
+      "sha256": "c51c2810b5e077570274e5d1773764d43b63185bdf81e278d456770227496f5c"
+    },
+    {
+      "workshop_file": "1957102277/forklift_rail_crossing/forklift_crossing.nmf",
+      "game_files": [
+        "buildings/forklift_crossing.nmf"
+      ],
+      "sha256": "c51c2810b5e077570274e5d1773764d43b63185bdf81e278d456770227496f5c"
+    },
+    {
+      "workshop_file": "1957102277/forklift_rail_crossing-1/forklift_crossing.nmf",
+      "game_files": [
+        "buildings/forklift_crossing.nmf"
+      ],
+      "sha256": "c51c2810b5e077570274e5d1773764d43b63185bdf81e278d456770227496f5c"
+    },
+    {
+      "workshop_file": "1888648268/small_refinery/model.nmf",
+      "game_files": [
+        "buildings/plastics_factory.nmf"
+      ],
+      "sha256": "cbad6bdaa2c32af215dc27d4a5e93ae132082f86d7ad3500277a21629cc9bdca"
+    },
+    {
+      "workshop_file": "1871813187/conveyor_engine_3to1/model.nmf",
+      "game_files": [
+        "buildings/conveyor_engine.nmf"
+      ],
+      "sha256": "c843bed5fab229a9f6f8972285f35d8813f026b84d036b1aa1fc45e1d3379470"
+    }
+  ],
+  "schema_version": 1,
+  "date": "2026-09-11",
+  "verification": "static-sha256-comparison",
+  "steam_build_id": "23935965",
+  "matching_workshop_files": 108,
+  "matching_workshop_items": 16,
+  "limitations": [
+    "Game paths are relative to media_soviet; Workshop paths are relative to app 784150 content.",
+    "Only the three listed game directories were compared; other directories and DLC are outside scope.",
+    "Duplicate aliases and LOD files count separately.",
+    "Identical contents do not establish authorship, copying direction, licensing or runtime behaviour.",
+    "Modified or partially reused geometry is not detected by whole-file matching."
+  ]
+}

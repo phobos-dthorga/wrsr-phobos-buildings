@@ -3,6 +3,12 @@
 This is the authoritative directory for reusable first-party building components.
 The [catalogue](catalog.json) contains planned IDs only; no geometry is shipped yet.
 
+Before creating ordinary props, consult the [game and Workshop parts investigation](../research/2026-09-11-reusable-game-and-workshop-parts.md).
+Some suitable fences, lamps or barriers may already exist. External candidates need
+their own source and permission records; the catalogue's intended MIT status is for
+original components and does not apply to those external assets. No candidate has
+been adopted or copied into this library.
+
 [Component contracts, revision 0](component-contracts.md) proposes the first kit,
 source conventions, anchors, materials and revision rules for design review.
 

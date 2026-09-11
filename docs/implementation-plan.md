@@ -33,6 +33,11 @@ DDS conversion, mipmaps and compression. Choose formats only after game verifica
 
 ## Sequence and visible deliverables
 
+Before step 1, complete the [existing-parts shortlist](../research/2026-09-11-reusable-game-and-workshop-parts.md)
+requested by the reuse investigation. Check ordinary props and potential electrical
+components for visual fit, provenance and packaging requirements. The first modelling
+step is paused while this research is reviewed; no external part has been adopted.
+
 1. **Proportions and feasibility.** Produce a simple original 3D massing model of A
    with the hall, yard, tanks, roads and connection reservations. Separately, use
    a minimal original test object to execute the existing electricity/heat protocol
@@ -41,7 +46,7 @@ DDS conversion, mipmaps and compression. Choose formats only after game verifica
 2. **A finished sample section.** Build one facade/roof bay and one convincing
    transformer/switching group, with materials. Review a close-up and a distance
    render. This establishes a quality standard before repeating parts across the site.
-3. **Original shared kit.** Create the agreed gantries, bays, busbars, transformer,
+3. **Original shared kit.** After assessing existing parts, create the required original gantries, bays, busbars, transformer,
    relay-house elements, tank, piping and fencing. Store their editable sources and
    records under shared/, using the [component contracts](../shared/component-contracts.md).
    Assemble the specific site under mods/electric-heating-works/.
@@ -76,6 +81,8 @@ manual step unless a supported control route becomes available later. Prepare fi
 and exact instructions first. Visual selection and play-testing feedback remain
 valuable throughout; no paid modelling package is required by this plan.
 
-The next implementation deliverable would be the **3D massing review plus the small
-native feasibility experiment**, not a finished release. Both remain future work
-under the current research/planning scope.
+The next planning deliverable is the **component shortlist with provenance and visual
+assessment**. The subsequent implementation deliverable would be the **3D massing
+review plus the small native feasibility experiment**. These remain future work.
+If any step needs the author's involvement or mouse control, stop and explain what
+is needed before continuing.

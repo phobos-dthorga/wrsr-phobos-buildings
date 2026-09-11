@@ -24,3 +24,12 @@ On 11 September 2026 the author identified A as the most promising concept. A is
 preferred direction; no final dimensions or ratings were approved. The
 [implementation route](implementation-plan.md) describes the modelling, materials,
 export, native tests and packaging sequence, with tools and current automation limits.
+
+## Reusable-object investigation — 11 September 2026
+
+The author paused implementation to investigate repeated objects. The
+[research and evidence catalogue](../research/2026-09-11-reusable-game-and-workshop-parts.md)
+confirms game component sets, Workshop libraries, mixed assemblies and identical
+meshes in both installations. Issues 4 and 6 now include candidate-level origin,
+permission and packaging assessment. No external assets were adopted. Complete a
+visual component shortlist before resuming the first modelling step.

@@ -1,0 +1,911 @@
+{
+  "date": "2026-09-11",
+  "workshop_items": 1322,
+  "assembly_scripts": 588,
+  "scripts_with_elements": 97,
+  "scripts_with_game_sets": 29,
+  "scripts_with_workshop_sets": 72,
+  "intersection": 8,
+  "game_sets": [
+    {
+      "id": "muddy",
+      "declared_elements": 15,
+      "nmf_files": 15,
+      "names": [
+        "Fence holder",
+        "Fence mesh",
+        "Fence metal",
+        "Fence A metal",
+        "Fence full metal",
+        "Bus stop sign",
+        "Fuel tank 1",
+        "Fuel tank 2",
+        "Wheels 1",
+        "Wheels 2",
+        "Conrete barrier blank",
+        "Conrete barrier yellow",
+        "Conrete barrier red",
+        "Conrete barrier white",
+        "Wooden barrier"
+      ],
+      "declared_set_id": "muddy",
+      "element_ids": [
+        "muddy_fence_holder",
+        "muddy_fence_mesh",
+        "muddy_fence_metal",
+        "muddy_fence_a_metal",
+        "muddy_fence_fullmetal",
+        "muddy_bus_stop",
+        "muddy_tank1",
+        "muddy_tank2",
+        "muddy_wheels1",
+        "muddy_wheels2",
+        "muddy_concrete_barrier_blank",
+        "muddy_concrete_barrier_yellow",
+        "muddy_concrete_barrier_red",
+        "muddy_concrete_barrier_white",
+        "muddy_wood_barrier"
+      ]
+    },
+    {
+      "id": "parkinglot_lamps",
+      "declared_elements": 4,
+      "nmf_files": 4,
+      "names": [
+        "Single lamp",
+        "Double lamp",
+        "Tripple lamp",
+        "Small single lamp"
+      ],
+      "declared_set_id": "parkinglotlamps",
+      "element_ids": [
+        "lamp1",
+        "lamp2",
+        "lamp3",
+        "lampsmall"
+      ]
+    },
+    {
+      "id": "platform",
+      "declared_elements": 19,
+      "nmf_files": 20,
+      "names": [
+        "Complete block platform end part",
+        "Complete block platform middle part",
+        "Platform floor - long",
+        "Platform floor - short",
+        "Platform wall - long",
+        "Platform wall - short",
+        "Roof pillar",
+        "Roof short",
+        "Roof long",
+        "Complete roof",
+        "Fence",
+        "Fence part",
+        "Lamp",
+        "Lamp",
+        "Lamp",
+        "Bench",
+        "Bin",
+        "Stairs",
+        "Table"
+      ],
+      "declared_set_id": "platform",
+      "element_ids": [
+        "complete_block_end",
+        "complete_block_long",
+        "part_floor_long",
+        "part_floor_short",
+        "part_wall_long",
+        "part_wall_short",
+        "lastovicka_stlp",
+        "lastovicka_roof_short",
+        "lastovicka_roof_long",
+        "uroof",
+        "fence",
+        "fencepilot",
+        "lamp1",
+        "lamp2",
+        "lamp3",
+        "bench",
+        "bin",
+        "stair",
+        "table"
+      ]
+    },
+    {
+      "id": "residential_prefab1",
+      "declared_elements": 11,
+      "nmf_files": 12,
+      "names": [
+        "Floor - 4m wall with windows",
+        "Floor - 2m wall with window",
+        "Floor - 2m wall",
+        "Roof - 2m Edge",
+        "Roof - 4m Edge",
+        "Roof - 2x2 Edge",
+        "Roof - 2x2",
+        "Ground - 2m",
+        "Ground - 4m",
+        "Special - roof entrance",
+        "Special - ground entrance"
+      ],
+      "declared_set_id": "residential_prefab1",
+      "element_ids": [
+        "m3_wall4_window1",
+        "m3_wall2_window1",
+        "m3_wall2",
+        "m1_roofedge2",
+        "m1_roofedge4",
+        "m1_roofedge2x2",
+        "m1_roof2x2",
+        "m2_ground2",
+        "m2_ground4",
+        "special1",
+        "special2"
+      ]
+    },
+    {
+      "id": "residential_prefab2",
+      "declared_elements": 14,
+      "nmf_files": 14,
+      "names": [
+        "Floor - with windows",
+        "Floor - with windows",
+        "Floor - with windows",
+        "Floor - with windows",
+        "Floor - 2m wall",
+        "Floor - 4m wall",
+        "Roof - 2m Edge",
+        "Roof - 4m Edge",
+        "Roof - 2x2 Edge",
+        "Roof - 2x2",
+        "Ground - 2m",
+        "Ground - 4m",
+        "Special - roof element 1",
+        "Special - ground element 2"
+      ],
+      "declared_set_id": "residential_prefab2",
+      "element_ids": [
+        "m3_wall_window1",
+        "m3_wall_window2",
+        "m3_wall_window3",
+        "m3_wall_window4",
+        "m3_wall2",
+        "m3_wall4",
+        "m1_roofedge2",
+        "m1_roofedge4",
+        "m1_roofedge2x2",
+        "m1_roof2x2",
+        "m2_ground2",
+        "m2_ground4",
+        "special1",
+        "special2"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "set": "2781603355/Mal_Plain1",
+      "placements": 13127,
+      "consumer_scripts": 61,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3734423832/11738_1Mg-601_16fl_3Pod_V3/element_script.ini",
+          "part": "column3"
+        },
+        {
+          "consumer": "3734423832/16556_1Mg-601_16fl_3Pod/element_script.ini",
+          "part": "balcony"
+        },
+        {
+          "consumer": "3734423832/19579_1Mg-601_16fl_3Pod_V2/element_script.ini",
+          "part": "balcony"
+        }
+      ]
+    },
+    {
+      "set": "residential_prefab2",
+      "placements": 6428,
+      "consumer_scripts": 9,
+      "classification": "game-set",
+      "examples": [
+        {
+          "consumer": "3734423832/11738_1Mg-601_16fl_3Pod_V3/element_script.ini",
+          "part": "special2"
+        },
+        {
+          "consumer": "3734423832/16556_1Mg-601_16fl_3Pod/element_script.ini",
+          "part": "special2"
+        },
+        {
+          "consumer": "3734423832/19579_1Mg-601_16fl_3Pod_V2/element_script.ini",
+          "part": "special2"
+        }
+      ]
+    },
+    {
+      "set": "3042947793/modern_prefab_wall",
+      "placements": 3942,
+      "consumer_scripts": 9,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3734423832/11738_1Mg-601_16fl_3Pod_V3/element_script.ini",
+          "part": "wall_lc"
+        },
+        {
+          "consumer": "3734423832/16556_1Mg-601_16fl_3Pod/element_script.ini",
+          "part": "small_window_m"
+        },
+        {
+          "consumer": "3734423832/19579_1Mg-601_16fl_3Pod_V2/element_script.ini",
+          "part": "wall_m"
+        }
+      ]
+    },
+    {
+      "set": "2277093755/residential_prefab3",
+      "placements": 3614,
+      "consumer_scripts": 5,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3422254864/b1/element_script.ini",
+          "part": "ground_corner"
+        },
+        {
+          "consumer": "3422254864/b2/element_script.ini",
+          "part": "ground_big"
+        },
+        {
+          "consumer": "3422254864/b3/element_script.ini",
+          "part": "ground_big"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_LatamRoofs5",
+      "placements": 3128,
+      "consumer_scripts": 35,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/11SAClinic/element_script.ini",
+          "part": "logroofsmallleft"
+        },
+        {
+          "consumer": "3427461487/12SASchool1/element_script.ini",
+          "part": "ugol.krisha1x0.5_"
+        },
+        {
+          "consumer": "3427461487/13SASchool2/element_script.ini",
+          "part": "roof3_8left"
+        }
+      ]
+    },
+    {
+      "set": "residential_prefab1",
+      "placements": 2731,
+      "consumer_scripts": 10,
+      "classification": "game-set",
+      "examples": [
+        {
+          "consumer": "3427099307/24375/element_script.ini",
+          "part": "m3_wall2"
+        },
+        {
+          "consumer": "3405374534/12/element_script.ini",
+          "part": "special2"
+        },
+        {
+          "consumer": "3405372267/24/element_script.ini",
+          "part": "special2"
+        }
+      ]
+    },
+    {
+      "set": "2657961892/Part_1",
+      "placements": 2631,
+      "consumer_scripts": 52,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/10SAHospital2/element_script.ini",
+          "part": "fundament1_2"
+        },
+        {
+          "consumer": "3427461487/12SASchool1/element_script.ini",
+          "part": "fundament1_2"
+        },
+        {
+          "consumer": "3427461487/13SASchool2/element_script.ini",
+          "part": "fundament1_2"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_Plain3",
+      "placements": 2028,
+      "consumer_scripts": 10,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/12SASchool1/element_script.ini",
+          "part": "3x3"
+        },
+        {
+          "consumer": "3427461487/13SASchool2/element_script.ini",
+          "part": "3x3"
+        },
+        {
+          "consumer": "3427461487/14SASchoolSmall/element_script.ini",
+          "part": "3x3_wnd_2(0)"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_Plain7",
+      "placements": 1796,
+      "consumer_scripts": 11,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/1SACityHall/element_script.ini",
+          "part": "3x3"
+        },
+        {
+          "consumer": "3427461487/24SAPub2/element_script.ini",
+          "part": "column3"
+        },
+        {
+          "consumer": "3427461487/26SATheater/element_script.ini",
+          "part": "3x3_wnd_hall_2(2)"
+        }
+      ]
+    },
+    {
+      "set": "2540055493/Walls",
+      "placements": 1180,
+      "consumer_scripts": 31,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/11SAClinic/element_script.ini",
+          "part": "VillageChimneyColumn"
+        },
+        {
+          "consumer": "3427461487/13SASchool2/element_script.ini",
+          "part": "VillageChimneyColumn"
+        },
+        {
+          "consumer": "3427461487/14SASchoolSmall/element_script.ini",
+          "part": "VillageChimneyColumn"
+        }
+      ]
+    },
+    {
+      "set": "3042947793/modern_prefab_roof",
+      "placements": 698,
+      "consumer_scripts": 31,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3734423832/11738_1Mg-601_16fl_3Pod_V3/element_script.ini",
+          "part": "roof_wall_4"
+        },
+        {
+          "consumer": "3734423832/16556_1Mg-601_16fl_3Pod/element_script.ini",
+          "part": "roof_wall_3"
+        },
+        {
+          "consumer": "3734423832/19579_1Mg-601_16fl_3Pod_V2/element_script.ini",
+          "part": "roof_wall_3"
+        }
+      ]
+    },
+    {
+      "set": "2337462774/typical_panel",
+      "placements": 693,
+      "consumer_scripts": 5,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3734423832/11738_1Mg-601_16fl_3Pod_V3/element_script.ini",
+          "part": "4x3_hall"
+        },
+        {
+          "consumer": "3734423832/16556_1Mg-601_16fl_3Pod/element_script.ini",
+          "part": "3x3_hall"
+        },
+        {
+          "consumer": "3734423832/19579_1Mg-601_16fl_3Pod_V2/element_script.ini",
+          "part": "6x1_down"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_Plain9",
+      "placements": 686,
+      "consumer_scripts": 4,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/6SACourtHouse/element_script.ini",
+          "part": "3x3"
+        },
+        {
+          "consumer": "3427461487/8SAUniversity/element_script.ini",
+          "part": "1x3"
+        },
+        {
+          "consumer": "3427461487/23SAPub1/20139_SA University/element_script.ini",
+          "part": "1x3"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_Plain2",
+      "placements": 566,
+      "consumer_scripts": 8,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/10SAHospital2/element_script.ini",
+          "part": "1x3(3)"
+        },
+        {
+          "consumer": "3427461487/18SAFireStation/element_script.ini",
+          "part": "3x3"
+        },
+        {
+          "consumer": "3427461487/19SASmallFireStation/element_script.ini",
+          "part": "3x3"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_Plain4",
+      "placements": 503,
+      "consumer_scripts": 7,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/20SAPoliceStation/element_script.ini",
+          "part": "3x3"
+        },
+        {
+          "consumer": "3427461487/21SASmallPoliceStation/element_script.ini",
+          "part": "3x3(2)"
+        },
+        {
+          "consumer": "3427461487/25SACinema1/element_script.ini",
+          "part": "1x1_down"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_Plain8",
+      "placements": 476,
+      "consumer_scripts": 8,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/15SAKindergarten1/element_script.ini",
+          "part": "3x3_wnd_2(0)"
+        },
+        {
+          "consumer": "3427461487/16SAKindergarten2/element_script.ini",
+          "part": "3x3_wnd_2(0)"
+        },
+        {
+          "consumer": "3427461487/17SASmallKindergarten/element_script.ini",
+          "part": "3x3_wnd_2(0)"
+        }
+      ]
+    },
+    {
+      "set": "muddy",
+      "placements": 428,
+      "consumer_scripts": 18,
+      "classification": "game-set",
+      "examples": [
+        {
+          "consumer": "3571755468/yard/element_script.ini",
+          "part": "muddy_wood_barrier"
+        },
+        {
+          "consumer": "3571755468/yard_small/element_script.ini",
+          "part": "muddy_wood_barrier"
+        },
+        {
+          "consumer": "3405374534/12/element_script.ini",
+          "part": "muddy_wood_barrier"
+        }
+      ]
+    },
+    {
+      "set": "Storages",
+      "placements": 428,
+      "consumer_scripts": 8,
+      "classification": "unresolved",
+      "examples": [
+        {
+          "consumer": "3127321270/WH1500tSteelWalls/element_script.ini",
+          "part": "ConcrateFlorePlantS"
+        },
+        {
+          "consumer": "3127321270/WH350tSteelWalls/element_script.ini",
+          "part": "Wall_S_1"
+        },
+        {
+          "consumer": "3127321270/WH700tSteelWalls/element_script.ini",
+          "part": "Wall_S_2"
+        }
+      ]
+    },
+    {
+      "set": "2665589615/log_buildings",
+      "placements": 393,
+      "consumer_scripts": 22,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/12SASchool1/element_script.ini",
+          "part": "woodplane1m"
+        },
+        {
+          "consumer": "3427461487/13SASchool2/element_script.ini",
+          "part": "woodplane1m"
+        },
+        {
+          "consumer": "3427461487/22SABar1/element_script.ini",
+          "part": "vorota"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_Plain5",
+      "placements": 376,
+      "consumer_scripts": 5,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/22SABar1/element_script.ini",
+          "part": "1x1_down"
+        },
+        {
+          "consumer": "3427461487/8SAUniversity/element_script.ini",
+          "part": "3x3"
+        },
+        {
+          "consumer": "3427461487/23SAPub1/20139_SA University/element_script.ini",
+          "part": "3x3"
+        }
+      ]
+    },
+    {
+      "set": "3042947793/modern_prefab_ground",
+      "placements": 322,
+      "consumer_scripts": 9,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3734423832/11738_1Mg-601_16fl_3Pod_V3/element_script.ini",
+          "part": "entrance"
+        },
+        {
+          "consumer": "3734423832/16556_1Mg-601_16fl_3Pod/element_script.ini",
+          "part": "entrance"
+        },
+        {
+          "consumer": "3734423832/19579_1Mg-601_16fl_3Pod_V2/element_script.ini",
+          "part": "entrance"
+        }
+      ]
+    },
+    {
+      "set": "2657961892/Part_2",
+      "placements": 317,
+      "consumer_scripts": 53,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/10SAHospital2/element_script.ini",
+          "part": "door1_1"
+        },
+        {
+          "consumer": "3427461487/11SAClinic/element_script.ini",
+          "part": "door1_1"
+        },
+        {
+          "consumer": "3427461487/12SASchool1/element_script.ini",
+          "part": "door1_1"
+        }
+      ]
+    },
+    {
+      "set": "2394754108/Decor",
+      "placements": 282,
+      "consumer_scripts": 6,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/1SACityHall/element_script.ini",
+          "part": "sandrik4_"
+        },
+        {
+          "consumer": "3427461487/3SAChurch1/element_script.ini",
+          "part": "sandrik4_"
+        },
+        {
+          "consumer": "3427461487/4SAChurch2/element_script.ini",
+          "part": "sandrik4_"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_Props1",
+      "placements": 271,
+      "consumer_scripts": 53,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/10SAHospital2/element_script.ini",
+          "part": "stairs1"
+        },
+        {
+          "consumer": "3427461487/11SAClinic/element_script.ini",
+          "part": "stairs1"
+        },
+        {
+          "consumer": "3427461487/12SASchool1/element_script.ini",
+          "part": "stairs1"
+        }
+      ]
+    },
+    {
+      "set": "platform",
+      "placements": 160,
+      "consumer_scripts": 11,
+      "classification": "game-set",
+      "examples": [
+        {
+          "consumer": "3405374534/12/element_script.ini",
+          "part": "lastovicka_stlp"
+        },
+        {
+          "consumer": "3405372267/24/element_script.ini",
+          "part": "lastovicka_stlp"
+        },
+        {
+          "consumer": "3405338430/1/element_script.ini",
+          "part": "lastovicka_stlp"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_LatamRoofs2",
+      "placements": 144,
+      "consumer_scripts": 4,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/6SACourtHouse/element_script.ini",
+          "part": "roof3_8right"
+        },
+        {
+          "consumer": "3427461487/7SASmallCourtHouse/element_script.ini",
+          "part": "roof3_8right"
+        },
+        {
+          "consumer": "3427461487/23SAPub1/29481_SA Small Court House/element_script.ini",
+          "part": "roof3_8right"
+        }
+      ]
+    },
+    {
+      "set": "parkinglot_lamps",
+      "placements": 94,
+      "consumer_scripts": 16,
+      "classification": "game-set",
+      "examples": [
+        {
+          "consumer": "3395219486/PF4B-1/element_script.ini",
+          "part": "lampsmall"
+        },
+        {
+          "consumer": "3395219486/PF4B-2/element_script.ini",
+          "part": "lampsmall"
+        },
+        {
+          "consumer": "3370936676/LEF/element_script.ini",
+          "part": "lampsmall"
+        }
+      ]
+    },
+    {
+      "set": "busstops",
+      "placements": 63,
+      "consumer_scripts": 6,
+      "classification": "unresolved",
+      "examples": [
+        {
+          "consumer": "3302318568/End/element_script.ini",
+          "part": "area_extender"
+        },
+        {
+          "consumer": "3302318568/Large/element_script.ini",
+          "part": "island"
+        },
+        {
+          "consumer": "3302318568/Small/element_script.ini",
+          "part": "island"
+        }
+      ]
+    },
+    {
+      "set": "2540055493/Walls2",
+      "placements": 53,
+      "consumer_scripts": 1,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3142591985/1/element_script.ini",
+          "part": "WoodRoofCorner4m"
+        }
+      ]
+    },
+    {
+      "set": "2781603355/Mal_Plain6",
+      "placements": 52,
+      "consumer_scripts": 2,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3427461487/23SAPub1/element_script.ini",
+          "part": "3x3"
+        },
+        {
+          "consumer": "3427461487/23SAPub1/14756_SA Pub 1/element_script.ini",
+          "part": "3x3"
+        }
+      ]
+    },
+    {
+      "set": "2665589615/log_buildings_2",
+      "placements": 50,
+      "consumer_scripts": 1,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3142591985/1/element_script.ini",
+          "part": "oilstorage15green"
+        }
+      ]
+    },
+    {
+      "set": "2394754108/Fundament",
+      "placements": 48,
+      "consumer_scripts": 1,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3142591985/1/element_script.ini",
+          "part": "lestnica2x1_"
+        }
+      ]
+    },
+    {
+      "set": "roina",
+      "placements": 14,
+      "consumer_scripts": 2,
+      "classification": "unresolved",
+      "examples": [
+        {
+          "consumer": "3571755468/yard/element_script.ini",
+          "part": "crate"
+        },
+        {
+          "consumer": "3571755468/yard_small/element_script.ini",
+          "part": "crate"
+        }
+      ]
+    },
+    {
+      "set": "2540055493/Walls3",
+      "placements": 8,
+      "consumer_scripts": 1,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3142591985/1/element_script.ini",
+          "part": "WoodBeam4m3mh"
+        }
+      ]
+    },
+    {
+      "set": "2680685216/sovkhoz",
+      "placements": 6,
+      "consumer_scripts": 1,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3310270462/cstor/element_script.ini",
+          "part": "canopy"
+        }
+      ]
+    },
+    {
+      "set": "2680685216/fences",
+      "placements": 2,
+      "consumer_scripts": 1,
+      "classification": "workshop-set",
+      "examples": [
+        {
+          "consumer": "3302318568/waiting/element_script.ini",
+          "part": "fence2"
+        }
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "verification": "static-local-files",
+  "steam_build_id": "23935965",
+  "placement_records": 47738,
+  "workshop_set_files": [
+    "2277093755/residential_prefab3/elements.ini",
+    "2337462774/typical_panel/elements.ini",
+    "2394754108/Basic/elements.ini",
+    "2394754108/Decor/elements.ini",
+    "2394754108/Fundament/elements.ini",
+    "2394754108/Roof/elements.ini",
+    "2540055493/Walls/elements.ini",
+    "2540055493/Walls2/elements.ini",
+    "2540055493/Walls3/elements.ini",
+    "2657961892/Part_1/elements.ini",
+    "2657961892/Part_2/elements.ini",
+    "2665589615/log_buildings/elements.ini",
+    "2665589615/log_buildings_2/elements.ini",
+    "2680685216/fences/elements.ini",
+    "2680685216/livestock_farm/elements.ini",
+    "2680685216/sovkhoz/elements.ini",
+    "2680685216/sovkhoz2/elements.ini",
+    "2781603355/Mal_Bricks1/elements.ini",
+    "2781603355/Mal_LatamRoofs1/elements.ini",
+    "2781603355/Mal_LatamRoofs2/elements.ini",
+    "2781603355/Mal_LatamRoofs3/elements.ini",
+    "2781603355/Mal_LatamRoofs4/elements.ini",
+    "2781603355/Mal_LatamRoofs5/elements.ini",
+    "2781603355/Mal_LatamRoofs6/elements.ini",
+    "2781603355/Mal_Plain1/elements.ini",
+    "2781603355/Mal_Plain2/elements.ini",
+    "2781603355/Mal_Plain3/elements.ini",
+    "2781603355/Mal_Plain4/elements.ini",
+    "2781603355/Mal_Plain5/elements.ini",
+    "2781603355/Mal_Plain6/elements.ini",
+    "2781603355/Mal_Plain7/elements.ini",
+    "2781603355/Mal_Plain8/elements.ini",
+    "2781603355/Mal_Plain9/elements.ini",
+    "2781603355/Mal_Planks1/elements.ini",
+    "2781603355/Mal_Planks2/elements.ini",
+    "2781603355/Mal_Planks3/elements.ini",
+    "2781603355/Mal_Planks4/elements.ini",
+    "2781603355/Mal_Planks5/elements.ini",
+    "2781603355/Mal_Props1/elements.ini",
+    "2832755556/Vojna/elements.ini",
+    "3042947793/modern_prefab_ground/elements.ini",
+    "3042947793/modern_prefab_roof/elements.ini",
+    "3042947793/modern_prefab_wall/elements.ini"
+  ],
+  "workshop_set_file_count": 43,
+  "workshop_items_with_set_files": 10,
+  "scripts_with_neither_classified_set": 4,
+  "limitations": [
+    "Installed directories, not an active playset or a census of Steam Workshop.",
+    "Game-set classification uses directories in the inspected game installation; no Steam depot audit.",
+    "Assembly records do not establish required runtime subscriptions or game-tested behaviour.",
+    "Unknown named sets remain unresolved."
+  ]
+}
