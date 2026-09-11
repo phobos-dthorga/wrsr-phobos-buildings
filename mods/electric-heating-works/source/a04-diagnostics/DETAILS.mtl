@@ -1,0 +1,19 @@
+$SUBMATERIAL a04_thermal_storage_tank
+$TEXTURE_MTL 0 thermal_storage_tank_diffuse.dds
+$TEXTURE_MTL 1 thermal_storage_tank_specular.dds
+$TEXTURE_MTL 2 thermal_storage_tank_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a04_facade_plain
+$TEXTURE_MTL 0 a04_facade_plain_diffuse.dds
+$TEXTURE_MTL 1 a04_facade_plain_specular.dds
+$TEXTURE_MTL 2 a04_facade_plain_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$END

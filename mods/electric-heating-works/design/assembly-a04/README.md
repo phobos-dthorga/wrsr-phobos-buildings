@@ -8,6 +8,9 @@ not a playable heating mod. The first full-plant ModelViewer inspection exposed
 surface artifacts; native visual acceptance remains open. See the
 [inspection record](native-inspection-2026-09-12.md).
 
+The [controlled comparison set](../../source/a04-diagnostics/README.md) separates
+terrain height, fine detail and native object size. Its native results are pending.
+
 ![Original full-plant assembly rendered in Blender](../../source/assembly-a04/review/overall.png)
 
 [Facade](../../source/assembly-a04/review/facade.png) ·

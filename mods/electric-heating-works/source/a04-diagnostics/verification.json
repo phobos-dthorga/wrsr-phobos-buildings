@@ -1,0 +1,1375 @@
+{
+  "revision": "a04-diagnostic-01",
+  "author": "Phobos A. D'thorga / phobosgekko",
+  "license": "MIT",
+  "original_art_only": true,
+  "external_art_inputs": [],
+  "native_visual_result": "pending author comparison",
+  "game_tested": false,
+  "baseline": "mods/electric-heating-works/source/assembly-a04",
+  "baseline_source_sha256": "fbd25f83f5325d4b63be3cbe40dc9a8c73bc1cbf403da7a85edbb03236ff208b",
+  "baseline_nmf_sha256": "33439966d4a97599a7cfcef35cab4e58c0f03a68fda911e5b610918c2279e84a",
+  "baseline_preserved": true,
+  "raised": {
+    "materials": [
+      "a03_switching_group",
+      "a03_transformer",
+      "a04_architecture_roof_bay",
+      "a04_busbar_terminal_support",
+      "a04_electrical_busbar",
+      "a04_electrical_control_house",
+      "a04_electrical_line_gantry",
+      "a04_facade_access",
+      "a04_facade_plain",
+      "a04_hall_service_doors",
+      "a04_indicative_phase_conductors",
+      "a04_phobos_fixed_post",
+      "a04_phobos_plinth",
+      "a04_phobos_sliding_gate_frame",
+      "a04_pump_and_service_annex",
+      "a04_service_aprons_and_cable_trench_001",
+      "a04_site_surface_and_access_study",
+      "a04_thermal_headers_and_boundary_reservations",
+      "a04_thermal_pipe_rack",
+      "a04_thermal_storage_tank"
+    ],
+    "checks": [
+      {
+        "node": "native_a03_switching_group_01",
+        "triangles": 15612,
+        "native_vertices": 28392,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0011669311514962606
+      },
+      {
+        "node": "native_a03_switching_group_02",
+        "triangles": 5204,
+        "native_vertices": 9592,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0007815964705769603
+      },
+      {
+        "node": "native_a03_transformer_01",
+        "triangles": 9528,
+        "native_vertices": 17625,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.1457672119140625e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0003709357929364935
+      },
+      {
+        "node": "native_a04_architecture_roof_bay_01",
+        "triangles": 4628,
+        "native_vertices": 8854,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.264961199760036e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 8.818663289599475e-05
+      },
+      {
+        "node": "native_a04_busbar_terminal_support_01",
+        "triangles": 1380,
+        "native_vertices": 2288,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.814697265625e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 6.421081304566914e-05
+      },
+      {
+        "node": "native_a04_electrical_busbar_01",
+        "triangles": 6048,
+        "native_vertices": 10149,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.814697265625e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 8.055867633395642e-05
+      },
+      {
+        "node": "native_a04_electrical_control_house_01",
+        "triangles": 192,
+        "native_vertices": 400,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 1.8146171773278818e-07
+      },
+      {
+        "node": "native_a04_electrical_line_gantry_01",
+        "triangles": 16768,
+        "native_vertices": 33772,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.245208740234375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.000854087040970944
+      },
+      {
+        "node": "native_a04_electrical_line_gantry_02",
+        "triangles": 16768,
+        "native_vertices": 33780,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0004752336152991739
+      },
+      {
+        "node": "native_a04_facade_access_01",
+        "triangles": 6000,
+        "native_vertices": 14252,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0010357746076007767
+      },
+      {
+        "node": "native_a04_facade_plain_01",
+        "triangles": 19440,
+        "native_vertices": 47878,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.000564852085133769
+      },
+      {
+        "node": "native_a04_facade_plain_02",
+        "triangles": 2880,
+        "native_vertices": 7316,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00042041483207021956
+      },
+      {
+        "node": "native_a04_hall_service_doors_01",
+        "triangles": 300,
+        "native_vertices": 600,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 7.549790266122766e-08
+      },
+      {
+        "node": "native_a04_indicative_phase_conductors_01",
+        "triangles": 1584,
+        "native_vertices": 3304,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.67572021484375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.001392824484015649
+      },
+      {
+        "node": "native_a04_phobos_fixed_post_01",
+        "triangles": 9216,
+        "native_vertices": 18912,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.152557373046875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00029343664463026464
+      },
+      {
+        "node": "native_a04_phobos_plinth_01",
+        "triangles": 3036,
+        "native_vertices": 6860,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.4373016357421875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 4.857270685416979e-06
+      },
+      {
+        "node": "native_a04_phobos_sliding_gate_frame_01",
+        "triangles": 1128,
+        "native_vertices": 2044,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.67572021484375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0004439503741135283
+      },
+      {
+        "node": "native_a04_pump_and_service_annex_01",
+        "triangles": 288,
+        "native_vertices": 594,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.7220458984375e-06,
+        "max_uv_error": 2.971493607002625e-08,
+        "max_normal_vector_error": 5.012414143670103e-07
+      },
+      {
+        "node": "native_a04_service_aprons_and_cable_trench_001_01",
+        "triangles": 36,
+        "native_vertices": 82,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.7220458984375e-06,
+        "max_uv_error": 2.978115490778797e-08,
+        "max_normal_vector_error": 1.6064760269846017e-07
+      },
+      {
+        "node": "native_a04_site_surface_and_access_study_01",
+        "triangles": 444,
+        "native_vertices": 974,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.510185241699219e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 1.4713541008866948e-07
+      },
+      {
+        "node": "native_a04_thermal_headers_and_boundary_reservations_01",
+        "triangles": 708,
+        "native_vertices": 1228,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00022005761292286677
+      },
+      {
+        "node": "native_a04_thermal_pipe_rack_01",
+        "triangles": 1484,
+        "native_vertices": 2410,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.291534423828125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 7.911043973848313e-05
+      },
+      {
+        "node": "native_a04_thermal_storage_tank_01",
+        "triangles": 11768,
+        "native_vertices": 23496,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.3947966093944364e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0009453239386626753
+      },
+      {
+        "node": "native_a04_thermal_storage_tank_02",
+        "triangles": 11768,
+        "native_vertices": 23306,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.62939453125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0009137114545822482
+      }
+    ],
+    "exporter": {
+      "name": "3Division Exporter",
+      "authors": "Jan Kerkes (original), updated for Blender 5.0+ by Vladimir Baloga",
+      "version": [
+        1,
+        2
+      ],
+      "sha256": "0350162dbb545c06f905d66dc78760b0efbceaea1586ff7af2abcdf678017081",
+      "source_protection": "Disposable mesh copies; original sharp-edge data preserved."
+    },
+    "only_authoring_change": "All model vertices translated +2 m vertically; source topology, materials and UVs unchanged.",
+    "baseline_checks": [
+      {
+        "node": "native_a03_switching_group_01",
+        "triangles": 15612,
+        "native_vertices": 28246,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.291534423828125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0011669311514962606
+      },
+      {
+        "node": "native_a03_switching_group_02",
+        "triangles": 5204,
+        "native_vertices": 9446,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.291534423828125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0007790810940118528
+      },
+      {
+        "node": "native_a03_transformer_01",
+        "triangles": 9528,
+        "native_vertices": 17709,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 1.9669532775878906e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0003384905689083307
+      },
+      {
+        "node": "native_a04_architecture_roof_bay_01",
+        "triangles": 4628,
+        "native_vertices": 8868,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.264961199760036e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 7.581798675540854e-05
+      },
+      {
+        "node": "native_a04_busbar_terminal_support_01",
+        "triangles": 1380,
+        "native_vertices": 2264,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.159046173095703e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 6.419117519918408e-05
+      },
+      {
+        "node": "native_a04_electrical_busbar_01",
+        "triangles": 6048,
+        "native_vertices": 10144,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.159046173095703e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 8.055867633395642e-05
+      },
+      {
+        "node": "native_a04_electrical_control_house_01",
+        "triangles": 192,
+        "native_vertices": 402,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 1.8146171773278818e-07
+      },
+      {
+        "node": "native_a04_electrical_line_gantry_01",
+        "triangles": 16768,
+        "native_vertices": 33788,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.245208740234375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.000854087040970944
+      },
+      {
+        "node": "native_a04_electrical_line_gantry_02",
+        "triangles": 16768,
+        "native_vertices": 33746,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.6973983046972182e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0004403502764794715
+      },
+      {
+        "node": "native_a04_facade_access_01",
+        "triangles": 6000,
+        "native_vertices": 14266,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0010357746076007767
+      },
+      {
+        "node": "native_a04_facade_plain_01",
+        "triangles": 19440,
+        "native_vertices": 48160,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.000564852085133769
+      },
+      {
+        "node": "native_a04_facade_plain_02",
+        "triangles": 2880,
+        "native_vertices": 7306,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0004615079865830815
+      },
+      {
+        "node": "native_a04_hall_service_doors_01",
+        "triangles": 300,
+        "native_vertices": 608,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 3.275244479246134e-07
+      },
+      {
+        "node": "native_a04_indicative_phase_conductors_01",
+        "triangles": 1584,
+        "native_vertices": 3308,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.67572021484375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.001392824484015649
+      },
+      {
+        "node": "native_a04_phobos_fixed_post_01",
+        "triangles": 9216,
+        "native_vertices": 20232,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.461143644004234e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00029343664463026464
+      },
+      {
+        "node": "native_a04_phobos_plinth_01",
+        "triangles": 3036,
+        "native_vertices": 7224,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.451606712199428e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 4.857263899760754e-06
+      },
+      {
+        "node": "native_a04_phobos_sliding_gate_frame_01",
+        "triangles": 1128,
+        "native_vertices": 2162,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.4373016357421875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00044370608879590453
+      },
+      {
+        "node": "native_a04_pump_and_service_annex_01",
+        "triangles": 288,
+        "native_vertices": 618,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.4836273193359375e-06,
+        "max_uv_error": 2.971493607002625e-08,
+        "max_normal_vector_error": 3.386789084454082e-06
+      },
+      {
+        "node": "native_a04_service_aprons_and_cable_trench_001_01",
+        "triangles": 36,
+        "native_vertices": 84,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.4836273193359375e-06,
+        "max_uv_error": 2.978115490778797e-08,
+        "max_normal_vector_error": 1.2162065569619061e-07
+      },
+      {
+        "node": "native_a04_site_surface_and_access_study_01",
+        "triangles": 444,
+        "native_vertices": 950,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.510185241699219e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 6.810043989503275e-07
+      },
+      {
+        "node": "native_a04_thermal_headers_and_boundary_reservations_01",
+        "triangles": 708,
+        "native_vertices": 1252,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00022005761292286677
+      },
+      {
+        "node": "native_a04_thermal_pipe_rack_01",
+        "triangles": 1484,
+        "native_vertices": 2428,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.291534423828125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 7.911024326451967e-05
+      },
+      {
+        "node": "native_a04_thermal_storage_tank_01",
+        "triangles": 11768,
+        "native_vertices": 23617,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.3947966093944364e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0009453239386626753
+      },
+      {
+        "node": "native_a04_thermal_storage_tank_02",
+        "triangles": 11768,
+        "native_vertices": 23400,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.7220458984375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0009137114545822482
+      }
+    ],
+    "comparison_method": "Both exports matched cyclic triangle corners to the same source at z=0 and z=2; native storage order may differ. Normal tolerance 0.002, position 0.0002 m, UV 0.0001."
+  },
+  "small_batches": {
+    "materials": [
+      "a03_switching_group",
+      "a03_transformer",
+      "a04_architecture_roof_bay",
+      "a04_busbar_terminal_support",
+      "a04_electrical_busbar",
+      "a04_electrical_control_house",
+      "a04_electrical_line_gantry",
+      "a04_facade_access",
+      "a04_facade_plain",
+      "a04_hall_service_doors",
+      "a04_indicative_phase_conductors",
+      "a04_phobos_fixed_post",
+      "a04_phobos_plinth",
+      "a04_phobos_sliding_gate_frame",
+      "a04_pump_and_service_annex",
+      "a04_service_aprons_and_cable_trench_001",
+      "a04_site_surface_and_access_study",
+      "a04_thermal_headers_and_boundary_reservations",
+      "a04_thermal_pipe_rack",
+      "a04_thermal_storage_tank"
+    ],
+    "checks": [
+      {
+        "node": "small_01_01",
+        "triangles": 6000,
+        "native_vertices": 11794,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0011668963326330294
+      },
+      {
+        "node": "small_01_02",
+        "triangles": 6000,
+        "native_vertices": 14410,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.001050483778603817
+      },
+      {
+        "node": "small_01_03",
+        "triangles": 3612,
+        "native_vertices": 9720,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0007976278687165207
+      },
+      {
+        "node": "small_02_01",
+        "triangles": 5204,
+        "native_vertices": 9592,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0007814640660890493
+      },
+      {
+        "node": "small_03_01",
+        "triangles": 6000,
+        "native_vertices": 12574,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.1457672119140625e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0003709357929364935
+      },
+      {
+        "node": "small_03_02",
+        "triangles": 3528,
+        "native_vertices": 8915,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.1457672119140625e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00036400098814958696
+      },
+      {
+        "node": "small_04_01",
+        "triangles": 4628,
+        "native_vertices": 8854,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.264961199760036e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 8.818663289599475e-05
+      },
+      {
+        "node": "small_05_01",
+        "triangles": 1380,
+        "native_vertices": 2288,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.814697265625e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 6.421081304566914e-05
+      },
+      {
+        "node": "small_06_01",
+        "triangles": 6000,
+        "native_vertices": 10133,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.814697265625e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 8.055867633395642e-05
+      },
+      {
+        "node": "small_06_02",
+        "triangles": 48,
+        "native_vertices": 116,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.814697265625e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 6.963213613645515e-05
+      },
+      {
+        "node": "small_07_01",
+        "triangles": 192,
+        "native_vertices": 400,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 1.8146171773278818e-07
+      },
+      {
+        "node": "small_08_01",
+        "triangles": 6000,
+        "native_vertices": 13401,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.245208740234375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0008540082117322271
+      },
+      {
+        "node": "small_08_02",
+        "triangles": 6000,
+        "native_vertices": 16312,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.245208740234375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0008540082117322271
+      },
+      {
+        "node": "small_08_03",
+        "triangles": 4768,
+        "native_vertices": 13881,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.245208740234375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0007783114444303955
+      },
+      {
+        "node": "small_09_01",
+        "triangles": 6000,
+        "native_vertices": 13382,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0004403081276147068
+      },
+      {
+        "node": "small_09_02",
+        "triangles": 6000,
+        "native_vertices": 16364,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0004403502764794715
+      },
+      {
+        "node": "small_09_03",
+        "triangles": 4768,
+        "native_vertices": 13892,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00047527966724399194
+      },
+      {
+        "node": "small_10_01",
+        "triangles": 6000,
+        "native_vertices": 14250,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0010357746076007767
+      },
+      {
+        "node": "small_11_01",
+        "triangles": 6000,
+        "native_vertices": 15060,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00040726501592243256
+      },
+      {
+        "node": "small_11_02",
+        "triangles": 6000,
+        "native_vertices": 15260,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00030817776783978836
+      },
+      {
+        "node": "small_11_03",
+        "triangles": 6000,
+        "native_vertices": 14650,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00033102196622520144
+      },
+      {
+        "node": "small_11_04",
+        "triangles": 1440,
+        "native_vertices": 3438,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.000564852085133769
+      },
+      {
+        "node": "small_12_01",
+        "triangles": 2880,
+        "native_vertices": 7308,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00042041483207021956
+      },
+      {
+        "node": "small_13_01",
+        "triangles": 300,
+        "native_vertices": 600,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.86102294921875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 7.549790266122766e-08
+      },
+      {
+        "node": "small_14_01",
+        "triangles": 1584,
+        "native_vertices": 3304,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.67572021484375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0013927232573250868
+      },
+      {
+        "node": "small_15_01",
+        "triangles": 6000,
+        "native_vertices": 12330,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.152557373046875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 7.812770471311721e-05
+      },
+      {
+        "node": "small_15_02",
+        "triangles": 3216,
+        "native_vertices": 6606,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.152557373046875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00029343664463026464
+      },
+      {
+        "node": "small_16_01",
+        "triangles": 3036,
+        "native_vertices": 6860,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.4373016357421875e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 4.857270685416979e-06
+      },
+      {
+        "node": "small_17_01",
+        "triangles": 1128,
+        "native_vertices": 2044,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 6.67572021484375e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0004439503741135283
+      },
+      {
+        "node": "small_18_01",
+        "triangles": 288,
+        "native_vertices": 594,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.7220458984375e-06,
+        "max_uv_error": 2.971493607002625e-08,
+        "max_normal_vector_error": 5.012414143670103e-07
+      },
+      {
+        "node": "small_19_01",
+        "triangles": 36,
+        "native_vertices": 82,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.7220458984375e-06,
+        "max_uv_error": 2.978115490778797e-08,
+        "max_normal_vector_error": 1.6064760269846017e-07
+      },
+      {
+        "node": "small_20_01",
+        "triangles": 444,
+        "native_vertices": 974,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.510185241699219e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 1.4713541008866948e-07
+      },
+      {
+        "node": "small_21_01",
+        "triangles": 708,
+        "native_vertices": 1228,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.76837158203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00022005761292286677
+      },
+      {
+        "node": "small_22_01",
+        "triangles": 1484,
+        "native_vertices": 2410,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 4.291534423828125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 7.911043973848313e-05
+      },
+      {
+        "node": "small_23_01",
+        "triangles": 6000,
+        "native_vertices": 15216,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.3947966093944364e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0007046674069494019
+      },
+      {
+        "node": "small_23_02",
+        "triangles": 5768,
+        "native_vertices": 16470,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 5.3947966093944364e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0009453239386626753
+      },
+      {
+        "node": "small_24_01",
+        "triangles": 6000,
+        "native_vertices": 15176,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.62939453125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0008200227406477253
+      },
+      {
+        "node": "small_24_02",
+        "triangles": 5768,
+        "native_vertices": 16394,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.62939453125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0009137114545822482
+      }
+    ],
+    "exporter": {
+      "name": "3Division Exporter",
+      "authors": "Jan Kerkes (original), updated for Blender 5.0+ by Vladimir Baloga",
+      "version": [
+        1,
+        2
+      ],
+      "sha256": "0350162dbb545c06f905d66dc78760b0efbceaea1586ff7af2abcdf678017081",
+      "source_protection": "Disposable mesh copies; original sharp-edge data preserved."
+    },
+    "only_authoring_change_from_02": "Partition native mesh objects; keep +2 m height and all original triangles, materials and UVs.",
+    "partitions": [
+      {
+        "node": "small_01_01",
+        "source_node": "native_a03_switching_group_01",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.00033552389989871545
+      },
+      {
+        "node": "small_01_02",
+        "source_node": "native_a03_switching_group_01",
+        "first_triangle": 6000,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0003356167208612631
+      },
+      {
+        "node": "small_01_03",
+        "source_node": "native_a03_switching_group_01",
+        "first_triangle": 12000,
+        "triangle_count": 3612,
+        "max_copied_normal_vector_error": 0.00033559608424842824
+      },
+      {
+        "node": "small_02_01",
+        "source_node": "native_a03_switching_group_02",
+        "first_triangle": 0,
+        "triangle_count": 5204,
+        "max_copied_normal_vector_error": 0.00033562223998025924
+      },
+      {
+        "node": "small_03_01",
+        "source_node": "native_a03_transformer_01",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0003355868879544468
+      },
+      {
+        "node": "small_03_02",
+        "source_node": "native_a03_transformer_01",
+        "first_triangle": 6000,
+        "triangle_count": 3528,
+        "max_copied_normal_vector_error": 0.0003355093275781006
+      },
+      {
+        "node": "small_04_01",
+        "source_node": "native_a04_architecture_roof_bay_01",
+        "first_triangle": 0,
+        "triangle_count": 4628,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_05_01",
+        "source_node": "native_a04_busbar_terminal_support_01",
+        "first_triangle": 0,
+        "triangle_count": 1380,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_06_01",
+        "source_node": "native_a04_electrical_busbar_01",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.00010521885392877755
+      },
+      {
+        "node": "small_06_02",
+        "source_node": "native_a04_electrical_busbar_01",
+        "first_triangle": 6000,
+        "triangle_count": 48,
+        "max_copied_normal_vector_error": 0.00010521885392877755
+      },
+      {
+        "node": "small_07_01",
+        "source_node": "native_a04_electrical_control_house_01",
+        "first_triangle": 0,
+        "triangle_count": 192,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_08_01",
+        "source_node": "native_a04_electrical_line_gantry_01",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0004795282430046664
+      },
+      {
+        "node": "small_08_02",
+        "source_node": "native_a04_electrical_line_gantry_01",
+        "first_triangle": 6000,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0005754170109731881
+      },
+      {
+        "node": "small_08_03",
+        "source_node": "native_a04_electrical_line_gantry_01",
+        "first_triangle": 12000,
+        "triangle_count": 4768,
+        "max_copied_normal_vector_error": 0.00047951777430068856
+      },
+      {
+        "node": "small_09_01",
+        "source_node": "native_a04_electrical_line_gantry_02",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0003356085745015787
+      },
+      {
+        "node": "small_09_02",
+        "source_node": "native_a04_electrical_line_gantry_02",
+        "first_triangle": 6000,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0004793830455622191
+      },
+      {
+        "node": "small_09_03",
+        "source_node": "native_a04_electrical_line_gantry_02",
+        "first_triangle": 12000,
+        "triangle_count": 4768,
+        "max_copied_normal_vector_error": 0.00033561535771245486
+      },
+      {
+        "node": "small_10_01",
+        "source_node": "native_a04_facade_access_01",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.00047936159084543885
+      },
+      {
+        "node": "small_11_01",
+        "source_node": "native_a04_facade_plain_01",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0003355732085295456
+      },
+      {
+        "node": "small_11_02",
+        "source_node": "native_a04_facade_plain_01",
+        "first_triangle": 6000,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0003356153573397604
+      },
+      {
+        "node": "small_11_03",
+        "source_node": "native_a04_facade_plain_01",
+        "first_triangle": 12000,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0004793778177086101
+      },
+      {
+        "node": "small_11_04",
+        "source_node": "native_a04_facade_plain_01",
+        "first_triangle": 18000,
+        "triangle_count": 1440,
+        "max_copied_normal_vector_error": 0.0003355732085295456
+      },
+      {
+        "node": "small_12_01",
+        "source_node": "native_a04_facade_plain_02",
+        "first_triangle": 0,
+        "triangle_count": 2880,
+        "max_copied_normal_vector_error": 0.0003356153573386672
+      },
+      {
+        "node": "small_13_01",
+        "source_node": "native_a04_hall_service_doors_01",
+        "first_triangle": 0,
+        "triangle_count": 300,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_14_01",
+        "source_node": "native_a04_indicative_phase_conductors_01",
+        "first_triangle": 0,
+        "triangle_count": 1584,
+        "max_copied_normal_vector_error": 0.000575224388323159
+      },
+      {
+        "node": "small_15_01",
+        "source_node": "native_a04_phobos_fixed_post_01",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_15_02",
+        "source_node": "native_a04_phobos_fixed_post_01",
+        "first_triangle": 6000,
+        "triangle_count": 3216,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_16_01",
+        "source_node": "native_a04_phobos_plinth_01",
+        "first_triangle": 0,
+        "triangle_count": 3036,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_17_01",
+        "source_node": "native_a04_phobos_sliding_gate_frame_01",
+        "first_triangle": 0,
+        "triangle_count": 1128,
+        "max_copied_normal_vector_error": 9.588142235460687e-05
+      },
+      {
+        "node": "small_18_01",
+        "source_node": "native_a04_pump_and_service_annex_01",
+        "first_triangle": 0,
+        "triangle_count": 288,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_19_01",
+        "source_node": "native_a04_service_aprons_and_cable_trench_001_01",
+        "first_triangle": 0,
+        "triangle_count": 36,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_20_01",
+        "source_node": "native_a04_site_surface_and_access_study_01",
+        "first_triangle": 0,
+        "triangle_count": 444,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_21_01",
+        "source_node": "native_a04_thermal_headers_and_boundary_reservations_01",
+        "first_triangle": 0,
+        "triangle_count": 708,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_22_01",
+        "source_node": "native_a04_thermal_pipe_rack_01",
+        "first_triangle": 0,
+        "triangle_count": 1484,
+        "max_copied_normal_vector_error": 0.0
+      },
+      {
+        "node": "small_23_01",
+        "source_node": "native_a04_thermal_storage_tank_01",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.00034406844763637187
+      },
+      {
+        "node": "small_23_02",
+        "source_node": "native_a04_thermal_storage_tank_01",
+        "first_triangle": 6000,
+        "triangle_count": 5768,
+        "max_copied_normal_vector_error": 0.0004795021153980809
+      },
+      {
+        "node": "small_24_01",
+        "source_node": "native_a04_thermal_storage_tank_02",
+        "first_triangle": 0,
+        "triangle_count": 6000,
+        "max_copied_normal_vector_error": 0.00047943360887711147
+      },
+      {
+        "node": "small_24_02",
+        "source_node": "native_a04_thermal_storage_tank_02",
+        "first_triangle": 6000,
+        "triangle_count": 5768,
+        "max_copied_normal_vector_error": 0.0004794715255285969
+      }
+    ],
+    "all_source_triangles_used_exactly_once": true,
+    "max_native_vertices": 16470,
+    "node_count": 38
+  },
+  "details": {
+    "materials": [
+      "a04_thermal_storage_tank",
+      "a04_facade_plain"
+    ],
+    "checks": [
+      {
+        "node": "detail_tank",
+        "triangles": 11768,
+        "native_vertices": 23078,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.0994415283203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0002963301009264245
+      },
+      {
+        "node": "detail_facade",
+        "triangles": 720,
+        "native_vertices": 1890,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.391636371612549e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00018188127596021402
+      }
+    ],
+    "exporter": {
+      "name": "3Division Exporter",
+      "authors": "Jan Kerkes (original), updated for Blender 5.0+ by Vladimir Baloga",
+      "version": [
+        1,
+        2
+      ],
+      "sha256": "0350162dbb545c06f905d66dc78760b0efbceaea1586ff7af2abcdf678017081",
+      "source_protection": "Disposable mesh copies; original sharp-edge data preserved."
+    }
+  },
+  "simplified": {
+    "materials": [
+      "a04_thermal_storage_tank",
+      "a04_facade_plain"
+    ],
+    "checks": [
+      {
+        "node": "bare_tank",
+        "triangles": 8912,
+        "native_vertices": 18084,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.0994415283203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0002963301009264245
+      },
+      {
+        "node": "bare_facade",
+        "triangles": 588,
+        "native_vertices": 1568,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.391636371612549e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00018188127596021402
+      }
+    ],
+    "exporter": {
+      "name": "3Division Exporter",
+      "authors": "Jan Kerkes (original), updated for Blender 5.0+ by Vladimir Baloga",
+      "version": [
+        1,
+        2
+      ],
+      "sha256": "0350162dbb545c06f905d66dc78760b0efbceaea1586ff7af2abcdf678017081",
+      "source_protection": "Disposable mesh copies; original sharp-edge data preserved."
+    },
+    "removed": {
+      "tank": {
+        "removed_components": {
+          "vertical shell seam": 48,
+          "horizontal shell band": 6
+        },
+        "removed_faces": 2856,
+        "retained_faces": 8912,
+        "surviving_positions_and_uvs_unchanged": true
+      },
+      "facade": {
+        "removed_components": {
+          "vertical window bar": 6,
+          "horizontal window bar": 5
+        },
+        "removed_faces": 132,
+        "retained_faces": 588,
+        "surviving_positions_and_uvs_unchanged": true
+      }
+    }
+  },
+  "texture_source": "Unchanged A04 native DDS files; stage from the baseline package.",
+  "recipe_sha256": "56ac90e7d421f170ad06ba4101d5d31b827e022870b6491146b133d46e4c925b",
+  "artifact_sha256": {
+    "02_RAISED.nmf": "02fa565482db6a792fb49125aabcc1fd17e60e101216de98b1219473e0fd76fc",
+    "03_DETAILS.nmf": "9177c2a10a65580a2db7589cac364a43a07d4438ece6f8aad516660a870b8fe8",
+    "04_NO_FINE_DETAIL.nmf": "632bf965a8e26b0f73009eaf3a153595607d573905e0e76d92374111a7f81240",
+    "05_SMALL_BATCHES.nmf": "81b0bc5adb7e99682ea6f11da821d183477651a7c150530b87e6d2d1dbc1b049",
+    "detail-test-parts.blend": "d8578f759f2b94a582ff11906f06dee315d4000e914a6b4cd16d00eb542efff0",
+    "DETAILS.mtl": "f405d6316ea2ebebe0c328cf5af024d0e8b2b78aa125c77f4670236f4626cca4",
+    "PLANT.mtl": "21c3111d8ac08e4f12d4112f914b7ceadbc583359d51920e04a0b148ea8a6eea"
+  },
+  "saved_detail_library_verification": {
+    "exactly_four_original_objects": true,
+    "two_materials_six_packed_images": true,
+    "checks": [
+      {
+        "node": "detail_tank",
+        "triangles": 11768,
+        "native_vertices": 23078,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.0994415283203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0002963301009264245
+      },
+      {
+        "node": "detail_facade",
+        "triangles": 720,
+        "native_vertices": 1890,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.391636371612549e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00018188127596021402
+      },
+      {
+        "node": "bare_tank",
+        "triangles": 8912,
+        "native_vertices": 18084,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 3.0994415283203125e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.0002963301009264245
+      },
+      {
+        "node": "bare_facade",
+        "triangles": 588,
+        "native_vertices": 1568,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.391636371612549e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00018188127596021402
+      }
+    ],
+    "verifier_sha256": "ce15f0aa9a89bed43dcb0de85ed9e1c1f4f35fc9ddcc53f111f418c3fcf2e613"
+  }
+}
