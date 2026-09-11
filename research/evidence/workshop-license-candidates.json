@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-11",
+  "status": "Research candidates only; no asset adoption",
+  "authorship_policy": "Keep original authors, upstream contributors and adapters distinct. Credit Phobos only for actual later contributions. Set aside unclear or complex packages.",
+  "candidates": [
+    {
+      "workshop_id": "2277093755",
+      "title": "Prefab apartments element",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2277093755",
+      "publisher_name": "3division",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198258487737",
+      "assessment": "developer-editor-sample",
+      "identified_license": null,
+      "description_sha256": "c107b8399d5dadc2359671f873369d0f7e92859efe2332824e25b477235e4fed",
+      "note": "3division publishes this as a custom-editor-element sample. Covered by the separate game component research, not identified as MIT/CC0 art.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "3division"
+      ],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "Developer-provided editor sample; consult game-specific reuse research.",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2337462774",
+      "title": "Типовые панели 1-132.1",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2337462774",
+      "publisher_name": "Tesmio",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198361239506",
+      "assessment": "editor-purpose-only",
+      "identified_license": null,
+      "description_sha256": "fb753d66a74ce955e01f0e349cda3ba4a0b2b86bce85cff395e06d72e9a6aeb4",
+      "note": "Building-editor panel pack; author invites constructing standard projects. No explicit general redistribution or public-source grant identified.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "not established generally",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2394754108",
+      "title": "Stalinka_elements_Vol.1",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2394754108",
+      "publisher_name": "Niss Tagm",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198035099250",
+      "assessment": "workshop-sharing-invitation",
+      "identified_license": null,
+      "description_sha256": "2cbca15158ff90ed589b75cd26ca5b3af955f6861bdbf76107685117dbd92936",
+      "note": "Niss Tagm explicitly invites sharing assembled stalinkas in Workshop. This is a contextual grant, not a standard permissive source-asset licence.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "Niss Tagm"
+      ],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "Contextual invitation to make buildings and share them in Workshop.",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [
+        "Retain original creator credit and separately track borrowed materials."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2540055493",
+      "title": "Village Builder Elements",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2540055493",
+      "publisher_name": "Novu",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198073155277",
+      "assessment": "editor-purpose-only",
+      "identified_license": null,
+      "description_sha256": "68066d18248cb59182d48c11ee5840a03a3d75d395ecbcd9c0a919be1ff33c16",
+      "note": "Novu supplies village-building components. No standard permissive licence or explicit general redistribution statement found in screened sources.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "not established generally",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2657961892",
+      "title": "Building editor elements part_1",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2657961892",
+      "publisher_name": "Jason Curtis",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561199144742637",
+      "assessment": "editor-purpose-only",
+      "identified_license": null,
+      "description_sha256": "9ea5c6dd21ec97bada2dfd4600a5a75958b7cbef2576afe6393295e2d9fab290",
+      "note": "Jason Curtis supplies brick building elements. No standard permissive licence or explicit general redistribution statement found in screened sources.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "not established generally",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2665589615",
+      "title": "Building editor elements part_2 (Log)",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2665589615",
+      "publisher_name": "Jason Curtis",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561199144742637",
+      "assessment": "editor-purpose-only",
+      "identified_license": null,
+      "description_sha256": "03175b9060ef2044344c0598de1884e6e0cea3bb4fc7968fead32282cfd6de30",
+      "note": "Jason Curtis supplies log building elements. No standard permissive licence or explicit general redistribution statement found in screened sources.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "not established generally",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2680685216",
+      "title": "Make your own farm",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2680685216",
+      "publisher_name": "SerpPort",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561199066809539",
+      "assessment": "game-derived-use-invitation",
+      "identified_license": null,
+      "description_sha256": "1565df0242c8ef85b5421cb93ee9ced56bb0f1c7f4c0d2864418cb6b0c1feafa",
+      "note": "SerpPort describes all parts as game-derived and invites their use. Retain SerpPort adaptation credit and underlying game authorship; no unrestricted source-asset licence established.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "Game-asset authors; 3Division credited by package description"
+      ],
+      "adaptation_authors": [
+        "SerpPort"
+      ],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "Game-derived/editor use; consult game-specific reuse research.",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [
+        "Retain game-asset and adapter credits separately."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2781603355",
+      "title": "Latam - Building Parts 1",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2781603355",
+      "publisher_name": "Vandeco",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198065028410",
+      "assessment": "custom-permission-mixed-provenance",
+      "identified_license": null,
+      "description_sha256": "7b4654866422b2cd4b444adc1f9acaaa6400514efb334f06b0caed7434eeb5f9",
+      "note": "Vandeco invites asset reuse with a mention/link, but credits vanilla plus five upstream Workshop packs. Set aside for now under the author preference to avoid complicated ownership.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [
+        "Vandeco"
+      ],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "not established generally",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [
+        "Mention/link Vandeco original mod.",
+        "Preserve separately established original-author credits and applicable notices."
+      ],
+      "upstream_sources": [
+        {
+          "workshop_id": "2665589615",
+          "title": "Building editor elements part_2 (Log)",
+          "publisher_name": "Jason Curtis",
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2665589615"
+        },
+        {
+          "workshop_id": "2394754108",
+          "title": "Stalinka_elements_Vol.1",
+          "publisher_name": "Niss Tagm",
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2394754108"
+        },
+        {
+          "workshop_id": "2540055493",
+          "title": "Village Builder Elements",
+          "publisher_name": "Novu",
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2540055493"
+        },
+        {
+          "workshop_id": "2657961892",
+          "title": "Building editor elements part_1",
+          "publisher_name": "Jason Curtis",
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2657961892"
+        },
+        {
+          "workshop_id": "2277093755",
+          "title": "Prefab apartments element",
+          "publisher_name": "3division",
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2277093755"
+        },
+        {
+          "title": "Vanilla W&R assets",
+          "authors": "Actual game-asset authors; do not infer sole authorship from location.",
+          "url": "https://www.sovietrepublic.net/post/report-for-the-community-2"
+        }
+      ],
+      "permission_excerpt": "If anyone wants to use those assets, feel free! Just mention and/or link my original mod :)"
+    },
+    {
+      "workshop_id": "2799326686",
+      "title": "Fox County [Warning: Read Description]",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2799326686",
+      "publisher_name": "Lex713",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198064578180",
+      "assessment": "no-derivatives",
+      "identified_license": "CC-BY-NC-ND-4.0",
+      "description_sha256": "0f5d07ca63a52d29400495c92af27db25be763b404f73a11ae5453b2638d70d8",
+      "note": "Lex713 permits noncommercial unchanged sharing with attribution; this does not permit distributing a kit-bashed derivative.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "not established generally",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2832755556",
+      "title": "Barracks and a Tower elements",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2832755556",
+      "publisher_name": "Vikom",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198029750200",
+      "assessment": "editor-use-invitation",
+      "identified_license": null,
+      "description_sha256": "0a5b2d9e7cc2e74124f3098daa421da80cef06441942023431c888f3fa424843",
+      "note": "Vikom invites making buildings with these parts. Models use a prison texture. Game-editor use is documented; unrestricted public source redistribution was not established.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "Vikom"
+      ],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "Contextual invitation to make buildings; not a standard source-asset licence.",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [
+        "Retain original creator credit and separately track borrowed materials."
+      ],
+      "upstream_sources": [
+        {
+          "description": "Author states both models use a prison texture; specific texture provenance requires part-level identification."
+        }
+      ]
+    },
+    {
+      "workshop_id": "2833568201",
+      "title": "Nuclear Material Storage (For Cask Type B)",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2833568201",
+      "publisher_name": "Zyx Abacab",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198034942745",
+      "assessment": "noncommercial-sharealike-with-exceptions",
+      "identified_license": "CC-BY-NC-SA-4.0",
+      "description_sha256": "428444c31bdc6c0c4559ee37a03e3ac955df7c1d8fd8fd00cb7ca288cfcffcad",
+      "note": "Zyx Abacab publishes a noncommercial share-alike grant, with explicit third-party exceptions. Preserve upstream credits. Set aside for this permissive asset-library route; no blanket MIT conversion.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [
+        "Zyx Abacab"
+      ],
+      "permission_for_modification": "For covered material under CC BY-NC-SA 4.0, with explicit third-party exceptions.",
+      "permission_for_workshop_distribution": "Noncommercial, share-alike, for covered material only.",
+      "permission_for_public_source_distribution": "Under the applicable noncommercial share-alike terms for covered material, not as unrestricted MIT assets.",
+      "required_notices": [
+        "Credit Zyx Abacab and applicable upstream authors; retain supplied notices and record modifications.",
+        "Apply CC BY-NC-SA 4.0 to covered adaptations; observe noncommercial scope and third-party exceptions."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2850062990",
+      "title": "Nuclear Material Storage (For Cask Type 91)",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2850062990",
+      "publisher_name": "Zyx Abacab",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198034942745",
+      "assessment": "noncommercial-sharealike-with-exceptions",
+      "identified_license": "CC-BY-NC-SA-4.0",
+      "description_sha256": "149933bf15088a3f0a48212e45a80e48d9c055a3fbe1996c2068be84ca6a37b2",
+      "note": "Zyx Abacab publishes a noncommercial share-alike grant, with explicit third-party exceptions. Preserve upstream credits. Set aside for this permissive asset-library route; no blanket MIT conversion.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [
+        "Zyx Abacab"
+      ],
+      "permission_for_modification": "For covered material under CC BY-NC-SA 4.0, with explicit third-party exceptions.",
+      "permission_for_workshop_distribution": "Noncommercial, share-alike, for covered material only.",
+      "permission_for_public_source_distribution": "Under the applicable noncommercial share-alike terms for covered material, not as unrestricted MIT assets.",
+      "required_notices": [
+        "Credit Zyx Abacab and applicable upstream authors; retain supplied notices and record modifications.",
+        "Apply CC BY-NC-SA 4.0 to covered adaptations; observe noncommercial scope and third-party exceptions."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "2963594887",
+      "title": "Early Loyalty Mod",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2963594887",
+      "publisher_name": "robs074",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198119183096",
+      "assessment": "permissive-code",
+      "identified_license": "MIT",
+      "description_sha256": "57998cd6e977b145e7c4084a19749d6c2e74eb16dedcef31ec200fba50ee0bca",
+      "note": "Useful for script reference only; contains no NMF models. Preserve robs74 and the separate Tau include notice. Freepik-derived icon rights are separate.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "robs74 (Workshop name: robs074)"
+      ],
+      "adaptation_authors": [],
+      "permission_for_modification": "yes, for covered code under MIT",
+      "permission_for_workshop_distribution": "yes, for covered code under MIT",
+      "permission_for_public_source_distribution": "yes, for covered code under MIT",
+      "required_notices": [
+        "Copyright (c) 2023 robs74",
+        "Preserve the full MIT licence with covered copies or substantial portions.",
+        "Preserve Copyright (c) 2017 Michal Kuchárik (Tau) and the separate permissive notice in include/SOVIETInstructions.txt.",
+        "Freepik-derived icons are excluded from this code clearance."
+      ],
+      "upstream_sources": [],
+      "local_license_file": "2963594887/LICENSE",
+      "local_license_sha256": "400fdb4b7f9a730aace39a5382700e63f33c20796ce93fad817cfedc7fc28cce",
+      "include_license": {
+        "file": "2963594887/include/SOVIETInstructions.txt",
+        "identified_form": "ISC-style permissive notice",
+        "sha256": "155fd55cc8433861cd95ca0835698c1a90e668e406d4d6f90d94f76ec9b85014",
+        "author": "Michal Kuchárik (Tau)"
+      }
+    },
+    {
+      "workshop_id": "3034500324",
+      "title": "High-Capacity Water Infrastructure Buildings",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034500324",
+      "publisher_name": "Zyx Abacab",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198034942745",
+      "assessment": "noncommercial-sharealike-with-exceptions",
+      "identified_license": "CC-BY-NC-SA-4.0",
+      "description_sha256": "0a4c7bc172dbe3dfac9182446aa7420a6ead8270c941fdea1e3a77a372418973",
+      "note": "Zyx Abacab publishes a noncommercial share-alike grant, with explicit third-party exceptions. Preserve upstream credits. Set aside for this permissive asset-library route; no blanket MIT conversion.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [
+        "Zyx Abacab"
+      ],
+      "permission_for_modification": "For covered material under CC BY-NC-SA 4.0, with explicit third-party exceptions.",
+      "permission_for_workshop_distribution": "Noncommercial, share-alike, for covered material only.",
+      "permission_for_public_source_distribution": "Under the applicable noncommercial share-alike terms for covered material, not as unrestricted MIT assets.",
+      "required_notices": [
+        "Credit Zyx Abacab and applicable upstream authors; retain supplied notices and record modifications.",
+        "Apply CC BY-NC-SA 4.0 to covered adaptations; observe noncommercial scope and third-party exceptions."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "3034756371",
+      "title": "Advanced Water Treatment Plant",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034756371",
+      "publisher_name": "Zyx Abacab",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198034942745",
+      "assessment": "noncommercial-sharealike-with-exceptions",
+      "identified_license": "CC-BY-NC-SA-4.0",
+      "description_sha256": "d9705771a746b2f2011bd783f2d8f8a0d0cd0ee08f0e2799c088d3dd355ed388",
+      "note": "Zyx Abacab publishes a noncommercial share-alike grant, with explicit third-party exceptions. Preserve upstream credits. Set aside for this permissive asset-library route; no blanket MIT conversion.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [
+        "Zyx Abacab"
+      ],
+      "permission_for_modification": "For covered material under CC BY-NC-SA 4.0, with explicit third-party exceptions.",
+      "permission_for_workshop_distribution": "Noncommercial, share-alike, for covered material only.",
+      "permission_for_public_source_distribution": "Under the applicable noncommercial share-alike terms for covered material, not as unrestricted MIT assets.",
+      "required_notices": [
+        "Credit Zyx Abacab and applicable upstream authors; retain supplied notices and record modifications.",
+        "Apply CC BY-NC-SA 4.0 to covered adaptations; observe noncommercial scope and third-party exceptions."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "3042947793",
+      "title": "Modern prefab elements",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3042947793",
+      "publisher_name": "KKraken",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198294697517",
+      "assessment": "game-derived-editor-parts",
+      "identified_license": null,
+      "description_sha256": "f17f2e5fffa32023dfbf5ea73e1db403c9a12b0cf60a7dd2d3017fa25ce7927f",
+      "note": "Author credits original models and textures to 3Division and describes resizing. Retain both original and adapter credits. Game-specific reuse research applies; no MIT grant established.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "Game-asset authors; 3Division credited by package description"
+      ],
+      "adaptation_authors": [
+        "KKraken"
+      ],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "Game-derived/editor use; consult game-specific reuse research.",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [
+        "Retain game-asset and adapter credits separately."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "3138508368",
+      "title": "Tupolev ANT-20 \"Maxim Gorky\"",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3138508368",
+      "publisher_name": "Monotone",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198105021413",
+      "assessment": "permissive-upstream-only",
+      "identified_license": "CC-BY-4.0",
+      "description_sha256": "1ed6a1524dbb23c34c39ba883cdd70fbf1af07cd1b36c0ac8779ef5ea29e474a",
+      "note": "helijah original aircraft is CC BY 4.0. Monotone made the W&R adaptation; a blanket grant for conversion changes was not established. Obtain any future source from the original author. Low relevance to buildings.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "helijah"
+      ],
+      "adaptation_authors": [
+        "Monotone"
+      ],
+      "permission_for_modification": "yes for helijah original under CC BY 4.0; adaptation scope unresolved",
+      "permission_for_workshop_distribution": "yes for covered original material under CC BY 4.0; adaptation scope unresolved",
+      "permission_for_public_source_distribution": "yes for covered original material under CC BY 4.0; adaptation scope unresolved",
+      "required_notices": [
+        "Credit helijah, link the original source and CC BY 4.0, retain supplied notices and indicate modifications.",
+        "If any Monotone contribution were used later, preserve Monotone credit and establish its permission separately."
+      ],
+      "upstream_sources": [
+        {
+          "source": "https://api.sketchfab.com/v3/models/4922baedd7bd443fba01c5f3cc2b7bf9",
+          "model_url": "https://sketchfab.com/3d-models/tupolev-ant-20-maxime-gorky-4922baedd7bd443fba01c5f3cc2b7bf9",
+          "title": "Tupolev ANT 20 \"Maxime GORKY\"",
+          "author": {
+            "displayName": "helijah",
+            "username": "helijah",
+            "profileUrl": "https://sketchfab.com/helijah"
+          },
+          "license": {
+            "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+            "label": "CC Attribution",
+            "fullName": "Creative Commons Attribution",
+            "requirements": "Author must be credited. Commercial use is allowed.",
+            "url": "http://creativecommons.org/licenses/by/4.0/",
+            "slug": "by"
+          },
+          "isDownloadable": true
+        }
+      ]
+    },
+    {
+      "workshop_id": "3214533845",
+      "title": "Postal Service",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3214533845",
+      "publisher_name": "robs074",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198119183096",
+      "assessment": "permissive-code",
+      "identified_license": "MIT",
+      "description_sha256": "64ffb9e3e9db5e6fdcb13c9fbbc66808fef7b057278334e56be953a7f962f42a",
+      "note": "Local MIT grant verified; contains no NMF models. Preserve robs74 and the separate Tau include notice. Freepik-derived icon rights are separate. Linked source repository returned HTTP 404.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "robs74 (Workshop name: robs074)"
+      ],
+      "adaptation_authors": [],
+      "permission_for_modification": "yes, for covered code under MIT",
+      "permission_for_workshop_distribution": "yes, for covered code under MIT",
+      "permission_for_public_source_distribution": "yes, for covered code under MIT",
+      "required_notices": [
+        "Copyright (c) 2024 robs74",
+        "Preserve the full MIT licence with covered copies or substantial portions.",
+        "Preserve Copyright (c) 2017 Michal Kuchárik (Tau) and the separate permissive notice in include/SOVIETInstructions.txt.",
+        "Freepik-derived icons are excluded from this code clearance."
+      ],
+      "upstream_sources": [],
+      "local_license_file": "3214533845/LICENSE",
+      "local_license_sha256": "a0a509f66035c6404790668820599c4e32c94ef34b828d3fc7714c5f7a929f98",
+      "include_license": {
+        "file": "3214533845/include/SOVIETInstructions.txt",
+        "identified_form": "ISC-style permissive notice",
+        "sha256": "155fd55cc8433861cd95ca0835698c1a90e668e406d4d6f90d94f76ec9b85014",
+        "author": "Michal Kuchárik (Tau)"
+      }
+    },
+    {
+      "workshop_id": "3228447902",
+      "title": "Texture, Sky and Lighting Overhaul (V2 - Base Biome Only)",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3228447902",
+      "publisher_name": "Daffyflyer",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561197971830098",
+      "assessment": "personal-mixing-only",
+      "identified_license": null,
+      "description_sha256": "94985f7b074abb9df8187dbf8b2f49451196fc931bed448a6b202c99a298de35",
+      "note": "Instructions permit choosing files for the player installation, not a demonstrated public redistribution grant. No licence grant found in archive text.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "not established generally",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "3361069731",
+      "title": "Stadler FLIRT",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3361069731",
+      "publisher_name": "Pitagoras991",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198141027079",
+      "assessment": "scoped-vehicle-permission",
+      "identified_license": null,
+      "description_sha256": "19610886d0cea43d57e6c5efb192d064a6684eb92bb5038b7d90ec476a5b08c7",
+      "note": "Pitagoras991 expressly allows new liveries and train-length variants with original-author credit, alongside a general redistribution restriction. This is not blanket mesh reuse permission.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "Pitagoras991"
+      ],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "Only the explicitly invited vehicle skins/variants; not general building reuse.",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [
+        "Credit Pitagoras991 as original author; stay within the express invitation."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "3417959024",
+      "title": "Amusement Centers",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3417959024",
+      "publisher_name": "Zyx Abacab",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198034942745",
+      "assessment": "noncommercial-sharealike-with-exceptions",
+      "identified_license": "CC-BY-NC-SA-4.0",
+      "description_sha256": "7019276f980729dba95dd24ad4bb7b110513bcbb19a42762f8df89fa9a8d0bb3",
+      "note": "Zyx Abacab publishes a noncommercial share-alike grant, with explicit third-party exceptions. Preserve upstream credits. Set aside for this permissive asset-library route; no blanket MIT conversion.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [
+        "Zyx Abacab"
+      ],
+      "permission_for_modification": "For covered material under CC BY-NC-SA 4.0, with explicit third-party exceptions.",
+      "permission_for_workshop_distribution": "Noncommercial, share-alike, for covered material only.",
+      "permission_for_public_source_distribution": "Under the applicable noncommercial share-alike terms for covered material, not as unrestricted MIT assets.",
+      "required_notices": [
+        "Credit Zyx Abacab and applicable upstream authors; retain supplied notices and record modifications.",
+        "Apply CC BY-NC-SA 4.0 to covered adaptations; observe noncommercial scope and third-party exceptions."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "3435009541",
+      "title": "Western trolleybus pack",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3435009541",
+      "publisher_name": "Pitagoras991",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198141027079",
+      "assessment": "scoped-vehicle-permission",
+      "identified_license": null,
+      "description_sha256": "60883a0de7a237d95d48d2e0120c62a7a0865a3285953586b7ad247d6edc5ba2",
+      "note": "Pitagoras991 expressly permits using paintkits to release skins, alongside a general redistribution restriction. Scope does not establish arbitrary building-kit reuse.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [
+        "Pitagoras991"
+      ],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "Only the explicitly invited vehicle skins/variants; not general building reuse.",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [
+        "Credit Pitagoras991 as original author; stay within the express invitation."
+      ],
+      "upstream_sources": []
+    },
+    {
+      "workshop_id": "3630371063",
+      "title": "Texture, Sky and Lighting Overhaul (V3 - With Biomes)",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3630371063",
+      "publisher_name": "Daffyflyer",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561197971830098",
+      "assessment": "personal-mixing-only",
+      "identified_license": null,
+      "description_sha256": "3d72b4c8a4a682126ed49983d87145e44296a4f0af43169c665e16d3f8c0e358",
+      "note": "Instructions permit mixing versions for the player installation, not a demonstrated public redistribution grant. No licence grant found in archive text.",
+      "adopted": false,
+      "asset_files_selected": [],
+      "original_authors": [],
+      "adaptation_authors": [],
+      "permission_for_modification": "not established generally",
+      "permission_for_workshop_distribution": "not established generally",
+      "permission_for_public_source_distribution": "not established",
+      "required_notices": [],
+      "upstream_sources": []
+    }
+  ]
+}

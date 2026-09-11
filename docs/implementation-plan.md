@@ -38,6 +38,10 @@ requested by the reuse investigation. Check ordinary props and potential electri
 components for visual fit, provenance and packaging requirements. The first modelling
 step is paused while this research is reviewed; no external part has been adopted.
 
+Apply the [licence audit](../research/2026-09-11-installed-mod-license-audit.md) when
+making that shortlist: require clear, direct ownership and an applicable reuse grant.
+Set aside complicated provenance chains and preserve original authorship throughout.
+
 1. **Proportions and feasibility.** Produce a simple original 3D massing model of A
    with the hall, yard, tanks, roads and connection reservations. Separately, use
    a minimal original test object to execute the existing electricity/heat protocol

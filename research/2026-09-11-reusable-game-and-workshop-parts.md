@@ -4,6 +4,11 @@
 investigation pauses the first modelling step for Concept A. It records existing
 reuse mechanisms and candidates; it does not adopt or redistribute any asset.
 
+Follow-up: the [installed-mod licence audit](2026-09-11-installed-mod-license-audit.md)
+checks package permissions and authorship. Mixed-ownership packs, including Latam,
+are set aside for the current asset shortlist; an observed reuse mechanism alone is
+not a selection decision.
+
 ## Finding
 
 **Yes: some repeated objects come from the game itself.** Other objects come from

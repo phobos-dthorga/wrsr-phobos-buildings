@@ -33,3 +33,10 @@ confirms game component sets, Workshop libraries, mixed assemblies and identical
 meshes in both installations. Issues 4 and 6 now include candidate-level origin,
 permission and packaging assessment. No external assets were adopted. Complete a
 visual component shortlist before resuming the first modelling step.
+
+The [installed-mod licence audit](../research/2026-09-11-installed-mod-license-audit.md)
+now covers all 1,322 local Workshop packages, with current online descriptions where
+available. It records scope-specific grants, author credits and exclusions. The author
+requires clear, direct ownership and prefers setting aside complicated provenance.
+An [asset record template](asset-provenance-template.json) carries this rule into later
+selection and packaging. No external art has been cleared or adopted.

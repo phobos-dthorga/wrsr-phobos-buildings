@@ -8,6 +8,12 @@
   recorded terms permitting the intended changes and distribution.
 - Keep the original MIT licence and applicable third-party notices. Attribution
   courtesy requests must not be presented as extra MIT conditions.
+- Preserve original authors, upstream contributors and adapters through source
+  records, exported packages, credits and Workshop descriptions. Credit Phobos only
+  for actual Phobos contributions; never replace an original author's identity.
+- Prefer clear, direct ownership and explicit permission for the intended use.
+  Set aside assets with complicated or unresolved ownership chains; retain a short
+  research note so they are not repeatedly reconsidered as cleared candidates.
 - Preserve the distinction between documented, statically verified, Blender-tested,
   game-tested, proposed and unknown. Never upgrade a research finding to a game claim.
 - Shared original geometry/materials belong in shared/. Per-building layouts,

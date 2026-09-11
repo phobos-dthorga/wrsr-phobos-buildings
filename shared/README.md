@@ -9,6 +9,11 @@ their own source and permission records; the catalogue's intended MIT status is 
 original components and does not apply to those external assets. No candidate has
 been adopted or copied into this library.
 
+The [installed-mod licence audit](../research/2026-09-11-installed-mod-license-audit.md)
+sets aside mixed or unclear ownership chains. A future reused component needs a
+completed [provenance record](../docs/asset-provenance-template.json), preserving
+original authors and upstream credits separately from Phobos changes.
+
 [Component contracts, revision 0](component-contracts.md) proposes the first kit,
 source conventions, anchors, materials and revision rules for design review.
 

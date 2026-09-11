@@ -47,3 +47,14 @@ status. It does not assert ownership of an asset that has not yet been created.
 Before an asset is marked ready, add creator/date, source files, licence and verification
 evidence. A future release inventory must cover geometry, textures, icons, sounds and
 every external dependency.
+
+Use the [asset provenance template](asset-provenance-template.json) for a specific
+candidate. It separates original authors, upstream contributors, adapters and our
+changes, along with permission for each intended distribution route. Preserve those
+credits in sources, packaged notices and the Workshop description. Do not present
+third-party work as authored by Phobos, even where its licence permits reuse.
+
+The author's preference is clear, direct ownership. Set aside candidates with
+complicated or unresolved ownership chains. The [installed-mod audit](../research/2026-09-11-installed-mod-license-audit.md)
+records these exclusions and the clearest grants found. None of its research records
+constitutes adoption or blanket permission for every file in a package.

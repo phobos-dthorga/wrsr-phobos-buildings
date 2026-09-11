@@ -18,6 +18,7 @@ receiving switchyard.
 - [Architecture and packaging](docs/architecture.md)
 - [Research findings](research/2026-09-11-building-pipeline.md)
 - [Where repeated objects come from: game and Workshop parts](research/2026-09-11-reusable-game-and-workshop-parts.md)
+- [Installed-mod licence audit and author credits](research/2026-09-11-installed-mod-license-audit.md)
 - [Electricity/heat findings and future test protocol](research/2026-09-11-electricity-and-heat.md)
 - [Roadmap](docs/roadmap.md)
 - [Licensing and provenance](docs/licensing-and-provenance.md)

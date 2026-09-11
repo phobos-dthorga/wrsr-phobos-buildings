@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "template-not-an-adopted-asset",
+  "asset_id": null,
+  "title": null,
+  "intended_use": null,
+  "original_authors": [],
+  "upstream_contributors": [],
+  "adaptation_authors": [],
+  "source_url": null,
+  "source_version_or_revision": null,
+  "source_checked_date": null,
+  "selected_files_and_sha256": [],
+  "license_identifier": null,
+  "license_url": null,
+  "permission_evidence": [],
+  "permission_scope": {
+    "modification": "unverified",
+    "workshop_distribution": "unverified",
+    "public_source_distribution": "unverified"
+  },
+  "original_copyright_notices": [],
+  "required_license_and_notice_files": [],
+  "upstream_asset_records": [],
+  "material_and_texture_dependencies": [],
+  "previous_modifications_to_credit": [],
+  "our_modifications": [],
+  "credit_text": null,
+  "credit_locations": [
+    "source record",
+    "packaged credits and licence notices",
+    "Workshop description"
+  ],
+  "ownership_and_permission_clear": false,
+  "unresolved_questions": [],
+  "decision": "Do not adopt until ownership and the applicable permission are clear. Set aside complicated chains.",
+  "adopted": false
+}
