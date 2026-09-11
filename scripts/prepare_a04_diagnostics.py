@@ -17,6 +17,46 @@ OUTPUTS = {'02_RAISED.nmf','03_DETAILS.nmf','04_NO_FINE_DETAIL.nmf','05_SMALL_BA
            'PLANT.mtl','DETAILS.mtl','detail-test-parts.blend'}
 
 
+def verify_ground(package):
+    report = json.loads((package/'verification.json').read_text(encoding='utf-8'))
+    expected = {'06_GROUND_CONTROL.nmf','07_NO_GROUND_SHEET.nmf','ground-test-parts.blend'}
+    assert set(report['artifact_sha256'])==expected
+    assert report['original_art_only'] and report['external_art_inputs']==[]
+    assert report['baseline_preserved'] and report['all_objects_at_original_height']
+    assert report['saved_library_verified']['exactly_two_original_objects']
+    assert report['saved_library_verified']['one_material_three_packed_images']
+    assert digest(BASE/'assembly-original.blend')==report['baseline_source_sha256']
+    assert digest(BASE/'native/plant.nmf')==report['baseline_nmf_sha256']
+    assert set(report['source_recipe_sha256'])=={
+        'scripts/build_a04_ground_test.py','scripts/build_a04_diagnostics.py',
+        'scripts/nmf_node_patch.py'}
+    for name,value in report['source_recipe_sha256'].items():
+        assert digest(ROOT/name)==value
+    for name,value in report['artifact_sha256'].items():
+        assert digest(package/name)==value,name
+    before = read_nmf(package/'06_GROUND_CONTROL.nmf')
+    after = read_nmf(package/'07_NO_GROUND_SHEET.nmf')
+    assert before['materials']==after['materials']
+    assert set(before['materials'])==set(read_nmf(BASE/'native/plant.nmf')['materials'])
+    assert sum(n['triangles'] for n in before['nodes'])==146208
+    assert sum(n['triangles'] for n in after['nodes'])==146196
+    old = {n['name']:n for n in before['nodes']}
+    assert len(old)==24 and set(old)=={n['name'] for n in after['nodes']}
+    unchanged = []
+    for node in after['nodes']:
+        if node['name']!='native_a04_site_surface_and_access_study_01':
+            assert node==old[node['name']]
+            unchanged.append(node['name'])
+    assert len(unchanged)==23 and set(unchanged)==set(report['unchanged_parsed_nodes'])
+    from scripts.nmf_node_patch import static_chunks
+    _, control_chunks = static_chunks(package/'06_GROUND_CONTROL.nmf')
+    _, changed_chunks = static_chunks(package/'07_NO_GROUND_SHEET.nmf')
+    assert digest(package/'06_GROUND_CONTROL.nmf')==report['baseline_nmf_sha256']
+    assert all(control_chunks[name]==changed_chunks[name] for name in unchanged)
+    print('Ground-only comparison checked: 12 triangles removed; 23 other native objects unchanged.')
+    return {name:package/name for name in expected if name.endswith('.nmf')}
+
+
 def verify(package, require_saved=True):
     package = package.resolve()
     report = json.loads((package/'verification.json').read_text(encoding='utf-8'))
@@ -59,6 +99,8 @@ def verify(package, require_saved=True):
             assert max(n['vertices'] for n in native['nodes']) <= 18000
             assert report['small_batches']['all_source_triangles_used_exactly_once']
     print('Diagnostic package hashes, baseline preservation, triangle counts and unchanged materials passed.')
+    if (package/'ground-check').is_dir():
+        source.update(verify_ground(package/'ground-check'))
     return source
 
 

@@ -2,9 +2,10 @@
 
 12 September 2026. Original project art: Copyright (c) 2026 Phobos A. D'thorga, MIT.
 These are diagnostic ModelViewer exports, not final replacements or a playable mod.
-The author reports that the dithering disappears with 02_RAISED.nmf. The affected
-surface scope and follow-up comparisons still need confirmation; this is not
-acceptance of a permanent two-metre lift.
+The author reports that the dithering disappears with 02_RAISED.nmf and suspects
+that apparent tank/wall dithering was interference from the ground rather than
+direct surface defects. A [ground-only comparison](ground-check/README.md) is the
+next test; a permanent two-metre lift is not accepted.
 
 ## First author result
 
@@ -14,7 +15,11 @@ a new assistant screen capture. It supports investigating vertical placement and
 terrain interaction. It does not yet distinguish ground-only improvement from
 improvement on tanks and walls, establish the smallest clearance, or demonstrate
 that every other diagnostic file was tested. A clarification was requested before
-selecting the next correction. No original geometry or material has been changed.
+selecting the next correction. The author then clarified that they think the
+tank/wall effect was interference from ground dithering, not a direct issue on those
+surfaces. Treat this as the author's interpretation rather than a proven rendering
+mechanism. The next comparison removes only the broad ground sheet while retaining
+the original height of the rest of the plant. Original A04 assets remain unchanged.
 
 If the tank and wall details also improve, keep their geometry intact while
 investigating the effect of placement; this result alone would not prove that

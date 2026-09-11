@@ -1,0 +1,147 @@
+{
+  "revision": "a04-ground-test-01",
+  "author": "Phobos A. D'thorga / phobosgekko",
+  "license": "MIT",
+  "original_art_only": true,
+  "external_art_inputs": [],
+  "native_visual_result": "pending author comparison",
+  "game_tested": false,
+  "baseline_preserved": true,
+  "baseline_source_sha256": "fbd25f83f5325d4b63be3cbe40dc9a8c73bc1cbf403da7a85edbb03236ff208b",
+  "baseline_nmf_sha256": "33439966d4a97599a7cfcef35cab4e58c0f03a68fda911e5b610918c2279e84a",
+  "control_matches_original_parsed_nodes_exactly": true,
+  "control_matches_original_file_bytes": true,
+  "control": {
+    "source": "Byte-identical copy of the original A04 native model."
+  },
+  "without_ground_sheet": {
+    "site_geometry_check": {
+      "node": "native_a04_site_surface_and_access_study_01",
+      "triangles": 432,
+      "native_vertices": 924,
+      "all_triangles_matched": true,
+      "winding_preserved": true,
+      "max_position_error_m": 7.510185241699219e-06,
+      "max_uv_error": 2.9802322387695312e-08,
+      "max_normal_vector_error": 6.810043989503275e-07
+    },
+    "exporter": {
+      "name": "3Division Exporter",
+      "authors": "Jan Kerkes (original), updated for Blender 5.0+ by Vladimir Baloga",
+      "version": [
+        1,
+        2
+      ],
+      "sha256": "0350162dbb545c06f905d66dc78760b0efbceaea1586ff7af2abcdf678017081",
+      "source_protection": "Disposable mesh copies; original sharp-edge data preserved."
+    },
+    "node_preservation": {
+      "changed_node": "native_a04_site_surface_and_access_study_01",
+      "unchanged_node_sha256": {
+        "native_a03_switching_group_01": "711f9f525ae88652d2b302b8725a643989310222ab93cda6173fdb7a2599b4c0",
+        "native_a03_switching_group_02": "cb3540289ea9601988b381ec7f19418d5c67132cdecad1d0adc08b673d99ed97",
+        "native_a03_transformer_01": "fd5cf3edb27d7faf7a9cdc3cba77a3668f6cc2e4b4313383fae43ce3591c9778",
+        "native_a04_architecture_roof_bay_01": "946bae46f738f34db3a142c6dcf563267b9c202770a465a8ef995fe8c499cf20",
+        "native_a04_busbar_terminal_support_01": "86ae04acf2b0ac4b61e424ffb3e439ea7c1a4a4c0bd093fc7fef33fc81992246",
+        "native_a04_electrical_busbar_01": "9330274eab2a107be2c168d0c3c8676fee35472ebd7cdd0f4a967a3a6444c3d8",
+        "native_a04_electrical_control_house_01": "864f29989953d24cd2f334d2c06ae9fd06fefd01b1af0a0b985843531b889324",
+        "native_a04_electrical_line_gantry_01": "7f3c12fe8583825642003d485ae841e3eca2123cd02f9ca56c5d167b8a9bb91a",
+        "native_a04_electrical_line_gantry_02": "dfd0a3f5c6baba798742fce790d77990df1fc7ecc8128960d30ad92cf973ecb6",
+        "native_a04_facade_access_01": "8ee45b2347ec68c5fab1a992864c71ded66fa33a1580c136032d7022aca4c20a",
+        "native_a04_facade_plain_01": "ae6ec45d25c027c43a49bb8b072668332087c5ca04c7d9f8aa5637eac67e589b",
+        "native_a04_facade_plain_02": "8f9334989bb8cbc0a385f19a29f33653f3c9935ee124774432746368ac9cc756",
+        "native_a04_hall_service_doors_01": "877714dc72cbcc03d76f50f7940b0c5dfc4a9d8182067b0c8937872013534ef5",
+        "native_a04_indicative_phase_conductors_01": "9fe036bccca72deaa3af2abd489e585866bcc5ec851d13b8ded1a9e739f1373e",
+        "native_a04_phobos_fixed_post_01": "5bc624acec91d910ad6640972f33254798a9df1de91881327f5507989189c01d",
+        "native_a04_phobos_plinth_01": "203342d9cab8209e9db04fa3a68af1dd17c805467e6c42241b6eac0a90dd70dd",
+        "native_a04_phobos_sliding_gate_frame_01": "214acb9fd567f1126c851ed161b2e46aac76cd69a1d099a4b3937a2f42b7cc7d",
+        "native_a04_pump_and_service_annex_01": "5d95723afec9cfcf3525de898ba70b54907c41be745518ffa4be2d6862aa384e",
+        "native_a04_service_aprons_and_cable_trench_001_01": "a0255df074187ad8dffcb71548f3f28a51761aeaf719e33873e407612dc65187",
+        "native_a04_thermal_headers_and_boundary_reservations_01": "230ab62d843c16d2f2b02a87d860f9835800db05bd4e517107c4b5cea9806313",
+        "native_a04_thermal_pipe_rack_01": "a78bd634452878f89244cfcafb34f86383dee2764d58caa2f9400ae36a026b64",
+        "native_a04_thermal_storage_tank_01": "dc01a033902a15869dab5554e4eb46f971423bfda2b4694cb32f80006eed621a",
+        "native_a04_thermal_storage_tank_02": "0e579137cd0bf625a8eba96591f904ca992f67252c95a4f1439625d25ceba2e0"
+      },
+      "material_table_preserved": true,
+      "all_unchanged_nodes_byte_identical": true
+    }
+  },
+  "unchanged_parsed_nodes": [
+    "native_a03_switching_group_01",
+    "native_a03_switching_group_02",
+    "native_a03_transformer_01",
+    "native_a04_architecture_roof_bay_01",
+    "native_a04_busbar_terminal_support_01",
+    "native_a04_electrical_busbar_01",
+    "native_a04_electrical_control_house_01",
+    "native_a04_electrical_line_gantry_01",
+    "native_a04_electrical_line_gantry_02",
+    "native_a04_facade_access_01",
+    "native_a04_facade_plain_01",
+    "native_a04_facade_plain_02",
+    "native_a04_hall_service_doors_01",
+    "native_a04_indicative_phase_conductors_01",
+    "native_a04_phobos_fixed_post_01",
+    "native_a04_phobos_plinth_01",
+    "native_a04_phobos_sliding_gate_frame_01",
+    "native_a04_pump_and_service_annex_01",
+    "native_a04_service_aprons_and_cable_trench_001_01",
+    "native_a04_thermal_headers_and_boundary_reservations_01",
+    "native_a04_thermal_pipe_rack_01",
+    "native_a04_thermal_storage_tank_01",
+    "native_a04_thermal_storage_tank_02"
+  ],
+  "all_objects_at_original_height": true,
+  "removed_component": {
+    "bounds_blender_m": [
+      [
+        -75,
+        -56,
+        -1
+      ],
+      [
+        75,
+        56,
+        0
+      ]
+    ],
+    "triangles": 12,
+    "description": "One broad site-base box; roads, pads, lower foundation and all other geometry retained."
+  },
+  "source_recipe_sha256": {
+    "scripts/build_a04_ground_test.py": "f702939de3aa1b0f99ae4662e31ba912b44d164987b15613e21afd1ff9486ca2",
+    "scripts/build_a04_diagnostics.py": "56ac90e7d421f170ad06ba4101d5d31b827e022870b6491146b133d46e4c925b",
+    "scripts/nmf_node_patch.py": "a51ba3ab7154231030acfd9fbb733ceeacbbf6d528584a1a7569d592bbc14e68"
+  },
+  "artifact_sha256": {
+    "06_GROUND_CONTROL.nmf": "33439966d4a97599a7cfcef35cab4e58c0f03a68fda911e5b610918c2279e84a",
+    "07_NO_GROUND_SHEET.nmf": "32febc9baf40e2d1a6bbe95ab548254187ddfbd09683d9e0064717c281e883cb",
+    "ground-test-parts.blend": "0e2ef80f50ceb6e8babdc253ca8747528e0d39378cfdea40919c61a5465d3242"
+  },
+  "saved_library_verified": {
+    "exactly_two_original_objects": true,
+    "one_material_three_packed_images": true,
+    "checks": [
+      {
+        "node": "ground_control",
+        "triangles": 444,
+        "native_vertices": 950,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.510185241699219e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 6.810043989503275e-07
+      },
+      {
+        "node": "ground_sheet_removed",
+        "triangles": 432,
+        "native_vertices": 924,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.510185241699219e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 6.810043989503275e-07
+      }
+    ]
+  }
+}
