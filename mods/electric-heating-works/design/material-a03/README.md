@@ -3,6 +3,10 @@
 11 September 2026. Original Blender work and native-file preparation.
 **Native visual inspection is pending. No game test or installation has occurred.**
 
+Update, 12 September: the first ModelViewer inspection exposed excessive white
+and black shading. [Investigation and controlled comparisons](native-shading-investigation.md)
+record the result; native visual acceptance remains pending.
+
 ![A03 original facade and electrical sample, rendered in Blender](../../../../shared/material-sample-a03/review/overview.png)
 
 [Facade view](../../../../shared/material-sample-a03/review/facade.png) · [Electrical detail](../../../../shared/material-sample-a03/review/electrical.png) ·
