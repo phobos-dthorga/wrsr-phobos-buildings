@@ -5,7 +5,7 @@ republic with abundant generating capacity. The aim is convincing centralised pu
 infrastructure: large scale supported by a believable process and utility layout.
 
 [Design proposal 01](design/README.md) now compares three original site concepts and
-recommends A for review. [Electrical research](../../research/2026-09-11-electricity-and-heat.md)
+records A as the author's preferred direction. [Electrical research](../../research/2026-09-11-electricity-and-heat.md)
 records the documented limits, static observations and future test protocol.
 
 ## Core requirements

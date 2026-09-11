@@ -17,3 +17,10 @@ Implementation and game testing follow only after the design and evidence gaps a
 - Issue 3: [documented limits, static observations and reproducible future test protocol](../research/2026-09-11-electricity-and-heat.md). Protocol complete; simulation behaviour remains untested.
 - Issue 4: [component contracts revision 0](../shared/component-contracts.md). Draft kit and source conventions ready for review; no shared geometry created.
 - Issues 5–6 remain open for the detailed production-workflow and release-record deliverables.
+
+## Author feedback and implementation route
+
+On 11 September 2026 the author identified A as the most promising concept. A is the
+preferred direction; no final dimensions or ratings were approved. The
+[implementation route](implementation-plan.md) describes the modelling, materials,
+export, native tests and packaging sequence, with tools and current automation limits.

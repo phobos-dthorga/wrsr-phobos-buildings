@@ -14,8 +14,10 @@ stages below are future work, not permission to begin them automatically.
 
 Proposal 01 adds [three illustrated layouts](../mods/electric-heating-works/design/README.md),
 an [electricity/heat research protocol](../research/2026-09-11-electricity-and-heat.md)
-and [first component contracts](../shared/component-contracts.md). A is recommended;
-the author has not selected a layout. No native behaviour tests have been run.
+and [first component contracts](../shared/component-contracts.md). A is now the author's
+preferred direction; dimensions and details remain provisional. No native behaviour
+tests have been run. The [implementation plan](implementation-plan.md) records tools
+and the proposed sequence without starting implementation.
 
 1. Choose the architectural period, massing and site circulation.
 2. Establish a coherent switchyard equipment/layout concept.

@@ -11,6 +11,7 @@ receiving switchyard.
 ## Start here
 
 - [Illustrated design proposal: three site concepts](mods/electric-heating-works/design/README.md)
+- [Implementation route and tools](docs/implementation-plan.md)
 - [Electric Heating Works brief](mods/electric-heating-works/README.md)
 - [Switchyard and power research](mods/electric-heating-works/switchyard.md)
 - [Shared parts library](shared/README.md)

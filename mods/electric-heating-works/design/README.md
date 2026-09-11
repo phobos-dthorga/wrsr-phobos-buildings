@@ -1,7 +1,8 @@
 # Electric Heating Works — design proposal 01
 
 11 September 2026. Original planning illustrations; **no game models or in-game
-screenshots**. Concept A is the recommended direction, awaiting the author's choice.
+screenshots**. On 11 September 2026 the author identified Concept A as the most
+promising direction. A is now the preferred layout for further development.
 The footprints are study envelopes rather than approved building dimensions.
 
 ![Three original site concepts at the same scale](concept-comparison.png)
@@ -93,13 +94,16 @@ CDN image retrieval was unavailable, so the proposal links to the publisher gall
 
 ## Decisions and next gate
 
-- Recommended, awaiting author review: A, period-inspired architecture, hot-water
-  electrode boilers, integrated visible switchyard and no routine steam plume.
+- Author's preferred layout: A. The period-inspired architecture, hot-water electrode
+  boilers, integrated visible switchyard and no routine steam plume remain the proposed
+  detailed direction rather than separately approved specifications.
 - Still open: actual native power/heat ratings, worker count, number and direction of
   native connectors, functional thermal storage, final dimensions and exact boiler count.
-- Before detailed modelling: choose the layout; review the [first component contracts](../../../shared/component-contracts.md)
+- Before detailed modelling: refine A; review the [first component contracts](../../../shared/component-contracts.md)
   and the future electricity/heat test protocol. Testing and playable implementation
   remain separate later tasks.
+
+See the [implementation route and tools](../../../docs/implementation-plan.md).
 
 The editable vector drawings and PNG previews are first-party MIT planning artwork.
 Regenerate them with `python scripts/render_design_proposal.py` from the repository
