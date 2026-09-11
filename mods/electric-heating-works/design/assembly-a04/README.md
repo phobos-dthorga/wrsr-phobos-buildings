@@ -4,7 +4,9 @@
 
 This revision carries the reviewed A03 facade/electrical approach into the whole
 plant. It is an original Blender assembly and a static native inspection export,
-not a playable heating mod. Full-plant ModelViewer appearance remains a manual check.
+not a playable heating mod. The first full-plant ModelViewer inspection exposed
+surface artifacts; native visual acceptance remains open. See the
+[inspection record](native-inspection-2026-09-12.md).
 
 ![Original full-plant assembly rendered in Blender](../../source/assembly-a04/review/overall.png)
 
