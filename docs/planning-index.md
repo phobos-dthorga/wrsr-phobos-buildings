@@ -127,3 +127,7 @@ Two additional native material files reuse the preferred brightness byte-for-byt
 except for their normal-map references. Existing mesh, DDS and Blender inputs are
 unchanged. Both variants are staged; the agent pauses for the author to compare them
 with fixed view and lighting before selecting a normal convention.
+The initial screenshots selected the older untuned filenames; the research record
+preserves that observation without claiming a completed tuned comparison. A separate
+heating_normals folder now contains only Baseline, Surface A and Surface B materials,
+with unchanged source bytes and preferred brightness, to simplify the manual handoff.

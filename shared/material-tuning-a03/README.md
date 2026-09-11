@@ -57,6 +57,9 @@ is required solely because the latest screenshots show Vehicle.
 settings unchanged. They are staged alongside the existing sample and differ only
 in the three normal-map references. Their native appearance awaits the author's
 comparison; no new geometry or texture images were created.
+The first close-up attempt loaded the similarly named untuned profiles. A dedicated
+heating_normals review folder now offers only 01_BASELINE, 02_SURFACE_A and
+03_SURFACE_B materials. Use the linked instructions for the next comparison.
 
 ## Settings and rationale
 

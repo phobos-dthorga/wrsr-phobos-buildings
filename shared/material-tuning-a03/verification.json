@@ -22,7 +22,7 @@
     "transformer_specular.dds": "762a23f96049f0b790936d9aa10a0308c7542a630b75e99648cf096ffca65cfc"
   },
   "settings_sha256": "20a22a687e3b70e433dea5f232c71fec9034eb28c52122b291124eeda31ea986",
-  "generator_sha256": "9ade5f6dc25c6bdb6e72748988a15f3fcd153f26fab919208f85bfecc9103853",
+  "generator_sha256": "c3fb98f1ef398cd007958c4d5f25359312c8470f5cf42cc4e177f7c3c4d275a8",
   "variant_sha256": {
     "material_tune01_no_specular.mtl": "b15c4209ce77db1bac9328c31b50cb332f86c22f0e05ca382216b314e4ccf6c5",
     "material_tune01_diffuse_only.mtl": "7a9cdd70c126635298394a7d94847696a4c83323d5185d23cada45e2e449b8d9",
@@ -50,6 +50,11 @@
       "normal_profile": "material_normal_y_inverted.mtl",
       "only_slot_2_changed": true
     }
+  },
+  "review_filenames": {
+    "01_BASELINE.mtl": "material_tune01_candidate.mtl",
+    "02_SURFACE_A.mtl": "material_tune01_normal_gl.mtl",
+    "03_SURFACE_B.mtl": "material_tune01_normal_y_inverted.mtl"
   },
   "native_visual_acceptance_complete": false
 }

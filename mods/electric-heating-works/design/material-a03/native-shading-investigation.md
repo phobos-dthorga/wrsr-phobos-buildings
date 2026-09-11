@@ -89,6 +89,11 @@ The author then authorised the next step:
 are staged, with only slot 2 references changed from the preferred material.
 The original five brightness files are unchanged. Native normal-direction selection
 is now the pending manual handoff; no normal variant is claimed as accepted.
+The author supplied six close-ups, but their visible filenames and RGB/power values
+identify the earlier untuned normal profiles. This is recorded as a handoff naming
+problem, not a failure of the tuned materials. The
+[focused review folder](../../../../shared/material-tuning-a03/normal-comparison.md)
+now provides three clearly labelled material choices at the preferred brightness.
 
 Keep the mesh, diffuse images, neutral normal map, camera and Day lighting fixed.
 First repeat the no-specular comparison with the corrected material structure, so

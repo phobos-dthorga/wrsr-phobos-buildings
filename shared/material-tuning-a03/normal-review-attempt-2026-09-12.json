@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-12",
+  "reviewer": "phobosgekko",
+  "evidence_type": "Six author-supplied ModelViewer close-ups",
+  "evidence_files": [
+    {
+      "evidence_id": "untuned-normal-y-night.jpg",
+      "sha256": "9c14dd118f41715d45f3a88d094b11a681a0aec8b1cecbecf8f0e2d669fea648",
+      "bytes": 904224,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Night",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.35
+      ],
+      "material_filename_visible": "material_normal_y_inverted.mtl"
+    },
+    {
+      "evidence_id": "untuned-normal-y-sunset.jpg",
+      "sha256": "87093e0d01bfbdda0f0e3d1714de874e5105f33852b761049830be4ceedba875",
+      "bytes": 927994,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Sunset",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.14
+      ],
+      "material_filename_visible": "material_normal_y_inverted.mtl"
+    },
+    {
+      "evidence_id": "untuned-normal-gl-night.jpg",
+      "sha256": "5cd782f6a39a4a3a5934f5101bd815ea6caacd6e5479de18ff6c3c4a896e8347",
+      "bytes": 902746,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Night",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.35
+      ],
+      "material_filename_visible": "material_normal_gl.mtl"
+    },
+    {
+      "evidence_id": "untuned-normal-y-day.jpg",
+      "sha256": "9be4b33c4663c66543e6fb8bf41c7ef15eaf9b26ad344c031ba95c4b01e8783d",
+      "bytes": 1016765,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Day",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.48
+      ],
+      "material_filename_visible": "material_normal_y_inverted.mtl"
+    },
+    {
+      "evidence_id": "untuned-normal-gl-sunset.jpg",
+      "sha256": "2280f3e51f1f93b7d4b776a5aed26ad7e4ac581e53980d5cbdb06d469a38bcd1",
+      "bytes": 927467,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Sunset",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.14
+      ],
+      "material_filename_visible": "material_normal_gl.mtl"
+    },
+    {
+      "evidence_id": "untuned-normal-gl-day.jpg",
+      "sha256": "2051e3db0c4f2fe2173589ec9f1f45fdd27efc83e83a2b1954b1e5910c3bd413",
+      "bytes": 1017583,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Day",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.48
+      ],
+      "material_filename_visible": "material_normal_gl.mtl"
+    }
+  ],
+  "source_material_sha256": {
+    "material_normal_gl.mtl": "7875d26df19bf79fc754d8f142a39035e1579b883034b53cb923ad6453ab2c4f",
+    "material_normal_y_inverted.mtl": "536264deb203f5e581ef05b497f65cceb21025f8d68f9943d8ef90dd52e67b0b"
+  },
+  "selected_submaterial_visible": "a03_hall_bay",
+  "material_settings_visible": {
+    "diffuse_rgb": 1,
+    "ambient_rgb": 1,
+    "specular_rgb": 1,
+    "specular_power": 2
+  },
+  "finding": "Screenshots show the earlier untuned normal-profile files, not the tuned normal comparisons. Bright settings were reintroduced when those files were loaded.",
+  "valid_observation": "Both normal-profile filenames and their corresponding hall bump textures are visible; three material entries are shown in the daylight menus. Night, Sunset and Day views were supplied.",
+  "limit": "The bright surfaces lose detail. Do not select a final normal direction or infer that the tuned materials regressed from these images.",
+  "normal_convention_selected": null,
+  "preferred_brightness_changed": false,
+  "handoff_improvement": "Use a dedicated heating_normals folder containing only 01_BASELINE.mtl, 02_SURFACE_A.mtl and 03_SURFACE_B.mtl as material choices. These are exact copies of the preferred tuned materials.",
+  "evidence_storage": "Unmodified screenshot copies remain archived locally outside Git; hashes and observations only are published.",
+  "final_visual_acceptance_complete": false
+}

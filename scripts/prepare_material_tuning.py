@@ -14,6 +14,11 @@ from scripts.native_asset_checks import parse_sample_material
 
 PACKAGE = ROOT / "shared/material-sample-a03"
 TUNING = ROOT / "shared/material-tuning-a03"
+REVIEW_NAMES = {
+    "01_BASELINE.mtl": "material_tune01_candidate.mtl",
+    "02_SURFACE_A.mtl": "material_tune01_normal_gl.mtl",
+    "03_SURFACE_B.mtl": "material_tune01_normal_y_inverted.mtl",
+}
 
 
 def digest(data):
@@ -123,6 +128,7 @@ def build():
                    "original_diffuse_and_specular_references_preserved": True,
                    "numeric_settings_match_recipe": True},
         "normal_comparisons": normal_comparisons,
+        "review_filenames": REVIEW_NAMES,
         "native_visual_acceptance_complete": False,
     }
     return payloads, report
@@ -131,27 +137,45 @@ def build():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="Verify reviewed outputs without writing")
-    parser.add_argument("--destination", type=Path, help="Existing staged A03 folder inside media_soviet")
+    destinations = parser.add_mutually_exclusive_group()
+    destinations.add_argument("--destination", type=Path, help="Existing staged A03 folder inside media_soviet")
+    destinations.add_argument("--review-destination", type=Path,
+                              help="Separate folder with only baseline, surface A and surface B materials")
     parser.add_argument("--media-root", type=Path)
     args = parser.parse_args()
     payloads, report = build()
-    if bool(args.destination) != bool(args.media_root):
-        parser.error("--destination and --media-root must be supplied together")
-    if args.check and args.destination:
+    destination = args.destination or args.review_destination
+    if bool(destination) != bool(args.media_root):
+        parser.error("A destination and --media-root must be supplied together")
+    if args.check and destination:
         parser.error("--check is read-only and cannot be combined with staging")
     targets = []
-    if args.destination:
-        target = args.destination.resolve()
+    if destination:
+        target = destination.resolve()
         media = args.media_root.resolve()
         if media.name != "media_soviet" or target == media or not target.is_relative_to(media):
             raise ValueError("Use an existing dedicated media_soviet test folder")
-        # A variant may be loaded onto the existing sample without reloading its mesh.
-        # Confirm every original staged file first; never replace a user-edited input.
-        for name, expected in report["source_native_sha256"].items():
-            path = target / name
-            if not path.is_file() or digest(path.read_bytes()) != expected:
-                raise ValueError("Staged original differs or is missing: " + name)
-        targets.append(target)
+        if args.review_destination:
+            # A focused review folder avoids mixing old and tuned material names.
+            files = {name: (PACKAGE / "native" / name).read_bytes()
+                     for name in report["source_native_sha256"]
+                     if Path(name).suffix in (".nmf", ".dds")}
+            files.update({alias: payloads[source] for alias, source in REVIEW_NAMES.items()})
+            if target.exists() and {p.name for p in target.glob("*.mtl")} - set(REVIEW_NAMES):
+                raise ValueError("Review folder contains unrelated materials; choose a new folder")
+            for alias in REVIEW_NAMES:
+                for material in parse_sample_material(files[alias].decode("utf-8")):
+                    for texture in material["textures"].values():
+                        if texture["directive"] != "$TEXTURE_MTL" or texture["path"] not in files:
+                            raise ValueError("Incomplete review texture references")
+        else:
+            # Confirm every original staged file; never replace a user-edited input.
+            for name, expected in report["source_native_sha256"].items():
+                path = target / name
+                if not path.is_file() or digest(path.read_bytes()) != expected:
+                    raise ValueError("Staged original differs or is missing: " + name)
+            files = payloads
+        targets.append((target, files))
     serialized = (json.dumps(report, indent=2) + "\n").encode("utf-8")
     reviewed = {**payloads, "verification.json": serialized}
     if args.check:
@@ -159,23 +183,24 @@ def main():
             if not (TUNING / name).is_file() or (TUNING / name).read_bytes() != data:
                 raise ValueError("Reviewed tuning file differs: " + name)
     else:
-        targets.insert(0, TUNING)
+        targets.insert(0, (TUNING, reviewed))
     # Material files are immutable within a named revision. The generated manifest
     # can refresh after all material conflicts are checked, recording new comparisons.
-    for target in targets:
-        files = reviewed if target == TUNING else payloads
+    for target, files in targets:
         for name, data in files.items():
             path = target / name
             if name != "verification.json" and path.exists() and path.read_bytes() != data:
                 raise ValueError("Existing tuning file differs; create a new revision: " + name)
-    for target in targets:
-        files = reviewed if target == TUNING else payloads
+    for target, files in targets:
+        target.mkdir(parents=True, exist_ok=True)
         for name, data in files.items():
             path = target / name
             if name == "verification.json" or not path.exists():
                 path.write_bytes(data)
             if path.read_bytes() != data:
                 raise ValueError("Written file did not match: " + name)
+    if args.review_destination:
+        print("Review folder contains one unchanged mesh, 13 unchanged DDS files and three tuned materials.")
     print(f"{len(payloads)} material variants verified against the original package and tuning recipe.")
     print("Preferred brightness preserved; normal-map selection and final native acceptance pending.")
 
