@@ -1,0 +1,39 @@
+{
+  "revision": "tuning-01",
+  "author": "Phobos A. D'thorga / phobosgekko",
+  "license": "MIT",
+  "source_native_sha256": {
+    "flat_normal.dds": "0139eab76fb94e761155a3eed4dce5a775beb9e966fe3a8a95ff5d5b189a96e2",
+    "hall_bay_diffuse.dds": "a9981c377a587974d583088410da26a2fd46d770ff301527642c244f20448d96",
+    "hall_bay_normal_gl.dds": "34655e27d94a9934b49553edb8eed46e2bb31b8df03932b4b67062ca78620a1e",
+    "hall_bay_normal_gl_y_inverted.dds": "2341667a888eb00a8ebc84500dab6d8657e0eb1389e82e38037981bdaeea8bd1",
+    "hall_bay_specular.dds": "a3f868b9f2301b470da19cbdae8534b60dfc1992a836dd7c49ac006ece133db4",
+    "material.mtl": "e8b0d82e6abdb802b1f2cc61bfdfc8eaa0c9bc42d894924404e637960276bb74",
+    "material_normal_gl.mtl": "7875d26df19bf79fc754d8f142a39035e1579b883034b53cb923ad6453ab2c4f",
+    "material_normal_y_inverted.mtl": "536264deb203f5e581ef05b497f65cceb21025f8d68f9943d8ef90dd52e67b0b",
+    "sample.nmf": "b699fa87ba4d7a07b84e1719e99d52ebef1e091f6d726aa2bcdf30da6ef7c8be",
+    "switching_group_diffuse.dds": "4fe32c35d93704fff1b9fa879edd4a25b519224b41ad2076158074358a54812a",
+    "switching_group_normal_gl.dds": "641a0e54866a7689ae4da85ac4af28dc7a659a24e23532ff5c5895ff5c3b3b2e",
+    "switching_group_normal_gl_y_inverted.dds": "51d07d1358acde2d1d23ce006b740900ad7a6e87d975982e616fe9f0e8bc498c",
+    "switching_group_specular.dds": "77a3ad007e36a8a042baad5d2670041fea07cd77b88487727bc6f8aa1bfe200b",
+    "transformer_diffuse.dds": "435b8acc7de1365a0d41ca5d5a3ccf5d22882d74c7dee4903a6f3742133781bc",
+    "transformer_normal_gl.dds": "235bdd5dc25348814aa2f96b7e43f1ca4426fc7df200b8deac936d1c79334ebb",
+    "transformer_normal_gl_y_inverted.dds": "d3ce4a135520a9dba349a87038ec00a3629abd531805bc1629ad0ee339fc0b28",
+    "transformer_specular.dds": "762a23f96049f0b790936d9aa10a0308c7542a630b75e99648cf096ffca65cfc"
+  },
+  "settings_sha256": "4cd7b89423b1212552f29a78763238d955de5b043b79ceb033a667bc955954ea",
+  "generator_sha256": "1533cc283555a6f51b6a35b40b879b13cca210cb45d9864c378e6e936dcec988",
+  "variant_sha256": {
+    "material_tune01_no_specular.mtl": "b15c4209ce77db1bac9328c31b50cb332f86c22f0e05ca382216b314e4ccf6c5",
+    "material_tune01_diffuse_only.mtl": "7a9cdd70c126635298394a7d94847696a4c83323d5185d23cada45e2e449b8d9",
+    "material_tune01_ambient_only.mtl": "142959b602f379861496dfe12770c238bbad2995680521c3d9e6044d9033f125",
+    "material_tune01_matte.mtl": "b1272c4eab8f595056540dd8f1ac3c4ac4bfe619b30ad0f8b720abdfc0cd576c",
+    "material_tune01_candidate.mtl": "fad7347a2934253bf1bb3a5581c9a5ef79eeb35f4f33a61d2fdb723aaedd36f7"
+  },
+  "checks": {
+    "three_materials_before_single_final_end": true,
+    "original_texture_references_preserved": true,
+    "numeric_settings_match_recipe": true
+  },
+  "native_visual_acceptance_complete": false
+}

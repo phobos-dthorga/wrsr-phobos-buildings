@@ -10,6 +10,8 @@ record the result. Correcting the material-file terminator restored all three
 material entries. The author's Day, Sunset and Night screenshots confirm improved
 component colours; brightness and normal-map tuning still need work. The
 [native review record](native-review-2026-09-12.json) pins the evidence and limits.
+The author has now authorised [brightness-tuning comparison 01](../../../../shared/material-tuning-a03/README.md).
+Its candidate and isolated controls are prepared; native results remain pending.
 
 ![A03 original facade and electrical sample, rendered in Blender](../../../../shared/material-sample-a03/review/overview.png)
 

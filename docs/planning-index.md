@@ -109,3 +109,9 @@ open; the normal convention, dedicated night materials and gameplay are untested
 Original screenshots are archived locally, with hashes and bounded observations in
 the [review record](../mods/electric-heating-works/design/material-a03/native-review-2026-09-12.json).
 These findings apply to Issues 4–6; they do not complete full material or release acceptance.
+
+The author subsequently authorised [material tuning comparison 01](../shared/material-tuning-a03/README.md).
+Five original material variants are staged alongside the corrected sample, with
+unchanged model/texture inputs. The candidate lowers diffuse, ambient and specular
+multipliers; isolated controls support follow-up diagnosis. Settings, reference
+observations and hashes are recorded, but the native result is still awaiting review.

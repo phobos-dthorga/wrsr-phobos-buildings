@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "revision": "tuning-01",
+  "author": "Phobos A. D'thorga / phobosgekko",
+  "license": "MIT",
+  "status": "Prepared for author-operated ModelViewer comparison; no visual acceptance yet.",
+  "source_package": "shared/material-sample-a03",
+  "fixed_inputs": "Original NMF, all DDS images, UVs, material names and neutral normal map remain unchanged.",
+  "variants": [
+    {
+      "filename": "material_tune01_no_specular.mtl",
+      "diffuse": 1,
+      "ambient": 1,
+      "specular": 0,
+      "specular_power": 2,
+      "purpose": "Corrected three-material comparison: disable reflections only; power 2 explicitly matches the observed baseline default."
+    },
+    {
+      "filename": "material_tune01_diffuse_only.mtl",
+      "diffuse": 0.65,
+      "ambient": 1,
+      "specular": 0,
+      "specular_power": 2,
+      "purpose": "Against no-specular control, reduce only diffuse RGB multipliers."
+    },
+    {
+      "filename": "material_tune01_ambient_only.mtl",
+      "diffuse": 1,
+      "ambient": 0.55,
+      "specular": 0,
+      "specular_power": 2,
+      "purpose": "Against no-specular control, reduce only ambient RGB multipliers."
+    },
+    {
+      "filename": "material_tune01_matte.mtl",
+      "diffuse": 0.65,
+      "ambient": 0.55,
+      "specular": 0,
+      "specular_power": 2,
+      "purpose": "Combine the two reduced light contributions with reflections still disabled."
+    },
+    {
+      "filename": "material_tune01_candidate.mtl",
+      "diffuse": 0.65,
+      "ambient": 0.55,
+      "specular": 0.12,
+      "specular_power": 15,
+      "purpose": "First appearance candidate: reduced light multipliers and restrained reflections; response awaits native review."
+    }
+  ]
+}

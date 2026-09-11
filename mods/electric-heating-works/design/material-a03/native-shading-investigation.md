@@ -73,6 +73,13 @@ as original MIT project art.
 
 ## Next material work
 
+The author authorised tuning after the three lighting screenshots.
+[Material tuning comparison 01](../../../../shared/material-tuning-a03/README.md)
+now provides one combined candidate and four controls, with exact numeric settings,
+local base-game references, reproducible generation and input/output hashes.
+Only five new material files were added to the existing r2 test folder.
+No brightness improvement is claimed until the next author-operated inspection.
+
 Keep the mesh, diffuse images, neutral normal map, camera and Day lighting fixed.
 First repeat the no-specular comparison with the corrected material structure, so
 all three components participate. The earlier test confirmed only the hall's zero
@@ -80,6 +87,8 @@ specular setting before the file-format repair; it did not exclude reflection
 problems throughout the complete sample. Then compare diffuse and ambient
 multipliers separately, recording the chosen values and their visual effects.
 Do not darken texture sources merely to compensate for an unverified shader setting.
+The first combined candidate is available for a simple appearance check; the isolated
+controls above remain ready if its result needs diagnosis.
 
 Once the baseline preserves concrete, paint and glass detail, compare the two baked
 normal variants under the same view/light. Check more angles and distance before
