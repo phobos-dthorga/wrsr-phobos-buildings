@@ -239,5 +239,14 @@
       "assembly_record": "shared/assembly-a04/README.md",
       "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     }
-  ]
+  ],
+  "assembly_a06": {
+    "revision": "a06",
+    "source": "shared/assembly-a06/assembly-parts.blend",
+    "record": "shared/assembly-a06/README.md",
+    "part_count": 15,
+    "source_reopened": true,
+    "game_verified": false,
+    "preserves_prior_revisions": true
+  }
 }

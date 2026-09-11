@@ -1,0 +1,1659 @@
+{
+  "date": "2026-09-12",
+  "status": "configuration change recorded; P02 in-game quantities pending",
+  "intentional_rebalance": false,
+  "provisional_production_unchanged": true,
+  "p01_ui_observation": {
+    "source": "author screenshot, 21 August 2040 game date",
+    "rounded_values": true,
+    "workdays": 7128,
+    "concrete_t": 572,
+    "gravel_t": 177,
+    "asphalt_t": 142,
+    "steel_t": 197,
+    "mechanical_components_t": 9.1,
+    "electrical_components_t": 9.9
+  },
+  "p02_ui_observation": null,
+  "observed_quantity_deltas": null,
+  "p01_cost_inputs": [
+    {
+      "id": "ground",
+      "work": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+      "factor": 0,
+      "nodes": [
+        "native_a04_site_surface_and_access_study_01",
+        "native_a04_service_aprons_and_cable_trench_001_01",
+        "native_a04_phobos_plinth_01"
+      ],
+      "resources": {
+        "ground_asphalt": 0.25
+      },
+      "node_geometry": {
+        "native_a04_site_surface_and_access_study_01": {
+          "level": 0,
+          "vertices": 954,
+          "triangles": 444,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -75.30000305175781,
+              75.30000305175781
+            ],
+            [
+              -1.0800025463104248,
+              0.39999979734420776
+            ],
+            [
+              -63.0,
+              56.29999923706055
+            ]
+          ]
+        },
+        "native_a04_service_aprons_and_cable_trench_001_01": {
+          "level": 0,
+          "vertices": 84,
+          "triangles": 36,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.5,
+              59.5
+            ],
+            [
+              -2.01072384697909e-06,
+              0.29000043869018555
+            ],
+            [
+              -46.0,
+              23.0
+            ]
+          ]
+        },
+        "native_a04_phobos_plinth_01": {
+          "level": 0,
+          "vertices": 7224,
+          "triangles": 3036,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -73.12000274658203,
+              74.12000274658203
+            ],
+            [
+              -2.3656602934352122e-06,
+              0.4500023424625397
+            ],
+            [
+              -54.119998931884766,
+              54.119998931884766
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "structure",
+      "work": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+      "factor": 1,
+      "nodes": [
+        "native_a04_architecture_roof_bay_01",
+        "native_a04_facade_access_01",
+        "native_a04_facade_plain_01",
+        "native_a04_facade_plain_02",
+        "native_a04_hall_service_doors_01",
+        "native_a04_pump_and_service_annex_01",
+        "native_a04_electrical_control_house_01"
+      ],
+      "resources": {
+        "wall_concrete": 0.65,
+        "wall_steel": 0.15
+      },
+      "node_geometry": {
+        "native_a04_architecture_roof_bay_01": {
+          "level": 0,
+          "vertices": 8868,
+          "triangles": 4628,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.0,
+              15.0
+            ],
+            [
+              18.39999771118164,
+              20.40999984741211
+            ],
+            [
+              -35.400001525878906,
+              -4.600000858306885
+            ]
+          ]
+        },
+        "native_a04_facade_access_01": {
+          "level": 0,
+          "vertices": 14266,
+          "triangles": 6000,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -64.5,
+              15.0
+            ],
+            [
+              0.39999839663505554,
+              18.399999618530273
+            ],
+            [
+              -36.5,
+              -3.5
+            ]
+          ]
+        },
+        "native_a04_facade_plain_01": {
+          "level": 0,
+          "vertices": 48160,
+          "triangles": 19440,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -57.0,
+              15.739999771118164
+            ],
+            [
+              0.3999984562397003,
+              18.399999618530273
+            ],
+            [
+              -35.73999786376953,
+              -4.260000228881836
+            ]
+          ]
+        },
+        "native_a04_facade_plain_02": {
+          "level": 0,
+          "vertices": 7306,
+          "triangles": 2880,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.7400016784668,
+              -62.709999084472656
+            ],
+            [
+              0.3999984860420227,
+              18.399999618530273
+            ],
+            [
+              -35.0,
+              -5.000000476837158
+            ]
+          ]
+        },
+        "native_a04_hall_service_doors_01": {
+          "level": 0,
+          "vertices": 608,
+          "triangles": 300,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -50.275001525878906,
+              15.529998779296875
+            ],
+            [
+              0.3999990224838257,
+              5.25
+            ],
+            [
+              -22.25,
+              -4.119998931884766
+            ]
+          ]
+        },
+        "native_a04_pump_and_service_annex_01": {
+          "level": 0,
+          "vertices": 618,
+          "triangles": 288,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.29999923706055,
+              -20.700000762939453
+            ],
+            [
+              0.19999800622463226,
+              6.099998474121094
+            ],
+            [
+              -45.79999923706055,
+              -35.20000076293945
+            ]
+          ]
+        },
+        "native_a04_electrical_control_house_01": {
+          "level": 0,
+          "vertices": 402,
+          "triangles": 192,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              34.70000076293945,
+              59.29999923706055
+            ],
+            [
+              0.20000045001506805,
+              5.600000858306885
+            ],
+            [
+              10.199999809265137,
+              22.799999237060547
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "thermal",
+      "work": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+      "factor": 1,
+      "nodes": [
+        "native_a04_thermal_headers_and_boundary_reservations_01",
+        "native_a04_thermal_pipe_rack_01",
+        "native_a04_thermal_storage_tank_01",
+        "native_a04_thermal_storage_tank_02"
+      ],
+      "resources": {
+        "tech_steel": 0.65
+      },
+      "node_geometry": {
+        "native_a04_thermal_headers_and_boundary_reservations_01": {
+          "level": 0,
+          "vertices": 1252,
+          "triangles": 708,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              30.650001525878906,
+              74.0
+            ],
+            [
+              -1.1889496818184853e-06,
+              5.5799994468688965
+            ],
+            [
+              -39.029998779296875,
+              -12.970001220703125
+            ]
+          ]
+        },
+        "native_a04_thermal_pipe_rack_01": {
+          "level": 0,
+          "vertices": 2428,
+          "triangles": 1484,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              13.550000190734863,
+              33.54999923706055
+            ],
+            [
+              0.19999858736991882,
+              5.5799994468688965
+            ],
+            [
+              -38.0,
+              -13.550000190734863
+            ]
+          ]
+        },
+        "native_a04_thermal_storage_tank_01": {
+          "level": 0,
+          "vertices": 23617,
+          "triangles": 11768,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              34.5,
+              54.334327697753906
+            ],
+            [
+              0.19999897480010986,
+              24.080312728881836
+            ],
+            [
+              -23.5,
+              -4.5
+            ]
+          ]
+        },
+        "native_a04_thermal_storage_tank_02": {
+          "level": 0,
+          "vertices": 23400,
+          "triangles": 11768,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              34.5,
+              54.334327697753906
+            ],
+            [
+              0.1999979317188263,
+              24.080310821533203
+            ],
+            [
+              -47.5,
+              -28.5
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "electrical_and_finish",
+      "work": "SOVIET_CONSTRUCTION_INTERIOR_WORKS",
+      "factor": 1,
+      "nodes": [
+        "native_a03_switching_group_01",
+        "native_a03_switching_group_02",
+        "native_a03_transformer_01",
+        "native_a04_busbar_terminal_support_01",
+        "native_a04_electrical_busbar_01",
+        "native_a04_electrical_line_gantry_01",
+        "native_a04_electrical_line_gantry_02",
+        "native_a04_indicative_phase_conductors_01",
+        "native_a04_phobos_fixed_post_01",
+        "native_a04_phobos_sliding_gate_frame_01"
+      ],
+      "resources": {
+        "electro_steel": 0.55,
+        "tech_steel": 0.25
+      },
+      "node_geometry": {
+        "native_a03_switching_group_01": {
+          "level": 0,
+          "vertices": 28246,
+          "triangles": 15612,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.599998474121094,
+              -1.1999998092651367
+            ],
+            [
+              0.20000123977661133,
+              4.813527584075928
+            ],
+            [
+              28.299999237060547,
+              35.70000076293945
+            ]
+          ]
+        },
+        "native_a03_switching_group_02": {
+          "level": 0,
+          "vertices": 9446,
+          "triangles": 5204,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              9.399999618530273,
+              19.799999237060547
+            ],
+            [
+              0.20000123977661133,
+              4.813527584075928
+            ],
+            [
+              28.299999237060547,
+              35.70000076293945
+            ]
+          ]
+        },
+        "native_a03_transformer_01": {
+          "level": 0,
+          "vertices": 17709,
+          "triangles": 9528,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -12.0,
+              21.0
+            ],
+            [
+              0.2000003308057785,
+              6.860000133514404
+            ],
+            [
+              7.460000038146973,
+              16.540000915527344
+            ]
+          ]
+        },
+        "native_a04_busbar_terminal_support_01": {
+          "level": 0,
+          "vertices": 2264,
+          "triangles": 1380,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              23.300003051757812,
+              24.699996948242188
+            ],
+            [
+              0.20000076293945312,
+              6.810000896453857
+            ],
+            [
+              17.5,
+              26.5
+            ]
+          ]
+        },
+        "native_a04_electrical_busbar_01": {
+          "level": 0,
+          "vertices": 10144,
+          "triangles": 6048,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.70000076293945,
+              24.0
+            ],
+            [
+              0.20000076293945312,
+              6.910000801086426
+            ],
+            [
+              17.5,
+              26.5
+            ]
+          ]
+        },
+        "native_a04_electrical_line_gantry_01": {
+          "level": 0,
+          "vertices": 33788,
+          "triangles": 16768,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -58.04999923706055,
+              -23.950000762939453
+            ],
+            [
+              0.20000174641609192,
+              13.216938018798828
+            ],
+            [
+              39.95000076293945,
+              42.04999923706055
+            ]
+          ]
+        },
+        "native_a04_electrical_line_gantry_02": {
+          "level": 0,
+          "vertices": 33746,
+          "triangles": 16768,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -13.050000190734863,
+              22.049999237060547
+            ],
+            [
+              0.20000073313713074,
+              13.216937065124512
+            ],
+            [
+              16.650001525878906,
+              18.75
+            ]
+          ]
+        },
+        "native_a04_indicative_phase_conductors_01": {
+          "level": 0,
+          "vertices": 3308,
+          "triangles": 1584,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -54.85199737548828,
+              18.852005004882812
+            ],
+            [
+              4.0495758056640625,
+              11.051779747009277
+            ],
+            [
+              13.616268157958984,
+              55.00480651855469
+            ]
+          ]
+        },
+        "native_a04_phobos_fixed_post_01": {
+          "level": 0,
+          "vertices": 20232,
+          "triangles": 9216,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -73.19999694824219,
+              74.19999694824219
+            ],
+            [
+              -2.369157300563529e-06,
+              2.765002489089966
+            ],
+            [
+              -54.20000076293945,
+              54.20000076293945
+            ]
+          ]
+        },
+        "native_a04_phobos_sliding_gate_frame_01": {
+          "level": 0,
+          "vertices": 2162,
+          "triangles": 1128,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -16.0625,
+              25.0625
+            ],
+            [
+              -2.344023187106359e-06,
+              2.450000286102295
+            ],
+            [
+              -53.625,
+              7.024999618530273
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "p02_cost_inputs": [
+    {
+      "id": "ground",
+      "work": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+      "factor": 0,
+      "nodes": [
+        "a06_foundation_facade_access_end",
+        "a06_foundation_facade_access_front",
+        "a06_foundation_facade_access_rear",
+        "a06_foundation_facade_plain_end",
+        "a06_foundation_facade_plain_front",
+        "a06_foundation_facade_plain_rear",
+        "a06_foundation_phobos_plinth",
+        "a06_foundation_service_aprons_and_cable_trench_001",
+        "a06_foundation_site_surface_and_access_study"
+      ],
+      "resources": {
+        "ground_asphalt": 0.25
+      },
+      "node_geometry": {
+        "a06_foundation_facade_access_end": {
+          "level": 0,
+          "vertices": 254,
+          "triangles": 104,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -64.5,
+              -62.709999084472656
+            ],
+            [
+              0.3999989926815033,
+              1.787499189376831
+            ],
+            [
+              -23.0,
+              -17.0
+            ]
+          ]
+        },
+        "a06_foundation_facade_access_front": {
+          "level": 0,
+          "vertices": 470,
+          "triangles": 208,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.0,
+              15.0
+            ],
+            [
+              0.3999997675418854,
+              1.7874997854232788
+            ],
+            [
+              -5.289999961853027,
+              -3.5
+            ]
+          ]
+        },
+        "a06_foundation_facade_access_rear": {
+          "level": 0,
+          "vertices": 482,
+          "triangles": 208,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.0,
+              15.0
+            ],
+            [
+              0.39999839663505554,
+              1.7874984741210938
+            ],
+            [
+              -36.5,
+              -34.709999084472656
+            ]
+          ]
+        },
+        "a06_foundation_facade_plain_end": {
+          "level": 0,
+          "vertices": 264,
+          "triangles": 108,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.290000915527344,
+              15.289999961853027
+            ],
+            [
+              0.3999984860420227,
+              1.6999996900558472
+            ],
+            [
+              -34.67499923706055,
+              -5.324999809265137
+            ]
+          ]
+        },
+        "a06_foundation_facade_plain_front": {
+          "level": 0,
+          "vertices": 304,
+          "triangles": 132,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.67499923706055,
+              8.675000190734863
+            ],
+            [
+              0.3999997675418854,
+              1.6999996900558472
+            ],
+            [
+              -5.289999961853027,
+              -4.710000038146973
+            ]
+          ]
+        },
+        "a06_foundation_facade_plain_rear": {
+          "level": 0,
+          "vertices": 294,
+          "triangles": 132,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.67499923706055,
+              8.675000190734863
+            ],
+            [
+              0.3999984562397003,
+              1.699998378753662
+            ],
+            [
+              -35.290000915527344,
+              -34.709999084472656
+            ]
+          ]
+        },
+        "a06_foundation_phobos_plinth": {
+          "level": 0,
+          "vertices": 7242,
+          "triangles": 3036,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -73.12000274658203,
+              74.12000274658203
+            ],
+            [
+              -2.3656602934352122e-06,
+              0.4500023424625397
+            ],
+            [
+              -54.119998931884766,
+              54.119998931884766
+            ]
+          ]
+        },
+        "a06_foundation_service_aprons_and_cable_trench_001": {
+          "level": 0,
+          "vertices": 84,
+          "triangles": 36,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.5,
+              59.5
+            ],
+            [
+              -2.01072384697909e-06,
+              0.29000043869018555
+            ],
+            [
+              -46.0,
+              23.0
+            ]
+          ]
+        },
+        "a06_foundation_site_surface_and_access_study": {
+          "level": 0,
+          "vertices": 954,
+          "triangles": 444,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -75.30000305175781,
+              75.30000305175781
+            ],
+            [
+              -1.0800025463104248,
+              0.39999979734420776
+            ],
+            [
+              -63.0,
+              56.29999923706055
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "foundation",
+      "work": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+      "factor": 1,
+      "nodes": [
+        "a06_foundation_facade_access_end",
+        "a06_foundation_facade_access_front",
+        "a06_foundation_facade_access_rear",
+        "a06_foundation_facade_plain_end",
+        "a06_foundation_facade_plain_front",
+        "a06_foundation_facade_plain_rear",
+        "a06_foundation_phobos_plinth",
+        "a06_foundation_service_aprons_and_cable_trench_001",
+        "a06_foundation_site_surface_and_access_study"
+      ],
+      "resources": {
+        "wall_concrete": 0.65
+      },
+      "node_geometry": {
+        "a06_foundation_facade_access_end": {
+          "level": 0,
+          "vertices": 254,
+          "triangles": 104,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -64.5,
+              -62.709999084472656
+            ],
+            [
+              0.3999989926815033,
+              1.787499189376831
+            ],
+            [
+              -23.0,
+              -17.0
+            ]
+          ]
+        },
+        "a06_foundation_facade_access_front": {
+          "level": 0,
+          "vertices": 470,
+          "triangles": 208,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.0,
+              15.0
+            ],
+            [
+              0.3999997675418854,
+              1.7874997854232788
+            ],
+            [
+              -5.289999961853027,
+              -3.5
+            ]
+          ]
+        },
+        "a06_foundation_facade_access_rear": {
+          "level": 0,
+          "vertices": 482,
+          "triangles": 208,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.0,
+              15.0
+            ],
+            [
+              0.39999839663505554,
+              1.7874984741210938
+            ],
+            [
+              -36.5,
+              -34.709999084472656
+            ]
+          ]
+        },
+        "a06_foundation_facade_plain_end": {
+          "level": 0,
+          "vertices": 264,
+          "triangles": 108,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.290000915527344,
+              15.289999961853027
+            ],
+            [
+              0.3999984860420227,
+              1.6999996900558472
+            ],
+            [
+              -34.67499923706055,
+              -5.324999809265137
+            ]
+          ]
+        },
+        "a06_foundation_facade_plain_front": {
+          "level": 0,
+          "vertices": 304,
+          "triangles": 132,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.67499923706055,
+              8.675000190734863
+            ],
+            [
+              0.3999997675418854,
+              1.6999996900558472
+            ],
+            [
+              -5.289999961853027,
+              -4.710000038146973
+            ]
+          ]
+        },
+        "a06_foundation_facade_plain_rear": {
+          "level": 0,
+          "vertices": 294,
+          "triangles": 132,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.67499923706055,
+              8.675000190734863
+            ],
+            [
+              0.3999984562397003,
+              1.699998378753662
+            ],
+            [
+              -35.290000915527344,
+              -34.709999084472656
+            ]
+          ]
+        },
+        "a06_foundation_phobos_plinth": {
+          "level": 0,
+          "vertices": 7242,
+          "triangles": 3036,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -73.12000274658203,
+              74.12000274658203
+            ],
+            [
+              -2.3656602934352122e-06,
+              0.4500023424625397
+            ],
+            [
+              -54.119998931884766,
+              54.119998931884766
+            ]
+          ]
+        },
+        "a06_foundation_service_aprons_and_cable_trench_001": {
+          "level": 0,
+          "vertices": 84,
+          "triangles": 36,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.5,
+              59.5
+            ],
+            [
+              -2.01072384697909e-06,
+              0.29000043869018555
+            ],
+            [
+              -46.0,
+              23.0
+            ]
+          ]
+        },
+        "a06_foundation_site_surface_and_access_study": {
+          "level": 0,
+          "vertices": 954,
+          "triangles": 444,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -75.30000305175781,
+              75.30000305175781
+            ],
+            [
+              -1.0800025463104248,
+              0.39999979734420776
+            ],
+            [
+              -63.0,
+              56.29999923706055
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "frame",
+      "work": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+      "factor": 1,
+      "nodes": [
+        "a06_frame_facade_access_end",
+        "a06_frame_facade_access_front",
+        "a06_frame_facade_access_rear",
+        "a06_frame_facade_plain_end",
+        "a06_frame_facade_plain_front",
+        "a06_frame_facade_plain_rear"
+      ],
+      "resources": {
+        "wall_concrete": 0.65,
+        "wall_steel": 0.15
+      },
+      "node_geometry": {
+        "a06_frame_facade_access_end": {
+          "level": 0,
+          "vertices": 238,
+          "triangles": 88,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.56999969482422,
+              -63.11000061035156
+            ],
+            [
+              0.3999989926815033,
+              18.399999618530273
+            ],
+            [
+              -22.969999313354492,
+              -17.030000686645508
+            ]
+          ]
+        },
+        "a06_frame_facade_access_front": {
+          "level": 0,
+          "vertices": 496,
+          "triangles": 176,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -62.970001220703125,
+              14.969999313354492
+            ],
+            [
+              0.39999979734420776,
+              18.399999618530273
+            ],
+            [
+              -4.890000820159912,
+              -4.429999828338623
+            ]
+          ]
+        },
+        "a06_frame_facade_access_rear": {
+          "level": 0,
+          "vertices": 458,
+          "triangles": 176,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -62.970001220703125,
+              14.970000267028809
+            ],
+            [
+              0.3999984562397003,
+              18.39999771118164
+            ],
+            [
+              -35.56999969482422,
+              -35.11000061035156
+            ]
+          ]
+        },
+        "a06_frame_facade_plain_end": {
+          "level": 0,
+          "vertices": 2152,
+          "triangles": 792,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.56999969482422,
+              15.570000648498535
+            ],
+            [
+              0.3999984860420227,
+              18.399999618530273
+            ],
+            [
+              -34.970001220703125,
+              -5.029999732971191
+            ]
+          ]
+        },
+        "a06_frame_facade_plain_front": {
+          "level": 0,
+          "vertices": 2758,
+          "triangles": 968,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.970001220703125,
+              8.969999313354492
+            ],
+            [
+              0.39999979734420776,
+              18.399999618530273
+            ],
+            [
+              -4.890000820159912,
+              -4.429999828338623
+            ]
+          ]
+        },
+        "a06_frame_facade_plain_rear": {
+          "level": 0,
+          "vertices": 2508,
+          "triangles": 968,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.970001220703125,
+              8.970000267028809
+            ],
+            [
+              0.3999984562397003,
+              18.39999771118164
+            ],
+            [
+              -35.56999969482422,
+              -35.11000061035156
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "walls",
+      "work": "SOVIET_CONSTRUCTION_PANELS_LAYING",
+      "factor": 1,
+      "nodes": [
+        "a06_walls_electrical_control_house",
+        "a06_walls_facade_access_end",
+        "a06_walls_facade_access_front",
+        "a06_walls_facade_access_rear",
+        "a06_walls_facade_plain_end",
+        "a06_walls_facade_plain_front",
+        "a06_walls_facade_plain_rear",
+        "a06_walls_hall_service_doors",
+        "a06_walls_pump_and_service_annex"
+      ],
+      "resources": {
+        "wall_concrete": 0.65,
+        "wall_steel": 0.15
+      },
+      "node_geometry": {
+        "a06_walls_electrical_control_house": {
+          "level": 0,
+          "vertices": 374,
+          "triangles": 180,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              34.79999923706055,
+              59.20000076293945
+            ],
+            [
+              0.20000045001506805,
+              5.200000762939453
+            ],
+            [
+              10.300000190734863,
+              22.700000762939453
+            ]
+          ]
+        },
+        "a06_walls_facade_access_end": {
+          "level": 0,
+          "vertices": 2318,
+          "triangles": 944,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.88999938964844,
+              -62.75
+            ],
+            [
+              0.42999908328056335,
+              18.3799991607666
+            ],
+            [
+              -23.0,
+              -17.0
+            ]
+          ]
+        },
+        "a06_walls_facade_access_front": {
+          "level": 0,
+          "vertices": 4538,
+          "triangles": 1888,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.0,
+              15.0
+            ],
+            [
+              0.42999979853630066,
+              18.3799991607666
+            ],
+            [
+              -5.250000953674316,
+              -4.110000133514404
+            ]
+          ]
+        },
+        "a06_walls_facade_access_rear": {
+          "level": 0,
+          "vertices": 4500,
+          "triangles": 1888,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.0,
+              15.0
+            ],
+            [
+              0.4299984574317932,
+              18.37999725341797
+            ],
+            [
+              -35.88999938964844,
+              -34.75
+            ]
+          ]
+        },
+        "a06_walls_facade_plain_end": {
+          "level": 0,
+          "vertices": 13748,
+          "triangles": 5364,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.730621337890625,
+              15.730622291564941
+            ],
+            [
+              0.5799985527992249,
+              18.3799991607666
+            ],
+            [
+              -35.0,
+              -5.000000476837158
+            ]
+          ]
+        },
+        "a06_walls_facade_plain_front": {
+          "level": 0,
+          "vertices": 16332,
+          "triangles": 6556,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -57.0,
+              9.0
+            ],
+            [
+              0.5799998641014099,
+              18.3799991607666
+            ],
+            [
+              -5.250000953674316,
+              -4.269378185272217
+            ]
+          ]
+        },
+        "a06_walls_facade_plain_rear": {
+          "level": 0,
+          "vertices": 16274,
+          "triangles": 6556,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -57.0,
+              9.0
+            ],
+            [
+              0.5799984931945801,
+              18.37999725341797
+            ],
+            [
+              -35.730621337890625,
+              -34.75
+            ]
+          ]
+        },
+        "a06_walls_hall_service_doors": {
+          "level": 0,
+          "vertices": 608,
+          "triangles": 300,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -50.275001525878906,
+              15.529998779296875
+            ],
+            [
+              0.3999990224838257,
+              5.25
+            ],
+            [
+              -22.25,
+              -4.119998931884766
+            ]
+          ]
+        },
+        "a06_walls_pump_and_service_annex": {
+          "level": 0,
+          "vertices": 590,
+          "triangles": 276,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.20000076293945,
+              -20.799999237060547
+            ],
+            [
+              0.19999800622463226,
+              5.699998378753662
+            ],
+            [
+              -45.70000076293945,
+              -35.29999923706055
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "roof",
+      "work": "SOVIET_CONSTRUCTION_ROOFTOP_BUILDING",
+      "factor": 1,
+      "nodes": [
+        "a06_roof_architecture_roof_bay",
+        "a06_roof_electrical_control_house",
+        "a06_roof_pump_and_service_annex"
+      ],
+      "resources": {
+        "wall_concrete": 0.65,
+        "wall_steel": 0.15
+      },
+      "node_geometry": {
+        "a06_roof_architecture_roof_bay": {
+          "level": 0,
+          "vertices": 8214,
+          "triangles": 4212,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.0,
+              15.0
+            ],
+            [
+              18.39999771118164,
+              20.40999984741211
+            ],
+            [
+              -35.400001525878906,
+              -4.600000858306885
+            ]
+          ]
+        },
+        "a06_roof_electrical_control_house": {
+          "level": 0,
+          "vertices": 28,
+          "triangles": 12,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              34.70000076293945,
+              59.29999923706055
+            ],
+            [
+              5.200000286102295,
+              5.600000858306885
+            ],
+            [
+              10.199999809265137,
+              22.799999237060547
+            ]
+          ]
+        },
+        "a06_roof_pump_and_service_annex": {
+          "level": 0,
+          "vertices": 28,
+          "triangles": 12,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -63.29999923706055,
+              -20.700000762939453
+            ],
+            [
+              5.699997901916504,
+              6.099998474121094
+            ],
+            [
+              -45.79999923706055,
+              -35.20000076293945
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "thermal",
+      "work": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+      "factor": 1,
+      "nodes": [
+        "a06_thermal_thermal_headers_and_boundary_reservations",
+        "a06_thermal_thermal_pipe_rack",
+        "a06_thermal_thermal_storage_tank"
+      ],
+      "resources": {
+        "tech_steel": 0.65
+      },
+      "node_geometry": {
+        "a06_thermal_thermal_headers_and_boundary_reservations": {
+          "level": 0,
+          "vertices": 2590,
+          "triangles": 1512,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              30.650001525878906,
+              74.0
+            ],
+            [
+              -1.4479397805189365e-06,
+              6.779999732971191
+            ],
+            [
+              -39.029998779296875,
+              -12.970001220703125
+            ]
+          ]
+        },
+        "a06_thermal_thermal_pipe_rack": {
+          "level": 0,
+          "vertices": 2004,
+          "triangles": 1260,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              13.550000190734863,
+              33.54999923706055
+            ],
+            [
+              0.19999858736991882,
+              5.5799994468688965
+            ],
+            [
+              -38.0,
+              -13.550000190734863
+            ]
+          ]
+        },
+        "a06_thermal_thermal_storage_tank": {
+          "level": 0,
+          "vertices": 26879,
+          "triangles": 18488,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              34.5,
+              54.334999084472656
+            ],
+            [
+              0.1999979317188263,
+              24.080310821533203
+            ],
+            [
+              -47.5,
+              -4.5
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "electrical",
+      "work": "SOVIET_CONSTRUCTION_WIRE_LAYING",
+      "factor": 1,
+      "nodes": [
+        "a06_electrical_busbar_terminal_support",
+        "a06_electrical_electrical_busbar",
+        "a06_electrical_electrical_line_gantry",
+        "a06_electrical_indicative_phase_conductors",
+        "a06_electrical_phobos_fixed_post",
+        "a06_electrical_phobos_sliding_gate_frame",
+        "a06_electrical_switching_group",
+        "a06_electrical_transformer"
+      ],
+      "resources": {
+        "electro_steel": 0.55,
+        "tech_steel": 0.25
+      },
+      "node_geometry": {
+        "a06_electrical_busbar_terminal_support": {
+          "level": 0,
+          "vertices": 1792,
+          "triangles": 900,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              23.300003051757812,
+              24.699996948242188
+            ],
+            [
+              0.20000076293945312,
+              6.810000896453857
+            ],
+            [
+              17.5,
+              26.5
+            ]
+          ]
+        },
+        "a06_electrical_electrical_busbar": {
+          "level": 0,
+          "vertices": 6830,
+          "triangles": 3840,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.70000076293945,
+              24.0
+            ],
+            [
+              0.20000076293945312,
+              6.897943019866943
+            ],
+            [
+              17.5,
+              26.5
+            ]
+          ]
+        },
+        "a06_electrical_electrical_line_gantry": {
+          "level": 0,
+          "vertices": 33504,
+          "triangles": 16256,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -58.04999923706055,
+              22.049999237060547
+            ],
+            [
+              0.20000073313713074,
+              13.216938018798828
+            ],
+            [
+              16.650001525878906,
+              42.04999923706055
+            ]
+          ]
+        },
+        "a06_electrical_indicative_phase_conductors": {
+          "level": 0,
+          "vertices": 1466,
+          "triangles": 720,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -54.85199737548828,
+              18.852005004882812
+            ],
+            [
+              4.056330680847168,
+              11.044842720031738
+            ],
+            [
+              13.617252349853516,
+              55.00416564941406
+            ]
+          ]
+        },
+        "a06_electrical_phobos_fixed_post": {
+          "level": 0,
+          "vertices": 20232,
+          "triangles": 9216,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -73.19999694824219,
+              74.19999694824219
+            ],
+            [
+              -2.369157300563529e-06,
+              2.765002489089966
+            ],
+            [
+              -54.20000076293945,
+              54.20000076293945
+            ]
+          ]
+        },
+        "a06_electrical_phobos_sliding_gate_frame": {
+          "level": 0,
+          "vertices": 2156,
+          "triangles": 1128,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -16.0625,
+              25.0625
+            ],
+            [
+              -2.344023187106359e-06,
+              2.450000286102295
+            ],
+            [
+              -53.625,
+              7.024999618530273
+            ]
+          ]
+        },
+        "a06_electrical_switching_group": {
+          "level": 0,
+          "vertices": 26694,
+          "triangles": 14320,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -56.599998474121094,
+              19.799999237060547
+            ],
+            [
+              0.20000123977661133,
+              4.80501651763916
+            ],
+            [
+              28.299999237060547,
+              35.70000076293945
+            ]
+          ]
+        },
+        "a06_electrical_transformer": {
+          "level": 0,
+          "vertices": 11608,
+          "triangles": 6520,
+          "subsets": 1,
+          "bounds_xyz_m": [
+            [
+              -12.0,
+              21.0
+            ],
+            [
+              0.2000003308057785,
+              6.860000133514404
+            ],
+            [
+              7.460000038146973,
+              16.540000915527344
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "explanation": [
+    "Foundation nodes now also have a solid construction phase.",
+    "Structural work is split into foundation, frame, walls and roofs.",
+    "Thermal geometry includes three added outlet pairs; electrical geometry is reduced.",
+    "Node extents, primitive volume estimates and phase assignments can change automatic costs.",
+    "No reliable offline engine cost calculator is claimed; read the quantities during the test."
+  ]
+}

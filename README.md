@@ -3,9 +3,11 @@
 Original building mods for **Workers & Resources: Soviet Republic**, supported by a
 shared library of reusable architectural and industrial parts.
 
-**Status: A04 complete-plant material assembly and original native inspection export.**
-Concept A has editable Blender sources, reusable components and review renders. There are no playable
-mods, Workshop uploads or supported game releases yet. The first project is **Phobos'
+**Status: P01 placed in game; P02 candidate prepared and checked for local tests.**
+Concept A has editable Blender sources, reusable components and review renders.
+P01 is a local playable prototype; construction progression, heat delivery and
+performance remain unverified. There are no Workshop uploads or supported releases.
+The first project is **Phobos'
 Electric Heating Works**: a large electric district-heating complex with a substantial
 receiving switchyard.
 
@@ -24,8 +26,12 @@ the working choice; the native normal convention remains unverified.
 
 [A04: complete plant, shared kit and native inspection handoff](mods/electric-heating-works/design/assembly-a04/README.md)
 extends the approach across the hall, switchyard, tanks and service structures.
-Saved-scene, texture and native geometry checks pass; full-plant ModelViewer appearance
-and gameplay remain untested.
+Saved-scene, texture and native geometry checks pass. The author accepted the tuned
+surfaces and A05's 3 cm ground correction, then confirmed P01 placement. These
+observations do not establish construction progression or operating capacity.
+
+[P02: construction probe, four heat outlets and distance models](mods/electric-heating-works/gameplay/p02/README.md)
+keeps P01 and A03–A05 intact and records the next manual acceptance steps.
 
 ![A04 original complete-plant assembly, rendered in Blender](mods/electric-heating-works/source/assembly-a04/review/overall.png)
 
@@ -36,6 +42,8 @@ and gameplay remain untested.
 - [Electric Heating Works brief](mods/electric-heating-works/README.md)
 - [Switchyard and power research](mods/electric-heating-works/switchyard.md)
 - [Shared parts library](shared/README.md)
+- [Reusable 3D modelling guide: buildings and vehicles](docs/3d-modelling-guide.md)
+- [Measured model comparisons and construction recommendations](research/2026-09-12-model-budgets-and-construction.md)
 - [Architecture and packaging](docs/architecture.md)
 - [Research findings](research/2026-09-11-building-pipeline.md)
 - [Where repeated objects come from: game and Workshop parts](research/2026-09-11-reusable-game-and-workshop-parts.md)

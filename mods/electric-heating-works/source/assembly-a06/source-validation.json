@@ -1,0 +1,14 @@
+{
+  "saved_assembly_reopened": true,
+  "original_placements_preserved": true,
+  "ground_top_m": 0.029999999329447746,
+  "packed_file_images": 96,
+  "external_blend_libraries": 0,
+  "shared_library_reopened": true,
+  "shared_components": 15,
+  "shared_components_in_local_coordinates": true,
+  "shared_copy_hash_matches": true,
+  "a06_manifest_sha256": "138424143fb9024311879c308c3bef75be8519991490b879db96da1856bc69be",
+  "verification_recipe_sha256": "8b48fe5fcf34058c43eabc7cd1e8b3ecb89b19289c10ca5f2a7da5a31d7a7506",
+  "game_tested": false
+}

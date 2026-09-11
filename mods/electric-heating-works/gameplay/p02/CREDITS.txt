@@ -1,0 +1,23 @@
+Phobos' Electric Heating Works - P02 local test candidate
+
+Original geometry, procedural textures, assembly, definitions and tools:
+Copyright (c) 2026 Phobos A. D'thorga (phobosgekko), with Codex assistance.
+Original first-party files are MIT licensed; see LICENSE.
+
+External tools, supplied separately and not distributed in this package:
+- Blender, Blender Foundation and contributors.
+- NMF Blender exporter: original work by Jan Kerkes; Blender 5 adapter by
+  Vladimir Baloga. Exact tool identity/version/hash is retained in source evidence.
+- DirectXTex/texconv, Microsoft Corporation and contributors.
+
+Research and configuration references: robs074, wildbunny and Billman007.
+Their original authorship and Workshop identifiers remain in the comparison report.
+No models, textures or material files from these authors are included here.
+
+Workers & Resources: Soviet Republic is developed by 3Division and published by
+Hooded Horse. This is an independent community project, not an endorsed product.
+P02 contains no copied vanilla or Workshop artwork. It references standard game
+effects through their configuration identifiers only.
+
+Construction progression, LOD transitions and heat delivery await in-game testing.
+Do not upload this local diagnostic item to Steam Workshop.

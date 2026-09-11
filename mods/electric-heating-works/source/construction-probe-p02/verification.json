@@ -1,0 +1,73 @@
+{
+  "revision": "p02-construction-probe",
+  "author": "Phobos A. D'thorga / phobosgekko",
+  "license": "MIT",
+  "original_art_only": true,
+  "game_tested": false,
+  "fresh_reopen_checks": [
+    {
+      "node": "probe_foundation",
+      "triangles": 48,
+      "native_vertices": 120,
+      "all_triangles_matched": true,
+      "winding_preserved": true,
+      "max_position_error_m": 5.125999683345024e-07,
+      "max_uv_error": 2.9802322387695312e-08,
+      "max_normal_vector_error": 1.2206402554612646e-07
+    },
+    {
+      "node": "probe_frame",
+      "triangles": 96,
+      "native_vertices": 256,
+      "all_triangles_matched": true,
+      "winding_preserved": true,
+      "max_position_error_m": 1.1920928955078125e-06,
+      "max_uv_error": 2.9802322387695312e-08,
+      "max_normal_vector_error": 6.702278696620265e-07
+    },
+    {
+      "node": "probe_walls",
+      "triangles": 24,
+      "native_vertices": 60,
+      "all_triangles_matched": true,
+      "winding_preserved": true,
+      "max_position_error_m": 8.596304119739507e-07,
+      "max_uv_error": 2.9802322387695312e-08,
+      "max_normal_vector_error": 1.095471469191573e-06
+    },
+    {
+      "node": "probe_roof",
+      "triangles": 12,
+      "native_vertices": 24,
+      "all_triangles_matched": true,
+      "winding_preserved": true,
+      "max_position_error_m": 1.1920928955078125e-06,
+      "max_uv_error": 2.1598521777674855e-08,
+      "max_normal_vector_error": 7.549790266122766e-08
+    }
+  ],
+  "tooling": {
+    "name": "3Division Exporter",
+    "authors": "Jan Kerkes (original), updated for Blender 5.0+ by Vladimir Baloga",
+    "version": [
+      1,
+      2
+    ],
+    "sha256": "0350162dbb545c06f905d66dc78760b0efbceaea1586ff7af2abcdf678017081",
+    "source_protection": "Disposable mesh copies; original sharp-edge data preserved."
+  },
+  "recipe_sha256": "f53d56cd5e2f16fc4ea40add5eac77b9e009ce98e4601ffc8781ce784b706957",
+  "artifact_sha256": {
+    "construction-probe.blend": "b485c4a011ddb15b89e24071c9aab479a1b103b1486d30a584c9772efb786be8",
+    "imagegui.png": "d3f7f21c51811e7cf3e88d3a4cde15b8c39b2fee02f7bf9037869e081fbfac7b",
+    "material.mtl": "c92676c4153aabaa0b13ca16487a1a3cda3777a0d2361754533996c5d6a66d07",
+    "normal.dds": "f174a3975732e782f9fe8418714299dc8e99af766b1b794b03ed3086a0c40b69",
+    "normal.png": "9fce4fe28bd9c7fc353fbc53df580fa17cca32f8a536f2a6f68dd311737efcbd",
+    "probe.nmf": "6ae85975c37e2a9328f49933ca149a4febdfa0265f06d84515168c538c461431",
+    "review.png": "3bc08db4f5b444240422659260bfae5c8e2b332701d2c15a5ddf38dd267258ac",
+    "specular.dds": "29ee49fcb3fad80f8fd191e6de223fd7243d8999e1e660a06e6fa7282ebc63c1",
+    "specular.png": "732ca53047d6625450befdea824128c633c6907e26d3ab6328ea78fc297adc31",
+    "white.dds": "ea72346eedd797773449779d7fac744cf57d6102507e758341eb6f4111a5727e",
+    "white.png": "18052ab7865cadd6a718216aae37cdd0d736be03fa576f07da5865cd00091cf5"
+  }
+}

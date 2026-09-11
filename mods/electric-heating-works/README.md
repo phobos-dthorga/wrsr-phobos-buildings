@@ -1,6 +1,9 @@
 # Phobos' Electric Heating Works
 
-**A05 source correction and P01 local gameplay prototype installed; game tests pending.** A substantial electric district-heating complex for a
+**P01 placement confirmed; P02 construction/LOD candidate prepared and checked.** See the
+[P02 handoff](gameplay/p02/README.md) for current sources and staged manual tests.
+Progressive construction, heat delivery and performance remain unverified.
+A substantial electric district-heating complex for a
 republic with abundant generating capacity. The aim is convincing centralised public
 infrastructure: large scale supported by a believable process and utility layout.
 

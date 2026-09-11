@@ -1,0 +1,61 @@
+PHOBOS HEATING WORKS P02 - LOCAL TESTS ONLY
+
+This package contains the construction probe and full P02 plant. Keep P01 installed
+for comparison. Do not upload this item to Steam Workshop.
+
+INSTALLATION HANDOFF
+Save your current game, then fully close W&R and ModelViewer and tell Codex.
+The checked installer will add local item 900000007 without replacing P01.
+After installation, launch W&R and use a disposable test save. Do not convert an
+existing P01 building or use your main city for these tests.
+
+FIRST: CONSTRUCTION PROBE
+1. Find 'Phobos Construction Probe [P02]' among mod monuments.
+2. Place it on flat terrain and connect its road.
+3. Use ordinary construction with materials and workers. Avoid instant completion.
+   Start at normal speed so you can pause between phases.
+4. During foundation, frame, panels and roof work, pause and deselect the object.
+   Check that solid footings, blue-grey posts, tan walls and the roof appear before
+   overall completion. Previously finished groups should remain visible.
+5. Capture a partially built view with the phase/progress panel visible, then a
+   deselected view. Report whether solid groups appear and remain through stages.
+STOP HERE AND REPORT. If only a ghost and dirt piles appear, the construction
+mechanism is still unresolved; do not spend time constructing the full plant yet.
+
+SECOND: FULL PLANT CONSTRUCTION (AFTER PROBE REVIEW)
+1. Find 'Phobos' Electric Heating Works [P02 TEST]' in mod heating/industry.
+2. Place it on flat ground with enough space around the tank-side pipe outlets.
+3. Before construction, record total workdays and material quantities for comparison
+   with P01. These automatic costs are provisional, not an intended rebalance.
+4. Connect the road and observe each phase at normal speed. Pause and deselect to
+   inspect foundations, frame, panels, roofs, thermal and electrical equipment.
+5. Confirm earlier groups remain, vehicles reach the site, and the completed model
+   is intact at 100%. Report results before proceeding to visual acceptance.
+
+THIRD: VISUAL AND DISTANCE REVIEW
+1. Place a completed P01 nearby for comparison. Keep similar camera angles.
+2. Check the hall window divisions, tank circles/railings, transformer shapes,
+   four paired heat outlets, road clearance and overall switchyard arrangement.
+3. Slowly zoom out and back several times. Initial distance changes are 600 and
+   1200 metres; precise camera-distance UI is not required to spot a visible switch.
+4. Orbit and repeat under day, sunset and night lighting. Look for sudden holes,
+   silhouette changes, texture/shadow jumps or flickering on the ground.
+5. Report what changes while moving; a single screenshot cannot prove no flicker.
+   If possible, supply a short recording or before/after views and a description.
+
+FOURTH: HEAT DELIVERY AND SAVE/RELOAD (AFTER VISUAL REVIEW)
+1. Keep the same provisional 30 workers, heat and power settings. Supply workers,
+   power, drinking water and required services. Use cold weather/known heat demand.
+2. Test one large outlet at a time with comparable pipe lengths and an isolated
+   consumer circuit. Start with the original outlet, then the three added outlets.
+3. Record production, power availability, pipe/consumer temperatures and served
+   demand after stabilising. Do not infer flow from a connection icon alone.
+4. Connect all four to comparable independent demand circuits. Increase controlled
+   demand and watch whether power, workers, production or distribution limits first.
+5. Save under a new disposable-test name, reload and confirm all four connections,
+   production and delivery remain correct. Report results before capacity claims.
+
+ROLLBACK
+P01 item 900000006 and its source files are preserved. Use the earlier disposable
+save and P01 for comparison. Do not remove P02 while a save you want to retain still
+depends on it. Any later package revision will use a fresh reviewed test handoff.

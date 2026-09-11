@@ -1,6 +1,14 @@
 # Planning issues
 
-The [Research and design milestone](https://github.com/phobos-dthorga/wrsr-phobos-buildings/milestone/1) tracks the next planning deliverables. These issues do not authorise implementation, installation or Workshop publication.
+The [Research and design milestone](https://github.com/phobos-dthorga/wrsr-phobos-buildings/milestone/1) tracks the initial planning deliverables. The author subsequently authorised modelling and local gameplay tests; Steam publication remains separate.
+
+## Current P02 work — 12 September 2026
+
+- [P02 implementation and staged manual tests](../mods/electric-heating-works/gameplay/p02/README.md): preserve P01, add original four-outlet pipework, construction groups and two distance models.
+- [Reusable building/vehicle modelling guide](3d-modelling-guide.md): choose comparable assets and keep separate geometry, archive and runtime budgets.
+- [Dated 20-building comparison](../research/2026-09-12-model-budgets-and-construction.md) with authorship, asset paths, hashes and machine-readable measurements.
+
+P01 placement is author-confirmed. Progressive construction, delivered heat and runtime performance remain unverified.
 
 - [Define Electric Heating Works architecture and site brief](https://github.com/phobos-dthorga/wrsr-phobos-buildings/issues/1)
 - [Plan a substantial receiving switchyard and electrical visual system](https://github.com/phobos-dthorga/wrsr-phobos-buildings/issues/2)

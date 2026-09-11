@@ -9,6 +9,12 @@
   3 cm ground correction, native gameplay definitions and connections, and a local
   playable test package. Prepare and check the package before pausing for a required
   game exit or manual test. Workshop publication remains outside this authorisation.
+- The author then authorised P02: original four-outlet pipework, a controlled
+  construction probe, semantic construction groups, balanced geometry cleanup,
+  two distance models, reusable building/vehicle guidance and measured comparisons.
+  Preserve P01 and pinned A03–A05 recipes. Preserve production, power and staffing;
+  record automatic construction-cost changes separately. Prepare/check a separate
+  local item before pausing for game exit and staged manual acceptance.
 - If a step requires the author to close the running game, use the mouse or otherwise
   intervene, pause and explain the required action before continuing.
 - This repository is public. Do not copy private forks, Workshop donor assets,

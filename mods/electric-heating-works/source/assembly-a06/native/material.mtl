@@ -1,0 +1,181 @@
+$SUBMATERIAL a06_busbar_terminal_support
+$TEXTURE_MTL 0 busbar_terminal_support_diffuse.dds
+$TEXTURE_MTL 1 busbar_terminal_support_specular.dds
+$TEXTURE_MTL 2 busbar_terminal_support_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_hall_service_doors
+$TEXTURE_MTL 0 hall_service_doors_diffuse.dds
+$TEXTURE_MTL 1 hall_service_doors_specular.dds
+$TEXTURE_MTL 2 hall_service_doors_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_indicative_phase_conductors
+$TEXTURE_MTL 0 indicative_phase_conductors_diffuse.dds
+$TEXTURE_MTL 1 indicative_phase_conductors_specular.dds
+$TEXTURE_MTL 2 indicative_phase_conductors_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_pump_and_service_annex
+$TEXTURE_MTL 0 pump_and_service_annex_diffuse.dds
+$TEXTURE_MTL 1 pump_and_service_annex_specular.dds
+$TEXTURE_MTL 2 pump_and_service_annex_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_service_aprons_and_cable_trench_001
+$TEXTURE_MTL 0 service_aprons_and_cable_trench_001_diffuse.dds
+$TEXTURE_MTL 1 service_aprons_and_cable_trench_001_specular.dds
+$TEXTURE_MTL 2 service_aprons_and_cable_trench_001_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_site_surface_and_access_study
+$TEXTURE_MTL 0 site_surface_and_access_study_diffuse.dds
+$TEXTURE_MTL 1 site_surface_and_access_study_specular.dds
+$TEXTURE_MTL 2 site_surface_and_access_study_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_thermal_headers_and_boundary_reservations
+$TEXTURE_MTL 0 thermal_headers_and_boundary_reservations_diffuse.dds
+$TEXTURE_MTL 1 thermal_headers_and_boundary_reservations_specular.dds
+$TEXTURE_MTL 2 thermal_headers_and_boundary_reservations_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_facade_access
+$TEXTURE_MTL 0 facade_access_diffuse.dds
+$TEXTURE_MTL 1 facade_access_specular.dds
+$TEXTURE_MTL 2 facade_access_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_facade_plain
+$TEXTURE_MTL 0 facade_plain_diffuse.dds
+$TEXTURE_MTL 1 facade_plain_specular.dds
+$TEXTURE_MTL 2 facade_plain_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_architecture_roof_bay
+$TEXTURE_MTL 0 architecture_roof_bay_diffuse.dds
+$TEXTURE_MTL 1 architecture_roof_bay_specular.dds
+$TEXTURE_MTL 2 architecture_roof_bay_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_electrical_busbar
+$TEXTURE_MTL 0 electrical_busbar_diffuse.dds
+$TEXTURE_MTL 1 electrical_busbar_specular.dds
+$TEXTURE_MTL 2 electrical_busbar_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_electrical_control_house
+$TEXTURE_MTL 0 electrical_control_house_diffuse.dds
+$TEXTURE_MTL 1 electrical_control_house_specular.dds
+$TEXTURE_MTL 2 electrical_control_house_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_electrical_line_gantry
+$TEXTURE_MTL 0 electrical_line_gantry_diffuse.dds
+$TEXTURE_MTL 1 electrical_line_gantry_specular.dds
+$TEXTURE_MTL 2 electrical_line_gantry_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_phobos_fixed_post
+$TEXTURE_MTL 0 phobos_fixed_post_diffuse.dds
+$TEXTURE_MTL 1 phobos_fixed_post_specular.dds
+$TEXTURE_MTL 2 phobos_fixed_post_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_phobos_plinth
+$TEXTURE_MTL 0 phobos_plinth_diffuse.dds
+$TEXTURE_MTL 1 phobos_plinth_specular.dds
+$TEXTURE_MTL 2 phobos_plinth_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_phobos_sliding_gate_frame
+$TEXTURE_MTL 0 phobos_sliding_gate_frame_diffuse.dds
+$TEXTURE_MTL 1 phobos_sliding_gate_frame_specular.dds
+$TEXTURE_MTL 2 phobos_sliding_gate_frame_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_switching_group
+$TEXTURE_MTL 0 switching_group_diffuse.dds
+$TEXTURE_MTL 1 switching_group_specular.dds
+$TEXTURE_MTL 2 switching_group_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_thermal_pipe_rack
+$TEXTURE_MTL 0 thermal_pipe_rack_diffuse.dds
+$TEXTURE_MTL 1 thermal_pipe_rack_specular.dds
+$TEXTURE_MTL 2 thermal_pipe_rack_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_thermal_storage_tank
+$TEXTURE_MTL 0 thermal_storage_tank_diffuse.dds
+$TEXTURE_MTL 1 thermal_storage_tank_specular.dds
+$TEXTURE_MTL 2 thermal_storage_tank_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$SUBMATERIAL a06_transformer
+$TEXTURE_MTL 0 transformer_diffuse.dds
+$TEXTURE_MTL 1 transformer_specular.dds
+$TEXTURE_MTL 2 transformer_normal_gl_y_inverted.dds
+$DIFFUSECOLOR 0.65 0.65 0.65 1
+$AMBIENTCOLOR 0.55 0.55 0.55 1
+$SPECULARCOLOR 0.12 0.12 0.12 1
+$SPECULARPOWER 15
+
+$END
