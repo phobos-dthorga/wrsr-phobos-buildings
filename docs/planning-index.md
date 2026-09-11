@@ -13,7 +13,7 @@ Implementation and game testing follow only after the design and evidence gaps a
 
 ## Proposal 01 delivered — 11 September 2026
 
-- Issues 1–2: [three original site studies, architectural character and receiving yard](../mods/electric-heating-works/design/README.md). Concept A recommended, awaiting author review.
+- Issues 1–2: [three original site studies, architectural character and receiving yard](../mods/electric-heating-works/design/README.md). The author subsequently preferred A; final dimensions and ratings remain open.
 - Issue 3: [documented limits, static observations and reproducible future test protocol](../research/2026-09-11-electricity-and-heat.md). Protocol complete; simulation behaviour remains untested.
 - Issue 4: [component contracts revision 0](../shared/component-contracts.md). Draft kit and source conventions ready for review; no shared geometry created.
 - Issues 5–6 remain open for the detailed production-workflow and release-record deliverables.
@@ -40,3 +40,16 @@ available. It records scope-specific grants, author credits and exclusions. The 
 requires clear, direct ownership and prefers setting aside complicated provenance.
 An [asset record template](asset-provenance-template.json) carries this rule into later
 selection and packaging. No external art has been cleared or adopted.
+
+## Route after the audits — 11 September 2026
+
+The revised [implementation plan](implementation-plan.md) recommends an original
+Phobos kit for Concept A, including ordinary site props and surface materials. This
+supersedes the earlier external-component-shortlist prerequisite. The broad donor
+search is complete for this plant; unclear ownership remains excluded.
+
+The next implementation milestone combines original massing views with a minimal
+native electricity/heat experiment. Its results determine single-building feasibility
+before detailed models and ratings. One finished architectural/electrical sample then
+establishes the quality and native material workflow for the rest of the kit. This
+update is planning only; it has not resumed modelling or installed a test item.

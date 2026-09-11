@@ -8,6 +8,11 @@ infrastructure: large scale supported by a believable process and utility layout
 records A as the author's preferred direction. [Electrical research](../../research/2026-09-11-electricity-and-heat.md)
 records the documented limits, static observations and future test protocol.
 
+Following the asset/licence audits, the [recommended implementation route](../../docs/implementation-plan.md)
+uses an original shared kit for A's architecture, receiving yard, thermal equipment,
+site props and materials. The next milestone is original massing plus a minimal
+native feasibility experiment; a donor-component shortlist is no longer required.
+
 ## Core requirements
 
 - A prominent electric boiler hall with a coherent industrial architectural period.

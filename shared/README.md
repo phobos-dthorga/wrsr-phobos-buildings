@@ -14,6 +14,11 @@ sets aside mixed or unclear ownership chains. A future reused component needs a
 completed [provenance record](../docs/asset-provenance-template.json), preserving
 original authors and upstream credits separately from Phobos changes.
 
+For the first Electric Heating Works, the [post-audit plan](../docs/implementation-plan.md)
+recommends original components throughout, including simple site props and materials.
+The donor search is complete for this plant. The existing planned catalogue supplies
+the starting kit; create and refine parts as their concrete use in A is demonstrated.
+
 [Component contracts, revision 0](component-contracts.md) proposes the first kit,
 source conventions, anchors, materials and revision rules for design review.
 

@@ -10,7 +10,7 @@ stages below are future work, not permission to begin them automatically.
 - Electric Heating Works brief with a substantial switchyard as a core requirement.
 - Sanitised prior research findings, contribution templates and repository checks.
 
-## Next: resolve design and research questions
+## Next: original massing and native feasibility
 
 Proposal 01 adds [three illustrated layouts](../mods/electric-heating-works/design/README.md),
 an [electricity/heat research protocol](../research/2026-09-11-electricity-and-heat.md)
@@ -19,13 +19,16 @@ preferred direction; dimensions and details remain provisional. No native behavi
 tests have been run. The [implementation plan](implementation-plan.md) records tools
 and the proposed sequence without starting implementation.
 
-1. Choose the architectural period, massing and site circulation.
-2. Establish a coherent switchyard equipment/layout concept.
-3. Review the native electricity/heat test protocol; perform measurements in a later
-   authorised implementation task before setting ratings.
-4. Define the minimal reusable component and material contracts.
-5. Establish the Blender/NMF/material workflow and current-game validation plan.
-6. Record licence/provenance rules and clean public release contents.
+The completed [asset/licence audit](../research/2026-09-11-installed-mod-license-audit.md)
+supports an original component kit for the first plant. Its next milestone no longer
+depends on finding a cleared donor library. Complicated ownership chains stay aside.
+
+1. Prepare A's original massing views and a minimal native heating test object.
+2. Measure the input-capacity and electricity/heat behaviour before detailed art or
+   final ratings; decide whether the preferred single-building arrangement works.
+3. Finish one facade section and transformer/switching group; verify native materials.
+4. Expand the original shared kit only for A's concrete needs, preserving creator records.
+5. Complete the plant and its full acceptance tests, then prepare a standalone release.
 
 ## Later: original implementation and acceptance
 

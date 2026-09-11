@@ -9,6 +9,9 @@ checks package permissions and authorship. Mixed-ownership packs, including Lata
 are set aside for the current asset shortlist; an observed reuse mechanism alone is
 not a selection decision.
 
+The later [implementation route](../docs/implementation-plan.md) recommends an original
+kit for the first plant and supersedes this report's external-shortlist next step.
+
 ## Finding
 
 **Yes: some repeated objects come from the game itself.** Other objects come from

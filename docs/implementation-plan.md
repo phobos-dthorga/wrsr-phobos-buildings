@@ -4,6 +4,40 @@
 it as the preferred layout; final dimensions, detail and game ratings remain open.
 This document plans future implementation and does not begin modelling or deployment.
 
+## Recommended route after the asset and licence audits
+
+Proceed with **Concept A, assembled from an original Phobos component kit**. The
+installed-mod audit did not clear a building-art library with the direct ownership
+and reuse scope requested by the author. Close the broad donor search for this first
+plant. The earlier requirement to find an external-component shortlist is superseded
+by the original-source plan below; it is no longer a prerequisite for modelling.
+
+Keep A's large boiler hall, twin tank envelopes, service annexes and substantial
+receiving switchyard. The 150 × 112 m site remains a study envelope. Refine its
+proportions during massing rather than locking equipment counts or native ratings
+from the drawing.
+
+| Component family | First-plant source plan |
+|---|---|
+| Hall walls, roof bays, glazing and doors | Original repeated architectural components |
+| Transformers, gantries, switching bays, busbars and relay house | Original electrical kit, informed by equipment references |
+| Tanks, pipework, supports and access details | Original thermal kit |
+| Fences, gates, foundations and any required lamps | Original simple site components; ordinary props need not reopen the donor search |
+| Surface materials | Original colours, procedural surface patterns and authored wear, baked to game-compatible maps |
+
+This keeps the source library publishable under the project's existing MIT terms.
+Source records must identify the actual contributors. Reusing our own components in
+later buildings is the intended kit-bashing workflow. The game and Workshop component
+catalogues remain useful references for scale, conventions and future research; they
+are not inputs to this first asset build. A later external contribution still needs
+clear ownership, an applicable grant and preserved original credits.
+
+The hot-water electrode-boiler process remains the recommended concept. Its use in
+district heating is supported by the [manufacturer reference](https://parat.no/products/ieh-high-voltage-electrode-boiler).
+That reference informs the process, not a copied manufacturer design, a historical
+Soviet specification or a promised W&R rating. Native thermal-storage behaviour still
+needs testing; visible tanks alone do not establish it.
+
 ## Tool choices
 
 | Tool | Role | Evidence/status |
@@ -33,24 +67,25 @@ DDS conversion, mipmaps and compression. Choose formats only after game verifica
 
 ## Sequence and visible deliverables
 
-Before step 1, complete the [existing-parts shortlist](../research/2026-09-11-reusable-game-and-workshop-parts.md)
-requested by the reuse investigation. Check ordinary props and potential electrical
-components for visual fit, provenance and packaging requirements. The first modelling
-step is paused while this research is reviewed; no external part has been adopted.
+The [licence audit](../research/2026-09-11-installed-mod-license-audit.md) now informs
+source selection rather than delaying this sequence. Its complicated ownership
+chains remain set aside. The next implementation milestone has two complementary
+deliverables, with native capacity as the first technical decision gate.
 
-Apply the [licence audit](../research/2026-09-11-installed-mod-license-audit.md) when
-making that shortlist: require clear, direct ownership and an applicable reuse grant.
-Set aside complicated provenance chains and preserve original authorship throughout.
-
-1. **Proportions and feasibility.** Produce a simple original 3D massing model of A
-   with the hall, yard, tanks, roads and connection reservations. Separately, use
-   a minimal original test object to execute the existing electricity/heat protocol
-   once game testing is authorised. Review eye-level and normal-game-camera renders;
-   choose native power/input architecture before detailed electrical art.
+1. **Native feasibility and proportions.** Prepare a minimal original test model and
+   authored heating definition for the existing [electricity/heat protocol](../research/2026-09-11-electricity-and-heat.md).
+   Establish valid HV input, delivered power, the electricity-to-heat relationship,
+   demand/staffing response and whether extra feeds increase useful capacity. Use an
+   isolated test item and disposable republic when game testing proceeds. Alongside
+   that preparation, produce A's simple original 3D massing model with the hall, yard,
+   tanks, roads and connection reservations. Supply an overall view, a hall-height
+   view and a closer yard view. These are proportion studies, not finished art.
+   Choose the native power/input arrangement before detailed electrical modelling.
 2. **A finished sample section.** Build one facade/roof bay and one convincing
-   transformer/switching group, with materials. Review a close-up and a distance
-   render. This establishes a quality standard before repeating parts across the site.
-3. **Original shared kit.** After assessing existing parts, create the required original gantries, bays, busbars, transformer,
+   transformer/switching group, with materials. Export and inspect them in the native
+   material path as well as Blender. Review close-up and gameplay-distance views.
+   This establishes both visual quality and working materials before repeating parts.
+3. **Original shared kit.** Create the required gantries, bays, busbars, transformer,
    relay-house elements, tank, piping and fencing. Store their editable sources and
    records under shared/, using the [component contracts](../shared/component-contracts.md).
    Assemble the specific site under mods/electric-heating-works/.
@@ -85,8 +120,26 @@ manual step unless a supported control route becomes available later. Prepare fi
 and exact instructions first. Visual selection and play-testing feedback remain
 valuable throughout; no paid modelling package is required by this plan.
 
-The next planning deliverable is the **component shortlist with provenance and visual
-assessment**. The subsequent implementation deliverable would be the **3D massing
-review plus the small native feasibility experiment**. These remain future work.
+The next implementation deliverable is **A's original massing review plus the small
+native feasibility experiment**. No further broad donor audit is required. Both
+deliverables remain future work; this revision records the recommended route.
 If any step needs the author's involvement or mouse control, stop and explain what
 is needed before continuing.
+
+## Decision after the first experiment
+
+Prefer one placeable native heating plant with its integrated visible yard when the
+measured capacity supports a substantial, honestly balanced facility. Set demand and
+heat output from the measurements, retaining headroom where needed. Multiple drawn
+receiving bays are not evidence of additive capacity or simulated redundancy.
+
+If the native consumer cannot support the intended scale, present the measured limit
+and the concrete choice between a lower rating and a campus of independent boiler
+buildings. A separate substation alone cannot be assumed to fix the bottleneck. That
+layout/function decision precedes detailed art; do not quietly substitute inflated
+heat output, a new runtime dependency or a different process.
+
+The first milestone is complete when the massing views exist and the experiment has
+recorded enough evidence to choose that arrangement, or a clearly identified native
+limitation requiring the author's choice. Finished details, final staffing, advertised
+capacity, functional storage and Workshop publication belong to subsequent stages.
