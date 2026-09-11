@@ -1,0 +1,88 @@
+{
+  "revision": "a01",
+  "blender_version": "5.2.1 LTS",
+  "status": "Blender visual prototype only",
+  "game_tested": false,
+  "external_assets_included": false,
+  "render_device": "CPU",
+  "render_threads": 4,
+  "model_objects": 80,
+  "instanced_triangles": 106460,
+  "unique_meshes": 16,
+  "bounds_m": [
+    [
+      -75.30000305175781,
+      75.30000305175781
+    ],
+    [
+      -56.29999923706055,
+      63.0
+    ],
+    [
+      -1.0800000429153442,
+      24.080312728881836
+    ]
+  ],
+  "part_instance_counts": {
+    "architecture.industrial-bay": 36,
+    "architecture.roof-bay": 13,
+    "electrical.line-gantry": 4,
+    "electrical.switching-bay": 4,
+    "electrical.busbar": 4,
+    "electrical.transformer": 2,
+    "electrical.control-house": 1,
+    "thermal.storage-tank": 2,
+    "thermal.pipe-rack": 7
+  },
+  "source_sha256": {
+    "shared/prototype_parts.py": "6348c737b3842de8d9910c9968ac59631d2a41b5cdb77ed5889af0c7b8feb4f9",
+    "mods/electric-heating-works/source/build_prototype.py": "c25d480739b32bdb22eb76216d34c228254c22d3e00d44d5de7d50804cd184ae"
+  },
+  "image_file_dependencies": [],
+  "linked_libraries": [],
+  "views": [
+    "overall",
+    "side",
+    "yard"
+  ],
+  "saved_scene_verification": {
+    "reopened_successfully": true,
+    "finite_mesh_coordinates": true,
+    "zero_area_faces": 0,
+    "image_or_linked_library_dependencies": 0,
+    "shared_library_object_names": [
+      "architecture.industrial-bay",
+      "architecture.roof-bay",
+      "electrical.busbar",
+      "electrical.control-house",
+      "electrical.line-gantry",
+      "electrical.switching-bay",
+      "electrical.transformer",
+      "thermal.pipe-rack",
+      "thermal.storage-tank"
+    ],
+    "render_sizes": {
+      "overall": [
+        1800,
+        1200
+      ],
+      "side": [
+        1800,
+        1200
+      ],
+      "yard": [
+        1800,
+        1200
+      ]
+    },
+    "source_hashes_match": true,
+    "native_game_tested": false
+  },
+  "review_artifact_sha256": {
+    "concept-a-prototype.blend": "fe89cbf85f098ba2777cd869f7304b642bfb4b7496752599bdf1408e67ea1fc9",
+    "prototype-parts.blend": "13a0a53c97b428b59205db7b70380942872587864d767ebe622c448f4bd71aae",
+    "overall.png": "d9f88310fb6ecbe8dbb55d5fcd6c9e8bb4974e955632e17efa529872db443768",
+    "side.png": "6e2f4ee3512f261bc987701907991aaa576948bcee8679130b1be0ac417b8856",
+    "yard.png": "e2ebd1a9ce7a413a1623ea810fd88df8580229bedbce808f56a6fbd03c6fe4a5"
+  }
+}

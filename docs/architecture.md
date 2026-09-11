@@ -10,7 +10,8 @@ record. No playable building is implemented by this foundation.
 materials. Its categories start with architecture, electrical equipment, thermal
 equipment and site details. A component receives a stable semantic ID; its eventual
 source geometry, units, origin, anchors, material dependencies, LODs and provenance
-remain next to it. The current JSON catalogue reserves IDs and records intent only.
+remain next to it. The JSON catalogue distinguishes the first original prototype
+sources from remaining planned entries; see [the A01 library](../shared/prototype-parts.md).
 
 ### Build-time reuse, no mandatory shared Workshop mod
 
@@ -48,9 +49,10 @@ than promising that a GitHub checkout alone contains every source asset.
 - Balance records intended inputs/outputs and the evidence for unit conversions.
 - Packaging records identities, dependencies, licences and release provenance.
 
-Use small shared helpers where two concrete consumers justify them. A planning
-catalogue is sufficient now; there is no build system, Blender add-on, runtime DLL,
-general asset compiler or Observatory integration in this task.
+Use small shared helpers for concrete reuse. The first Blender prototype now has
+shared part builders and a building-specific assembly script. There is no native
+game-asset build pipeline, Blender add-on, runtime DLL, general asset compiler or
+Observatory integration.
 
 ## Observatory foundation
 

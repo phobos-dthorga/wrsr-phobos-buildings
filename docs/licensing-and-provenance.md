@@ -46,11 +46,12 @@ No proprietary tool binary or unreviewed exporter source is part of a release pa
 
 ## Planned records
 
-The shared catalogue lists planned components and their intended first-party MIT
-status. It does not assert ownership of an asset that has not yet been created.
-Before an asset is marked ready, add creator/date, source files, licence and verification
-evidence. A future release inventory must cover geometry, textures, icons, sounds and
-every external dependency.
+The shared catalogue distinguishes planned entries from the original A01 prototypes.
+The [prototype source record](../shared/prototype-parts.md) states authorship, creation
+method and MIT terms. Planned entries still make no ownership claim for an uncreated
+asset. Before any component is marked game-ready, retain source files, creator/date,
+licence and actual verification evidence. A future release inventory must cover
+geometry, textures, icons, sounds and every external dependency.
 
 Use the [asset provenance template](asset-provenance-template.json) for a specific
 candidate. It separates original authors, upstream contributors, adapters and our

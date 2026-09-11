@@ -62,3 +62,7 @@ followed by a finished architectural/electrical sample and the complete shared-k
 assembly. Native configuration, power/heat balancing and acceptance follow modelling.
 There is no early electricity test prerequisite. This update is planning only; it
 has not resumed modelling or installed a test item.
+
+## Visual prototype A01 delivered — 11 September 2026
+
+The author authorised the first modelling phase. [A01](../mods/electric-heating-works/design/prototype-a01/README.md) now contains an editable scene, a separate original shared-part library and three review renders. Exact existing-prop candidates have source/material records for the detail pass; no external assets are embedded in A01. Blender verification is separate from native game tests, which remain outstanding. The game remained open. Pause before any later step requiring the author to close it or intervene.

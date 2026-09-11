@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-11",
+  "status": "targeted selection from existing audit; no external inputs in A01",
+  "purpose": "Preserve concrete reuse candidates for the detail pass without recreating ordinary props.",
+  "candidates": [
+    {
+      "element_set_directory": "muddy",
+      "declared_set_id": "muddy",
+      "element_id": "muddy_fence_mesh",
+      "proposed_use": "Open mesh fencing for the yard and perimeter",
+      "status": "exact file candidate for detail pass; not placed or adopted",
+      "source_credit": "3Division / Workers & Resources base-game asset source; individual modeller not separately named in local element metadata",
+      "source_reference": "media_soviet/buildingeditor/elements/muddy",
+      "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+      "permission_scope": {
+        "game_workshop_use": "Published guidance permits modification of the developer models for this game; retain source identity.",
+        "public_source_redistribution": "No general grant established; asset payloads stay outside GitHub."
+      },
+      "material_references": [
+        {
+          "directive": "$TEXTURE_MTL",
+          "slot": 0,
+          "file": "buildingeditor/elements/muddy/fence_mesh.dds"
+        },
+        {
+          "directive": "$TEXTURE",
+          "slot": 1,
+          "file": "buildings/blankspecular.dds"
+        },
+        {
+          "directive": "$TEXTURE",
+          "slot": 2,
+          "file": "buildings/blankbump.dds"
+        }
+      ],
+      "files": [
+        {
+          "path": "buildingeditor/elements/muddy/elements.ini",
+          "sha256": "63803490b6916632b523fe27178d1f2c8efeccde5eb0c7b2041f921ea5185e14"
+        },
+        {
+          "path": "buildingeditor/elements/muddy/fence_mesh.dds",
+          "sha256": "fb0e42ced311ce49cc7da6931a4126d17a2931409fb96658f3405b55771e0e29"
+        },
+        {
+          "path": "buildingeditor/elements/muddy/muddy_fence_mesh.mtl",
+          "sha256": "cd0472f0db263f035ce2114a9fd98653c1835860627808ebb9d375fa5a5c6844"
+        },
+        {
+          "path": "buildingeditor/elements/muddy/muddy_fence_mesh.nmf",
+          "sha256": "897623847ac02b05a22d18cf07c6732d30de26626f6d34c4930be31194af9058"
+        },
+        {
+          "path": "buildings/blankbump.dds",
+          "sha256": "01b38131955bb77e8effc9d64513420cd7a047987f2280d4bb787e2a7327e82f"
+        },
+        {
+          "path": "buildings/blankspecular.dds",
+          "sha256": "1b10d362b1e33aaf52124acb12e310a19d19eada90963618700cfb11499acfc3"
+        }
+      ],
+      "native_mesh_bounds_by_node": [
+        [
+          [
+            0.014608612284064293,
+            0.014608612284064293
+          ],
+          [
+            0.4658089876174927,
+            2.3545403480529785
+          ],
+          [
+            -0.0061559975147247314,
+            2.991199016571045
+          ]
+        ]
+      ],
+      "nmf_parsed_completely": true,
+      "geometry_or_textures_copied": false,
+      "visual_fit": "Pack preview inspected only; exact textured component appearance and placement still need review.",
+      "native_tested": false
+    },
+    {
+      "element_set_directory": "parkinglot_lamps",
+      "declared_set_id": "parkinglotlamps",
+      "element_id": "lamp2",
+      "proposed_use": "Double lamp for the service road",
+      "status": "exact file candidate for detail pass; not placed or adopted",
+      "source_credit": "3Division / Workers & Resources base-game asset source; individual modeller not separately named in local element metadata",
+      "source_reference": "media_soviet/buildingeditor/elements/parkinglot_lamps",
+      "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+      "permission_scope": {
+        "game_workshop_use": "Published guidance permits modification of the developer models for this game; retain source identity.",
+        "public_source_redistribution": "No general grant established; asset payloads stay outside GitHub."
+      },
+      "material_references": [
+        {
+          "directive": "$TEXTURE_NOMIP",
+          "slot": 0,
+          "file": "paths/lampa.dds"
+        },
+        {
+          "directive": "$TEXTURE",
+          "slot": 1,
+          "file": "buildings/blankspecular.dds"
+        },
+        {
+          "directive": "$TEXTURE",
+          "slot": 2,
+          "file": "buildings/blankbump.dds"
+        }
+      ],
+      "files": [
+        {
+          "path": "buildingeditor/elements/parkinglot_lamps/elements.ini",
+          "sha256": "efabbebc349fe5b89a1ea215fa686504e13b67e0ae3e416ec99dfdba97f114de"
+        },
+        {
+          "path": "buildingeditor/elements/parkinglot_lamps/lamp2.nmf",
+          "sha256": "07a975f5473b960369980b5f0b8098c8eef01e7443bcf31947c2e55a292e9884"
+        },
+        {
+          "path": "buildingeditor/elements/parkinglot_lamps/material.mtl",
+          "sha256": "b22728bac6111610a6130986461df6fab0fc8ea664a7748c9dc9e1c0bebc3f29"
+        },
+        {
+          "path": "buildings/blankbump.dds",
+          "sha256": "01b38131955bb77e8effc9d64513420cd7a047987f2280d4bb787e2a7327e82f"
+        },
+        {
+          "path": "buildings/blankspecular.dds",
+          "sha256": "1b10d362b1e33aaf52124acb12e310a19d19eada90963618700cfb11499acfc3"
+        },
+        {
+          "path": "paths/lampa.dds",
+          "sha256": "11adeaea1a822adce65d01a7537c45d1b2eb84f98f81b3ba9cc9dfd7bf2c6591"
+        }
+      ],
+      "native_mesh_bounds_by_node": [
+        [
+          [
+            -3.046049118041992,
+            3.1505942344665527
+          ],
+          [
+            0.029105540364980698,
+            10.456676483154297
+          ],
+          [
+            -0.24664323031902313,
+            0.23297464847564697
+          ]
+        ]
+      ],
+      "nmf_parsed_completely": true,
+      "geometry_or_textures_copied": false,
+      "visual_fit": "Pack preview inspected only; exact textured component appearance and placement still need review.",
+      "native_tested": false
+    },
+    {
+      "element_set_directory": "muddy",
+      "declared_set_id": "muddy",
+      "element_id": "muddy_concrete_barrier_blank",
+      "proposed_use": "Local maintenance barriers where needed",
+      "status": "exact file candidate for detail pass; not placed or adopted",
+      "source_credit": "3Division / Workers & Resources base-game asset source; individual modeller not separately named in local element metadata",
+      "source_reference": "media_soviet/buildingeditor/elements/muddy",
+      "permission_evidence": "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding",
+      "permission_scope": {
+        "game_workshop_use": "Published guidance permits modification of the developer models for this game; retain source identity.",
+        "public_source_redistribution": "No general grant established; asset payloads stay outside GitHub."
+      },
+      "material_references": [
+        {
+          "directive": "$TEXTURE_MTL",
+          "slot": 0,
+          "file": "buildingeditor/elements/muddy/barrier_blank.dds"
+        },
+        {
+          "directive": "$TEXTURE",
+          "slot": 1,
+          "file": "blankspecular.dds"
+        },
+        {
+          "directive": "$TEXTURE",
+          "slot": 2,
+          "file": "blankbump.dds"
+        }
+      ],
+      "files": [
+        {
+          "path": "blankbump.dds",
+          "sha256": "01b38131955bb77e8effc9d64513420cd7a047987f2280d4bb787e2a7327e82f"
+        },
+        {
+          "path": "blankspecular.dds",
+          "sha256": "1b10d362b1e33aaf52124acb12e310a19d19eada90963618700cfb11499acfc3"
+        },
+        {
+          "path": "buildingeditor/elements/muddy/barrier_blank.dds",
+          "sha256": "16921dee0c705539926a183ae8840021eab44a915d2f37692dcf356c5883c563"
+        },
+        {
+          "path": "buildingeditor/elements/muddy/elements.ini",
+          "sha256": "63803490b6916632b523fe27178d1f2c8efeccde5eb0c7b2041f921ea5185e14"
+        },
+        {
+          "path": "buildingeditor/elements/muddy/muddy_concrete_barrier_blank.mtl",
+          "sha256": "00ac40dfca657640467659479a1234e7b9cf4e80e1c4b7305ceeec0c1549882f"
+        },
+        {
+          "path": "buildingeditor/elements/muddy/muddy_concrete_barrier_blank.nmf",
+          "sha256": "35ef31f78d78e8004fc51c38b8d380b7a7f1344af70e8ff706e2cd37ef5c9534"
+        }
+      ],
+      "native_mesh_bounds_by_node": [
+        [
+          [
+            -0.40635189414024353,
+            0.28746336698532104
+          ],
+          [
+            -0.0019416717113927007,
+            1.0613510608673096
+          ],
+          [
+            -1.499160885810852,
+            1.4909396171569824
+          ]
+        ]
+      ],
+      "nmf_parsed_completely": true,
+      "geometry_or_textures_copied": false,
+      "visual_fit": "Pack preview inspected only; exact textured component appearance and placement still need review.",
+      "native_tested": false
+    }
+  ],
+  "set_aside": "Mixed-provenance packages remain outside this shortlist; direct game sources cover these ordinary prop needs."
+}

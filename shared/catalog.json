@@ -1,78 +1,141 @@
 {
   "schema_version": 1,
-  "status": "planning",
+  "status": "visual-prototype",
   "parts": [
     {
       "id": "architecture.industrial-bay",
       "category": "architecture",
       "description": "Repeated concrete industrial wall/structural bay",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     },
     {
       "id": "architecture.roof-bay",
       "category": "architecture",
       "description": "Industrial roof section and optional clerestory",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     },
     {
       "id": "electrical.line-gantry",
       "category": "electrical",
       "description": "Receiving line gantry and insulator supports",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     },
     {
       "id": "electrical.switching-bay",
       "category": "electrical",
       "description": "Coherent breaker/disconnector/instrument equipment grouping",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     },
     {
       "id": "electrical.busbar",
       "category": "electrical",
       "description": "Supported busbar section with alignment anchors",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     },
     {
       "id": "electrical.transformer",
       "category": "electrical",
       "description": "Power transformer form with radiators and bushings",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     },
     {
       "id": "electrical.control-house",
       "category": "electrical",
       "description": "Relay/control building and cable entry forms",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     },
     {
       "id": "thermal.storage-tank",
       "category": "thermal",
       "description": "Insulated hot-water tank and access details",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     },
     {
       "id": "thermal.pipe-rack",
       "category": "thermal",
       "description": "Supply/return piping and structural supports",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     },
     {
       "id": "site.fence-and-gate",
@@ -86,9 +149,16 @@
       "id": "materials.industrial-palette",
       "category": "materials",
       "description": "Coherent concrete, cladding, metal and glazing palette",
-      "status": "planned",
+      "status": "prototype",
       "intended_license": "MIT",
-      "source_files": []
+      "source_files": [
+        "shared/prototype_parts.py",
+        "shared/prototype-parts.blend"
+      ],
+      "license": "MIT",
+      "provenance": "shared/prototype-parts.md",
+      "prototype_revision": "a01",
+      "native_game_verified": false
     }
   ]
 }

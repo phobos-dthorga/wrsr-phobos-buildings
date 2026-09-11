@@ -1,7 +1,9 @@
 # Shared original parts
 
 This is the authoritative directory for reusable first-party building components.
-The [catalogue](catalog.json) contains planned IDs only; no geometry is shipped yet.
+The [catalogue](catalog.json) now distinguishes original prototype components from
+remaining planned entries. The [A01 shared library](prototype-parts.md) supplies
+editable Blender objects and their procedural source; native game acceptance is pending.
 
 Before creating ordinary props, consult the [game and Workshop parts investigation](../research/2026-09-11-reusable-game-and-workshop-parts.md).
 Some suitable fences, lamps or barriers may already exist. External candidates need

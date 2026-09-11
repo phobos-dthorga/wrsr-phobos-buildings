@@ -1,7 +1,10 @@
 # Phobos W&R Building Works contributor instructions
 
-- Respect the requested task scope. The founding task is research, planning and
-  GitHub setup; it does not authorise implementing or deploying a playable mod.
+- Respect the requested task scope. The author subsequently authorised Concept A's
+  visual prototype and review renders. Native mod installation, game tests and
+  Workshop publication remain later steps; do not infer deployment from modelling.
+- If a step requires the author to close the running game, use the mouse or otherwise
+  intervene, pause and explain the required action before continuing.
 - This repository is public. Do not copy private forks, Workshop donor assets,
   game assets, saves, proprietary tools, credentials, logs or machine-local paths.
 - Make first-party building art original. Reuse of external components needs

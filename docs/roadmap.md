@@ -1,7 +1,7 @@
 # Roadmap
 
-This task establishes research, plans and GitHub organisation only. Implementation
-stages below are future work, not permission to begin them automatically.
+The research foundation is complete and the author authorised Concept A's first
+visual prototype. Native game installation and release remain later stages.
 
 ## Completed foundation
 
@@ -10,14 +10,15 @@ stages below are future work, not permission to begin them automatically.
 - Electric Heating Works brief with a substantial switchyard as a core requirement.
 - Sanitised prior research findings, contribution templates and repository checks.
 
-## Next: original model
+## Current: visual prototype and detail development
 
 Proposal 01 adds [three illustrated layouts](../mods/electric-heating-works/design/README.md),
 an [electricity/heat research protocol](../research/2026-09-11-electricity-and-heat.md)
 and [first component contracts](../shared/component-contracts.md). A is now the author's
 preferred direction; dimensions and details remain provisional. No native behaviour
 tests have been run. The [implementation plan](implementation-plan.md) records tools
-and the proposed sequence without starting implementation.
+and the sequence. [A01](../mods/electric-heating-works/design/prototype-a01/README.md)
+now provides an editable 3D scene, shared prototype parts and three rendered views.
 
 The completed [asset/licence audit](../research/2026-09-11-installed-mod-license-audit.md)
 supports selective reuse alongside original plant components. Suitable vanilla/editor
@@ -25,7 +26,7 @@ props and direct documented Workshop grants remain candidates; public MIT source
 rights are a separate question. Massing does not depend on a new donor-library search.
 Complicated ownership chains stay aside.
 
-1. Prepare A's original massing model and review views.
+1. **Delivered:** A's original massing model and three review views.
 2. Finish one facade section and transformer/switching group; verify the visual workflow.
 3. Expand the original shared kit, select suitable audited props and complete the
    model, preserving each contributor's credits and applicable terms.

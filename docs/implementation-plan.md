@@ -2,7 +2,10 @@
 
 11 September 2026. The author identified A as the most promising direction. Treat
 it as the preferred layout; final dimensions, detail and game ratings remain open.
-This document plans future implementation and does not begin modelling or deployment.
+The author subsequently authorised the visual prototype. [A01's scene and three
+renders](../mods/electric-heating-works/design/prototype-a01/README.md) now complete the
+first visual milestone. The rest of this document describes further detail, export
+and game work; the prototype is not a deployed or game-tested mod.
 
 **Author's sequencing decision:** create the model first. Electricity load and
 delivery checks belong to later in-game configuration/testing and must not block
@@ -146,11 +149,12 @@ manual step unless a supported control route becomes available later. Prepare fi
 and exact instructions first. Visual selection and play-testing feedback remain
 valuable throughout; no paid modelling package is required by this plan.
 
-The next implementation deliverable is **A's original 3D massing review**, followed
-by the finished model and reusable parts. No early electricity test or further broad
-donor audit is required. This revision records the route; it does not create a model.
-If any step needs the author's involvement or mouse control, stop and explain what
-is needed before continuing.
+The first implementation deliverable, **A's original 3D massing review**, is now
+[available as A01](../mods/electric-heating-works/design/prototype-a01/README.md), with
+shared prototype sources. Next refine proportions and the detailed architectural/
+electrical sample, then complete the model and place suitable audited props. No early
+electricity test or further broad donor audit is required. If any step needs the author
+to close the game, use the mouse or otherwise intervene, stop and explain first.
 
 ## Balancing after the model is created
 

@@ -1,7 +1,8 @@
 # Contributing
 
 Research, architectural design, original art, compatibility findings and community
-maintenance are welcome. This repository is currently a planning foundation.
+maintenance are welcome. This repository contains research and an initial visual
+prototype; native game implementation remains outstanding.
 
 ## Forks and attribution
 
@@ -21,8 +22,8 @@ part through a design/research issue. Include reference URLs, licence evidence a
 which claims have actually been tested. Do not attach real saves or private donor files.
 
 Shared parts need a stable ID, category, purpose, provenance, dimensions/axes,
-connection anchors where relevant, and a stated verification level. In this foundation
-the catalogue is a list of planned components, not a claim that source assets exist.
+connection anchors where relevant, and a stated verification level. The catalogue
+distinguishes planned entries from prototype sources; neither means game-ready.
 
 Future changes should make geometry, surface materials, game configuration and balance
 independently reviewable. Run `python scripts/check_repository.py`; describe any other
@@ -30,5 +31,5 @@ validation separately. Avoid unrequested balance changes and preserve released i
 
 Commit and PR descriptions should explain the concrete result, relevant verification
 and remaining limits. Screenshots must identify whether they are Blender renders,
-concept diagrams or in-game captures. New modelling and game implementation remain
-future work until requested.
+concept diagrams or in-game captures. Continue within the author's requested scope;
+the first visual prototype is authorised, while game installation remains a later step.
