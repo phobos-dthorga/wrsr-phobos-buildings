@@ -58,12 +58,16 @@ settings unchanged. They are staged alongside the existing sample and differ onl
 in the three normal-map references. Corrected Surface A screenshots now show the
 tuned GL profile in Building mode under Day, Sunset and Night; its panel and
 equipment details remain readable. The [corrected review record](normal-review-a-2026-09-12.json)
-preserves observations and evidence hashes. One matching Day view of Surface B
-remains pending; no normal direction has been selected and no new geometry or
-texture images were created.
+preserves observations and evidence hashes. The author then supplied the matching
+Day view of Surface B and said "Looking good ^ ^". The
+[Surface B review](normal-review-b-2026-09-12.json) records it as the reversible
+working choice for the next assembly. Both versions look usable; these views do
+not establish the renderer's required normal direction. The requested sample
+comparison is complete, with no new geometry or texture images created.
 The first close-up attempt loaded the similarly named untuned profiles. A dedicated
 heating_normals review folder now offers only 01_BASELINE, 02_SURFACE_A and
-03_SURFACE_B materials. Use the linked instructions for the next comparison.
+03_SURFACE_B materials. The linked notes retain the completed procedure and describe
+the next assembly pass.
 
 ## Settings and rationale
 

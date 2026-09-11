@@ -16,7 +16,11 @@ Brightness is retained at those settings while normal maps and final visual
 acceptance remain open. The [tuning notes](../../../../shared/material-tuning-a03/README.md)
 record the visible Vehicle mode and the unresolved purpose of that selector.
 [Tuned normal-map comparisons](../../../../shared/material-tuning-a03/normal-comparison.md)
-are now prepared for author inspection, preserving the preferred brightness exactly.
+have now received the requested author views. Surface B received positive feedback
+and is the reversible working choice for the next full-plant assembly, preserving
+the preferred brightness exactly. Both directions appear usable at the reviewed
+view; the renderer's required normal convention remains unverified. No further
+isolated-sample screenshots are requested for this pass.
 
 ![A03 original facade and electrical sample, rendered in Blender](../../../../shared/material-sample-a03/review/overview.png)
 

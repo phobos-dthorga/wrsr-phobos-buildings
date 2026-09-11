@@ -1,7 +1,28 @@
 # A03 surface-detail comparison
 
 12 September 2026. Original Phobos material files, MIT.
-**Tuned Surface A observed in Building mode; Surface B comparison remains pending.**
+**Requested tuned A/B views reviewed. Surface B is the working choice; the native
+normal convention and complete-plant appearance remain unverified.**
+
+## Surface B result and working decision
+
+The author supplied the requested Day view of 03_SURFACE_B.mtl and said
+"Looking good ^ ^". Building mode and the sun pair (0.00 / 0.48 radians) match
+Surface A. The hall controls show the preferred multipliers and
+hall_bay_normal_gl_y_inverted.dds; the open menu lists all three components.
+The staged material was also checked against the repository and has identical bytes.
+
+Panel divisions, paint variation, dark glass, radiator fins and brown insulators
+remain readable. Both tuned versions look usable in these views. Framing shifts
+slightly, and there is no decisive visual evidence that either normal direction
+is superior. The positive feedback concerns Surface B's appearance, not an explicit
+ranking of A against B. The [Surface B record](normal-review-b-2026-09-12.json)
+pins the original screenshot, material, observations and limits.
+
+Use Surface B as the **reversible working choice for the next plant assembly**,
+retaining the preferred brightness and both alternatives. This closes the requested
+sample comparison; no further isolated-sample screenshots are needed now. It does
+not establish a universal W&R normal convention or final model acceptance.
 
 ## Corrected Surface A review
 
@@ -18,10 +39,8 @@ three original screenshot hashes, visible settings, observations and limits.
 The screenshots remain archived locally outside Git. These views confirm the
 correct tuned profile is displayed; they do not yet establish the normal direction.
 
-**Next handoff: one matching Day view of 03_SURFACE_B.mtl**, keeping the current
-sample, Building mode, camera and sun (0.00 / 0.48 radians) unchanged. The author
-does not need to repeat Surface A, Sunset or Night. Surface B still awaits native
-comparison, so no normal convention has been selected and brightness is unchanged.
+At this point the remaining handoff was one matching Day view of Surface B.
+That view has now been supplied and reviewed above; brightness is unchanged.
 
 ## First attempt and clearer handoff
 
@@ -45,7 +64,8 @@ a dedicated phobos_tests/heating_normals folder now has only three material choi
 These are renamed copies with identical bytes, not another material revision.
 All three preserve the preferred brightness. The folder also contains the unchanged
 sample.nmf and 13 original DDS files, with all texture references resolved.
-The old folders remain intact. No normal convention has yet been selected.
+The old folders remain intact. The working choice is recorded above; the native
+normal convention is not established by these screenshots.
 
 The author authorised continuing after preferring the brightness candidate.
 These two comparisons preserve that candidate's exact material settings: diffuse
@@ -56,8 +76,8 @@ another independent set of numbers.
 | Material | Slot 2 normal map | Status |
 |---|---|---|
 | material_tune01_candidate.mtl | Original neutral flat map | Author-preferred brightness reference |
-| material_tune01_normal_gl.mtl | Each component's original baked tangent normal map | Observed in Building mode: Day, Sunset and Night; matching B comparison pending |
-| material_tune01_normal_y_inverted.mtl | Same baked maps with green/Y inverted | Native comparison pending |
+| material_tune01_normal_gl.mtl | Each component's original baked tangent normal map | Observed in Building mode: Day, Sunset and Night; retained alternative |
+| material_tune01_normal_y_inverted.mtl | Same baked maps with green/Y inverted | Observed in Building mode: Day; positive author feedback; working assembly choice |
 
 Only the three $TEXTURE_MTL 2 lines change between the reference and either new file.
 Diffuse/specular maps, all colour multipliers, specular power, material names and
@@ -90,7 +110,9 @@ This copies one pinned original mesh, 13 pinned DDS files and the three exact tu
 material copies. It refuses conflicting files or a review folder containing unrelated
 MTL files. No older untuned profiles or diagnostic controls are added there.
 
-## Author-operated comparison
+## Reproducing the completed sample comparison
+
+The procedure below is retained for reference, not a new screenshot request.
 
 Keep the current sample.nmf loaded. No game exit or agent mouse control is needed.
 
@@ -116,7 +138,26 @@ Day screenshots alone are enough for this next fixed-light comparison; the autho
 does not need to repeat all three lighting presets. Selecting a component can confirm
 the tuned values (diffuse 0.65, ambient 0.55, specular 0.12, power 15) if needed.
 
-After this fixed-view comparison, review more angles, distance and other lighting
-with the selected material. Those remain later checks, as do a dedicated night
-material, construction stages, LODs and simulation behaviour. Full-plant application
-follows material acceptance. The agent pauses here for the author's inspection.
+## Next modelling pass
+
+Carry this approach into the complete plant, preserving the reviewed sources and
+producing a separate assembly revision. The next work should:
+
+1. Reuse the original transformer and switching-group meshes and atlases across
+   their existing site placements, preserving electrical equipment and switchyard
+   layout. Recorded material multipliers are a starting point for native appearance;
+   Blender's shader does not reproduce them exactly.
+2. Adapt the six-metre facade kit for ordinary bays and access bays. Do not stamp
+   the sample's door and roof-edge slice onto every bay: retain the full roof,
+   deliberate service access and existing large maintenance-door positions.
+3. Extend the same original material approach to the remaining roof, tanks, pipework,
+   gantries and service structures. Reuse atlas inputs where geometry and UVs permit;
+   changed geometry needs its own appropriate UV/bake/export verification.
+4. Keep original editable sources and exports public, while the local assembly's
+   3Division fences, lamps and barriers remain credited and outside Git. Preserve
+   A02 and A03 rather than replacing reviewed or manually edited files.
+
+Review more angles and distance on the new assembly, including material joins and
+the substantial receiving switchyard. Dedicated night materials, construction stages,
+LODs and simulation behaviour remain later work. Electricity load/delivery tests
+follow modelling, as requested. Pause before any required author action or game exit.

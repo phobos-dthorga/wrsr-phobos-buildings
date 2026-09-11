@@ -15,7 +15,10 @@ A01 scene remains the earlier all-original source.
 [A03 original material/export sample](material-sample.md) provides a separate refined
 facade and electrical study, original image sources, DDS maps, NMF and native material
 variants. Its [editable scene and asset package](../../../shared/material-sample-a03/README.md)
-are public original work. Native visual inspection remains pending.
+are public original work. The requested
+[tuned sample comparison](../../../shared/material-tuning-a03/normal-comparison.md)
+is now reviewed, with Surface B as the working choice for the next assembly.
+Full-plant native visual inspection remains pending.
 
 The reusable geometry and material functions live in
 [shared/prototype_parts.py](../../../shared/prototype_parts.py). The separate

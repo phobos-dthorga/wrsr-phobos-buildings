@@ -14,8 +14,10 @@ component and passed an incomplete static check. The Blender scene, mesh, textur
 and renders are unchanged. The stronger checks pass, and the author's reload confirms
 three material entries and improved component colours in Day, Sunset and Night.
 The later [tuning candidate](../material-tuning-a03/README.md) substantially improves
-brightness and is now the author's preferred baseline. Normal-map review remains
-open. See the
+brightness and is now the author's preferred baseline. The
+[tuned A/B sample review](../material-tuning-a03/normal-comparison.md) is complete;
+Surface B is the reversible working choice following positive author feedback.
+The native normal convention and full-plant appearance remain unverified. See the
 [investigation](../../mods/electric-heating-works/design/material-a03/native-shading-investigation.md).
 
 ## Editable source and generated assets

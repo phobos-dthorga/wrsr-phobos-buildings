@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-12",
+  "reviewer": "phobosgekko",
+  "source_commit": "661d5664e433837443dae6c18a813db0794cf197",
+  "user_feedback": "Looking good ^ ^",
+  "evidence_type": "Author-supplied ModelViewer daylight close-up completing the requested tuned A/B views",
+  "material_filename_visible": "03_SURFACE_B.mtl",
+  "canonical_material": "material_tune01_normal_y_inverted.mtl",
+  "material_sha256": "55ada819837e8f42b54aad1b06bb83089c0ab319842badef7f2610f307a01b7c",
+  "staged_material_bytes_match_repository": true,
+  "selected_submaterial_visible": "a03_hall_bay",
+  "submaterial_menu_entries_visible": [
+    "a03_hall_bay",
+    "a03_transformer",
+    "a03_switching_group"
+  ],
+  "material_settings_visible": {
+    "diffuse_rgb": 0.65,
+    "ambient_rgb": 0.55,
+    "specular_rgb": 0.12,
+    "specular_power": 15,
+    "fourth_color_field": 1,
+    "normal_map": "hall_bay_normal_gl_y_inverted.dds"
+  },
+  "evidence_files": [
+    {
+      "evidence_id": "tuned-normal-y-day.jpg",
+      "sha256": "80897a1477c60968956395e7c55dd4fb4e5a3fa69a20e451e3a23bfe5edd4b62",
+      "bytes": 1048087,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Day",
+      "sun_direction_radians_visible": [0.0, 0.48]
+    }
+  ],
+  "comparison_with": "normal-review-a-2026-09-12.json",
+  "observations": [
+    "The focused Surface B material is displayed with the preferred hall settings and the green/Y-inverted hall bump texture.",
+    "Panel divisions, paint variation, dark glazing, transformer radiators and brown insulators remain readable, without the severe white clipping of the untuned close-ups.",
+    "Surface A and Surface B both look usable at the supplied daylight view. No decisive normal-direction advantage or new gross shading fault is evident in these screenshots."
+  ],
+  "limits": [
+    "Camera framing shifts slightly from Surface A. Mode and displayed sun match, but this is a qualitative comparison rather than a registered pixel test.",
+    "The author's positive comment approves the visible Surface B appearance; it is not an explicit preference for B over A or proof of the renderer's required normal convention.",
+    "Only the hall controls are selected. All three material names are visible and the staged file matches the repository, but the screenshot is not a byte-level inspection of the viewer's memory.",
+    "Unseen angles, distance, full-plant assembly, dedicated night materials and gameplay remain unverified."
+  ],
+  "working_choice": {
+    "material": "material_tune01_normal_y_inverted.mtl",
+    "reason": "Use the positively reviewed Surface B as a reversible working choice for the next plant assembly, without claiming it outperformed A.",
+    "native_normal_convention_verified": false,
+    "fallback": "Retain both tuned variants and the neutral-normal brightness reference for later diagnosis."
+  },
+  "requested_sample_comparison_complete": true,
+  "preferred_brightness_changed": false,
+  "final_visual_acceptance_complete": false,
+  "next_step": "Carry the reviewed material approach into the complete plant with shared atlas reuse and appropriate facade variants; review appearance on that assembly rather than requesting another isolated-sample screenshot cycle.",
+  "evidence_storage": "Unmodified screenshot archived locally outside Git; hashes and observations only are published."
+}

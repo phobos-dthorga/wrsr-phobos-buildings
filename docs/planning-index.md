@@ -131,3 +131,12 @@ The initial screenshots selected the older untuned filenames; the research recor
 preserves that observation without claiming a completed tuned comparison. A separate
 heating_normals folder now contains only Baseline, Surface A and Surface B materials,
 with unchanged source bytes and preferred brightness, to simplify the manual handoff.
+
+The corrected Surface A views and the subsequent Day view of Surface B now complete
+that requested sample comparison. The author described B as "Looking good ^ ^".
+The [comparison and next modelling pass](../shared/material-tuning-a03/normal-comparison.md)
+record B as a reversible working choice, with unchanged brightness. Both directions
+look usable; no universal normal convention is claimed. The next assembly carries
+the refined original facade/electrical kit into the full plant, adapting access bays
+and extending materials to remaining structures. No additional isolated-sample
+screenshots are requested. Full-plant inspection and gameplay remain later work.
