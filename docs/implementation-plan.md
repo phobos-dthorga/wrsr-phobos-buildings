@@ -163,8 +163,10 @@ shared prototype sources. A02 has now placed the selected vanilla fence panels, 
 and barriers, replacing unsuitable tyre-mounted supports with original permanent
 supports. A03 has prepared the detailed architectural/electrical material sample and
 its original texture/export files. The author's first native review confirmed corrected
-material loading. Next tune brightness and compare normal variants with the author,
-then apply the accepted workflow across the model. No early
+material loading. Brightness and tuned normal comparisons have since been reviewed,
+and [A04](../mods/electric-heating-works/design/assembly-a04/README.md) applies the
+approach across the model with public original source art and a checked native
+inspection export. Full-plant ModelViewer appearance is the next manual handoff. No early
 electricity test or further broad donor audit is required. If any step needs the author
 to close the game, use the mouse or otherwise intervene, stop and explain first.
 

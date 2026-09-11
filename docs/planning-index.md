@@ -140,3 +140,18 @@ look usable; no universal normal convention is claimed. The next assembly carrie
 the refined original facade/electrical kit into the full plant, adapting access bays
 and extending materials to remaining structures. No additional isolated-sample
 screenshots are requested. Full-plant inspection and gameplay remain later work.
+
+## Complete-plant material assembly A04 — 12 September 2026
+
+The author authorised the next assembly. [A04](../mods/electric-heating-works/design/assembly-a04/README.md)
+now carries the refined facade and reviewed electrical meshes across the complete
+plant, with textures for the roofs, tanks, gantries, pipework and service structures.
+The original-art source/export package and a 13-variant shared kit are public;
+the separate local scene retains the credited A02 game props outside GitHub.
+
+The first preview exposed overlapping ordinary-bay infill, corrected before promotion.
+Verification covers that regression, saved scenes, original placements, preserved
+UV/winding/normals and DDS conversion. Native batching reduces 595 authoring instances
+to 24 mesh groups across 20 materials, without reducing the 146,208 triangles.
+The checked original package is staged for ModelViewer. Full-plant appearance is the
+next author-operated review; no playable mod or electricity/heat test is claimed.

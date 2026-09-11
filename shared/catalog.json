@@ -12,7 +12,8 @@
         "shared/prototype_parts.py",
         "shared/prototype-parts.blend",
         "shared/material_sample_parts.py",
-        "shared/material-sample-a03/material-sample.blend"
+        "shared/material-sample-a03/material-sample.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
@@ -21,7 +22,10 @@
       "sample_revision": "a03",
       "sample_object": "a03_hall_bay",
       "sample_provenance": "shared/material-sample-a03/README.md",
-      "sample_status": "native-visual-inspection-pending"
+      "sample_status": "tuned sample reviewed; full-plant native appearance pending",
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "architecture.roof-bay",
@@ -31,12 +35,16 @@
       "intended_license": "MIT",
       "source_files": [
         "shared/prototype_parts.py",
-        "shared/prototype-parts.blend"
+        "shared/prototype-parts.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
       "prototype_revision": "a01",
-      "native_game_verified": false
+      "native_game_verified": false,
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "electrical.line-gantry",
@@ -46,12 +54,16 @@
       "intended_license": "MIT",
       "source_files": [
         "shared/prototype_parts.py",
-        "shared/prototype-parts.blend"
+        "shared/prototype-parts.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
       "prototype_revision": "a01",
-      "native_game_verified": false
+      "native_game_verified": false,
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "electrical.switching-bay",
@@ -63,7 +75,8 @@
         "shared/prototype_parts.py",
         "shared/prototype-parts.blend",
         "shared/material_sample_parts.py",
-        "shared/material-sample-a03/material-sample.blend"
+        "shared/material-sample-a03/material-sample.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
@@ -72,7 +85,10 @@
       "sample_revision": "a03",
       "sample_object": "a03_switching_group",
       "sample_provenance": "shared/material-sample-a03/README.md",
-      "sample_status": "native-visual-inspection-pending"
+      "sample_status": "tuned sample reviewed; full-plant native appearance pending",
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "electrical.busbar",
@@ -82,12 +98,16 @@
       "intended_license": "MIT",
       "source_files": [
         "shared/prototype_parts.py",
-        "shared/prototype-parts.blend"
+        "shared/prototype-parts.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
       "prototype_revision": "a01",
-      "native_game_verified": false
+      "native_game_verified": false,
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "electrical.transformer",
@@ -99,7 +119,8 @@
         "shared/prototype_parts.py",
         "shared/prototype-parts.blend",
         "shared/material_sample_parts.py",
-        "shared/material-sample-a03/material-sample.blend"
+        "shared/material-sample-a03/material-sample.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
@@ -108,7 +129,10 @@
       "sample_revision": "a03",
       "sample_object": "a03_transformer",
       "sample_provenance": "shared/material-sample-a03/README.md",
-      "sample_status": "native-visual-inspection-pending"
+      "sample_status": "tuned sample reviewed; full-plant native appearance pending",
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "electrical.control-house",
@@ -118,12 +142,16 @@
       "intended_license": "MIT",
       "source_files": [
         "shared/prototype_parts.py",
-        "shared/prototype-parts.blend"
+        "shared/prototype-parts.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
       "prototype_revision": "a01",
-      "native_game_verified": false
+      "native_game_verified": false,
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "thermal.storage-tank",
@@ -133,12 +161,16 @@
       "intended_license": "MIT",
       "source_files": [
         "shared/prototype_parts.py",
-        "shared/prototype-parts.blend"
+        "shared/prototype-parts.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
       "prototype_revision": "a01",
-      "native_game_verified": false
+      "native_game_verified": false,
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "thermal.pipe-rack",
@@ -148,12 +180,16 @@
       "intended_license": "MIT",
       "source_files": [
         "shared/prototype_parts.py",
-        "shared/prototype-parts.blend"
+        "shared/prototype-parts.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
       "prototype_revision": "a01",
-      "native_game_verified": false
+      "native_game_verified": false,
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "site.fence-and-gate",
@@ -163,12 +199,16 @@
       "intended_license": "MIT",
       "source_files": [
         "shared/site_details.py",
-        "shared/site-details.blend"
+        "shared/site-details.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/site-details.md",
       "prototype_revision": "a02",
-      "native_game_verified": false
+      "native_game_verified": false,
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     },
     {
       "id": "materials.industrial-palette",
@@ -182,7 +222,8 @@
         "shared/site_details.py",
         "shared/site-details.blend",
         "shared/sample_materials.py",
-        "shared/material-sample-a03/material-sample.blend"
+        "shared/material-sample-a03/material-sample.blend",
+        "shared/assembly-a04/assembly-parts.blend"
       ],
       "license": "MIT",
       "provenance": "shared/prototype-parts.md",
@@ -193,7 +234,10 @@
         "shared/material-sample-a03/README.md"
       ],
       "sample_revision": "a03",
-      "sample_status": "native-visual-inspection-pending"
+      "sample_status": "tuned sample reviewed; full-plant native appearance pending",
+      "assembly_revision": "a04",
+      "assembly_record": "shared/assembly-a04/README.md",
+      "assembly_status": "whole-plant Blender and static export checked; native appearance pending"
     }
   ]
 }

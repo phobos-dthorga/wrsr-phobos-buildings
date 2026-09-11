@@ -1,6 +1,6 @@
 # Phobos' Electric Heating Works
 
-**A01 prototype, A02 local site details and A03 material/export sample available.** A substantial electric district-heating complex for a
+**A04 complete-plant assembly and original native inspection export available.** A substantial electric district-heating complex for a
 republic with abundant generating capacity. The aim is convincing centralised public
 infrastructure: large scale supported by a believable process and utility layout.
 
@@ -17,8 +17,11 @@ The [original massing review and shared prototypes](design/prototype-a01/README.
 are available, followed by [A02's actual reuse and original site supports](design/detail-a02/README.md).
 The [A03 material/export sample](design/material-a03/README.md) has received its first
 native inspection: all three materials load after a file-format correction, while
-brightness tuning remains open. It includes original editable sources and exported
-texture/material files. Full-plant application follows final material acceptance. Per the author's
+brightness tuning subsequently received positive feedback. The tuned normal sample
+comparison is reviewed, with Surface B as the working choice. The
+[A04 full-plant material assembly](design/assembly-a04/README.md) now includes the
+refined facade/electrical kit, remaining original textures and a checked native export.
+Full-plant native appearance remains a manual handoff. Per the author's
 instruction, electricity load/delivery tests follow modelling; neither an early power
 experiment nor a completed donor shortlist is required.
 

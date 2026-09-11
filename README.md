@@ -3,7 +3,7 @@
 Original building mods for **Workers & Resources: Soviet Republic**, supported by a
 shared library of reusable architectural and industrial parts.
 
-**Status: 3D prototype, local site detail A02 and original material/export sample A03.**
+**Status: A04 complete-plant material assembly and original native inspection export.**
 Concept A has editable Blender sources, reusable components and review renders. There are no playable
 mods, Workshop uploads or supported game releases yet. The first project is **Phobos'
 Electric Heating Works**: a large electric district-heating complex with a substantial
@@ -13,14 +13,21 @@ receiving switchyard.
 
 [A02: actual reused props and original site details](mods/electric-heating-works/design/detail-a02/README.md)
 records the vanilla fence panels, lamps and barriers used in the local assembly.
-The mixed scene and its renders stay outside GitHub; the public image below is A01.
+The mixed scene and its renders stay outside GitHub; the public image below contains
+only original A04 art, including boundary supports without external infill or lamps.
 
 [A03: original textured components and native inspection handoff](mods/electric-heating-works/design/material-a03/README.md)
 now includes public Blender, PNG, DDS, NMF and material sources. The first native
 inspection confirms corrected material loading. The author now prefers the tuned
-brightness baseline; normal-map review and final visual acceptance remain open.
+brightness baseline and the tuned A/B sample comparison is reviewed. Surface B is
+the working choice; the native normal convention remains unverified.
 
-![Earlier A01 all-original visual prototype, rendered in Blender](mods/electric-heating-works/design/prototype-a01/overall.png)
+[A04: complete plant, shared kit and native inspection handoff](mods/electric-heating-works/design/assembly-a04/README.md)
+extends the approach across the hall, switchyard, tanks and service structures.
+Saved-scene, texture and native geometry checks pass; full-plant ModelViewer appearance
+and gameplay remain untested.
+
+![A04 original complete-plant assembly, rendered in Blender](mods/electric-heating-works/source/assembly-a04/review/overall.png)
 
 ## Start here
 

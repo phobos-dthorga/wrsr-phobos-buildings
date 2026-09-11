@@ -140,6 +140,10 @@ the tuned values (diffuse 0.65, ambient 0.55, specular 0.12, power 15) if needed
 
 ## Next modelling pass
 
+This pass has now produced [A04](../../mods/electric-heating-works/design/assembly-a04/README.md),
+with checked original sources and a full-plant native inspection export. The steps
+below record its intended scope; full-plant native appearance is the next handoff.
+
 Carry this approach into the complete plant, preserving the reviewed sources and
 producing a separate assembly revision. The next work should:
 

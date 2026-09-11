@@ -18,6 +18,8 @@ variants. Its [editable scene and asset package](../../../shared/material-sample
 are public original work. The requested
 [tuned sample comparison](../../../shared/material-tuning-a03/normal-comparison.md)
 is now reviewed, with Surface B as the working choice for the next assembly.
+The [A04 complete-plant source/export package](assembly-a04/README.md) is now
+available, with a [shared reusable kit](../../../shared/assembly-a04/README.md).
 Full-plant native visual inspection remains pending.
 
 The reusable geometry and material functions live in

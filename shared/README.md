@@ -8,7 +8,10 @@ The [A02 support library](site-details.md) adds original fixed posts, plinths an
 sliding-gate frames, plus a procedural concrete material study.
 The [A03 original material sample](material-sample-a03/README.md) adds refined facade
 and electrical components, UVs, original PNG/DDS textures and native inspection files.
-Its native appearance still needs manual verification.
+Its tuned sample views have now been reviewed. The
+[A04 reusable assembly kit](assembly-a04/README.md) adds 13 textured variants with
+packed sources and PNG/DDS files. The whole-plant assembly has passed saved-source
+and static export checks; native full-plant appearance remains unverified.
 
 Before creating ordinary props, consult the [game and Workshop parts investigation](../research/2026-09-11-reusable-game-and-workshop-parts.md).
 Some suitable fences, lamps or barriers may already exist. External candidates need
