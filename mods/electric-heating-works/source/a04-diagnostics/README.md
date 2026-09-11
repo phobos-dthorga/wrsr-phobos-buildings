@@ -2,7 +2,25 @@
 
 12 September 2026. Original project art: Copyright (c) 2026 Phobos A. D'thorga, MIT.
 These are diagnostic ModelViewer exports, not final replacements or a playable mod.
-Native comparison results remain pending.
+The author reports that the dithering disappears with 02_RAISED.nmf. The affected
+surface scope and follow-up comparisons still need confirmation; this is not
+acceptance of a permanent two-metre lift.
+
+## First author result
+
+After the requested baseline/raised comparison, the author reported: "The dithering
+only disappears with 02_RAISED.nmf." This is author-observed native behaviour, not
+a new assistant screen capture. It supports investigating vertical placement and
+terrain interaction. It does not yet distinguish ground-only improvement from
+improvement on tanks and walls, establish the smallest clearance, or demonstrate
+that every other diagnostic file was tested. A clarification was requested before
+selecting the next correction. No original geometry or material has been changed.
+
+If the tank and wall details also improve, keep their geometry intact while
+investigating the effect of placement; this result alone would not prove that
+ground intersection explains artifacts high on the building. Re-export and viewing
+conditions are also possible confounding factors. The two-metre diagnostic offset
+must not be promoted directly into a final building foundation height.
 
 The author questioned the two-metre raise. It is deliberately exaggerated to
 separate the whole model from the viewer's terrain. It is not a proposed foundation
