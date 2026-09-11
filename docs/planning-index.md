@@ -114,4 +114,9 @@ The author subsequently authorised [material tuning comparison 01](../shared/mat
 Five original material variants are staged alongside the corrected sample, with
 unchanged model/texture inputs. The candidate lowers diffuse, ambient and specular
 multipliers; isolated controls support follow-up diagnosis. Settings, reference
-observations and hashes are recorded, but the native result is still awaiting review.
+observations and hashes are recorded. The author then reviewed the candidate in
+Day, Sunset and Night and prefers its appearance. These brightness values are retained
+for subsequent checks. The screenshots show Vehicle mode; documentation supports
+animations for both object types but does not explain the exact selector. Do not
+invalidate this review based on an assumed rendering difference. Normal-map and
+full material acceptance remain open.

@@ -1,12 +1,55 @@
 # A03 material tuning — comparison 01
 
 Copyright (c) 2026 Phobos A. D'thorga. MIT. Original material settings.
-Prepared 12 September 2026. **Native response is unverified; these are candidates.**
+Prepared and reviewed 12 September 2026. **The combined candidate is the author's
+preferred brightness baseline; final material acceptance remains open.**
 
 The author's corrected A03 screenshots show all three component materials loaded,
 but pale surfaces lose detail in Day and Sunset, and strong highlights remain in
 Night. This comparison adjusts material settings without changing original geometry,
 UVs, texture pixels, component names or the neutral normal map.
+
+## Author review
+
+The author supplied Day, Sunset and Night screenshots of material_tune01_candidate.mtl
+and described the result as "Much better!" Day now retains the concrete panel joints,
+dark glass, painted transformer surfaces and radiator edges; the insulators remain
+brown. Sunset preserves those distinctions under a warm colour cast. Night is darker
+and the previous broad bright appearance is reduced. Retain this candidate's settings
+for the next surface-detail comparisons; do not resume brightness changes without a
+new visual reason.
+
+All three screenshots show Vehicle mode and somewhat different framing from the
+previous Building-mode baseline. These are qualitative observations, not a controlled
+pixel comparison or proof of complete mode equivalence. The user's earlier switch
+between modes produced no visible improvement before material-file repair. Vehicle
+mode alone is not evidence that this tuning result is wrong.
+
+[The review record](review-2026-09-12.json) pins the candidate hash, screenshot hashes,
+visible settings, author feedback and limits. Original screenshots remain locally
+archived outside Git. Final normal-map selection, unseen faces, distance review,
+dedicated night materials and gameplay remain untested.
+
+## Vehicle / Building selector research
+
+The author suggested Vehicle mode might relate to animation. Checked on 12 September:
+
+- The official-hosted [Animations guide](https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Animations)
+  explicitly supports animations for both buildings and vehicles.
+- The [ModelViewer guide](https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Modelviewer)
+  does not define the Object type selector.
+- The separately supplied exporter readme describes bone/skinning animation and
+  animation-frame export; it does not explain this selector either.
+- The [Texturing guide](https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Texturing)
+  recommends material light multipliers for overly bright imports, consistent with
+  the tuning approach. It also documents different alpha-texture behaviour for
+  buildings and vehicles, but does not establish which behaviour this dropdown controls.
+
+Conclusion: the exact selector effect remains undocumented in the sources checked.
+Do not assert that it changes shading, or that it is exclusively for animations.
+Record its value and keep it fixed within future comparisons. A later Building-mode
+comparison can be combined with the next material-detail check; no extra review cycle
+is required solely because the latest screenshots show Vehicle.
 
 ## Settings and rationale
 
@@ -40,8 +83,8 @@ an equivalent reflection configuration.
 
 The candidate makes deliberately visible reductions for the first screenshot
 comparison. The 0.65/0.55/0.12 settings are original experimental choices. Power 15
-has a local reference, but its suitability for this sample is still unverified.
-Do not treat this candidate as a calibrated final material.
+has a local reference. The combined values are now visually preferred by the author,
+but are not a calibrated final material or a completed native acceptance result.
 
 ## Reproduction and staging
 
@@ -86,6 +129,6 @@ changes. An existing sample.nmf remains usable; no model reload is required.
    and distance, then compare the baked normal variants under fixed lighting.
    The same material viewed in Night is not a dedicated night/emissive-material test.
 
-Return to material.mtl for the previous corrected baseline. Keep final visual
-acceptance open until the author supplies the observed result. Do not apply these
-unverified values to the complete plant.
+Return to material.mtl for the previous corrected baseline if needed. The first
+candidate review is recorded above. Retain the preferred brightness values while
+checking normal maps and more views; full-plant application follows that review.

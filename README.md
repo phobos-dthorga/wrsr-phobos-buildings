@@ -17,8 +17,8 @@ The mixed scene and its renders stay outside GitHub; the public image below is A
 
 [A03: original textured components and native inspection handoff](mods/electric-heating-works/design/material-a03/README.md)
 now includes public Blender, PNG, DDS, NMF and material sources. The first native
-inspection confirms corrected material loading; brightness tuning and final visual
-acceptance remain open.
+inspection confirms corrected material loading. The author now prefers the tuned
+brightness baseline; normal-map review and final visual acceptance remain open.
 
 ![Earlier A01 all-original visual prototype, rendered in Blender](mods/electric-heating-works/design/prototype-a01/overall.png)
 

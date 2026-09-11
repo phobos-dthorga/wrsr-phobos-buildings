@@ -13,7 +13,9 @@ $END after all submaterials. The initial format ended prematurely after each
 component and passed an incomplete static check. The Blender scene, mesh, textures
 and renders are unchanged. The stronger checks pass, and the author's reload confirms
 three material entries and improved component colours in Day, Sunset and Night.
-Excessive brightness remains to be tuned. See the
+The later [tuning candidate](../material-tuning-a03/README.md) substantially improves
+brightness and is now the author's preferred baseline. Normal-map review remains
+open. See the
 [investigation](../../mods/electric-heating-works/design/material-a03/native-shading-investigation.md).
 
 ## Editable source and generated assets

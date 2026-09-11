@@ -11,7 +11,10 @@ material entries. The author's Day, Sunset and Night screenshots confirm improve
 component colours; brightness and normal-map tuning still need work. The
 [native review record](native-review-2026-09-12.json) pins the evidence and limits.
 The author has now authorised [brightness-tuning comparison 01](../../../../shared/material-tuning-a03/README.md).
-Its candidate and isolated controls are prepared; native results remain pending.
+The author now prefers its combined candidate after Day, Sunset and Night review.
+Brightness is retained at those settings while normal maps and final visual
+acceptance remain open. The [tuning notes](../../../../shared/material-tuning-a03/README.md)
+record the visible Vehicle mode and the unresolved purpose of that selector.
 
 ![A03 original facade and electrical sample, rendered in Blender](../../../../shared/material-sample-a03/review/overview.png)
 

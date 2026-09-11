@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-12",
+  "reviewer": "phobosgekko",
+  "source_commit": "ffce0ae0a5cc058890096b628215ffe4df2bfb4b",
+  "material": "material_tune01_candidate.mtl",
+  "material_sha256": "fad7347a2934253bf1bb3a5581c9a5ef79eeb35f4f33a61d2fdb723aaedd36f7",
+  "user_feedback": "Much better!",
+  "decision": "Retain as preferred brightness baseline for subsequent checks; do not infer final building acceptance.",
+  "settings": {
+    "diffuse_rgb": 0.65,
+    "ambient_rgb": 0.55,
+    "specular_rgb": 0.12,
+    "specular_power": 15,
+    "fourth_color_field": 1,
+    "normal_map": "flat_normal.dds"
+  },
+  "evidence_files": [
+    {
+      "evidence_id": "tune01-night.jpg",
+      "sha256": "027ff277ed9af0f51683d67f5c51052e479624917914d44c3b1090033a848bbf",
+      "bytes": 801272,
+      "lighting_mode_visible": "Night",
+      "object_type_visible": "Vehicle",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.35
+      ]
+    },
+    {
+      "evidence_id": "tune01-sunset.jpg",
+      "sha256": "0950633a3b6c0000c9ace0fed76a16db77912dee08dc6a8a69114e883f230d2a",
+      "bytes": 857470,
+      "lighting_mode_visible": "Sunset",
+      "object_type_visible": "Vehicle",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.14
+      ]
+    },
+    {
+      "evidence_id": "tune01-day.jpg",
+      "sha256": "4218a94296325ee1aaf7193c44ad032cc7dc39281134f98c222864de27256920",
+      "bytes": 987903,
+      "lighting_mode_visible": "Day",
+      "object_type_visible": "Vehicle",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.48
+      ]
+    }
+  ],
+  "evidence_storage": "Unmodified original screenshots archived locally outside Git; public record contains hashes and observations only.",
+  "observations": {
+    "Day": "Concrete panel joints, dark glass, radiator edges and painted transformer surfaces retain substantially more visible detail; brown insulators remain distinct.",
+    "Sunset": "Warm light changes the colour cast while panel divisions, glass and electrical equipment remain readable.",
+    "Night": "Equipment and facade darken with the environment; the earlier broad bright appearance is reduced. This is the same material in Night mode, not authored night lighting."
+  },
+  "limits": [
+    "All three new screenshots show Vehicle mode. Its exact effect is unverified; this alone does not invalidate the observed improvement. Keep mode fixed within future comparisons.",
+    "View framing differs from the earlier baseline; this is a qualitative appearance review, not a controlled pixel measurement.",
+    "The submaterial selector is unselected; the three entries were confirmed in the previous corrected-package review, not re-enumerated here.",
+    "Baked normal variants, unseen faces, distance performance, dedicated night materials and gameplay remain untested."
+  ],
+  "final_visual_acceptance_complete": false,
+  "object_type_research": {
+    "author_hypothesis": "Vehicle mode may relate to animation.",
+    "status": "Exact selector behavior not established by checked documentation.",
+    "sources": [
+      "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Animations",
+      "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Modelviewer",
+      "https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Texturing"
+    ],
+    "documented_fact": "Both buildings and vehicles support animations.",
+    "working_decision": "Retain preferred brightness values; combine any mode comparison with next surface-detail review rather than creating an unsupported new gate."
+  }
+}

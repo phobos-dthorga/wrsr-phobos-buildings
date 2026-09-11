@@ -78,7 +78,12 @@ The author authorised tuning after the three lighting screenshots.
 now provides one combined candidate and four controls, with exact numeric settings,
 local base-game references, reproducible generation and input/output hashes.
 Only five new material files were added to the existing r2 test folder.
-No brightness improvement is claimed until the next author-operated inspection.
+The subsequent author screenshots show substantially clearer surfaces in Day,
+Sunset and Night, and the author prefers the candidate. Its exact settings and
+[review evidence](../../../../shared/material-tuning-a03/review-2026-09-12.json)
+are now retained as the brightness baseline. Vehicle mode is visible in these
+screenshots; its exact effect remains unverified, not an established shading defect.
+The linked tuning notes record the author's animation hypothesis and checked sources.
 
 Keep the mesh, diffuse images, neutral normal map, camera and Day lighting fixed.
 First repeat the no-specular comparison with the corrected material structure, so
