@@ -81,3 +81,18 @@ instructions and preserved external/tool credits. Independent saved-scene checks
 cover texture packing, source hashes, road clearance, gate access and the absence of
 external images in the original library. Mixed art payloads remain outside GitHub.
 Native material/export work and electricity/heat tests remain outstanding.
+
+## Original material/export sample A03 — 11 September 2026
+
+[A03](../mods/electric-heating-works/design/material-a03/README.md) provides a refined
+facade bay, transformer and switching group with editable procedural sources,
+UV-mapped copies, original PNG/DDS files, a sample NMF and native material variants.
+All sample art is original and is included publicly with preserved project/tool
+authorship. A02's mixed-source assembly remains separate.
+
+Issues 4–6 now have a concrete original texture/export package and verification
+record. Export comparisons exposed unstable normals on tiny chamfered fittings;
+texture comparisons exposed unwanted colour correction in data maps. The revised
+workflow records both corrections and protects source meshes from the beta tool.
+Native visual inspection is a manual handoff and remains pending. Model completion,
+electricity/heat tests and release acceptance remain later steps.

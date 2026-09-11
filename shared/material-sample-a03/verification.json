@@ -1,0 +1,479 @@
+{
+  "revision": "a03",
+  "blender_version": "5.2.1 LTS",
+  "original_art_only": true,
+  "author": "Phobos A. D'thorga / phobosgekko",
+  "creation_method": "Codex-assisted original geometry and procedural Blender baking",
+  "license": "MIT",
+  "external_art_inputs": [],
+  "source_recipe_sha256": {
+    "shared/material_sample_parts.py": "985a20773448a049621b2a6cf4af6cccff4050284a8c292606a01d351719a801",
+    "shared/sample_materials.py": "c639bd0146d4a00d06a67eb6732b887d404bf5658f46054a913c52734c5a8514",
+    "shared/prototype_parts.py": "6348c737b3842de8d9910c9968ac59631d2a41b5cdb77ed5889af0c7b8feb4f9",
+    "shared/site_details.py": "7353beeb14d97b7a31db00205e1d65e59c46f555feedf7a2fbe95b084649804b",
+    "scripts/blender_material_bake.py": "a2cc681ec6355d183e8082edc4430b8695f8622715659fae2072eabd137bd5d0",
+    "scripts/blender_nmf_export.py": "03738a6e5082cedd0c585335b41287b80e68f5d120550113f531c871e62e9896",
+    "scripts/render_material_sample.py": "1fa0b4ec327346c4b5564f96b0caeb8e02c17c848422cf5a75b9a3834726435e",
+    "mods/electric-heating-works/source/build_material_sample.py": "3cfc472d6c5d203335e97012fcd3698458157722842857095762195168ed35be"
+  },
+  "parts": {
+    "hall_bay": {
+      "size": 2048,
+      "triangles": 1224,
+      "source_vertices": 720,
+      "uv_layer": "UVMap",
+      "native_material": "a03_hall_bay",
+      "maps": [
+        "diffuse",
+        "specular",
+        "normal_gl"
+      ]
+    },
+    "transformer": {
+      "size": 2048,
+      "triangles": 4764,
+      "source_vertices": 2692,
+      "uv_layer": "UVMap",
+      "native_material": "a03_transformer",
+      "maps": [
+        "diffuse",
+        "specular",
+        "normal_gl"
+      ]
+    },
+    "switching_group": {
+      "size": 1024,
+      "triangles": 5204,
+      "source_vertices": 2896,
+      "uv_layer": "UVMap",
+      "native_material": "a03_switching_group",
+      "maps": [
+        "diffuse",
+        "specular",
+        "normal_gl"
+      ]
+    }
+  },
+  "dds_conversion": [
+    {
+      "input": "hall_bay_diffuse.png",
+      "format": "BC1_UNORM",
+      "legacy_dds": true,
+      "full_mip_chain": true,
+      "srgb_filter": true,
+      "ignore_srgb_metadata": false
+    },
+    {
+      "input": "hall_bay_specular.png",
+      "format": "BC1_UNORM",
+      "legacy_dds": true,
+      "full_mip_chain": true,
+      "srgb_filter": false,
+      "ignore_srgb_metadata": true
+    },
+    {
+      "input": "hall_bay_normal_gl.png",
+      "format": "BC3_UNORM",
+      "legacy_dds": true,
+      "full_mip_chain": true,
+      "srgb_filter": false,
+      "ignore_srgb_metadata": true
+    },
+    {
+      "input": "transformer_diffuse.png",
+      "format": "BC1_UNORM",
+      "legacy_dds": true,
+      "full_mip_chain": true,
+      "srgb_filter": true,
+      "ignore_srgb_metadata": false
+    },
+    {
+      "input": "transformer_specular.png",
+      "format": "BC1_UNORM",
+      "legacy_dds": true,
+      "full_mip_chain": true,
+      "srgb_filter": false,
+      "ignore_srgb_metadata": true
+    },
+    {
+      "input": "transformer_normal_gl.png",
+      "format": "BC3_UNORM",
+      "legacy_dds": true,
+      "full_mip_chain": true,
+      "srgb_filter": false,
+      "ignore_srgb_metadata": true
+    },
+    {
+      "input": "switching_group_diffuse.png",
+      "format": "BC1_UNORM",
+      "legacy_dds": true,
+      "full_mip_chain": true,
+      "srgb_filter": true,
+      "ignore_srgb_metadata": false
+    },
+    {
+      "input": "switching_group_specular.png",
+      "format": "BC1_UNORM",
+      "legacy_dds": true,
+      "full_mip_chain": true,
+      "srgb_filter": false,
+      "ignore_srgb_metadata": true
+    },
+    {
+      "input": "switching_group_normal_gl.png",
+      "format": "BC3_UNORM",
+      "legacy_dds": true,
+      "full_mip_chain": true,
+      "srgb_filter": false,
+      "ignore_srgb_metadata": true
+    }
+  ],
+  "tooling": {
+    "exporter": {
+      "name": "3Division Exporter",
+      "authors": "Jan Kerkes (original), updated for Blender 5.0+ by Vladimir Baloga",
+      "version": [
+        1,
+        2
+      ],
+      "sha256": "0350162dbb545c06f905d66dc78760b0efbceaea1586ff7af2abcdf678017081",
+      "source_protection": "Disposable mesh copies; original sharp-edge data preserved."
+    },
+    "texconv": {
+      "upstream": "https://github.com/microsoft/DirectXTex/releases/tag/may2026",
+      "sha256": "dcfdec10244e02cf5037fba089c55fb7e1326b1c8181742d77d15fa5cb5eef06"
+    }
+  },
+  "export_settings": {
+    "legacy_mirror": false,
+    "split_on_hard_edges": false,
+    "source_axes": "Z up",
+    "native_conversion": "Exporter -90 degrees around X",
+    "detect_lods": false
+  },
+  "native_visual_inspection_complete": false,
+  "game_tested": false,
+  "material_limits": "Opaque glazing; explicit study specular values; flat normal baseline and both normal-Y variants supplied for native comparison.",
+  "saved_source_verification": {
+    "reopened_successfully": true,
+    "external_art_inputs": [],
+    "packed_original_texture_images": 9,
+    "original_source_objects": 3,
+    "all_source_recipe_hashes_match": true
+  },
+  "native_static_verification": {
+    "consumed_nmf_exactly": true,
+    "geometry_uv_normals": [
+      {
+        "node": "a03_hall_bay",
+        "native_vertices": 3104,
+        "triangles": 1224,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.2649765014648438e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00017817071622103412,
+        "basis_vector_length_ranges": {
+          "normals": [
+            0.9999999105930288,
+            1.0000001192092824
+          ],
+          "tangents": [
+            0.9999998786952273,
+            1.0000001192229635
+          ],
+          "bitangents": [
+            0.999999850988377,
+            1.0000002384186293
+          ]
+        }
+      },
+      {
+        "node": "a03_transformer",
+        "native_vertices": 8910,
+        "triangles": 4764,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 7.152557373046875e-07,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 7.467824010860098e-05,
+        "basis_vector_length_ranges": {
+          "normals": [
+            0.9999998956918662,
+            1.0000001043301558
+          ],
+          "tangents": [
+            0.999999849533188,
+            1.0000001494772621
+          ],
+          "bitangents": [
+            0.9999998035200213,
+            1.0000002385066855
+          ]
+        }
+      },
+      {
+        "node": "a03_switching_group",
+        "native_vertices": 9563,
+        "triangles": 5204,
+        "all_triangles_matched": true,
+        "winding_preserved": true,
+        "max_position_error_m": 2.132480599880018e-06,
+        "max_uv_error": 2.9802322387695312e-08,
+        "max_normal_vector_error": 0.00021613293491779329,
+        "basis_vector_length_ranges": {
+          "normals": [
+            0.9999998938292208,
+            1.000000104308123
+          ],
+          "tangents": [
+            0.9999998714774765,
+            1.0000001304053596
+          ],
+          "bitangents": [
+            0.9999997752019882,
+            1.0000001849257216
+          ]
+        }
+      }
+    ],
+    "dds_files": {
+      "flat_normal.dds": {
+        "width": 4,
+        "height": 4,
+        "mip_levels": 3,
+        "fourcc": "DXT5",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "hall_bay_diffuse.dds": {
+        "width": 2048,
+        "height": 2048,
+        "mip_levels": 12,
+        "fourcc": "DXT1",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "hall_bay_normal_gl.dds": {
+        "width": 2048,
+        "height": 2048,
+        "mip_levels": 12,
+        "fourcc": "DXT5",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "hall_bay_normal_gl_y_inverted.dds": {
+        "width": 2048,
+        "height": 2048,
+        "mip_levels": 12,
+        "fourcc": "DXT5",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "hall_bay_specular.dds": {
+        "width": 2048,
+        "height": 2048,
+        "mip_levels": 12,
+        "fourcc": "DXT1",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "switching_group_diffuse.dds": {
+        "width": 1024,
+        "height": 1024,
+        "mip_levels": 11,
+        "fourcc": "DXT1",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "switching_group_normal_gl.dds": {
+        "width": 1024,
+        "height": 1024,
+        "mip_levels": 11,
+        "fourcc": "DXT5",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "switching_group_normal_gl_y_inverted.dds": {
+        "width": 1024,
+        "height": 1024,
+        "mip_levels": 11,
+        "fourcc": "DXT5",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "switching_group_specular.dds": {
+        "width": 1024,
+        "height": 1024,
+        "mip_levels": 11,
+        "fourcc": "DXT1",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "transformer_diffuse.dds": {
+        "width": 2048,
+        "height": 2048,
+        "mip_levels": 12,
+        "fourcc": "DXT1",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "transformer_normal_gl.dds": {
+        "width": 2048,
+        "height": 2048,
+        "mip_levels": 12,
+        "fourcc": "DXT5",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "transformer_normal_gl_y_inverted.dds": {
+        "width": 2048,
+        "height": 2048,
+        "mip_levels": 12,
+        "fourcc": "DXT5",
+        "legacy_header": true,
+        "complete_payload": true
+      },
+      "transformer_specular.dds": {
+        "width": 2048,
+        "height": 2048,
+        "mip_levels": 12,
+        "fourcc": "DXT1",
+        "legacy_header": true,
+        "complete_payload": true
+      }
+    },
+    "materials": {
+      "material.mtl": {
+        "submaterials": [
+          "a03_hall_bay",
+          "a03_transformer",
+          "a03_switching_group"
+        ],
+        "all_texture_references_resolve": true
+      },
+      "material_normal_gl.mtl": {
+        "submaterials": [
+          "a03_hall_bay",
+          "a03_transformer",
+          "a03_switching_group"
+        ],
+        "all_texture_references_resolve": true
+      },
+      "material_normal_y_inverted.mtl": {
+        "submaterials": [
+          "a03_hall_bay",
+          "a03_transformer",
+          "a03_switching_group"
+        ],
+        "all_texture_references_resolve": true
+      }
+    },
+    "compression_comparison": {
+      "hall_bay_diffuse": {
+        "mean_absolute_rgb_error": 0.005922235082834959,
+        "p99_rgb_error": 0.07843136787414551
+      },
+      "hall_bay_specular": {
+        "mean_absolute_rgb_error": 0.004697267431765795,
+        "p99_rgb_error": 0.0313725508749485
+      },
+      "hall_bay_normal_gl": {
+        "mean_absolute_rgb_error": 0.007600363809615374,
+        "p99_rgb_error": 0.0156862735748291
+      },
+      "transformer_diffuse": {
+        "mean_absolute_rgb_error": 0.004812335129827261,
+        "p99_rgb_error": 0.054901957511901855
+      },
+      "transformer_specular": {
+        "mean_absolute_rgb_error": 0.0037350838538259268,
+        "p99_rgb_error": 0.04313725233078003
+      },
+      "transformer_normal_gl": {
+        "mean_absolute_rgb_error": 0.007190532982349396,
+        "p99_rgb_error": 0.0156862735748291
+      },
+      "switching_group_diffuse": {
+        "mean_absolute_rgb_error": 0.006583529058843851,
+        "p99_rgb_error": 0.06666666269302368
+      },
+      "switching_group_specular": {
+        "mean_absolute_rgb_error": 0.007419949863106012,
+        "p99_rgb_error": 0.06666667759418488
+      },
+      "switching_group_normal_gl": {
+        "mean_absolute_rgb_error": 0.007159383501857519,
+        "p99_rgb_error": 0.0156862735748291
+      }
+    },
+    "normal_y_variants_checked": true,
+    "neutral_normal_checked": true,
+    "render_sizes": {
+      "overview": [
+        1800,
+        1200
+      ],
+      "facade": [
+        1800,
+        1200
+      ],
+      "electrical": [
+        1800,
+        1200
+      ],
+      "gameplay_distance": [
+        1800,
+        1200
+      ],
+      "before_a01": [
+        1800,
+        1200
+      ]
+    },
+    "native_visual_inspection_complete": false
+  },
+  "shared_dependencies_sha256": {
+    "shared/prototype_parts.py": "6348c737b3842de8d9910c9968ac59631d2a41b5cdb77ed5889af0c7b8feb4f9",
+    "shared/site_details.py": "7353beeb14d97b7a31db00205e1d65e59c46f555feedf7a2fbe95b084649804b"
+  },
+  "verification_sources_sha256": {
+    "scripts/native_asset_checks.py": "d2f3591008cadbf3a1e0e9d3bbfaec993439036399bd27cc0e7b727004cfca0a",
+    "scripts/verify_material_sample.py": "c92277fce992e5c2aaa1d7069b33c5afeb92449ad3adda7b101d791bc918121d"
+  },
+  "artifact_sha256": {
+    "material-sample.blend": "d8ed9ee61d507d642b272a98a9a56f262e61f5fa302821941a4a91fe24f40d08",
+    "native/flat_normal.dds": "0139eab76fb94e761155a3eed4dce5a775beb9e966fe3a8a95ff5d5b189a96e2",
+    "native/hall_bay_diffuse.dds": "a9981c377a587974d583088410da26a2fd46d770ff301527642c244f20448d96",
+    "native/hall_bay_normal_gl.dds": "34655e27d94a9934b49553edb8eed46e2bb31b8df03932b4b67062ca78620a1e",
+    "native/hall_bay_normal_gl_y_inverted.dds": "2341667a888eb00a8ebc84500dab6d8657e0eb1389e82e38037981bdaeea8bd1",
+    "native/hall_bay_specular.dds": "a3f868b9f2301b470da19cbdae8534b60dfc1992a836dd7c49ac006ece133db4",
+    "native/material.mtl": "9f9e1811455ecba6aaa99bcdc3dbbf5e00eee7245e860b87af26a4a48dcc0274",
+    "native/material_normal_gl.mtl": "8ce7073fe93aa39002465a9c200bc28a5a38b90ddb4e964b791051a39a8a6188",
+    "native/material_normal_y_inverted.mtl": "162f4fb809ec216ee86659eb1c815c69e958be6bbe5187ee6b3b582e496ee338",
+    "native/sample.nmf": "b699fa87ba4d7a07b84e1719e99d52ebef1e091f6d726aa2bcdf30da6ef7c8be",
+    "native/switching_group_diffuse.dds": "4fe32c35d93704fff1b9fa879edd4a25b519224b41ad2076158074358a54812a",
+    "native/switching_group_normal_gl.dds": "641a0e54866a7689ae4da85ac4af28dc7a659a24e23532ff5c5895ff5c3b3b2e",
+    "native/switching_group_normal_gl_y_inverted.dds": "51d07d1358acde2d1d23ce006b740900ad7a6e87d975982e616fe9f0e8bc498c",
+    "native/switching_group_specular.dds": "77a3ad007e36a8a042baad5d2670041fea07cd77b88487727bc6f8aa1bfe200b",
+    "native/transformer_diffuse.dds": "435b8acc7de1365a0d41ca5d5a3ccf5d22882d74c7dee4903a6f3742133781bc",
+    "native/transformer_normal_gl.dds": "235bdd5dc25348814aa2f96b7e43f1ca4426fc7df200b8deac936d1c79334ebb",
+    "native/transformer_normal_gl_y_inverted.dds": "d3ce4a135520a9dba349a87038ec00a3629abd531805bc1629ad0ee339fc0b28",
+    "native/transformer_specular.dds": "762a23f96049f0b790936d9aa10a0308c7542a630b75e99648cf096ffca65cfc",
+    "review/before_a01.png": "6e8126191cd23be9de2e73ad8fb03d92578b6c20a97b9a097160c1969b7edc6d",
+    "review/electrical.png": "26246c7015b09f697165532505535ebdc95e0736d85d6cb2bdc6aa29acd074df",
+    "review/facade.png": "d3a2ae3d46b1f0334fd393734a7ba45333ac0e9286a209c2af65a796c23af086",
+    "review/gameplay_distance.png": "e058e628856de9acbcf82dbcb86080de58bd1bf411e4b05667a31a12ae7070a0",
+    "review/overview.png": "a02b4fbab0794a47da23d1dd06497007f6fbbbde3d52c0480070766ed94662cd",
+    "textures/flat_normal.png": "76ed2a69b7337a47b8e8fd95a602566d2375bf6d49d237b520e22bc2f74a5480",
+    "textures/hall_bay_diffuse.png": "dc105eef295c023c6ae4f9e3d69dba78d8085bc952fb8018bf34e2843575775a",
+    "textures/hall_bay_normal_gl.png": "e649d1e6949c75542a4f89d2ff3c621f2a04424ae29241898e71af1e2ae79deb",
+    "textures/hall_bay_specular.png": "0e48b054fbc6de3da49d16f6884998c6637fa20e31994df91436e0f1bd85fa5b",
+    "textures/switching_group_diffuse.png": "2d767f0c05ee97f15b5e820035983e11b516f1abc1eeca25f2f92872fcf25ab5",
+    "textures/switching_group_normal_gl.png": "79a3bd15cb91075fab97da53f203f67d5c5c6ea3e2d923b709123ff303d8e886",
+    "textures/switching_group_specular.png": "1fca8a15804613d094d76769d9a5f07b1007c8ae42d89f3196e85e543d4eeaf2",
+    "textures/transformer_diffuse.png": "612ad806da9fbce94fd9ceffe7f01919499ea525371641ae45fa921a112eb3d4",
+    "textures/transformer_normal_gl.png": "f4cbef4458523254ac97d495d09b6029ae7ee6007f31f213d9d7dac1e0c0e901",
+    "textures/transformer_specular.png": "4bc7ccacd628b2991a24b0f3777a006c5609c5647cf78a37aa2eac874b916896"
+  }
+}

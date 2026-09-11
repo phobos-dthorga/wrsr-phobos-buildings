@@ -9,6 +9,11 @@ adds selected base-game props, original permanent supports and checked access ro
 in a separate local assembly. The rest of this document describes further detail, export
 and game work; the prototype is not a deployed or game-tested mod.
 
+[A03](../mods/electric-heating-works/design/material-a03/README.md) now prepares the
+representative facade/electrical sample, original baked PNGs, DDS files and native
+materials/NMF. File-level validation is separate from its pending manual ModelViewer
+inspection. This is the current user-involvement handoff.
+
 **Author's sequencing decision:** create the model first. Electricity load and
 delivery checks belong to later in-game configuration/testing and must not block
 massing or detailed modelling. Keep native connection settings and ratings adjustable.
@@ -73,7 +78,7 @@ needs testing; visible tanks alone do not establish it.
 | 3Division beta NMF exporter | Preferred direct mesh export route already used in the geometry probe | Geometry roundtrip verified; native materials and current-game rendering still untested |
 | W&R ModelViewer | Native mesh/material inspection; OBJ-to-NMF fallback | Present in the local game installation; documentation checked, no UI session run for this plan |
 | Blender texture painting/baking; optional GIMP | Original surface maps and local wear/detail | Workflow proposed; maps must be checked in the game's material system |
-| Microsoft DirectXTex `texconv` | Reproducible DDS conversion, mipmaps and compression | Documented candidate; not installed or validated by this planning task |
+| Microsoft DirectXTex `texconv` | Reproducible DDS conversion, mipmaps and compression | Portable May 2026 tool verified by release hash and Microsoft signature; A03 DDS headers/data checked |
 | Native building definitions and W&R's editors | Heating function, connections, access, construction stages and local test item | Future work; no runtime plugin planned |
 | Git, GitHub and small repository/build checks | Versioned source, provenance, reproducible packages and release records | Repository and saved-scene checks active; native package pipeline remains future work |
 
@@ -155,8 +160,9 @@ The first implementation deliverable, **A's original 3D massing review**, is now
 [available as A01](../mods/electric-heating-works/design/prototype-a01/README.md), with
 shared prototype sources. A02 has now placed the selected vanilla fence panels, lamps
 and barriers, replacing unsuitable tyre-mounted supports with original permanent
-supports. Next finish the detailed architectural/electrical material sample, then
-complete the model and native export preparation. No early
+supports. A03 has prepared the detailed architectural/electrical material sample and
+its original texture/export files. Next inspect its native appearance with the author,
+then apply the verified workflow across the model. No early
 electricity test or further broad donor audit is required. If any step needs the author
 to close the game, use the mouse or otherwise intervene, stop and explain first.
 

@@ -1,6 +1,6 @@
 # Phobos' Electric Heating Works
 
-**Visual prototype A01 and local detail pass A02 available.** A substantial electric district-heating complex for a
+**A01 prototype, A02 local site details and A03 material/export sample available.** A substantial electric district-heating complex for a
 republic with abundant generating capacity. The aim is convincing centralised public
 infrastructure: large scale supported by a believable process and utility layout.
 
@@ -15,7 +15,9 @@ lamps and concrete barriers, with source terms and authorship preserved. Our MIT
 licence covers our own work; game/Workshop-only asset sources stay outside GitHub.
 The [original massing review and shared prototypes](design/prototype-a01/README.md)
 are available, followed by [A02's actual reuse and original site supports](design/detail-a02/README.md).
-The next model work is the architectural/electrical material sample and export preparation. Per the author's
+The [A03 material/export sample](design/material-a03/README.md) is prepared for native
+visual inspection; it includes original editable sources and exported texture/material
+files. Full-plant application follows that inspection. Per the author's
 instruction, electricity load/delivery tests follow modelling; neither an early power
 experiment nor a completed donor shortlist is required.
 

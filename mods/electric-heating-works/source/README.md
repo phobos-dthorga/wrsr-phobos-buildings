@@ -12,6 +12,11 @@ The author authorised the first visual prototype on 11 September 2026.
 Its game-asset payloads and review renders stay outside this repository; the committed
 A01 scene remains the earlier all-original source.
 
+[A03 original material/export sample](material-sample.md) provides a separate refined
+facade and electrical study, original image sources, DDS maps, NMF and native material
+variants. Its [editable scene and asset package](../../../shared/material-sample-a03/README.md)
+are public original work. Native visual inspection remains pending.
+
 The reusable geometry and material functions live in
 [shared/prototype_parts.py](../../../shared/prototype_parts.py). The separate
 [shared Blender library](../../../shared/prototype-parts.blend) contains editable

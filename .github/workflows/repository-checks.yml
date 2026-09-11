@@ -11,3 +11,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/check_repository.py
+      - run: python scripts/check_material_sample_package.py
