@@ -114,3 +114,22 @@ ready. After installation is confirmed, the first manual checkpoint is placing
 one item in a disposable test republic and reporting its connection markers.
 Power/heat measurements follow that checkpoint. The preparation work does not
 claim those tests have run, nor final balancing or release readiness.
+
+## Subsequent installation
+
+The author subsequently confirmed they had completely exited W&R and explicitly
+authorised proceeding. The installer confirmed both game/viewer processes were
+closed, found local ID 900000006 available, and created that one WIP item. All 71
+installed files were checked against the prepared package and public sources.
+The total installed payload is 113,326,072 bytes; the prepared ZIP is 12,328,020
+bytes. This ZIP size is not a measurement of Steam's eventual download size.
+
+A subsequent read found building.bbox and building.fire beside the installed
+definition. They were absent from the package and appeared after installation;
+all 71 packaged files still matched. These extra local files are recorded by name
+only, not added to the public sources or used as proof of successful placement.
+
+The [installation record](../mods/electric-heating-works/gameplay/p01/installation.json)
+keeps the source revision and verification outcome. No game discovery, placement,
+connection, electricity or heat test is claimed. The next handoff is one placement
+in a disposable republic, with the building selected and connection markers visible.

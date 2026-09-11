@@ -2,10 +2,11 @@
 
 12 September 2026. Copyright (c) 2026 Phobos A. D'thorga. Original project work: MIT.
 
-**Prepared for local testing; not yet installed or game-tested.** The author has
-authorised the source correction, native configuration, connections and a local
-test package. Installation waits for the running game and ModelViewer to close.
-Workshop publication is a later, separate action.
+**Installed locally and file-verified; placement and gameplay tests pending.** After
+the author confirmed the game was closed and authorised proceeding, the installer
+confirmed both W&R and ModelViewer were closed and installed the checked package.
+The [installation record](installation.json) identifies the source revision and
+result. Workshop publication is a later, separate action.
 
 ![Original A05 model rendered for the menu](workshopimage.png)
 
@@ -25,7 +26,8 @@ Workshop publication is a later, separate action.
 
 [verification.json](verification.json) pins the source/configuration/preview files
 and recipes and records the successful 71-file package and ZIP checks. It records
-preparation only; installation and gameplay are pending.
+the original preparation snapshot. Subsequent installation is recorded separately;
+gameplay acceptance remains pending.
 
 ## Connections and provisional behaviour
 

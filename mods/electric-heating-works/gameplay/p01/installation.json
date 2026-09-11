@@ -1,0 +1,21 @@
+{
+  "revision": "p01",
+  "verified_at_utc": "2026-09-11T21:03:43.829070+00:00",
+  "source_commit": "04fb72443885b1cc244a6ba8473d7d1da2741c8b",
+  "local_test_id": 900000006,
+  "installed": true,
+  "game_tested": false,
+  "workshop_published": false,
+  "package_files": 71,
+  "package_total_bytes": 113326072,
+  "installed_payload_matches_checked_sources": true,
+  "game_and_modelviewer_closed_at_installation": true,
+  "existing_destination_absent_before_installation": true,
+  "additional_files_observed_after_installation": [
+    "electric_heating_works_p01/building.bbox",
+    "electric_heating_works_p01/building.fire"
+  ],
+  "definition_sha256": "46e44f16fb27c58bff1dace8575ec62bfc3896b060e8826e654722ba7d93b0fc",
+  "a05_manifest_sha256": "969fce89ef6720227abe4a50051b8f9d708eae8410f921126750b0c0761b3fa2",
+  "next_manual_checkpoint": "Place one plant in a disposable republic and inspect its connection markers."
+}

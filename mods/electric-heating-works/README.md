@@ -1,6 +1,6 @@
 # Phobos' Electric Heating Works
 
-**A05 source correction and P01 local gameplay prototype prepared; game tests pending.** A substantial electric district-heating complex for a
+**A05 source correction and P01 local gameplay prototype installed; game tests pending.** A substantial electric district-heating complex for a
 republic with abundant generating capacity. The aim is convincing centralised public
 infrastructure: large scale supported by a believable process and utility layout.
 
@@ -23,8 +23,8 @@ comparison is reviewed, with Surface B as the working choice. The
 refined facade/electrical kit, remaining original textures and a checked native export.
 The accepted 3 cm ground correction is integrated into [A05](source/assembly-a05/README.md).
 The [P01 native gameplay package](gameplay/p01/README.md) adds heating/electrical
-configuration, connections, access and construction stages; local installation and
-gameplay testing are the next manual handoff. Per the author's
+configuration, connections, access and construction stages. Its local installation
+is verified; placement and gameplay testing are the next manual handoff. Per the author's
 instruction, electricity load/delivery tests follow modelling; neither an early power
 experiment nor a completed donor shortlist is required.
 
@@ -61,7 +61,8 @@ must not be assumed additive, and drawn redundancy is not promised game behaviou
 
 The shared components requested by this building are listed in [its manifest](manifest.json).
 The catalogue distinguishes existing prototype geometry/materials from planned
-entries. No Workshop item ID or deployable game configuration has been created.
+entries. P01 now has a local test configuration and reserved local item ID;
+no published Steam Workshop item ID has been created.
 
 ## Design acceptance
 
