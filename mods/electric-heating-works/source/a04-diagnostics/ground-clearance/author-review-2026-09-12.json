@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-12",
+  "evidence_type": "Author feedback and one supplied ModelViewer screenshot",
+  "loaded_nmf": "08_GROUND_CLEARANCE.nmf",
+  "loaded_material": "PLANT.mtl",
+  "tested_source_revision": "f83fb903701fe4165e33428aaadce7dab819a637",
+  "visible_settings": {
+    "object_type": "Building",
+    "lighting": "Day",
+    "environment": "Terrain"
+  },
+  "author_report": "It looks fine now! ^ ^",
+  "assistant_motion_observation": false,
+  "screenshot_observations": [
+    "The broad site surface is present and appears continuous in the supplied overall view.",
+    "Roads and pad boundaries remain visually distinguishable.",
+    "No obvious terrain breakthrough is visible in this frame."
+  ],
+  "conclusion": "Positive author feedback on the 3 cm ground-clearance candidate. Adopt this ground treatment for the next assembly revision, keeping buildings, roads and pads at their original heights.",
+  "limits": [
+    "The author supplied a general positive result rather than separate answers for flicker, grass breakthrough and road edges.",
+    "A single still image does not independently establish temporal stability or every camera and lighting condition.",
+    "The exact renderer mechanism remains unproven; gameplay terrain and a playable mod have not been tested."
+  ],
+  "decision": {
+    "accepted_scope": "Working ground-surface treatment for the next assembly revision",
+    "ground_top_m": 0.03,
+    "whole_building_raise_m": 0,
+    "preserve_building_equipment_and_fine_detail": true,
+    "assembly_source_integration": "Next step; original A04 baseline and current diagnostic artifacts remain unchanged.",
+    "next_steps": [
+      "Apply the accepted ground-top height consistently to the editable site source and native assembly in a new revision.",
+      "Preserve the original baseline and the successful 07 and 08 diagnostic references.",
+      "Verify and publish the revised Blender source and native model before any further manual review."
+    ]
+  },
+  "screenshots_stored_outside_repository": true,
+  "frames": [
+    {
+      "file": "2026-09-12-ground-clearance-overall.jpg",
+      "sha256": "22f5d09ee9268df3fa617adb804d6b5478f08a7685260dcabd766316787cd4cc",
+      "bytes": 681365,
+      "view": "Whole plant with restored ground surface"
+    }
+  ]
+}

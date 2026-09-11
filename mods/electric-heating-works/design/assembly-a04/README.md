@@ -12,6 +12,12 @@ The [controlled comparison set](../../source/a04-diagnostics/README.md) separate
 terrain height, fine detail and native object size. The author reports no flickering
 after removing only the broad ground sheet at original building height; see the
 [ground-only result](../../source/a04-diagnostics/ground-check/README.md).
+Restoring that surface with a 3 cm clearance subsequently received positive author
+feedback: "It looks fine now! ^ ^". The
+[clearance result](../../source/a04-diagnostics/ground-clearance/README.md) records
+the accepted ground treatment for the next assembly revision, with no whole-plant
+raise. Integration into the editable assembly source is next; gameplay acceptance
+remains separate.
 
 ![Original full-plant assembly rendered in Blender](../../source/assembly-a04/review/overall.png)
 

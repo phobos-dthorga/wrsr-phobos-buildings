@@ -7,10 +7,11 @@ with 07_NO_GROUND_SHEET.nmf at the original building height. The
 [ground-only result](ground-check/README.md) isolates the broad ground sheet in this
 viewer comparison; a permanent two-metre lift is not needed for the reported result.
 
-**Current handoff:** [08_GROUND_CLEARANCE](ground-clearance/README.md) restores the
+**Current result:** [08_GROUND_CLEARANCE](ground-clearance/README.md) restores the
 broad ground top at +3 cm while leaving buildings, roads and pads at their original
-height. Its saved source and export are checked; native appearance awaits the
-author's comparison. The steps below record the earlier baseline/raised test.
+height. The author reports "It looks fine now! ^ ^"; its saved source and export are
+also checked. Carry this ground treatment into the next assembly revision. The
+steps below record the earlier baseline/raised test.
 
 ## First author result
 

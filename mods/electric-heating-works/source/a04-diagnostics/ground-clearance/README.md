@@ -1,14 +1,37 @@
 # Ground surface with a 3 cm clearance
 
 12 September 2026. Original Phobos geometry, MIT.
-Copyright (c) 2026 Phobos A. D'thorga. Native visual result: **awaiting author test**.
+Copyright (c) 2026 Phobos A. D'thorga. Native visual result: **positive author feedback**.
 
 The author reported no flickering with the [ground sheet removed](../ground-check/README.md).
 This candidate restores that broad surface with its top at +0.03 m, instead of z=0.
-The small clearance is a test of whether the surface can coexist with the viewer's
-terrain at the intended building height. It is not a validated permanent fix.
+The small clearance tests whether the surface can coexist with the viewer's terrain
+at the intended building height. Following the positive result below, it is the
+accepted working ground treatment for the next assembly revision.
 
-## One ModelViewer check
+## Author result and next step
+
+The author reported "It looks fine now! ^ ^" and supplied a whole-plant screenshot
+showing 08_GROUND_CLEARANCE.nmf with PLANT.mtl in Building / Day / Terrain. The broad
+surface appears continuous, with road and pad boundaries visible and no obvious
+terrain breakthrough in that frame. The
+[review record](author-review-2026-09-12.json) preserves the exact feedback, screenshot
+hash and the scope of the decision. The screenshot itself remains in local evidence
+storage outside the public repository.
+
+This is positive author feedback for the requested ground comparison. The author
+did not separately answer each flicker/grass/edge question, and the assistant has
+not independently observed motion. The result supports carrying the 3 cm treatment
+into the next assembly revision; it does not prove every viewing condition, the
+exact renderer mechanism or gameplay terrain behaviour.
+
+Next, integrate the same ground-top height into the editable site source and native
+assembly in a new revision, verify both, and preserve the A04 baseline and successful
+07/08 references. Building height, equipment, fine detail and materials stay as
+reviewed. Source integration is the next step; it has not been performed by this
+feedback-only documentation update.
+
+## ModelViewer check used for this result
 
 Use the existing media_soviet/phobos_tests/heating_diagnostics folder.
 
@@ -61,6 +84,8 @@ directory and --exporter naming the supplied tool. Run a fresh Blender process w
 the same --output and --verify-saved before copying the two artifacts and manifest
 into this source directory. Exporter author credits and exact inputs, artifacts,
 measurements and check results are in [verification.json](verification.json).
+Its pending visual status records the state at build time; the later author result
+is recorded separately above, keeping generated build evidence unchanged.
 The external exporter is not included in this repository.
 
 The [diagnostic staging script](../../../../../scripts/prepare_a04_diagnostics.py)
@@ -69,7 +94,6 @@ Conflicting local files are rejected. Preparation requires no game exit or mouse
 control. No playable installation, Workshop publication or gameplay acceptance is
 part of this comparison.
 
-If the author reports a stable surface, use the result to choose the permanent
-source treatment and regenerate the assembly consistently. If flicker or terrain
-intrusion returns, keep 07 as the known-good diagnostic and reconsider the broad
-sheet treatment before altering buildings or increasing the whole plant's height.
+If later viewing reveals flicker or terrain intrusion, keep 07 as the known-good
+diagnostic and reconsider the broad sheet treatment before altering buildings or
+increasing the whole plant's height.
