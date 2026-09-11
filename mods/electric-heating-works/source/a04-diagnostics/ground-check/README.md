@@ -31,6 +31,10 @@ Preserve this successful diagnostic and the original baseline. The next modellin
 decision concerns permanent site-surface treatment at normal height; no final
 ground solution or playable packaging is selected by this evidence alone.
 
+The next candidate, [08_GROUND_CLEARANCE](../ground-clearance/README.md), restores
+the broad ground top at +3 cm while keeping the rest of the plant at its original
+height. Its native visual result is pending; preserve 07 as the comparison.
+
 The author suspects that the apparent dithering on tanks and walls was interference
 from the ground rather than a direct tank/wall issue. This experiment isolates the
 broad ground sheet. It does not assume that visual artifacts on one surface directly

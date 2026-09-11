@@ -7,6 +7,11 @@ with 07_NO_GROUND_SHEET.nmf at the original building height. The
 [ground-only result](ground-check/README.md) isolates the broad ground sheet in this
 viewer comparison; a permanent two-metre lift is not needed for the reported result.
 
+**Current handoff:** [08_GROUND_CLEARANCE](ground-clearance/README.md) restores the
+broad ground top at +3 cm while leaving buildings, roads and pads at their original
+height. Its saved source and export are checked; native appearance awaits the
+author's comparison. The steps below record the earlier baseline/raised test.
+
 ## First author result
 
 After the requested baseline/raised comparison, the author reported: "The dithering
@@ -32,7 +37,7 @@ separate the whole model from the viewer's terrain. It is not a proposed foundat
 height, a permanent repair, or evidence that two metres is sufficient in every
 terrain setting. The existing A04 source and native model remain unchanged.
 
-## Start with this one comparison
+## Earlier baseline/raised comparison
 
 All test files are staged in the dedicated media_soviet/phobos_tests/heating_diagnostics
 folder. The files must be opened from there to satisfy ModelViewer's game-directory
@@ -59,6 +64,7 @@ above does not depend on guessing another environment option.
 | 01_BASELINE.nmf | PLANT.mtl | Byte-identical copy of the reviewed A04 plant; staging only, not duplicated in Git. |
 | 02_RAISED.nmf | PLANT.mtl | Whole plant at +2 m; source geometry, UVs and materials retained. |
 | 05_SMALL_BATCHES.nmf | PLANT.mtl | Same raised plant and all detail; native geometry divided into smaller objects. Compare with 02. |
+| 08_GROUND_CLEARANCE.nmf | PLANT.mtl | Restored broad ground top at +3 cm; buildings unchanged. Current comparison against flicker-free 07. |
 | 03_DETAILS.nmf | DETAILS.mtl | One original A04 tank and ordinary facade bay in an isolated arrangement, both at +2 m. |
 | 04_NO_FINE_DETAIL.nmf | DETAILS.mtl | Identical isolated arrangement; removes 48 vertical tank seams, six horizontal tank bands, six vertical window bars and five horizontal window bars. Compare with 03. |
 

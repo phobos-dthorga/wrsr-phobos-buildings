@@ -57,6 +57,48 @@ def verify_ground(package):
     return {name:package/name for name in expected if name.endswith('.nmf')}
 
 
+def verify_ground_clearance(package):
+    report = json.loads((package/'verification.json').read_text(encoding='utf-8'))
+    expected = {'08_GROUND_CLEARANCE.nmf','ground-clearance-parts.blend'}
+    assert set(report['artifact_sha256'])==expected
+    assert report['original_art_only'] and report['external_art_inputs']==[]
+    assert report['baseline_preserved'] and report['buildings_roads_and_pads_at_original_height']
+    assert digest(BASE/'assembly-original.blend')==report['baseline_source_sha256']
+    assert digest(BASE/'native/plant.nmf')==report['baseline_nmf_sha256']
+    assert set(report['source_recipe_sha256'])=={
+        'scripts/build_a04_ground_clearance.py','scripts/build_a04_diagnostics.py',
+        'scripts/nmf_node_patch.py'}
+    for name,value in report['source_recipe_sha256'].items():
+        assert digest(ROOT/name)==value,name
+    for name,value in report['artifact_sha256'].items():
+        assert digest(package/name)==value,name
+    saved = report['saved_library_verified']
+    assert saved['exactly_two_original_objects'] and saved['one_material_three_packed_images']
+    assert saved['source_difference_rechecked']
+    source = report['source_comparison']
+    assert source['ground_top_before_m']==0 and source['ground_top_after_m']==.03
+    assert source['ground_bottom_unchanged_m']==-1 and len(source['changed_vertices'])==4
+    assert source['all_other_source_positions_exact']
+    assert source['topology_uvs_material_assignments_unchanged']
+    assert source['minimum_road_pad_clearance_m']==.05
+    from scripts.nmf_node_patch import static_chunks
+    original = read_nmf(BASE/'native/plant.nmf')
+    candidate = read_nmf(package/'08_GROUND_CLEARANCE.nmf')
+    assert original['materials']==candidate['materials'] and len(candidate['nodes'])==24
+    assert sum(n['triangles'] for n in candidate['nodes'])==146208
+    _, before = static_chunks(BASE/'native/plant.nmf')
+    _, after = static_chunks(package/'08_GROUND_CLEARANCE.nmf')
+    changed = 'native_a04_site_surface_and_access_study_01'
+    assert set(before)==set(after) and before[changed]!=after[changed]
+    unchanged = set(before)-{changed}
+    assert len(unchanged)==23 and all(before[name]==after[name] for name in unchanged)
+    assert set(report['node_preservation']['unchanged_node_sha256'])==unchanged
+    assert report['native_site_check']['triangles']==444
+    assert report['native_site_check']['all_triangles_matched']
+    print('Ground clearance checked: +3 cm surface, >=5 cm below roads/pads; 23 other native objects unchanged.')
+    return {'08_GROUND_CLEARANCE.nmf':package/'08_GROUND_CLEARANCE.nmf'}
+
+
 def verify(package, require_saved=True):
     package = package.resolve()
     report = json.loads((package/'verification.json').read_text(encoding='utf-8'))
@@ -101,6 +143,8 @@ def verify(package, require_saved=True):
     print('Diagnostic package hashes, baseline preservation, triangle counts and unchanged materials passed.')
     if (package/'ground-check').is_dir():
         source.update(verify_ground(package/'ground-check'))
+    if (package/'ground-clearance').is_dir():
+        source.update(verify_ground_clearance(package/'ground-clearance'))
     return source
 
 
