@@ -10,11 +10,13 @@ receiving switchyard.
 
 ## Start here
 
+- [Illustrated design proposal: three site concepts](mods/electric-heating-works/design/README.md)
 - [Electric Heating Works brief](mods/electric-heating-works/README.md)
 - [Switchyard and power research](mods/electric-heating-works/switchyard.md)
 - [Shared parts library](shared/README.md)
 - [Architecture and packaging](docs/architecture.md)
 - [Research findings](research/2026-09-11-building-pipeline.md)
+- [Electricity/heat findings and future test protocol](research/2026-09-11-electricity-and-heat.md)
 - [Roadmap](docs/roadmap.md)
 - [Licensing and provenance](docs/licensing-and-provenance.md)
 - [Contributing](CONTRIBUTING.md)

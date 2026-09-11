@@ -12,9 +12,15 @@ stages below are future work, not permission to begin them automatically.
 
 ## Next: resolve design and research questions
 
+Proposal 01 adds [three illustrated layouts](../mods/electric-heating-works/design/README.md),
+an [electricity/heat research protocol](../research/2026-09-11-electricity-and-heat.md)
+and [first component contracts](../shared/component-contracts.md). A is recommended;
+the author has not selected a layout. No native behaviour tests have been run.
+
 1. Choose the architectural period, massing and site circulation.
 2. Establish a coherent switchyard equipment/layout concept.
-3. Measure native electricity, cable, input-node and heating limits before setting ratings.
+3. Review the native electricity/heat test protocol; perform measurements in a later
+   authorised implementation task before setting ratings.
 4. Define the minimal reusable component and material contracts.
 5. Establish the Blender/NMF/material workflow and current-game validation plan.
 6. Record licence/provenance rules and clean public release contents.

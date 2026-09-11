@@ -3,6 +3,9 @@
 This is the authoritative directory for reusable first-party building components.
 The [catalogue](catalog.json) contains planned IDs only; no geometry is shipped yet.
 
+[Component contracts, revision 0](component-contracts.md) proposes the first kit,
+source conventions, anchors, materials and revision rules for design review.
+
 | Directory | Purpose |
 |---|---|
 | architecture/ | Industrial bays, walls, doors, roof sections and glazing |

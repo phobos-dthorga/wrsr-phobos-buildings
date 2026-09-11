@@ -10,3 +10,10 @@ The [Research and design milestone](https://github.com/phobos-dthorga/wrsr-phobo
 - [Define asset provenance and standalone release records](https://github.com/phobos-dthorga/wrsr-phobos-buildings/issues/6)
 
 Implementation and game testing follow only after the design and evidence gaps are reviewed in a later task.
+
+## Proposal 01 delivered — 11 September 2026
+
+- Issues 1–2: [three original site studies, architectural character and receiving yard](../mods/electric-heating-works/design/README.md). Concept A recommended, awaiting author review.
+- Issue 3: [documented limits, static observations and reproducible future test protocol](../research/2026-09-11-electricity-and-heat.md). Protocol complete; simulation behaviour remains untested.
+- Issue 4: [component contracts revision 0](../shared/component-contracts.md). Draft kit and source conventions ready for review; no shared geometry created.
+- Issues 5–6 remain open for the detailed production-workflow and release-record deliverables.
