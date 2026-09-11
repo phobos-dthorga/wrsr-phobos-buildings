@@ -11,8 +11,9 @@ and game work; the prototype is not a deployed or game-tested mod.
 
 [A03](../mods/electric-heating-works/design/material-a03/README.md) now prepares the
 representative facade/electrical sample, original baked PNGs, DDS files and native
-materials/NMF. File-level validation is separate from its pending manual ModelViewer
-inspection. This is the current user-involvement handoff.
+materials/NMF. The author's first ModelViewer inspection now confirms all three
+materials load after correcting a file terminator. Brightness tuning and final visual
+acceptance remain open; file-level checks alone do not establish either.
 
 **Author's sequencing decision:** create the model first. Electricity load and
 delivery checks belong to later in-game configuration/testing and must not block
@@ -75,8 +76,8 @@ needs testing; visible tanks alone do not establish it.
 |---|---|---|
 | Blender 5.2.1 LTS | Original mesh sources, reusable components, UVs, baking, assembly and preview renders | Local executable verified; earlier original-mesh export/reimport was tested |
 | Blender Python API and small Python helpers | Repeatable dimensions, repeated parts, named anchors, exports and validation | A01 original generator and A02 local assembly recipe verified |
-| 3Division beta NMF exporter | Preferred direct mesh export route already used in the geometry probe | Geometry roundtrip verified; native materials and current-game rendering still untested |
-| W&R ModelViewer | Native mesh/material inspection; OBJ-to-NMF fallback | Present in the local game installation; documentation checked, no UI session run for this plan |
+| 3Division beta NMF exporter | Preferred direct mesh export route already used in the geometry probe | Geometry roundtrip verified; A03 loads in ModelViewer, final materials and gameplay remain unverified |
+| W&R ModelViewer | Native mesh/material inspection; OBJ-to-NMF fallback | Author-operated A03 review recorded in Day, Sunset and Night; three-material loading confirmed, brightness tuning open |
 | Blender texture painting/baking; optional GIMP | Original surface maps and local wear/detail | Workflow proposed; maps must be checked in the game's material system |
 | Microsoft DirectXTex `texconv` | Reproducible DDS conversion, mipmaps and compression | Portable May 2026 tool verified by release hash and Microsoft signature; A03 DDS headers/data checked |
 | Native building definitions and W&R's editors | Heating function, connections, access, construction stages and local test item | Future work; no runtime plugin planned |
@@ -161,8 +162,9 @@ The first implementation deliverable, **A's original 3D massing review**, is now
 shared prototype sources. A02 has now placed the selected vanilla fence panels, lamps
 and barriers, replacing unsuitable tyre-mounted supports with original permanent
 supports. A03 has prepared the detailed architectural/electrical material sample and
-its original texture/export files. Next inspect its native appearance with the author,
-then apply the verified workflow across the model. No early
+its original texture/export files. The author's first native review confirmed corrected
+material loading. Next tune brightness and compare normal variants with the author,
+then apply the accepted workflow across the model. No early
 electricity test or further broad donor audit is required. If any step needs the author
 to close the game, use the mouse or otherwise intervene, stop and explain first.
 

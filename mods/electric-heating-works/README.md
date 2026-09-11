@@ -15,9 +15,10 @@ lamps and concrete barriers, with source terms and authorship preserved. Our MIT
 licence covers our own work; game/Workshop-only asset sources stay outside GitHub.
 The [original massing review and shared prototypes](design/prototype-a01/README.md)
 are available, followed by [A02's actual reuse and original site supports](design/detail-a02/README.md).
-The [A03 material/export sample](design/material-a03/README.md) is prepared for native
-visual inspection; it includes original editable sources and exported texture/material
-files. Full-plant application follows that inspection. Per the author's
+The [A03 material/export sample](design/material-a03/README.md) has received its first
+native inspection: all three materials load after a file-format correction, while
+brightness tuning remains open. It includes original editable sources and exported
+texture/material files. Full-plant application follows final material acceptance. Per the author's
 instruction, electricity load/delivery tests follow modelling; neither an early power
 experiment nor a completed donor shortlist is required.
 

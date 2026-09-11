@@ -32,9 +32,10 @@ Complicated ownership chains stay aside.
 1. **Delivered:** A's original massing model and three review views.
 2. **Delivered:** targeted site-prop selection, textured inspection and local A02
    placement with preserved credits; original site-support library.
-3. **Prepared:** [A03 facade and electrical material/export sample](../mods/electric-heating-works/design/material-a03/README.md),
-   with original Blender/PNG/DDS/NMF/material sources and static checks. Native visual
-   inspection is the next manual handoff and remains pending.
+3. **Under native review:** [A03 facade and electrical material/export sample](../mods/electric-heating-works/design/material-a03/README.md),
+   with original Blender/PNG/DDS/NMF/material sources and static checks. The author's
+   screenshots confirm corrected loading of all three materials. Brightness tuning,
+   normal-variant comparison and final visual acceptance remain open.
 4. Expand the original shared kit and complete the
    model, preserving each contributor's credits and applicable terms.
 5. Configure the finished model in-game; test electricity delivery and tune heat/power

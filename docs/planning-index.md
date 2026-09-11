@@ -96,3 +96,16 @@ texture comparisons exposed unwanted colour correction in data maps. The revised
 workflow records both corrections and protects source meshes from the beta tool.
 Native visual inspection is a manual handoff and remains pending. Model completion,
 electricity/heat tests and release acceptance remain later steps.
+
+## Native material investigation and first review — 12 September 2026
+
+The [research log](../mods/electric-heating-works/design/material-a03/native-shading-investigation.md)
+records the media_soviet path restriction, initial black/white shading, viewer-mode
+and no-specular comparisons, the premature $END defect and its correction, and why
+the original static checks missed it. New parser checks reject premature termination.
+The author's corrected-package screenshots confirm all three material entries and
+improved component colours in Day, Sunset and Night. Excessive brightness remains
+open; the normal convention, dedicated night materials and gameplay are untested.
+Original screenshots are archived locally, with hashes and bounded observations in
+the [review record](../mods/electric-heating-works/design/material-a03/native-review-2026-09-12.json).
+These findings apply to Issues 4–6; they do not complete full material or release acceptance.

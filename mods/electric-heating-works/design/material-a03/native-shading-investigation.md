@@ -1,6 +1,7 @@
 # A03 native shading investigation
 
-12 September 2026. **Visual acceptance has not passed.**
+12 September 2026. **Three-material loading confirmed; brightness tuning and final
+visual acceptance remain open.**
 
 The author's first ModelViewer screenshot shows all three original components
 and their named material paths loaded, but very bright white surfaces and
@@ -29,11 +30,11 @@ appearance or evidence that the complete plant has been altered.
   files, and diagnostics derived from them, placed $END after every submaterial.
   Installed 3Division base-game material buildings/alumina_plant.mtl places two
   submaterials before one final $END. Our files now follow that file-level
-  terminator structure. This is a format correction; its effect on the observed
-  shading still requires a native reload.
+  terminator structure. The subsequent native reload confirms all three material
+  entries are available and the earlier black/white assignment pattern is improved.
 - No game assets or screenshots are included in this public note.
 
-## Corrected package and next check
+## Corrected package and observed result
 
 The corrected A03 package retains exactly the same Blender scene, mesh, texture
 images and review renders. Only the three native material files changed.
@@ -47,13 +48,47 @@ the terminator, which is why that defect passed its checks.
 
 The corrected files are staged under a new dedicated directory,
 phobos_tests/electric_heating_a03_r2, leaving the earlier local comparison intact.
-The author should load sample.nmf from this new folder, then its material.mtl,
-and inspect both the appearance and the Select submaterial menu. The expected
-material names are a03_hall_bay, a03_transformer and a03_switching_group.
-These steps do not require closing the game or agent mouse control.
-Do not mark visual acceptance complete until the author provides the new result.
+The author loaded sample.nmf and material.mtl from that folder and supplied three
+screenshots in Building mode: Day, Sunset and Night. The Day screenshot has the
+submaterial menu open, explicitly listing a03_hall_bay, a03_transformer and
+a03_switching_group. The selected switching-group entry points to its own diffuse
+and specular textures and the original flat_normal.dds.
 
-## Controlled comparisons
+| View | Visible result | Remaining limitation |
+|---|---|---|
+| Day | All three material names listed; brown insulators and the dark transformer top are now distinct. The previous stark black bands are no longer apparent on the visible equipment. | Concrete, framing and much of the transformer remain excessively bright; some surface detail is washed out. |
+| Sunset | Warm lighting changes the insulator and door colours; the components retain their separate material appearance. | Large pale surfaces still lose detail in bright areas. |
+| Night | Blue lighting reveals more facade texture variation and panel joints; insulators and transformer top remain distinct. | The conservator and other pale surfaces still have strong highlights. This is the same baseline material, not a dedicated night or emissive material. |
+
+The displayed sun-direction pairs are (0.00, 0.48) radians for Day, (0.00, 0.14)
+for Sunset and (0.00, 0.35) for Night. Since both the preset and the direction vary,
+these images are useful appearance references, not a controlled exposure comparison.
+The author described the result as much more promising. This establishes progress
+and successful material loading, not approval of finished lighting or shading.
+
+[The native review record](native-review-2026-09-12.json) pins the package commit,
+unmodified screenshot hashes, visible settings and limited conclusions. Original
+screenshots are archived locally outside Git; no screenshot is silently relicensed
+as original MIT project art.
+
+## Next material work
+
+Keep the mesh, diffuse images, neutral normal map, camera and Day lighting fixed.
+First repeat the no-specular comparison with the corrected material structure, so
+all three components participate. The earlier test confirmed only the hall's zero
+specular setting before the file-format repair; it did not exclude reflection
+problems throughout the complete sample. Then compare diffuse and ambient
+multipliers separately, recording the chosen values and their visual effects.
+Do not darken texture sources merely to compensate for an unverified shader setting.
+
+Once the baseline preserves concrete, paint and glass detail, compare the two baked
+normal variants under the same view/light. Check more angles and distance before
+applying the material workflow to the complete plant. Dedicated night materials,
+construction stages, LODs, game connections and electricity/heat tests remain later
+work. No geometry, DDS, Blender scene or material settings changed during this
+documentation-only review update.
+
+## Reproducible diagnostics and earlier checks
 
 [Preparation script](../../../../scripts/prepare_material_diagnostics.py) stages
 the 17 pinned native inputs and two diagnostic material files into an explicitly

@@ -1,13 +1,15 @@
 # Concept A — material/export sample A03
 
 11 September 2026. Original Blender work and native-file preparation.
-**Native visual inspection is pending. No game test or installation has occurred.**
+**Initial ModelViewer inspection performed; final material acceptance remains open.
+No playable mod installation or gameplay test has occurred.**
 
 Update, 12 September: the first ModelViewer inspection exposed excessive white
 and black shading. [Investigation and controlled comparisons](native-shading-investigation.md)
-record the result; native visual acceptance remains pending.
-The material-file terminator has since been corrected; the revised package is
-ready for another native inspection, with mesh and texture art unchanged.
+record the result. Correcting the material-file terminator restored all three
+material entries. The author's Day, Sunset and Night screenshots confirm improved
+component colours; brightness and normal-map tuning still need work. The
+[native review record](native-review-2026-09-12.json) pins the evidence and limits.
 
 ![A03 original facade and electrical sample, rendered in Blender](../../../../shared/material-sample-a03/review/overview.png)
 
@@ -42,10 +44,11 @@ copies. A decoded-texture comparison caught unwanted colour correction in data m
 now explicitly disabled. These findings are recorded with the reproduction steps and
 original tool credits.
 
-## Native visual inspection handoff
+## Native inspection procedure
 
-This is the next required user-involvement point. Prepare and save the files first,
-then pause before any mouse control, manual intervention or game exit.
+The first baseline inspection is recorded above. Use this procedure for subsequent
+comparisons: prepare and save the files first, then pause before any mouse control,
+manual intervention or game exit.
 
 The official-hosted [ModelViewer guide](https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Modelviewer)
 locates the tool in the game's installation and distinguishes native material files
@@ -53,10 +56,12 @@ from Blender/OBJ materials. The model has already been triangulated for inspecti
 
 1. Open W&R's ModelViewer yourself when convenient. There is no instruction to close
    the running game for this prepared sample; pause if your setup requires it.
-2. Load [sample.nmf](../../../../shared/material-sample-a03/native/sample.nmf) from
-   the reviewed sample's `native/` folder and select its `material.mtl` baseline.
-   The exact controls have not been inspected in this tool version; do not infer
-   button labels from these instructions.
+2. Stage the reviewed sample inside a dedicated media_soviet test folder using
+   [the preparation script](../../../../scripts/prepare_material_diagnostics.py).
+   Files outside that directory are rejected by ModelViewer. Use **Load NMF** for
+   sample.nmf, then **Load MATERIAL** for its material.mtl baseline; these controls
+   are confirmed in the author's screenshots. The corrected test folder is
+   phobos_tests/electric_heating_a03_r2.
 3. Check that all three objects appear, colours/textures load, the facade's pipe is
    on the same side as the Blender reference, and faces remain visible when rotated.
 4. Compare the two named normal-map material variants in that same folder. Inspect

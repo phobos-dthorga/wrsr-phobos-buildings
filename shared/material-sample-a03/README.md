@@ -5,13 +5,15 @@ Original geometry and procedural texture baking created with Codex assistance.
 No external meshes, texture images or game assets are included in this sample.
 
 This is a three-component sample for Electric Heating Works, not a complete building
-or an installed mod. Native visual inspection is still required.
+or an installed mod. Initial native inspection is recorded; final material acceptance
+is still required.
 
 12 September correction: the three native material files now use a single final
 $END after all submaterials. The initial format ended prematurely after each
 component and passed an incomplete static check. The Blender scene, mesh, textures
-and renders are unchanged. The stronger checks pass; the corrected native
-appearance still awaits the author's reload. See the
+and renders are unchanged. The stronger checks pass, and the author's reload confirms
+three material entries and improved component colours in Day, Sunset and Night.
+Excessive brightness remains to be tuned. See the
 [investigation](../../mods/electric-heating-works/design/material-a03/native-shading-investigation.md).
 
 ## Editable source and generated assets

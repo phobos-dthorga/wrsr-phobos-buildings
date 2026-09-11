@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-12",
+  "reviewer": "phobosgekko",
+  "evidence_type": "Three user-supplied ModelViewer screenshots",
+  "package_commit": "9dcb046d6ae344a81ccd9968301c769f1ed28458",
+  "test_directory_relative_to_media_soviet": "phobos_tests/electric_heating_a03_r2",
+  "mesh": "sample.nmf",
+  "material": "material.mtl",
+  "object_type_visible": "Building",
+  "evidence_files": [
+    {
+      "evidence_id": "r2-night.jpg",
+      "sha256": "5977887148b7ee3b83bfaebd6880efd3ce9c05345c15d9bc4220aabaf9bdd0fa",
+      "bytes": 842062,
+      "lighting_mode_visible": "Night",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.35
+      ]
+    },
+    {
+      "evidence_id": "r2-sunset.jpg",
+      "sha256": "1fbc09b79f84daa8fa100999b91a07dc2fe724cbcae48c784c33ca5ffcfa8b32",
+      "bytes": 869663,
+      "lighting_mode_visible": "Sunset",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.14
+      ]
+    },
+    {
+      "evidence_id": "r2-day-material-list.jpg",
+      "sha256": "045ee068ea69868b8dfd14e349397702d1502b2e9182330e0ebb030b242cb0b8",
+      "bytes": 1003481,
+      "lighting_mode_visible": "Day",
+      "sun_direction_radians_visible": [
+        0.0,
+        0.48
+      ]
+    }
+  ],
+  "screenshot_storage": "Unmodified copies archived locally outside Git; hashes and observations published here.",
+  "material_names_visible": [
+    "a03_hall_bay",
+    "a03_transformer",
+    "a03_switching_group"
+  ],
+  "result": {
+    "native_inspection_performed": true,
+    "three_material_entries_observed": true,
+    "improvement_over_initial_material_assignment": true,
+    "excessive_brightness_remains": true,
+    "final_visual_acceptance_complete": false,
+    "baked_normal_convention_selected": false,
+    "gameplay_tested": false,
+    "dedicated_night_material_tested": false
+  },
+  "interpretation_limit": "Screenshots establish the visible baseline only; no full rotation, normal-variant comparison, or simulation test is claimed.",
+  "earlier_evidence_files": [
+    {
+      "evidence_id": "initial-outside-game-directory.png",
+      "sha256": "a45632e861161bdcd25f944491ec6eb3cb40dd5d79d9b085674a7c093497f1eb",
+      "bytes": 3950,
+      "observation": "ModelViewer rejects sample outside media_soviet."
+    },
+    {
+      "evidence_id": "initial-shading.jpg",
+      "sha256": "57560118b9936dae3e6af938f7e06d88ffa360d9c1cd262f4e736b6c3234bbd6",
+      "bytes": 1047438,
+      "observation": "Initial Vehicle-mode baseline with black/white shading."
+    },
+    {
+      "evidence_id": "no-specular-unselected.jpg",
+      "sha256": "27ab8650c1d1ca1d97cb3a58d16bce9d7caf6dd559157f50ef49a46cad29967b",
+      "bytes": 1022618,
+      "observation": "Building-mode diagnostic; material selector temporarily unselected."
+    },
+    {
+      "evidence_id": "no-specular-hall-selected.jpg",
+      "sha256": "b6df45315864f43c2d824fd420b7c352ffcf6ec99229b13f2cfc2c20b6351cd9",
+      "bytes": 1051304,
+      "observation": "Hall selected; visible specular RGB zero, shading problem persists."
+    }
+  ]
+}
