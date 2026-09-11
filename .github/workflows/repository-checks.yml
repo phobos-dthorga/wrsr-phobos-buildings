@@ -16,3 +16,4 @@ jobs:
       - run: python scripts/prepare_material_tuning.py --check
       - run: python scripts/check_assembly_package.py
       - run: python scripts/prepare_a04_diagnostics.py
+      - run: python scripts/gameplay_p01.py

@@ -1,0 +1,31 @@
+Phobos' Electric Heating Works - original P01 gameplay prototype
+
+Original building design, geometry, materials, source recipes and gameplay
+configuration: Copyright (c) 2026 Phobos A. D'thorga / phobosgekko. MIT.
+The full MIT licence accompanies this package. Shared Phobos A03/A04 parts and
+textures retain their original attribution.
+
+3Division: Workers & Resources: Soviet Republic and its native file formats.
+The NMF was produced with the supplied 3Division exporter: Jan Kerkes (original),
+Vladimir Baloga (Blender 5 update). The exporter is not distributed here.
+DDS conversion used Microsoft DirectXTex/texconv; tool notices remain in the source
+repository. These tools' authors are not the authors of the building artwork.
+
+The render configuration references the base game's standard demolition debris
+and effects, owned by 3Division. Those game assets are not included in the package.
+
+Configuration study references, with thanks:
+- robs074: Small heating plant (2835025975), Electric substation (2605079816).
+- Billman007: School type 221-1-149/174 (2572446961), for pedestrian access and
+  explicit mesh assignments across construction stages.
+- The installed native large heating plant and steel mill, and the installed
+  District Heatpump in Combined Heating and Power Plants (3035907116), by
+  wildbunny 狰猛 ラビット, for native heat/electricity declarations.
+
+These references informed the research. Their models, textures, sounds, layouts
+and complete building definitions are not redistributed or relicensed here.
+Their authors do not endorse this prototype. The native configuration and all
+connection coordinates in this package were authored for the Phobos plant.
+
+Source: https://github.com/phobos-dthorga/wrsr-phobos-buildings
+This is an unbalanced local test, not a Workshop release.

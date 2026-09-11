@@ -1,0 +1,42 @@
+{
+  "revision": "p01",
+  "date": "2026-09-12",
+  "status": "prepared; awaiting game exit, local installation and manual test",
+  "game_tested": false,
+  "installed": false,
+  "workshop_published": false,
+  "a05_manifest_sha256": "969fce89ef6720227abe4a50051b8f9d708eae8410f921126750b0c0761b3fa2",
+  "source_sha256": {
+    "definition.json": "46e44f16fb27c58bff1dace8575ec62bfc3896b060e8826e654722ba7d93b0fc",
+    "building.ini": "c6c037e31558f5e6e95f62549cf98e34c02aff0bb454844db8c60c7863452416",
+    "renderconfig.ini": "b24f3c2d04248638a95651cb41f12a5be241a96d1b4bf1021f9faa32e1b2bbe1",
+    "workshopconfig.ini": "50a7b6f77119925a212ae7683b556125eebe39207a576116815804e5189f91d8",
+    "imagegui.png": "0ba5a1c565dc3900719dc589fa89fe4756021309530ea9e1052c6866f661c479",
+    "workshopimage.png": "e77b4fa6d99989947701693e3e8d5292167f711548511e662eca62e99d35e17a",
+    "CREDITS.txt": "25a08b9b561a6ad04c6f63bbfa7ffca4dfeb88f11a42386aaa7939cc2a18ed47",
+    "TESTING.txt": "e4da0aeb0955d28206be80c93bd1b8b16b83ee4ea98aa1f00dfd1a8a77d240ef"
+  },
+  "recipe_sha256": {
+    "mods/electric-heating-works/source/build_assembly_a05.py": "55fb28dcb64866257bc91e1d7943c9c5dd27937bc88f169a77299ce0d0e404a6",
+    "scripts/gameplay_p01.py": "2e0fe36a0e1aae02469219660f60400ee8306baaf82be8ffbc7fda92c4f3bdad",
+    "scripts/prepare_gameplay_p01.py": "01a5ebd7f0020007c5659625573624f5c33673f6b454c7ea8449a593806eaddd",
+    "scripts/render_p01_preview.py": "af8d3d50bab871380da13216ae62e94e819032a71e8a6a880714359f0cef33bf"
+  },
+  "checks": {
+    "complete_a05_reopened_in_blender": true,
+    "native_identical_to_author_approved_08": true,
+    "all_24_nodes_assigned_once_to_construction": true,
+    "six_hv_attachment_centres_aligned": true,
+    "one_twin_header_connection_aligned": true,
+    "seven_external_connections_checked": true,
+    "dds_maps": 60,
+    "menu_previews_rendered_and_inspected": true,
+    "unit_tests_passed": 11,
+    "local_package_files": 71,
+    "package_copied_files_hash_verified": true,
+    "zip_crc_verified": true,
+    "game_install_attempted": false,
+    "road_pedestrian_external_spacing_m": 8
+  },
+  "evidence_scope": "Source, package and static geometry checks; no gameplay measurements."
+}

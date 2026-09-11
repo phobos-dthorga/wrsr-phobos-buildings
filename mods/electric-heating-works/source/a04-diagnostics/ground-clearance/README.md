@@ -29,7 +29,9 @@ Next, integrate the same ground-top height into the editable site source and nat
 assembly in a new revision, verify both, and preserve the A04 baseline and successful
 07/08 references. Building height, equipment, fine detail and materials stay as
 reviewed. Source integration is the next step; it has not been performed by this
-feedback-only documentation update.
+feedback-only documentation update. **Subsequent implementation:** the correction
+is now integrated and verified in [A05](../../assembly-a05/README.md), with
+[P01](../../../gameplay/p01/README.md) providing the first native gameplay definitions.
 
 ## ModelViewer check used for this result
 

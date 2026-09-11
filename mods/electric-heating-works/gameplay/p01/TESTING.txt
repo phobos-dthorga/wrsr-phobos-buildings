@@ -1,0 +1,49 @@
+PHOBOS' ELECTRIC HEATING WORKS - P01 LOCAL TEST
+
+STOP POINT BEFORE INSTALLATION
+Save any work, close Workers & Resources and close ModelViewer. Tell Codex they
+are closed. Codex will install this prepared package and verify it. No publishing
+or manual copying is required. Existing Workshop mods and normal saves are retained.
+
+FIRST CHECK AFTER CODEX CONFIRMS INSTALLATION
+1. Start W&R and use a new disposable test republic; keep your normal republic
+   separate. Enable electricity and seasons. Use automatic construction for the
+   first operational check so construction logistics do not hide a setup error.
+2. Find "Phobos' Electric Heating Works [P01 TEST]" in the modded heating buildings.
+3. Place ONE plant on a large level site, leaving room outside all sides for roads,
+   heating pipes and HV lines. Do not mirror it during this first check.
+4. Pause and send Codex a screenshot with the building selected and its connection
+   markers visible. Report any loading/placement error. Stop at this point so the
+   actual UI and connection positions can be reviewed before the power test.
+
+NEXT GUIDED CHECKS (AFTER PLACEMENT IS CONFIRMED)
+- Road and footpath enter through the rear gate behind the main hall. The vehicle
+  station is on the rear service road. Confirm workers and service vehicles arrive.
+- Two HV inputs are on the switchyard's outer/front boundary. Begin with ONE feed
+  from a source with ample capacity, then compare two separately routed feeds only
+  when instructed. Two drawn bays do not prove twice the delivered power.
+- One large heating connection is at the twin header beside/between the tanks, at
+  the site's right boundary in the plan. It represents one native heating link;
+  the two visible pipes are the conceptual supply/return pair, not two outputs.
+  Connect it to a short large-pipe route and a heat exchanger serving test demand.
+- Water and sewage connectors are underground beside the rear entrance. They are
+  domestic/service connections, not a claim of boiler make-up-water simulation.
+- Record actual workers, productivity, electricity readings and heat readings after
+  they settle. Record game version, enabled settings, ambient temperature and time.
+- Compare cold/unpowered, powered with zero workers, and powered/staffed cases.
+  Disconnect the supply only in the disposable test; allow time to distinguish
+  residual stored warmth from continued heat production, then reconnect.
+- Later: compare one versus two feeds, partial/full staffing, save/reload, winter
+  demand and native construction stages. Keep a written result for each test.
+
+PROVISIONAL SETTINGS
+30 workers, native heat coefficient 350, per-second electricity coefficient 0.5.
+These are test inputs, not advertised MW or GJ ratings. Final balance follows
+measured behaviour. The two tanks have no separately verified storage simulation.
+
+The full model has no LOD or emissive/night pass yet. The first test contains the
+reviewed original Phobos art; the external A02 fence panels/lamps/barriers are not
+included. This retains the same original appearance as the approved native test.
+
+If the item is missing or a connection behaves incorrectly, report that first.
+Do not upload this local item or use it in a valued save while it is unverified.

@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "revision": "p01",
+  "mod_id": "electric-heating-works",
+  "name": "Phobos' Electric Heating Works [P01 TEST]",
+  "building_folder": "electric_heating_works_p01",
+  "local_item_id": 900000006,
+  "workshop_published": false,
+  "game_tested": false,
+  "coordinate_system": "Site-plan metres [X,Y,height]. Native [X-75,height,56-Y].",
+  "provisional": {
+    "workers": 30,
+    "heat_coefficient": 350,
+    "electricity_per_second_coefficient": 0.5,
+    "water_storage_m3": 10,
+    "sewage_storage_m3": 10,
+    "final_rating": false
+  },
+  "connections": [
+    {
+      "id": "road",
+      "type": "ROAD",
+      "outer": [
+        72,
+        119,
+        0
+      ],
+      "inner": [
+        72,
+        116,
+        0
+      ],
+      "advanced": [
+        [
+          72,
+          110,
+          0
+        ],
+        [
+          72,
+          105,
+          0
+        ],
+        [
+          82,
+          105,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "pedestrian",
+      "type": "PEDESTRIAN",
+      "outer": [
+        80,
+        119,
+        0
+      ],
+      "inner": [
+        80,
+        116,
+        0
+      ],
+      "advanced": [
+        [
+          80,
+          113,
+          0
+        ],
+        [
+          75,
+          110,
+          0
+        ],
+        [
+          75,
+          101,
+          0
+        ],
+        [
+          87,
+          101,
+          0
+        ],
+        [
+          87,
+          91.7,
+          0.4
+        ]
+      ]
+    },
+    {
+      "id": "hv_1",
+      "type": "ELETRIC_HIGH_INPUT",
+      "outer": [
+        24,
+        -1,
+        0
+      ],
+      "inner": [
+        24,
+        1,
+        0
+      ],
+      "advanced": [
+        [
+          20.2,
+          1,
+          11
+        ],
+        [
+          24,
+          1,
+          11
+        ],
+        [
+          27.8,
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "hv_2",
+      "type": "ELETRIC_HIGH_INPUT",
+      "outer": [
+        44,
+        -1,
+        0
+      ],
+      "inner": [
+        44,
+        1,
+        0
+      ],
+      "advanced": [
+        [
+          40.2,
+          1,
+          11
+        ],
+        [
+          44,
+          1,
+          11
+        ],
+        [
+          47.8,
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "heat",
+      "type": "HEATING_BIG",
+      "outer": [
+        149,
+        82,
+        5.2
+      ],
+      "inner": [
+        147,
+        82,
+        5.2
+      ],
+      "advanced": []
+    },
+    {
+      "id": "water",
+      "type": "WATERPIPE_INPUT",
+      "outer": [
+        81,
+        113,
+        -3
+      ],
+      "inner": [
+        81,
+        110,
+        -3
+      ],
+      "advanced": []
+    },
+    {
+      "id": "sewage",
+      "type": "SEWAGE_OUTPUT",
+      "outer": [
+        87,
+        113,
+        -3
+      ],
+      "inner": [
+        87,
+        110,
+        -3
+      ],
+      "advanced": []
+    }
+  ],
+  "vehicle_station": [
+    [
+      82,
+      105,
+      0
+    ],
+    [
+      90,
+      105,
+      0
+    ]
+  ],
+  "road_dead_segments": [
+    [
+      [
+        72,
+        119,
+        0
+      ],
+      [
+        72,
+        105,
+        0
+      ]
+    ],
+    [
+      [
+        72,
+        105,
+        0
+      ],
+      [
+        96,
+        105,
+        0
+      ]
+    ]
+  ],
+  "road_area": [
+    [
+      68,
+      102
+    ],
+    [
+      96,
+      108
+    ]
+  ],
+  "pedestrian_dead_segments": [
+    [
+      [
+        75,
+        110,
+        0
+      ],
+      [
+        75,
+        101,
+        0
+      ]
+    ],
+    [
+      [
+        75,
+        101,
+        0
+      ],
+      [
+        87,
+        101,
+        0
+      ]
+    ],
+    [
+      [
+        87,
+        101,
+        0
+      ],
+      [
+        87,
+        91.7,
+        0.4
+      ]
+    ]
+  ],
+  "construction_stations": [
+    [
+      [
+        82,
+        105,
+        0
+      ],
+      [
+        90,
+        105,
+        0
+      ]
+    ],
+    [
+      [
+        99,
+        80,
+        0
+      ],
+      [
+        99,
+        87,
+        0
+      ]
+    ],
+    [
+      [
+        67,
+        55,
+        0
+      ],
+      [
+        75,
+        55,
+        0
+      ]
+    ]
+  ],
+  "construction": [
+    {
+      "id": "ground",
+      "work": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+      "factor": 0,
+      "nodes": [
+        "native_a04_site_surface_and_access_study_01",
+        "native_a04_service_aprons_and_cable_trench_001_01",
+        "native_a04_phobos_plinth_01"
+      ],
+      "resources": {
+        "ground_asphalt": 0.25
+      }
+    },
+    {
+      "id": "structure",
+      "work": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+      "factor": 1,
+      "nodes": [
+        "native_a04_architecture_roof_bay_01",
+        "native_a04_facade_access_01",
+        "native_a04_facade_plain_01",
+        "native_a04_facade_plain_02",
+        "native_a04_hall_service_doors_01",
+        "native_a04_pump_and_service_annex_01",
+        "native_a04_electrical_control_house_01"
+      ],
+      "resources": {
+        "wall_concrete": 0.65,
+        "wall_steel": 0.15
+      }
+    },
+    {
+      "id": "thermal",
+      "work": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+      "factor": 1,
+      "nodes": [
+        "native_a04_thermal_headers_and_boundary_reservations_01",
+        "native_a04_thermal_pipe_rack_01",
+        "native_a04_thermal_storage_tank_01",
+        "native_a04_thermal_storage_tank_02"
+      ],
+      "resources": {
+        "tech_steel": 0.65
+      }
+    },
+    {
+      "id": "electrical_and_finish",
+      "work": "SOVIET_CONSTRUCTION_INTERIOR_WORKS",
+      "factor": 1,
+      "nodes": [
+        "native_a03_switching_group_01",
+        "native_a03_switching_group_02",
+        "native_a03_transformer_01",
+        "native_a04_busbar_terminal_support_01",
+        "native_a04_electrical_busbar_01",
+        "native_a04_electrical_line_gantry_01",
+        "native_a04_electrical_line_gantry_02",
+        "native_a04_indicative_phase_conductors_01",
+        "native_a04_phobos_fixed_post_01",
+        "native_a04_phobos_sliding_gate_frame_01"
+      ],
+      "resources": {
+        "electro_steel": 0.55,
+        "tech_steel": 0.25
+      }
+    }
+  ]
+}

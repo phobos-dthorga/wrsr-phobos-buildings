@@ -17,7 +17,9 @@ feedback: "It looks fine now! ^ ^". The
 [clearance result](../../source/a04-diagnostics/ground-clearance/README.md) records
 the accepted ground treatment for the next assembly revision, with no whole-plant
 raise. Integration into the editable assembly source is next; gameplay acceptance
-remains separate.
+remains separate. The subsequent [A05 source](../../source/assembly-a05/README.md)
+now integrates that correction, and [P01](../../gameplay/p01/README.md) prepares
+native heating/electrical settings, access and construction for a local test.
 
 ![Original full-plant assembly rendered in Blender](../../source/assembly-a04/review/overall.png)
 

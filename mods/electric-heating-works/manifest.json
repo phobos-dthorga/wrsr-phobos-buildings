@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "electric-heating-works",
   "name": "Phobos' Electric Heating Works",
-  "status": "visual-prototype",
+  "status": "native-prototype-prepared",
   "license": "MIT",
   "workshop_id": null,
   "target_game_build": null,
@@ -36,5 +36,15 @@
     "review": "mods/electric-heating-works/design/prototype-a01/README.md",
     "external_assets_included": false,
     "game_tested": false
+  },
+  "native_prototype": {
+    "revision": "p01",
+    "editable_source": "mods/electric-heating-works/source/assembly-a05/assembly-original.blend",
+    "definition": "mods/electric-heating-works/gameplay/p01/definition.json",
+    "review": "mods/electric-heating-works/gameplay/p01/README.md",
+    "local_test_id": 900000006,
+    "installed": false,
+    "game_tested": false,
+    "external_assets_included": false
   }
 }

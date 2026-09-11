@@ -5,6 +5,10 @@
   the A04 complete-plant material assembly and review renders. ModelViewer staging
   is authorised; native playable mod installation, game tests and
   Workshop publication remain later steps; do not infer deployment from modelling.
+- On 12 September 2026 the author additionally authorised integrating the accepted
+  3 cm ground correction, native gameplay definitions and connections, and a local
+  playable test package. Prepare and check the package before pausing for a required
+  game exit or manual test. Workshop publication remains outside this authorisation.
 - If a step requires the author to close the running game, use the mouse or otherwise
   intervene, pause and explain the required action before continuing.
 - This repository is public. Do not copy private forks, Workshop donor assets,

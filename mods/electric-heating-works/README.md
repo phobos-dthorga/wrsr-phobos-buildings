@@ -1,6 +1,6 @@
 # Phobos' Electric Heating Works
 
-**A04 complete-plant assembly and original native inspection export available.** A substantial electric district-heating complex for a
+**A05 source correction and P01 local gameplay prototype prepared; game tests pending.** A substantial electric district-heating complex for a
 republic with abundant generating capacity. The aim is convincing centralised public
 infrastructure: large scale supported by a believable process and utility layout.
 
@@ -21,7 +21,10 @@ brightness tuning subsequently received positive feedback. The tuned normal samp
 comparison is reviewed, with Surface B as the working choice. The
 [A04 full-plant material assembly](design/assembly-a04/README.md) now includes the
 refined facade/electrical kit, remaining original textures and a checked native export.
-Full-plant native appearance remains a manual handoff. Per the author's
+The accepted 3 cm ground correction is integrated into [A05](source/assembly-a05/README.md).
+The [P01 native gameplay package](gameplay/p01/README.md) adds heating/electrical
+configuration, connections, access and construction stages; local installation and
+gameplay testing are the next manual handoff. Per the author's
 instruction, electricity load/delivery tests follow modelling; neither an early power
 experiment nor a completed donor shortlist is required.
 
