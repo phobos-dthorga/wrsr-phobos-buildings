@@ -107,7 +107,9 @@ def check_source():
     report=json.loads((ART/'verification.json').read_text())
     assert report['saved_source_verified']['all_levels_match_native']
     assert all(digest(ART/p)==h for p,h in report['artifact_sha256'].items())
-    assert all(digest(ROOT/p)==h for p,h in report['baseline_sha256'].items())
+    # A06's Windows builder recorded these three relative paths with backslashes.
+    # Resolve the same pinned files on Linux too, preserving the original record.
+    assert all(digest(ROOT/p.replace('\\','/'))==h for p,h in report['baseline_sha256'].items())
     assert all(digest(ROOT/p)==h for p,h in report['recipe_sha256'].items())
     source_check=json.loads((ART/'source-validation.json').read_text())
     assert source_check['a06_manifest_sha256']==digest(ART/'verification.json')

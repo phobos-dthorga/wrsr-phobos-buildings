@@ -3653,7 +3653,7 @@
   "probe_manifest_sha256": "d9ce8b15d824d95c6934dad6de22b25adda7628a1ff3b22db4bb2e8d5ed3efa4",
   "definition_sha256": "297377e46d561a671f40599c4444c750bf4b5f3de7645629239d1d3d5e8a5607",
   "recipe_sha256": {
-    "scripts/gameplay_p02.py": "243fd7bea893c78f381b5e34f4fa5c9905ae186c7fc506b18ac04f4c366a3e0f",
+    "scripts/gameplay_p02.py": "501814a88db23d454478b171221c9beda0874da2fe142bacc2a00cf014fbf7c1",
     "scripts/prepare_gameplay_p02.py": "5e5e72ff713f3ff76ae83ac1715957e7fb3e0c47e5c7e76bcc29f7dc701d750e",
     "scripts/record_p02_evidence.py": "9bce98fb8cd8f6cd03bf8b172acc3d5c818483afdb3b569fada1f41a181c2e86"
   },
