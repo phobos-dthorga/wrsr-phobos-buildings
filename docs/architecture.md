@@ -26,6 +26,20 @@ migration. Do not change an established anchor or meaning under the same release
 The first consumer is Electric Heating Works; possible later substation/pumping mods
 are opportunities, not additional authorised projects.
 
+### External parts and public source boundaries
+
+The plant may combine our original components with permitted game/Workshop parts.
+Our MIT licence covers our work; external inputs keep their own terms and credits.
+For game-specific grants without public source redistribution rights, publish only
+source identifiers, hashes, provenance and our assembly instructions. Keep the actual
+external assets and combined local build outputs outside this public repository,
+including packed Blender files and textures containing those inputs.
+
+Resolve base-game references or permitted packaging per selected component. Do not
+assume an editor-library subscription must become a runtime Workshop dependency.
+Reproducibility may require locally installed game/editor inputs; document this rather
+than promising that a GitHub checkout alone contains every source asset.
+
 ### Separation of responsibilities
 
 - Geometry describes shape, scale and named construction nodes.

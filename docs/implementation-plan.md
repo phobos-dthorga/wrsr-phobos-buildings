@@ -10,11 +10,14 @@ massing or detailed modelling. Keep native connection settings and ratings adjus
 
 ## Recommended route after the asset and licence audits
 
-Proceed with **Concept A, assembled from an original Phobos component kit**. The
-installed-mod audit did not clear a building-art library with the direct ownership
-and reuse scope requested by the author. Close the broad donor search for this first
-plant. The earlier requirement to find an external-component shortlist is superseded
-by the original-source plan below; it is no longer a prerequisite for modelling.
+Proceed with **Concept A: original plant architecture and specialist equipment,
+with suitable existing components reused under their own terms**. The earlier
+all-original recommendation was too broad: no unrestricted MIT source-library grant
+does not mean no permission to use a component in a W&R Workshop building.
+
+Use the existing audit for targeted part selection during modelling. A new broad
+donor search or completed external shortlist is not a prerequisite for massing.
+Complicated ownership chains remain set aside.
 
 Keep A's large boiler hall, twin tank envelopes, service annexes and substantial
 receiving switchyard. The 150 × 112 m site remains a study envelope. Refine its
@@ -26,15 +29,29 @@ from the drawing.
 | Hall walls, roof bays, glazing and doors | Original repeated architectural components |
 | Transformers, gantries, switching bays, busbars and relay house | Original electrical kit, informed by equipment references |
 | Tanks, pipework, supports and access details | Original thermal kit |
-| Fences, gates, foundations and any required lamps | Original simple site components; ordinary props need not reopen the donor search |
-| Surface materials | Original colours, procedural surface patterns and authored wear, baked to game-compatible maps |
+| Fences, barriers, lamps and suitable access/platform details | Check already audited vanilla/editor parts first; create missing or unsuitable pieces ourselves |
+| Other Workshop parts | Consider direct, documented grants for a concrete need; no blanket clearance of packs |
+| Surface materials | Original maps for our components; preserve origins and applicable terms of reused materials |
 
-This keeps the source library publishable under the project's existing MIT terms.
-Source records must identify the actual contributors. Reusing our own components in
-later buildings is the intended kit-bashing workflow. The game and Workshop component
-catalogues remain useful references for scale, conventions and future research; they
-are not inputs to this first asset build. A later external contribution still needs
-clear ownership, an applicable grant and preserved original credits.
+The first practical reuse candidates are the game's `muddy` fences/barriers,
+`parkinglot_lamps` lamps and suitable `platform` elements. The
+[official-hosted modding guide](https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/General_modding)
+records permission to modify the developer's models for the game's Workshop. This
+does not cover unrelated third-party models or unrestricted public source sharing.
+[SerpPort's Make your own farm](https://steamcommunity.com/sharedfiles/filedetails/?id=2680685216)
+also invites use of its game-derived parts; preserve both game-asset and adapter
+credits. Select exact components for fit and record their geometry/material origins.
+The [audit](../research/2026-09-11-installed-mod-license-audit.md) also records narrower
+editor/Workshop invitations from Vikom and Niss Tagm; these are optional candidates,
+not assumed matches for the plant. Latam's mixed chain remains set aside.
+
+Our original components and assembly instructions retain MIT licensing. Reused parts
+retain their own terms and authorship. Where permission covers W&R use but not public
+source redistribution, keep those assets outside GitHub; publish identifiers, hashes,
+provenance and assembly instructions instead. Keep combined meshes, packed Blender
+files and baked maps containing those assets outside the public source tree too.
+Resolve allowed inclusion or base-game references when preparing the mod package;
+an editor component dependency does not by itself establish a runtime dependency.
 
 The hot-water electrode-boiler process remains the recommended concept. Its use in
 district heating is supported by the [manufacturer reference](https://parat.no/products/ieh-high-voltage-electrode-boiler).
@@ -86,10 +103,13 @@ electricity experiment or external-component shortlist prerequisite.
    transformer/switching group, with materials. Export and inspect them in the native
    material path as well as Blender. Review close-up and gameplay-distance views.
    This establishes both visual quality and working materials before repeating parts.
-3. **Original shared kit.** Create the required gantries, bays, busbars, transformer,
-   relay-house elements, tank, piping and fencing. Store their editable sources and
+3. **Shared kit and selected existing parts.** Create the required original gantries,
+   bays, busbars, transformer, relay-house elements, tank and piping. For standard site
+   props, select suitable audited components with clear applicable terms and credits;
+   make original replacements where necessary. Store original editable sources and
    records under shared/, using the [component contracts](../shared/component-contracts.md).
-   Assemble the specific site under mods/electric-heating-works/.
+   Keep external source assets outside the public repository. Assemble the specific
+   site locally from the building's published layout and pinned input records.
 4. **Full visual asset.** Refine silhouette, foundations, service doors, glazing,
    insulators, ladders and modest weathering. Bake appropriate detail into textures,
    simplify distant models and group construction meshes sensibly. Use a few coherent
@@ -107,10 +127,11 @@ electricity experiment or external-component shortlist prerequisite.
    collect licences, validate all packaged references, make actual in-game screenshots
    and prepare the Workshop description. Publication remains a separate later action.
 
-The source/build relationship is shared original parts → building-specific assembly
-→ generated standalone package. Future source changes do not alter an already released
-item. Prefer one native heating building with an integrated visible yard if measured
-capacity permits it. Do not assume that adding a separate substation fixes the last
+The source/build relationship is shared original parts plus permitted external inputs
+→ building-specific assembly → generated standalone package with preserved credits.
+Future source changes do not alter an already released item. Prefer one native heating
+building with an integrated visible yard if measured capacity permits it. Do not
+assume that adding a separate substation fixes the last
 connection's capacity or the consumer's limits.
 
 ## Automation and hands-on work

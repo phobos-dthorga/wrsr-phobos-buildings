@@ -9,8 +9,10 @@ checks package permissions and authorship. Mixed-ownership packs, including Lata
 are set aside for the current asset shortlist; an observed reuse mechanism alone is
 not a selection decision.
 
-The later [implementation route](../docs/implementation-plan.md) recommends an original
-kit for the first plant and supersedes this report's external-shortlist next step.
+The later [implementation route](../docs/implementation-plan.md) combines an original
+plant and specialist kit with suitable existing parts from this research. Select
+components during modelling; a completed external shortlist is no longer a prerequisite
+for massing. W&R-specific reuse rights and public MIT source distribution are separate.
 
 ## Finding
 
@@ -153,9 +155,12 @@ by this research.
 For any adopted part, distinguish a source-editor dependency from a dependency needed
 by players. Confirm whether the final export packages the required assets or resolves
 them from the base game. Test the intended standalone item without unrelated Workshop
-packs before release. Existing electricity/heat feasibility questions remain unchanged.
+packs before release. Electricity load/delivery checks follow model creation under
+the author's later sequencing instruction.
 
-The next planning deliverable is a **component shortlist with provenance and visual
-assessment**, followed by the existing massing/feasibility sequence. Modelling and
-installation remain paused for this investigation. If a later step needs the author's
-involvement or mouse control, stop and explain the required action first.
+The updated next implementation deliverable is A's original massing review, with
+targeted selection of suitable existing components during modelling. Keep provenance
+and visual assessment for each selected input; no further broad audit or early
+electricity test is required. This research does not itself resume modelling or
+installation. If a later step needs the author's involvement or mouse control, stop
+and explain the required action first.

@@ -20,21 +20,25 @@ tests have been run. The [implementation plan](implementation-plan.md) records t
 and the proposed sequence without starting implementation.
 
 The completed [asset/licence audit](../research/2026-09-11-installed-mod-license-audit.md)
-supports an original component kit for the first plant. Its next milestone no longer
-depends on finding a cleared donor library. Complicated ownership chains stay aside.
+supports selective reuse alongside original plant components. Suitable vanilla/editor
+props and direct documented Workshop grants remain candidates; public MIT source
+rights are a separate question. Massing does not depend on a new donor-library search.
+Complicated ownership chains stay aside.
 
 1. Prepare A's original massing model and review views.
 2. Finish one facade section and transformer/switching group; verify the visual workflow.
-3. Expand the original shared kit and complete the model, preserving creator records.
+3. Expand the original shared kit, select suitable audited props and complete the
+   model, preserving each contributor's credits and applicable terms.
 4. Configure the finished model in-game; test electricity delivery and tune heat/power
    ratings and staffing. The author explicitly places these checks after modelling.
 5. Complete acceptance tests and prepare a standalone release.
 
 ## Later: original implementation and acceptance
 
-Create original components and an approved building design, finish materials and
-LODs, add native building definitions, and test construction, power/heat behaviour,
-access and save/reload in a disposable republic. Each stage needs its own evidence.
+Create original components and incorporate permitted existing parts into the selected
+building design. Finish materials and LODs, add native building definitions, and test
+construction, power/heat behaviour, access and save/reload in a disposable republic.
+Each stage needs its own evidence.
 
 ## Release readiness
 

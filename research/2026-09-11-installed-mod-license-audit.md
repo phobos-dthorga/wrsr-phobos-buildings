@@ -20,7 +20,20 @@ covering the particular input and intended distribution. Preserve original credi
 all applicable notices and earlier contributors; describe our own changes separately.
 Set aside complicated or unresolved ownership chains rather than spending time
 negotiating them. Such packages remain research references, outside the working
-asset shortlist. No external building-art package is cleared by this audit.
+asset shortlist.
+
+**Scope clarification:** this audit does not clear every file in any external
+building-art package for unrestricted public source redistribution, and no asset has
+been adopted. It does identify W&R-specific reuse routes: the game's editor parts and
+the contextual invitations below remain candidates for a Workshop building. External
+art need not be MIT-licensed. Select the exact geometry and materials, preserve their
+own terms and credits, and keep assets without public source rights outside GitHub.
+The absence of a general source licence is not a blanket reuse ban.
+
+For Electric Heating Works, consult the existing vanilla fences/barriers, lamps and
+suitable platform elements first, followed by relevant direct-grant Workshop parts.
+The [implementation plan](../docs/implementation-plan.md) now uses selective reuse
+alongside original plant architecture and specialist equipment.
 
 ## Coverage
 

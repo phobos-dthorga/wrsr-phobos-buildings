@@ -9,10 +9,13 @@ records A as the author's preferred direction. [Electrical research](../../resea
 records the documented limits, static observations and future test protocol.
 
 Following the asset/licence audits, the [recommended implementation route](../../docs/implementation-plan.md)
-uses an original shared kit for A's architecture, receiving yard, thermal equipment,
-site props and materials. The next milestone is original massing, followed by the
-finished model. Per the author's instruction, electricity load/delivery tests follow
-modelling; neither an early power experiment nor a donor shortlist is required.
+combines original architecture, specialist receiving-yard and thermal equipment with
+suitable existing props from the audit. Vanilla/editor fences, lamps and barriers are
+the first reuse candidates, with source terms and authorship preserved. Our MIT
+licence covers our own work; game/Workshop-only asset sources stay outside GitHub.
+The next milestone is original massing, followed by the finished model. Per the
+author's instruction, electricity load/delivery tests follow modelling; neither an
+early power experiment nor a completed donor shortlist is required.
 
 ## Core requirements
 
@@ -20,8 +23,9 @@ modelling; neither an early power experiment nor a donor shortlist is required.
 - A **serious receiving switchyard**, designed as part of the plant from the start.
 - Thermal tanks, pump/control annexes and understandable supply/return pipe galleries.
 - Appropriate maintenance access, electrical-yard separation and site circulation.
-- Original geometry and original or clearly licensed surface assets suitable for a
-  public Workshop release; no reused buildings from existing Phobos private forks.
+- An original plant design using original and appropriately permitted components,
+  with clear authorship and preserved credits; no complete buildings already used by
+  existing Phobos mods.
 - Native heating behaviour with substantial measured electricity demand. No coal,
   ash or combustion chain carried over from a donor building.
 

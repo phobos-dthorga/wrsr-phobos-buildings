@@ -15,9 +15,15 @@ completed [provenance record](../docs/asset-provenance-template.json), preservin
 original authors and upstream credits separately from Phobos changes.
 
 For the first Electric Heating Works, the [post-audit plan](../docs/implementation-plan.md)
-recommends original components throughout, including simple site props and materials.
-The donor search is complete for this plant. The existing planned catalogue supplies
-the starting kit; create and refine parts as their concrete use in A is demonstrated.
+combines an original hall and specialist equipment with suitable audited standard
+props. Check existing game/editor fences, lamps and barriers before recreating them.
+A contextual W&R reuse grant can support the mod even without MIT source rights.
+Keep such external assets out of this public library; share their identifiers,
+provenance and assembly instructions, preserving their original terms and credits.
+
+The planned catalogue reserves first-party IDs; it does not turn an external part
+into a Phobos-authored MIT component. Create original parts as their concrete use in A
+is demonstrated, with substitutes where an existing prop is unsuitable.
 
 [Component contracts, revision 0](component-contracts.md) proposes the first kit,
 source conventions, anchors, materials and revision rules for design review.

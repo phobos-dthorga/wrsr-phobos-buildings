@@ -31,22 +31,30 @@ The author paused implementation to investigate repeated objects. The
 [research and evidence catalogue](../research/2026-09-11-reusable-game-and-workshop-parts.md)
 confirms game component sets, Workshop libraries, mixed assemblies and identical
 meshes in both installations. Issues 4 and 6 now include candidate-level origin,
-permission and packaging assessment. No external assets were adopted. Complete a
-visual component shortlist before resuming the first modelling step.
+permission and packaging assessment. No external assets were adopted. The original
+shortlist-before-modelling proposal is superseded by the route below.
 
 The [installed-mod licence audit](../research/2026-09-11-installed-mod-license-audit.md)
 now covers all 1,322 local Workshop packages, with current online descriptions where
 available. It records scope-specific grants, author credits and exclusions. The author
 requires clear, direct ownership and prefers setting aside complicated provenance.
 An [asset record template](asset-provenance-template.json) carries this rule into later
-selection and packaging. No external art has been cleared or adopted.
+selection and packaging. No external art has been adopted; recorded contextual reuse
+grants remain candidates, without blanket clearance for every file or distribution route.
 
 ## Route after the audits — 11 September 2026
 
-The revised [implementation plan](implementation-plan.md) recommends an original
-Phobos kit for Concept A, including ordinary site props and surface materials. This
-supersedes the earlier external-component-shortlist prerequisite. The broad donor
-search is complete for this plant; unclear ownership remains excluded.
+The revised [implementation plan](implementation-plan.md) combines original Concept A
+architecture and specialist equipment with suitable audited props. This corrects an
+overly broad all-original recommendation: a W&R-specific grant can permit reuse
+without allowing MIT redistribution of the source asset. Start with existing game
+fences/barriers, lamps and suitable platform elements, and consider relevant direct
+Workshop invitations. Keep external terms and credits intact; assets without public
+source rights remain outside GitHub. Complicated ownership stays excluded.
+
+A completed external shortlist is no longer a modelling prerequisite. Use the
+existing audit for targeted selection during modelling rather than repeating the
+broad search.
 
 The author clarified the sequence: **create the model first; test electricity load
 and delivery afterwards**. The next deliverable is A's original massing review,

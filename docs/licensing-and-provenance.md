@@ -15,13 +15,17 @@ See [LICENSE](../LICENSE), [NOTICE](../NOTICE), and the
 A model being editable or locally subscribed does not grant redistribution permission.
 No Workshop donor geometry, texture, screenshot, extracted part or proprietary game
 file is imported into this public foundation. Never copy the private collection or its
-history here. The earlier donor investigations can inform research without providing
-source assets for the public mod.
+history here. A future Workshop package and this public source repository have
+different distribution scopes; an asset may be permitted in the former without
+permission to publish its editable source in the latter.
 
 Every future external asset needs an explicit source URL, creator, licence/permission
 evidence, permitted modification/distribution, required notices and a content hash.
 If the terms are unknown, it cannot enter a release. The project's MIT licence does
-not relicense someone else's work.
+not relicense someone else's work. External inputs do not have to be MIT-licensed:
+an applicable game-specific grant can support their intended use. Absence of public
+source redistribution rights does not cancel an existing W&R reuse grant. Attribution
+preserves authorship; it does not substitute for permission.
 
 The [game/Workshop reuse investigation](../research/2026-09-11-reusable-game-and-workshop-parts.md)
 records published game-specific reuse guidance and concrete local examples. Record

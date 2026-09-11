@@ -6,6 +6,9 @@
   game assets, saves, proprietary tools, credentials, logs or machine-local paths.
 - Make first-party building art original. Reuse of external components needs
   recorded terms permitting the intended changes and distribution.
+- External parts need not be MIT-licensed. Assess modification, W&R Workshop use
+  and public source redistribution separately. A game-specific reuse grant can
+  support a mod without permitting the source assets in this public repository.
 - Keep the original MIT licence and applicable third-party notices. Attribution
   courtesy requests must not be presented as extra MIT conditions.
 - Preserve original authors, upstream contributors and adapters through source
