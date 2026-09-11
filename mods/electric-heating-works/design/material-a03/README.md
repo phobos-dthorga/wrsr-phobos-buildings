@@ -15,6 +15,8 @@ The author now prefers its combined candidate after Day, Sunset and Night review
 Brightness is retained at those settings while normal maps and final visual
 acceptance remain open. The [tuning notes](../../../../shared/material-tuning-a03/README.md)
 record the visible Vehicle mode and the unresolved purpose of that selector.
+[Tuned normal-map comparisons](../../../../shared/material-tuning-a03/normal-comparison.md)
+are now prepared for author inspection, preserving the preferred brightness exactly.
 
 ![A03 original facade and electrical sample, rendered in Blender](../../../../shared/material-sample-a03/review/overview.png)
 

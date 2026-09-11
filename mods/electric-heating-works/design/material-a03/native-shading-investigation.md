@@ -84,6 +84,11 @@ Sunset and Night, and the author prefers the candidate. Its exact settings and
 are now retained as the brightness baseline. Vehicle mode is visible in these
 screenshots; its exact effect remains unverified, not an established shading defect.
 The linked tuning notes record the author's animation hypothesis and checked sources.
+The author then authorised the next step:
+[two tuned normal-map comparisons](../../../../shared/material-tuning-a03/normal-comparison.md)
+are staged, with only slot 2 references changed from the preferred material.
+The original five brightness files are unchanged. Native normal-direction selection
+is now the pending manual handoff; no normal variant is claimed as accepted.
 
 Keep the mesh, diffuse images, neutral normal map, camera and Day lighting fixed.
 First repeat the no-specular comparison with the corrected material structure, so

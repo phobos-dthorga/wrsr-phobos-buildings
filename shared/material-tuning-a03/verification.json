@@ -21,19 +21,35 @@
     "transformer_normal_gl_y_inverted.dds": "d3ce4a135520a9dba349a87038ec00a3629abd531805bc1629ad0ee339fc0b28",
     "transformer_specular.dds": "762a23f96049f0b790936d9aa10a0308c7542a630b75e99648cf096ffca65cfc"
   },
-  "settings_sha256": "4cd7b89423b1212552f29a78763238d955de5b043b79ceb033a667bc955954ea",
-  "generator_sha256": "1533cc283555a6f51b6a35b40b879b13cca210cb45d9864c378e6e936dcec988",
+  "settings_sha256": "20a22a687e3b70e433dea5f232c71fec9034eb28c52122b291124eeda31ea986",
+  "generator_sha256": "9ade5f6dc25c6bdb6e72748988a15f3fcd153f26fab919208f85bfecc9103853",
   "variant_sha256": {
     "material_tune01_no_specular.mtl": "b15c4209ce77db1bac9328c31b50cb332f86c22f0e05ca382216b314e4ccf6c5",
     "material_tune01_diffuse_only.mtl": "7a9cdd70c126635298394a7d94847696a4c83323d5185d23cada45e2e449b8d9",
     "material_tune01_ambient_only.mtl": "142959b602f379861496dfe12770c238bbad2995680521c3d9e6044d9033f125",
     "material_tune01_matte.mtl": "b1272c4eab8f595056540dd8f1ac3c4ac4bfe619b30ad0f8b720abdfc0cd576c",
-    "material_tune01_candidate.mtl": "fad7347a2934253bf1bb3a5581c9a5ef79eeb35f4f33a61d2fdb723aaedd36f7"
+    "material_tune01_candidate.mtl": "fad7347a2934253bf1bb3a5581c9a5ef79eeb35f4f33a61d2fdb723aaedd36f7",
+    "material_tune01_normal_gl.mtl": "45ed7a441ec21ce13ca6764e063cc16e308840ba5af6224e78dd2c73ee7410c2",
+    "material_tune01_normal_y_inverted.mtl": "55ada819837e8f42b54aad1b06bb83089c0ab319842badef7f2610f307a01b7c"
   },
   "checks": {
     "three_materials_before_single_final_end": true,
-    "original_texture_references_preserved": true,
+    "original_diffuse_and_specular_references_preserved": true,
     "numeric_settings_match_recipe": true
+  },
+  "normal_comparisons": {
+    "material_tune01_normal_gl.mtl": {
+      "brightness_from": "material_tune01_candidate.mtl",
+      "brightness_material_sha256": "fad7347a2934253bf1bb3a5581c9a5ef79eeb35f4f33a61d2fdb723aaedd36f7",
+      "normal_profile": "material_normal_gl.mtl",
+      "only_slot_2_changed": true
+    },
+    "material_tune01_normal_y_inverted.mtl": {
+      "brightness_from": "material_tune01_candidate.mtl",
+      "brightness_material_sha256": "fad7347a2934253bf1bb3a5581c9a5ef79eeb35f4f33a61d2fdb723aaedd36f7",
+      "normal_profile": "material_normal_y_inverted.mtl",
+      "only_slot_2_changed": true
+    }
   },
   "native_visual_acceptance_complete": false
 }

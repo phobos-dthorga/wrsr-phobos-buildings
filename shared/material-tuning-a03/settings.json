@@ -3,9 +3,11 @@
   "revision": "tuning-01",
   "author": "Phobos A. D'thorga / phobosgekko",
   "license": "MIT",
-  "status": "Prepared for author-operated ModelViewer comparison; no visual acceptance yet.",
+  "status": "Combined brightness candidate preferred after author review; normal-map comparisons prepared, final visual acceptance pending.",
   "source_package": "shared/material-sample-a03",
-  "fixed_inputs": "Original NMF, all DDS images, UVs, material names and neutral normal map remain unchanged.",
+  "fixed_inputs": "Original NMF, DDS image bytes, UVs and material names remain unchanged. Normal comparisons change only slot 2 references, preserving the preferred brightness.",
+  "preferred_brightness_file": "material_tune01_candidate.mtl",
+  "native_review_record": "review-2026-09-12.json",
   "variants": [
     {
       "filename": "material_tune01_no_specular.mtl",
@@ -45,7 +47,19 @@
       "ambient": 0.55,
       "specular": 0.12,
       "specular_power": 15,
-      "purpose": "First appearance candidate: reduced light multipliers and restrained reflections; response awaits native review."
+      "purpose": "Author-preferred brightness baseline; reduced light multipliers and restrained reflections."
+    }
+  ],
+  "normal_comparisons": [
+    {
+      "filename": "material_tune01_normal_gl.mtl",
+      "brightness_from": "material_tune01_candidate.mtl",
+      "normal_profile": "material_normal_gl.mtl"
+    },
+    {
+      "filename": "material_tune01_normal_y_inverted.mtl",
+      "brightness_from": "material_tune01_candidate.mtl",
+      "normal_profile": "material_normal_y_inverted.mtl"
     }
   ]
 }

@@ -72,6 +72,47 @@ def build():
         if text.count("$SPECULARPOWER ") != 3:
             raise ValueError("Every submaterial needs explicit specular power")
         payloads[name] = text.encode("utf-8")
+    # Reuse the preferred brightness file byte-for-byte except for normal-map slots.
+    # The original A03 material variants supply the already verified image names.
+    normal_comparisons = {}
+    for comparison in recipe.get("normal_comparisons", []):
+        name, base_name = comparison["filename"], comparison["brightness_from"]
+        if Path(name).name != name or not name.startswith("material_tune01_") or not name.endswith(".mtl"):
+            raise ValueError("Invalid normal-comparison filename")
+        if name in payloads or base_name not in payloads:
+            raise ValueError("Invalid normal-comparison source or duplicate output")
+        profile_name = comparison["normal_profile"]
+        if profile_name not in ("material_normal_gl.mtl", "material_normal_y_inverted.mtl"):
+            raise ValueError("Unknown original normal profile")
+        profiles = {p["name"]: p for p in parse_sample_material(
+            (PACKAGE / "native" / profile_name).read_text(encoding="utf-8"))}
+        base_text = payloads[base_name].decode("utf-8")
+        lines, current_name = [], None
+        for line in base_text.splitlines():
+            fields = line.split()
+            if fields and fields[0] == "$SUBMATERIAL":
+                current_name = fields[1]
+            if fields[:2] == ["$TEXTURE_MTL", "2"]:
+                texture = profiles[current_name]["textures"][2]
+                if texture["directive"] != "$TEXTURE_MTL" or texture["path"] not in native_hashes:
+                    raise ValueError("Normal profile does not reference a pinned original texture")
+                line = "$TEXTURE_MTL 2 " + texture["path"]
+            lines.append(line)
+        text = "\n".join(lines) + "\n"
+        base_materials = parse_sample_material(base_text)
+        for before, after in zip(base_materials, parse_sample_material(text)):
+            expected = {**before, "textures": {
+                **before["textures"], 2: profiles[before["name"]]["textures"][2]}}
+            if after != expected:
+                raise ValueError("Normal comparison changed another material property")
+        without_normals = lambda value: [
+            line for line in value.splitlines() if not line.startswith("$TEXTURE_MTL 2 ")]
+        if without_normals(base_text) != without_normals(text):
+            raise ValueError("Normal comparison changed non-normal lines")
+        payloads[name] = text.encode("utf-8")
+        normal_comparisons[name] = {
+            "brightness_from": base_name, "brightness_material_sha256": digest(payloads[base_name]),
+            "normal_profile": profile_name, "only_slot_2_changed": True}
     report = {
         "revision": recipe["revision"], "author": recipe["author"], "license": recipe["license"],
         "source_native_sha256": native_hashes,
@@ -79,8 +120,9 @@ def build():
         "generator_sha256": digest(Path(__file__).read_bytes()),
         "variant_sha256": {name: digest(data) for name, data in payloads.items()},
         "checks": {"three_materials_before_single_final_end": True,
-                   "original_texture_references_preserved": True,
+                   "original_diffuse_and_specular_references_preserved": True,
                    "numeric_settings_match_recipe": True},
+        "normal_comparisons": normal_comparisons,
         "native_visual_acceptance_complete": False,
     }
     return payloads, report
@@ -118,23 +160,24 @@ def main():
                 raise ValueError("Reviewed tuning file differs: " + name)
     else:
         targets.insert(0, TUNING)
-    # Preflight the entire operation before writing; no overwrite of a distinct revision.
+    # Material files are immutable within a named revision. The generated manifest
+    # can refresh after all material conflicts are checked, recording new comparisons.
     for target in targets:
         files = reviewed if target == TUNING else payloads
         for name, data in files.items():
             path = target / name
-            if path.exists() and path.read_bytes() != data:
+            if name != "verification.json" and path.exists() and path.read_bytes() != data:
                 raise ValueError("Existing tuning file differs; create a new revision: " + name)
     for target in targets:
         files = reviewed if target == TUNING else payloads
         for name, data in files.items():
             path = target / name
-            if not path.exists():
+            if name == "verification.json" or not path.exists():
                 path.write_bytes(data)
             if path.read_bytes() != data:
                 raise ValueError("Written file did not match: " + name)
-    print("Five material variants verified against the original package and tuning recipe.")
-    print("Native visual response pending; no model or texture changed.")
+    print(f"{len(payloads)} material variants verified against the original package and tuning recipe.")
+    print("Preferred brightness preserved; normal-map selection and final native acceptance pending.")
 
 
 if __name__ == "__main__":

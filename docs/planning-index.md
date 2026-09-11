@@ -120,3 +120,10 @@ for subsequent checks. The screenshots show Vehicle mode; documentation supports
 animations for both object types but does not explain the exact selector. Do not
 invalidate this review based on an assumed rendering difference. Normal-map and
 full material acceptance remain open.
+
+The author authorised continuing to
+[surface-detail comparisons](../shared/material-tuning-a03/normal-comparison.md).
+Two additional native material files reuse the preferred brightness byte-for-byte
+except for their normal-map references. Existing mesh, DDS and Blender inputs are
+unchanged. Both variants are staged; the agent pauses for the author to compare them
+with fixed view and lighting before selecting a normal convention.

@@ -51,6 +51,13 @@ Record its value and keep it fixed within future comparisons. A later Building-m
 comparison can be combined with the next material-detail check; no extra review cycle
 is required solely because the latest screenshots show Vehicle.
 
+## Surface-detail comparison prepared
+
+[Two normal-map comparisons](normal-comparison.md) now use the preferred brightness
+settings unchanged. They are staged alongside the existing sample and differ only
+in the three normal-map references. Their native appearance awaits the author's
+comparison; no new geometry or texture images were created.
+
 ## Settings and rationale
 
 RGB multipliers are uniform across all three components. The fourth colour field
@@ -90,8 +97,8 @@ but are not a calibrated final material or a completed native acceptance result.
 
 [settings.json](settings.json) is authoritative for these variants.
 [The generator](../../scripts/prepare_material_tuning.py) checks the original A03
-hashes, generates these five files, and verifies all three submaterials precede one
-final $END. [verification.json](verification.json) pins the generator, recipe,
+hashes, generates five brightness materials and two normal comparisons, and verifies
+all three submaterials precede one final $END. [verification.json](verification.json) pins the generator, recipe,
 original native inputs and generated materials.
 
 The MTL files are intended to sit alongside the original A03 DDS files. This folder
@@ -107,9 +114,11 @@ python scripts/prepare_material_tuning.py --media-root "<game>/media_soviet" --d
 python scripts/prepare_material_tuning.py --check
 ```
 
-Staging checks all 17 original native files before adding only the five tuning
-materials. It rejects differing existing files instead of overwriting authored
-changes. An existing sample.nmf remains usable; no model reload is required.
+Staging checks all 17 original native files before adding the five brightness
+materials and two normal comparisons. It rejects differing existing
+material files instead of overwriting authored changes; only the generated
+verification manifest can refresh after conflict checks. An existing sample.nmf
+remains usable; no model reload is required.
 
 ## Manual handoff and decision
 
