@@ -23,6 +23,14 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def legacy_manifest_matches(path, expected):
+    # A04 recorded this JSON input with Windows CRLF; Git checks it out as LF.
+    # Preserve the historical fingerprint, allowing only that line-ending change.
+    data=path.read_bytes().replace(b'\r\n',b'\n')
+    return expected in {hashlib.sha256(candidate).hexdigest()
+        for candidate in (data,data.replace(b'\n',b'\r\n'))}
+
+
 def native(point):
     x,y,z=point
     return (x-75,z,56-y)
@@ -98,7 +106,7 @@ def check_source():
         assert (SOURCE/name).read_text(encoding='utf-8')==text,'Generated definition drift: '+name
     base=json.loads((A04/'verification.json').read_text(encoding='utf-8'))
     a05=json.loads((A05/'verification.json').read_text(encoding='utf-8'))
-    assert digest(A04/'verification.json')==a05['inputs']['a04_manifest_sha256']
+    assert legacy_manifest_matches(A04/'verification.json',a05['inputs']['a04_manifest_sha256'])
     assert all(digest(A04/n)==h for n,h in base['artifact_sha256'].items())
     assert all(digest(A05/n)==h for n,h in a05['artifact_sha256'].items())
     assert all(digest(ROOT/n)==h for n,h in a05['source_recipe_sha256'].items())

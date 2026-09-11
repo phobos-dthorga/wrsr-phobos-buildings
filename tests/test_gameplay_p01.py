@@ -1,13 +1,32 @@
 """Independent coordinate and installation-safety checks for the local prototype."""
+import hashlib
 import json
+from pathlib import Path
+from tempfile import TemporaryDirectory
 import unittest
 from types import SimpleNamespace
 from unittest.mock import patch
-from scripts.gameplay_p01 import native,building_text,SOURCE,workshop_text
+from scripts.gameplay_p01 import native,building_text,SOURCE,workshop_text,legacy_manifest_matches
 from scripts.prepare_gameplay_p01 import require_game_closed
 
 
 class GameplayP01Tests(unittest.TestCase):
+    def test_historical_manifest_survives_git_line_endings(self):
+        original=b'{\r\n  "revision": "a04"\r\n}\r\n'
+        expected=hashlib.sha256(original).hexdigest()
+        with TemporaryDirectory() as directory:
+            path=Path(directory)/'verification.json'
+            for content in (original,original.replace(b'\r\n',b'\n')):
+                path.write_bytes(content)
+                self.assertTrue(legacy_manifest_matches(path,expected))
+
+    def test_historical_manifest_rejects_content_change(self):
+        expected=hashlib.sha256(b'{"revision":"a04"}\r\n').hexdigest()
+        with TemporaryDirectory() as directory:
+            path=Path(directory)/'verification.json'
+            path.write_bytes(b'{"revision":"a05"}\n')
+            self.assertFalse(legacy_manifest_matches(path,expected))
+
     def test_known_coordinate_landmarks(self):
         self.assertEqual(native([75,56,0]),(0,0,0))
         self.assertEqual(native([24,1,11]),(-51,11,55))

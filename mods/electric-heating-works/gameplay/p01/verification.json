@@ -18,7 +18,7 @@
   },
   "recipe_sha256": {
     "mods/electric-heating-works/source/build_assembly_a05.py": "55fb28dcb64866257bc91e1d7943c9c5dd27937bc88f169a77299ce0d0e404a6",
-    "scripts/gameplay_p01.py": "2e0fe36a0e1aae02469219660f60400ee8306baaf82be8ffbc7fda92c4f3bdad",
+    "scripts/gameplay_p01.py": "c9f2186e88ebcfc6eb9b2f5e40c3b66ac1c2a268d22cd298f4b866faf977b930",
     "scripts/prepare_gameplay_p01.py": "01a5ebd7f0020007c5659625573624f5c33673f6b454c7ea8449a593806eaddd",
     "scripts/render_p01_preview.py": "af8d3d50bab871380da13216ae62e94e819032a71e8a6a880714359f0cef33bf"
   },
@@ -31,12 +31,13 @@
     "seven_external_connections_checked": true,
     "dds_maps": 60,
     "menu_previews_rendered_and_inspected": true,
-    "unit_tests_passed": 11,
+    "unit_tests_passed": 13,
     "local_package_files": 71,
     "package_copied_files_hash_verified": true,
     "zip_crc_verified": true,
     "game_install_attempted": false,
-    "road_pedestrian_external_spacing_m": 8
+    "road_pedestrian_external_spacing_m": 8,
+    "legacy_a04_manifest_crlf_lf_checked": true
   },
   "evidence_scope": "Source, package and static geometry checks; no gameplay measurements."
 }

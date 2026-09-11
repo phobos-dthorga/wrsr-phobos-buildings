@@ -20,6 +20,13 @@ images, 146,208 triangles and the three corrected ground forms. The native NMF
 is byte-identical to 08_GROUND_CLEARANCE.nmf; no second interpretation of the
 accepted visual fix was introduced. Source recipe and artifact hashes are retained.
 
+The first Linux CI run exposed a portability issue in A05's historical A04 JSON
+input fingerprint: the original Windows file used CRLF, while Git stores LF. The
+P01 checker accepts only that line-ending conversion for this legacy metadata
+fingerprint. Model, texture, configuration and recipe checks remain byte-exact;
+tests confirm that changed metadata content is rejected. The recorded A05 build
+evidence and its Blender/native artifacts are preserved.
+
 ## Installed references and authorship
 
 The user recommended **robs074** and **Billman007**. Billman007's identity was found
