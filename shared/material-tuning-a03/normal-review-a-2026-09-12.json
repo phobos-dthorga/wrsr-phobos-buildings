@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-12",
+  "reviewer": "phobosgekko",
+  "source_commit": "b574eeab0bb4653bcb46752cec622262d915f51c",
+  "evidence_type": "Three corrected author-supplied ModelViewer close-ups",
+  "material_filename_visible": "material_tune01_normal_gl.mtl",
+  "review_alias": "02_SURFACE_A.mtl",
+  "repository_material_sha256": "45ed7a441ec21ce13ca6764e063cc16e308840ba5af6224e78dd2c73ee7410c2",
+  "selected_submaterial_visible": "a03_hall_bay",
+  "material_settings_visible": {
+    "diffuse_rgb": 0.65,
+    "ambient_rgb": 0.55,
+    "specular_rgb": 0.12,
+    "specular_power": 15,
+    "fourth_color_field": 1,
+    "normal_map": "hall_bay_normal_gl.dds"
+  },
+  "evidence_files": [
+    {
+      "evidence_id": "tuned-normal-gl-sunset.jpg",
+      "sha256": "35259b87ed4d5c2ce5476b52605e22676a642afdde52b3f6643f7191ff51f24b",
+      "bytes": 966175,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Sunset",
+      "sun_direction_radians_visible": [0.0, 0.14]
+    },
+    {
+      "evidence_id": "tuned-normal-gl-night.jpg",
+      "sha256": "309f589cc2ddfe5c046e9b868e1ae31dd72a056efd97fd009edd8222647aabbe",
+      "bytes": 865207,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Night",
+      "sun_direction_radians_visible": [0.0, 0.35]
+    },
+    {
+      "evidence_id": "tuned-normal-gl-day.jpg",
+      "sha256": "4bd21a5938f46d8044459bfdfacf0e2d2848aec7d0c50321388b0d7446bfea22",
+      "bytes": 1065711,
+      "object_type_visible": "Building",
+      "lighting_mode_visible": "Day",
+      "sun_direction_radians_visible": [0.0, 0.48]
+    }
+  ],
+  "finding": "The corrected images show tuned Surface A in Building mode with the preferred hall multipliers and the original baked GL hall normal map.",
+  "observations": {
+    "Day": "Facade panel divisions, paint variation, transformer radiator edges and brown insulators remain readable. Pale surfaces retain substantially more detail than in the preceding untuned close-ups.",
+    "Sunset": "Warm light brightens the pale surfaces, while the facade divisions, dark glass and transformer outlines remain visible.",
+    "Night": "The sample darkens under the blue night lighting. The tank, radiator outlines and facade remain distinguishable. This does not test an authored emissive or night material."
+  },
+  "limits": [
+    "All three corrected images show Surface A; none shows the tuned green/Y-inverted Surface B.",
+    "The visible controls confirm the selected hall settings. The screenshot alone cannot verify every loaded material byte or the settings of unselected components.",
+    "These are qualitative observations, not calibrated measurements. Normal direction cannot be selected without the matching comparison.",
+    "Unseen faces, distance, dedicated night materials, the full plant and gameplay remain outside this review."
+  ],
+  "next_author_action": "Keep the current sample, Building mode, Day lighting, camera and sun direction (0.00 / 0.48) fixed. Load 03_SURFACE_B.mtl from the focused heating_normals folder and supply one matching Day view. No repeated Sunset or Night views are requested.",
+  "normal_convention_selected": null,
+  "preferred_brightness_changed": false,
+  "final_visual_acceptance_complete": false,
+  "evidence_storage": "Unmodified screenshot copies remain archived locally outside Git; hashes and observations only are published."
+}

@@ -1,7 +1,27 @@
 # A03 surface-detail comparison
 
 12 September 2026. Original Phobos material files, MIT.
-**Prepared and structurally checked; native normal direction is not yet selected.**
+**Tuned Surface A observed in Building mode; Surface B comparison remains pending.**
+
+## Corrected Surface A review
+
+The author's three corrected close-ups show material_tune01_normal_gl.mtl
+(02_SURFACE_A.mtl) in Building mode under Sunset, Night and Day. The selected hall
+shows the preferred diffuse 0.65, ambient 0.55, specular 0.12 and power 15, with
+hall_bay_normal_gl.dds in the bump slot. Day retains panel divisions, paint
+variation, transformer radiator edges and distinct brown insulators. Sunset
+brightens the pale surfaces while keeping the divisions visible; Night darkens
+the sample with the environment. This is not a dedicated night-material test.
+
+The [corrected Surface A record](normal-review-a-2026-09-12.json) preserves the
+three original screenshot hashes, visible settings, observations and limits.
+The screenshots remain archived locally outside Git. These views confirm the
+correct tuned profile is displayed; they do not yet establish the normal direction.
+
+**Next handoff: one matching Day view of 03_SURFACE_B.mtl**, keeping the current
+sample, Building mode, camera and sun (0.00 / 0.48 radians) unchanged. The author
+does not need to repeat Surface A, Sunset or Night. Surface B still awaits native
+comparison, so no normal convention has been selected and brightness is unchanged.
 
 ## First attempt and clearer handoff
 
@@ -36,7 +56,7 @@ another independent set of numbers.
 | Material | Slot 2 normal map | Status |
 |---|---|---|
 | material_tune01_candidate.mtl | Original neutral flat map | Author-preferred brightness reference |
-| material_tune01_normal_gl.mtl | Each component's original baked tangent normal map | Native comparison pending |
+| material_tune01_normal_gl.mtl | Each component's original baked tangent normal map | Observed in Building mode: Day, Sunset and Night; matching B comparison pending |
 | material_tune01_normal_y_inverted.mtl | Same baked maps with green/Y inverted | Native comparison pending |
 
 Only the three $TEXTURE_MTL 2 lines change between the reference and either new file.
