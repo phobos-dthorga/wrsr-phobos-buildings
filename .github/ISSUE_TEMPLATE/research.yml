@@ -1,0 +1,22 @@
+name: Research question
+description: Investigate a building, toolchain or game-mechanics question.
+title: "[Research] "
+labels: [research]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and decision it supports
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources and current evidence
+      description: Distinguish documentation, static checks, Blender and game tests. No private files.
+  - type: textarea
+    id: completion
+    attributes:
+      label: What would answer the question?
+    validations:
+      required: true

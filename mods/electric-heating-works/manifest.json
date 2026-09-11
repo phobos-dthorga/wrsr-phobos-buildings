@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "electric-heating-works",
+  "name": "Phobos' Electric Heating Works",
+  "status": "planning",
+  "license": "MIT",
+  "workshop_id": null,
+  "target_game_build": null,
+  "shared_parts": [
+    "architecture.industrial-bay",
+    "architecture.roof-bay",
+    "electrical.line-gantry",
+    "electrical.switching-bay",
+    "electrical.busbar",
+    "electrical.transformer",
+    "electrical.control-house",
+    "thermal.storage-tank",
+    "thermal.pipe-rack",
+    "site.fence-and-gate",
+    "materials.industrial-palette"
+  ],
+  "packaging": "standalone-build-time-shared-parts",
+  "ratings": {
+    "electricity_mw": null,
+    "heat_output": null,
+    "workers": null
+  },
+  "core_requirements": [
+    "original-public-release-assets",
+    "substantial-receiving-switchyard",
+    "verified-electricity-to-heat-balance"
+  ]
+}

@@ -1,0 +1,25 @@
+name: Original building or shared part
+description: Propose original architecture or a reusable component.
+title: "[Design] "
+labels: [design]
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose, appearance and scale
+    validations:
+      required: true
+  - type: textarea
+    id: reuse
+    attributes:
+      label: Shared parts and intended consumers
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Originality and source/licence evidence
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and verification limits

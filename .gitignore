@@ -1,0 +1,24 @@
+# Local research and generated output
+.local/
+.tools/
+dist/
+build/
+artifacts/
+__pycache__/
+*.pyc
+*.log
+*.blend1
+*.blend2
+*.zip
+*.exe
+*.dll
+.env
+.env.*
+*.sav
+*.sqlite*
+*.duckdb*
+Thumbs.db
+.DS_Store
+
+# Original reviewed source .blend files and licensed textures may be added later.
+# .gitignore is not a substitute for a provenance review.

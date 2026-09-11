@@ -1,0 +1,15 @@
+Phobos' W&R Building Works
+Copyright (c) 2026 Phobos A. D'thorga
+
+Repository conventions are adapted from Republic Observatory:
+https://github.com/phobos-dthorga/soviet-republic-observatory
+Reference commit: 92fc3db0f786b31e424c8f69bc691d410a8c84dd
+
+The MIT LICENSE, .editorconfig and .gitattributes were taken from that committed
+revision. Contributor, evidence and privacy conventions were adapted for this
+documentation-first building-mod repository. No Observatory application, native
+research companion or third-party code was imported.
+
+Workers & Resources: Soviet Republic and its game assets belong to their respective
+owners. This independent project is not affiliated with or endorsed by 3Division
+or Hooded Horse. No proprietary game or Workshop assets are distributed here.
