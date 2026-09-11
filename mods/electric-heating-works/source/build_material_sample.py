@@ -159,7 +159,9 @@ def native_material(normal_variant):
                   "$TEXTURE_MTL 1 "+name+"_specular.dds",
                   "$TEXTURE_MTL 2 "+normal,
                   "$DIFFUSECOLOR 1 1 1 1", "$SPECULARCOLOR 1 1 1 1",
-                  "$AMBIENTCOLOR 1 1 1 1", "$END", ""]
+                  "$AMBIENTCOLOR 1 1 1 1", ""]
+    # $END closes the file, not each submaterial.
+    lines += ["$END", ""]
     return "\n".join(lines)
 for filename, variant in (("material.mtl","flat"),("material_normal_gl.mtl","gl"),
                           ("material_normal_y_inverted.mtl","dx")):

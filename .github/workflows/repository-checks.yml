@@ -11,4 +11,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/check_repository.py
+      - run: python -m unittest discover -s tests
       - run: python scripts/check_material_sample_package.py

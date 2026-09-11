@@ -5,7 +5,6 @@ $TEXTURE_MTL 2 hall_bay_normal_gl.dds
 $DIFFUSECOLOR 1 1 1 1
 $SPECULARCOLOR 1 1 1 1
 $AMBIENTCOLOR 1 1 1 1
-$END
 
 $SUBMATERIAL a03_transformer
 $TEXTURE_MTL 0 transformer_diffuse.dds
@@ -14,7 +13,6 @@ $TEXTURE_MTL 2 transformer_normal_gl.dds
 $DIFFUSECOLOR 1 1 1 1
 $SPECULARCOLOR 1 1 1 1
 $AMBIENTCOLOR 1 1 1 1
-$END
 
 $SUBMATERIAL a03_switching_group
 $TEXTURE_MTL 0 switching_group_diffuse.dds
@@ -23,4 +21,5 @@ $TEXTURE_MTL 2 switching_group_normal_gl.dds
 $DIFFUSECOLOR 1 1 1 1
 $SPECULARCOLOR 1 1 1 1
 $AMBIENTCOLOR 1 1 1 1
+
 $END

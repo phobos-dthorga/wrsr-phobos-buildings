@@ -14,7 +14,7 @@
     "scripts/blender_material_bake.py": "a2cc681ec6355d183e8082edc4430b8695f8622715659fae2072eabd137bd5d0",
     "scripts/blender_nmf_export.py": "03738a6e5082cedd0c585335b41287b80e68f5d120550113f531c871e62e9896",
     "scripts/render_material_sample.py": "1fa0b4ec327346c4b5564f96b0caeb8e02c17c848422cf5a75b9a3834726435e",
-    "mods/electric-heating-works/source/build_material_sample.py": "3cfc472d6c5d203335e97012fcd3698458157722842857095762195168ed35be"
+    "mods/electric-heating-works/source/build_material_sample.py": "0b119efad006fb55712ff764650df268be6f38d68c5f778187cb5b6036209149"
   },
   "parts": {
     "hall_bay": {
@@ -350,7 +350,8 @@
           "a03_transformer",
           "a03_switching_group"
         ],
-        "all_texture_references_resolve": true
+        "all_texture_references_resolve": true,
+        "single_final_end": true
       },
       "material_normal_gl.mtl": {
         "submaterials": [
@@ -358,7 +359,8 @@
           "a03_transformer",
           "a03_switching_group"
         ],
-        "all_texture_references_resolve": true
+        "all_texture_references_resolve": true,
+        "single_final_end": true
       },
       "material_normal_y_inverted.mtl": {
         "submaterials": [
@@ -366,7 +368,8 @@
           "a03_transformer",
           "a03_switching_group"
         ],
-        "all_texture_references_resolve": true
+        "all_texture_references_resolve": true,
+        "single_final_end": true
       }
     },
     "compression_comparison": {
@@ -438,8 +441,8 @@
     "shared/site_details.py": "7353beeb14d97b7a31db00205e1d65e59c46f555feedf7a2fbe95b084649804b"
   },
   "verification_sources_sha256": {
-    "scripts/native_asset_checks.py": "d2f3591008cadbf3a1e0e9d3bbfaec993439036399bd27cc0e7b727004cfca0a",
-    "scripts/verify_material_sample.py": "c92277fce992e5c2aaa1d7069b33c5afeb92449ad3adda7b101d791bc918121d"
+    "scripts/native_asset_checks.py": "ed3bc1179efb21172bd03234e98e5c066a6472bbd33ad1e5df55a02ab94ca62d",
+    "scripts/verify_material_sample.py": "c720f4a6cd6d681f6049c08bdce964d45cb91aaf6974918fae6ce45395b200ff"
   },
   "artifact_sha256": {
     "material-sample.blend": "d8ed9ee61d507d642b272a98a9a56f262e61f5fa302821941a4a91fe24f40d08",
@@ -448,9 +451,9 @@
     "native/hall_bay_normal_gl.dds": "34655e27d94a9934b49553edb8eed46e2bb31b8df03932b4b67062ca78620a1e",
     "native/hall_bay_normal_gl_y_inverted.dds": "2341667a888eb00a8ebc84500dab6d8657e0eb1389e82e38037981bdaeea8bd1",
     "native/hall_bay_specular.dds": "a3f868b9f2301b470da19cbdae8534b60dfc1992a836dd7c49ac006ece133db4",
-    "native/material.mtl": "9f9e1811455ecba6aaa99bcdc3dbbf5e00eee7245e860b87af26a4a48dcc0274",
-    "native/material_normal_gl.mtl": "8ce7073fe93aa39002465a9c200bc28a5a38b90ddb4e964b791051a39a8a6188",
-    "native/material_normal_y_inverted.mtl": "162f4fb809ec216ee86659eb1c815c69e958be6bbe5187ee6b3b582e496ee338",
+    "native/material.mtl": "e8b0d82e6abdb802b1f2cc61bfdfc8eaa0c9bc42d894924404e637960276bb74",
+    "native/material_normal_gl.mtl": "7875d26df19bf79fc754d8f142a39035e1579b883034b53cb923ad6453ab2c4f",
+    "native/material_normal_y_inverted.mtl": "536264deb203f5e581ef05b497f65cceb21025f8d68f9943d8ef90dd52e67b0b",
     "native/sample.nmf": "b699fa87ba4d7a07b84e1719e99d52ebef1e091f6d726aa2bcdf30da6ef7c8be",
     "native/switching_group_diffuse.dds": "4fe32c35d93704fff1b9fa879edd4a25b519224b41ad2076158074358a54812a",
     "native/switching_group_normal_gl.dds": "641a0e54866a7689ae4da85ac4af28dc7a659a24e23532ff5c5895ff5c3b3b2e",
@@ -475,5 +478,19 @@
     "textures/transformer_diffuse.png": "612ad806da9fbce94fd9ceffe7f01919499ea525371641ae45fa921a112eb3d4",
     "textures/transformer_normal_gl.png": "f4cbef4458523254ac97d495d09b6029ae7ee6007f31f213d9d7dac1e0c0e901",
     "textures/transformer_specular.png": "4bc7ccacd628b2991a24b0f3777a006c5609c5647cf78a37aa2eac874b916896"
-  }
+  },
+  "material_serialization_corrections": [
+    {
+      "date": "2026-09-12",
+      "change": "Use one final $END for all three submaterials; previous files ended after every component.",
+      "previous_package_commit": "bbaf8fa80c18c16d02cb13667efbff9837ccac66",
+      "previous_material_sha256": {
+        "material.mtl": "9f9e1811455ecba6aaa99bcdc3dbbf5e00eee7245e860b87af26a4a48dcc0274",
+        "material_normal_gl.mtl": "8ce7073fe93aa39002465a9c200bc28a5a38b90ddb4e964b791051a39a8a6188",
+        "material_normal_y_inverted.mtl": "162f4fb809ec216ee86659eb1c815c69e958be6bbe5187ee6b3b582e496ee338"
+      },
+      "geometry_textures_blender_and_renders_changed": false,
+      "native_visual_result": "Correction awaiting user reload; previous appearance rejected."
+    }
+  ]
 }

@@ -6,7 +6,6 @@ import hashlib
 import json
 import math
 from pathlib import Path
-import shlex
 import sys
 import bpy
 import numpy as np
@@ -15,7 +14,7 @@ from mathutils.kdtree import KDTree
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
-from scripts.native_asset_checks import read_nmf, read_dds
+from scripts.native_asset_checks import read_nmf, read_dds, parse_sample_material
 parser=argparse.ArgumentParser()
 parser.add_argument("--folder",type=Path,required=True)
 args=parser.parse_args(sys.argv[sys.argv.index("--")+1:])
@@ -94,18 +93,18 @@ dds={p.name:read_dds(p) for p in sorted((folder/"native").glob("*.dds"))}
 assert len(dds)==13
 materials={}
 for path in sorted((folder/"native").glob("*.mtl")):
-    names, references=[],[]
-    for raw in path.read_text().splitlines():
-        tokens=shlex.split(raw)
-        if not tokens:
-            continue
-        if tokens[0]=="$SUBMATERIAL":
-            names.append(tokens[1])
-        if tokens[0]=="$TEXTURE_MTL":
-            assert (path.parent/tokens[2]).is_file()
-            references.append(tokens[2])
+    parsed_materials=parse_sample_material(path.read_text(encoding="utf-8"))
+    names=[material["name"] for material in parsed_materials]
+    references=[]
+    for material in parsed_materials:
+        for texture in material["textures"].values():
+            assert texture["directive"]=="$TEXTURE_MTL"
+            target=(path.parent/texture["path"]).resolve()
+            assert target.is_relative_to(folder) and target.is_file()
+            references.append(texture["path"])
     assert set(names)==set(parsed["materials"]) and len(references)==9
-    materials[path.name]={"submaterials":names,"all_texture_references_resolve":True}
+    materials[path.name]={"submaterials":names,"all_texture_references_resolve":True,
+                         "single_final_end":True}
 
 def pixels(path):
     image=bpy.data.images.load(str(path),check_existing=False)

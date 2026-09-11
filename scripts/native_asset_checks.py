@@ -3,7 +3,61 @@ Original checker, MIT, 2026 Phobos A. D'thorga. Format fields cross-checked with
 the separately supplied 3Division tools; no external tool code is vendored.
 """
 import math
+import shlex
 import struct
+
+
+def parse_sample_material(text):
+    """Validate the native MTL subset we emit; $END terminates the whole file."""
+    materials = []
+    current = None
+    ended = False
+    for line_number, line in enumerate(text.splitlines(), 1):
+        tokens = shlex.split(line)
+        if not tokens:
+            continue
+        if ended:
+            raise ValueError(f"Material data after $END at line {line_number}")
+        directive, *values = tokens
+        if directive == "$END":
+            if values or not materials:
+                raise ValueError("Invalid material file terminator")
+            ended = True
+        elif directive == "$SUBMATERIAL":
+            if len(values) != 1 or any(m["name"] == values[0] for m in materials):
+                raise ValueError("Invalid or duplicate submaterial")
+            current = {"name": values[0], "textures": {}, "colors": {}}
+            materials.append(current)
+        else:
+            if current is None:
+                raise ValueError("Material property before a submaterial")
+            if directive in ("$TEXTURE", "$TEXTURE_MTL"):
+                if len(values) != 2 or values[0] not in ("0", "1", "2"):
+                    raise ValueError("Invalid sample texture slot")
+                slot = int(values[0])
+                if slot in current["textures"]:
+                    raise ValueError("Duplicate texture slot")
+                current["textures"][slot] = {"directive": directive, "path": values[1]}
+            elif directive in ("$DIFFUSECOLOR", "$SPECULARCOLOR", "$AMBIENTCOLOR"):
+                if len(values) != 4 or directive in current["colors"]:
+                    raise ValueError("Invalid or duplicate material colour")
+                color = [float(value) for value in values]
+                if not all(math.isfinite(value) for value in color):
+                    raise ValueError("Non-finite material colour")
+                current["colors"][directive] = color
+            elif directive == "$SPECULARPOWER":
+                if len(values) != 1 or not math.isfinite(float(values[0])):
+                    raise ValueError("Invalid specular power")
+            else:
+                raise ValueError("Unsupported sample material directive: " + directive)
+    if not ended:
+        raise ValueError("Missing final $END")
+    for material in materials:
+        if set(material["textures"]) != {0, 1, 2}:
+            raise ValueError("Incomplete texture slots: " + material["name"])
+        if set(material["colors"]) != {"$DIFFUSECOLOR", "$SPECULARCOLOR", "$AMBIENTCOLOR"}:
+            raise ValueError("Incomplete colours: " + material["name"])
+    return materials
 
 
 def read_nmf(path):

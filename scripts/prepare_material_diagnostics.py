@@ -5,8 +5,11 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from scripts.native_asset_checks import parse_sample_material
 SOURCE = ROOT / "shared/material-sample-a03"
 
 
@@ -33,6 +36,7 @@ def prepare(destination, media_root):
         files[source.name] = payload
 
     baseline = files["material.mtl"].decode("utf-8")
+    parse_sample_material(baseline)
     if baseline.count("$SPECULARCOLOR 1 1 1 1") != 3:
         raise ValueError("Unexpected source material.")
     no_specular = baseline.replace("$SPECULARCOLOR 1 1 1 1", "$SPECULARCOLOR 0 0 0 1")
@@ -61,13 +65,12 @@ def prepare(destination, media_root):
     for name, payload in files.items():
         if not name.endswith(".mtl"):
             continue
-        for line in payload.decode("utf-8").splitlines():
-            fields = line.split()
-            if fields and fields[0] in ("$TEXTURE", "$TEXTURE_MTL"):
-                base = media_root if fields[0] == "$TEXTURE" else destination
-                target = (base / fields[2]).resolve()
+        for material in parse_sample_material(payload.decode("utf-8")):
+            for texture in material["textures"].values():
+                base = media_root if texture["directive"] == "$TEXTURE" else destination
+                target = (base / texture["path"]).resolve()
                 if not target.is_relative_to(media_root) or not target.is_file():
-                    raise ValueError("Invalid texture reference: " + line)
+                    raise ValueError("Invalid texture reference: " + texture["path"])
     print("Prepared and verified", len(files), "files. Native visual comparison pending.")
     print(destination)
 

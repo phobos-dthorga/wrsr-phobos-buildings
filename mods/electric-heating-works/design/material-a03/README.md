@@ -6,6 +6,8 @@
 Update, 12 September: the first ModelViewer inspection exposed excessive white
 and black shading. [Investigation and controlled comparisons](native-shading-investigation.md)
 record the result; native visual acceptance remains pending.
+The material-file terminator has since been corrected; the revised package is
+ready for another native inspection, with mesh and texture art unchanged.
 
 ![A03 original facade and electrical sample, rendered in Blender](../../../../shared/material-sample-a03/review/overview.png)
 

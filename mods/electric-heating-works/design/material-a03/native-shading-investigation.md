@@ -21,8 +21,37 @@ appearance or evidence that the complete plant has been altered.
 - Static geometry/texture checks cannot establish the game's actual lighting
   response. Mesh directions, texture mapping and viewer mode still need native
   comparison if the material-only checks do not resolve it.
-- No root cause or successful correction has yet been confirmed. No game assets
-  or screenshots are included in this public note.
+- The author subsequently tried Building mode and the no-specular diagnostic,
+  reporting no visible improvement. A follow-up screenshot confirms the hall's
+  specular RGB values are zero. A temporarily blank selector did not prove a
+  failed load; selecting the hall made its properties visible again.
+- A concrete serialization defect was then found: all three public material
+  files, and diagnostics derived from them, placed $END after every submaterial.
+  Installed 3Division base-game material buildings/alumina_plant.mtl places two
+  submaterials before one final $END. Our files now follow that file-level
+  terminator structure. This is a format correction; its effect on the observed
+  shading still requires a native reload.
+- No game assets or screenshots are included in this public note.
+
+## Corrected package and next check
+
+The corrected A03 package retains exactly the same Blender scene, mesh, texture
+images and review renders. Only the three native material files changed.
+Their previous hashes and the correction are retained in the
+[verification record](../../../../shared/material-sample-a03/verification.json).
+The build recipe now emits one final $END. The shared native checker rejects
+material data after that marker, missing terminators, duplicate submaterials
+and missing or duplicate texture slots; six regression cases exercise these checks.
+The earlier checker scanned the entire text for names and paths without respecting
+the terminator, which is why that defect passed its checks.
+
+The corrected files are staged under a new dedicated directory,
+phobos_tests/electric_heating_a03_r2, leaving the earlier local comparison intact.
+The author should load sample.nmf from this new folder, then its material.mtl,
+and inspect both the appearance and the Select submaterial menu. The expected
+material names are a03_hall_bay, a03_transformer and a03_switching_group.
+These steps do not require closing the game or agent mouse control.
+Do not mark visual acceptance complete until the author provides the new result.
 
 ## Controlled comparisons
 
@@ -30,7 +59,8 @@ appearance or evidence that the complete plant has been altered.
 the 17 pinned native inputs and two diagnostic material files into an explicitly
 chosen directory inside the installed game's media_soviet folder. It verifies
 the reviewed hashes, refuses to overwrite differing files, and checks texture
-references. The original reviewed package remains unchanged.
+references and native material structure. It stages the corrected reviewed package.
+The earlier local test folder remains available for comparison.
 
 ModelViewer rejects files outside media_soviet. This restriction was observed
 in the author's earlier error dialog. Use a dedicated subdirectory such as
