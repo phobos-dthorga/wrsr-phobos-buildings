@@ -12,22 +12,22 @@ attachments; they are not the game's final placement or terrain-flattening areas
 
 | Author / model | Footprint, metres | Main triangles | Distance triangles |
 |---|---:|---:|---:|
-| Phobos Electric Heating Works P01 | 151 Ã— 119 | 146,208 | None |
-| [robs074 Big heating plant](https://steamcommunity.com/sharedfiles/filedetails/?id=2844662248) | 81 Ã— 87 | 13,196 | None found |
-| [robs074 Coal power plant](https://steamcommunity.com/sharedfiles/filedetails/?id=2913038245) | 112 Ã— 131 | 19,621 | None found |
-| [robs074 Big coal power plant](https://steamcommunity.com/sharedfiles/filedetails/?id=2930412481) | 177 Ã— 153 | 28,533 | None found |
-| [wildbunny SNR-300](https://steamcommunity.com/sharedfiles/filedetails/?id=2951506229) | 180 Ã— 164 | 44,045 | 10,567 |
-| [wildbunny WWER-70](https://steamcommunity.com/sharedfiles/filedetails/?id=2951506229) | 152 Ã— 145 | 30,028 | 7,402 |
-| [wildbunny Gas CHP](https://steamcommunity.com/sharedfiles/filedetails/?id=3035907116) | 72 Ã— 144 | 65,145 | 26,807 |
-| [wildbunny Petrochemical Combine](https://steamcommunity.com/sharedfiles/filedetails/?id=2807104839) | 127 Ã— 53 | 145,347 | 35,574 |
-| [wildbunny KWU Baulinie 3](https://steamcommunity.com/sharedfiles/filedetails/?id=2951506229) | 238 Ã— 244 | 102,331 | 33,711 / 12,695 |
-| [robs074 Steel mill](https://steamcommunity.com/sharedfiles/filedetails/?id=3442736806) | 337 Ã— 320 | 128,163 | None found |
+| Phobos Electric Heating Works P01 | 151 × 119 | 146,208 | None |
+| [robs074 Big heating plant](https://steamcommunity.com/sharedfiles/filedetails/?id=2844662248) | 81 × 87 | 13,196 | None found |
+| [robs074 Coal power plant](https://steamcommunity.com/sharedfiles/filedetails/?id=2913038245) | 112 × 131 | 19,621 | None found |
+| [robs074 Big coal power plant](https://steamcommunity.com/sharedfiles/filedetails/?id=2930412481) | 177 × 153 | 28,533 | None found |
+| [wildbunny SNR-300](https://steamcommunity.com/sharedfiles/filedetails/?id=2951506229) | 180 × 164 | 44,045 | 10,567 |
+| [wildbunny WWER-70](https://steamcommunity.com/sharedfiles/filedetails/?id=2951506229) | 152 × 145 | 30,028 | 7,402 |
+| [wildbunny Gas CHP](https://steamcommunity.com/sharedfiles/filedetails/?id=3035907116) | 72 × 144 | 65,145 | 26,807 |
+| [wildbunny Petrochemical Combine](https://steamcommunity.com/sharedfiles/filedetails/?id=2807104839) | 127 × 53 | 145,347 | 35,574 |
+| [wildbunny KWU Baulinie 3](https://steamcommunity.com/sharedfiles/filedetails/?id=2951506229) | 238 × 244 | 102,331 | 33,711 / 12,695 |
+| [robs074 Steel mill](https://steamcommunity.com/sharedfiles/filedetails/?id=3442736806) | 337 × 320 | 128,163 | None found |
 
 The larger nuclear plant and steel mill are complexity context, not exact size matches.
 The chemical combine is narrower but densely equipped. The survey also includes a
-49 Ã— 93 m wildbunny switchyard (51,381 / 4,076 triangles) to help assess our substantial
+49 × 93 m wildbunny switchyard (51,381 / 4,076 triangles) to help assess our substantial
 electrical equipment separately. Billman007's school is a construction/LOD reference,
-not an industrial complexity peer: 14,337 / 491 triangles at roughly 59 Ã— 56 m.
+not an industrial complexity peer: 14,337 / 491 triangles at roughly 59 × 56 m.
 "None found" means no external distance declaration and one embedded level in the
 inspected files. All 20 references were checked for both forms.
 
@@ -38,7 +38,7 @@ No donor model, material or texture is copied into the repository or our mod.
 
 ## Decision for Heating Works
 
-The author selected balanced cleanup: 90,000â€“110,000 close-up triangles, approximately
+The author selected balanced cleanup: 90,000–110,000 close-up triangles, approximately
 35,000/12,000 maximum for the first two distance models, initially 600/1,200 metres.
 Preserve size, silhouette, window rhythm, tanks and receiving-yard identity. Prioritise
 thin repeated bars, fittings, rings and concealed caps. These are project targets, not
@@ -82,8 +82,8 @@ the current 30 workers, heat coefficient 350 and per-second `eletric` coefficien
 while changing geometry/connections.
 
 Prepare four large outlets. The [heating wiki](https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Heating)
-lists 300 mÂ³ for a large pipe and 1,050 mÂ³ for the vanilla large plant with matching
-production settings; four pipes give a nominal 1,200 mÂ³, about 14% headroom. That page
+lists 300 m³ for a large pipe and 1,050 m³ for the vanilla large plant with matching
+production settings; four pipes give a nominal 1,200 m³, about 14% headroom. That page
 requests content review. The volume labels and arithmetic are a planning estimate,
 not proof of thermal throughput, redundancy or sufficient delivery in our mod.
 Use the [existing heat/electricity protocol](2026-09-11-electricity-and-heat.md) for
@@ -102,7 +102,7 @@ Further source references: [building scripting](https://steamcommunity.com/share
 [vehicle scripting](https://steamcommunity.com/sharedfiles/filedetails/?id=1861143159).
 Vehicle-specific budgets and runtime performance have not yet been measured.
 
-## P02 implementation outcome â€” same date
+## P02 implementation outcome — same date
 
 The [A06/P02 candidate](../mods/electric-heating-works/gameplay/p02/README.md)
 exports 109,924 / 25,562 / 10,964 triangles. The close reduction is 36,284 triangles,

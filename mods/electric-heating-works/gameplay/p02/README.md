@@ -12,7 +12,7 @@ a ghost and a few dirt piles. P02's construction, distribution and performance a
 separate tests, not implied by that successful placement.
 
 P02 preserves the footprint, major proportions, hall, two tanks, switchyard and
-provisional production settings. The accepted P01 item and A03â€“A05 sources remain
+provisional production settings. The accepted P01 item and A03–A05 sources remain
 available. A new local item, **900000007**, contains two separately selectable objects:
 
 - **Phobos Construction Probe [P02]**, a small original four-group diagnostic.
@@ -39,7 +39,7 @@ have separate solid-build assignments. Groundwork deliberately references founda
 nodes again. Completed groups are intended to remain present through later phases;
 the engine's actual progression must be observed before calling this fixed.
 
-The model budget is 90,000â€“110,000 close triangles, with maximum targets of 35,000
+The model budget is 90,000–110,000 close triangles, with maximum targets of 35,000
 and 12,000 for the two distance models. Initial transitions are 600 and 1,200 m.
 These are building-specific project targets. See the measured exports and pinned
 recipes in [A06](../../source/assembly-a06/README.md).

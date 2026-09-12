@@ -31,7 +31,7 @@ surfaces and A05's 3 cm ground correction, then confirmed P01 placement. These
 observations do not establish construction progression or operating capacity.
 
 [P02: construction probe, four heat outlets and distance models](mods/electric-heating-works/gameplay/p02/README.md)
-keeps P01 and A03â€“A05 intact and records the next manual acceptance steps.
+keeps P01 and A03–A05 intact and records the next manual acceptance steps.
 
 ![A04 original complete-plant assembly, rendered in Blender](mods/electric-heating-works/source/assembly-a04/review/overall.png)
 

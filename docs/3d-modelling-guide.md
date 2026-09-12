@@ -66,7 +66,7 @@ surface geometry while preserving the building/vehicle outline. Test transitions
 while moving the camera, at several orientations, and in day, sunset and night light.
 Screenshots alone cannot establish absence of flickering or acceptable transitions.
 
-Heating Works P02 has an author-selected **project target** of 90,000â€“110,000 close
+Heating Works P02 has an author-selected **project target** of 90,000–110,000 close
 triangles, at most roughly 35,000 for LOD1 and 12,000 for LOD2. Initial building
 distances are 600/1,200 metres. These are not defaults for every future asset.
 
