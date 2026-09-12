@@ -41,7 +41,7 @@
   "runtime_performance_measured": false,
   "root_cause_confirmed": false,
   "installed_files_changed_during_investigation": false,
-  "next_step": "Keep the current installation. Complete the site and check scaffold removal, completed appearance and save/reload; heat delivery and LOD transitions remain separate pending tests.",
+  "next_step": "Save and reload the completed plant in the disposable test game, then verify heat delivery through all four outlets. Keep current installation; LOD visual acceptance and performance measurements remain pending.",
   "research": "research/2026-09-12-construction-followup.md",
   "prepared_diagnostic": "mods/electric-heating-works/gameplay/p02/c1/package-verification.json",
   "c1_installation": "mods/electric-heating-works/gameplay/p02/c1/installation.json",
@@ -114,5 +114,26 @@
       "No 100% completion or save/reload screenshot in this set.",
       "This success does not establish the cause of the earlier reported failure or prove that reducing triangles was necessary."
     ]
+  },
+  "completion_followup": {
+    "recorded_at_utc": "2026-09-12T14:50:52.982387+00:00",
+    "report_date_local": "2026-09-13",
+    "source": "author report",
+    "author_report": "It does finish with the scaffolding disappearing at 100%, with the completed model appearing the end, yeah. So that's all fine ^ ^",
+    "result": "completion-transition-passed-author-reported",
+    "progress_percent": 100,
+    "scaffolding_disappears": true,
+    "completed_model_appears": true,
+    "new_screenshot_supplied": false,
+    "expected_installed_variant": "p02-c1",
+    "save_reload_verified": false
+  },
+  "lod_hypothesis_followup": {
+    "report_date_local": "2026-09-13",
+    "source": "author informal visual test",
+    "author_report": "Hmm, no, I don't think so. It's hard to tell but I'm leaning towards no.",
+    "result": "inconclusive-no-clear-link-observed",
+    "lod_cause_confirmed": false,
+    "scope": "Does not establish acceptance of LOD transitions or rule out every distance-related effect."
   }
 }

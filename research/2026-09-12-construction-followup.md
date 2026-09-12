@@ -196,3 +196,18 @@ Keep the current package for completion and save/reload checks before making ano
 construction change. Confirm scaffolding disappears at completion and the completed
 model persists after reloading. Heat delivery and LOD transitions remain independent
 acceptance tests. No completed-stage screenshot was supplied in this sequence.
+
+## 13 September follow-up: completion confirmed
+
+The author confirms the scaffolding disappears at 100% and the completed model
+appears correctly. Record this as an author-confirmed completion transition,
+following the earlier screenshot sequence demonstrating partial-stage progression.
+No additional completion screenshot was supplied. Save/reload is still unverified.
+
+The author also informally tested a possible LOD explanation and reports that it
+is hard to tell, leaning towards no. Record this as inconclusive with no clear link
+observed, not an established cause or a comprehensive LOD acceptance test. It does
+not justify changing distance models. Keep the current installation for save/reload
+and four-outlet heat-delivery testing. The cause of the earlier reported failure
+remains unknown, and the original P02 high-detail model has not thereby gained
+construction acceptance from the C1 test.

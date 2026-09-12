@@ -3,7 +3,7 @@
 Original building mods for **Workers & Resources: Soviet Republic**, supported by a
 shared library of reusable architectural and industrial parts.
 
-**Status: progressive construction now observed on the full plant through 97%; completion, save/reload, heat delivery and LOD checks remain pending.**
+**Status: progressive construction observed; author confirms scaffolding disappears and the completed model appears at 100%. Save/reload, heat delivery and LOD checks remain pending.**
 Concept A has editable Blender sources, reusable components and review renders.
 P01 is archived for rollback; P02 is the active local prototype. Heat delivery and
 performance remain unverified. There are no Workshop uploads or supported releases.
