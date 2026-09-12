@@ -66,7 +66,7 @@ surface geometry while preserving the building/vehicle outline. Test transitions
 while moving the camera, at several orientations, and in day, sunset and night light.
 Screenshots alone cannot establish absence of flickering or acceptable transitions.
 
-Heating Works P02 has an author-selected **project target** of 90,000–110,000 close
+Heating Works P02 has an author-selected **project target** of 90,000â€“110,000 close
 triangles, at most roughly 35,000 for LOD1 and 12,000 for LOD2. Initial building
 distances are 600/1,200 metres. These are not defaults for every future asset.
 
@@ -88,6 +88,14 @@ Test partial completion, stage transitions, finished appearance and save/reload 
 disposable game. Groundwork dirt piles alone do not prove progressive building
 geometry works. Regrouping changes the bounds used by automatic construction costs;
 record those cost changes separately from intentional balance decisions.
+
+P02 subsequently failed progressive construction despite passing node references,
+node/triangle bounds and face-plane checks. The [three-author follow-up](../research/2026-09-12-construction-followup.md)
+records why static checks cannot substitute for a small in-game construction probe.
+Test that probe before iterating the full building. Compare configuration, model
+format and renderer metadata separately, and change one variable per diagnostic.
+Reference files can contain stale selectors too; measure their correspondence to
+the actual NMF rather than assuming every line is authoritative.
 
 Avoid coplanar site surfaces. The Heating Works ground problem was resolved by a
 3 cm surface clearance confirmed by the author, not a permanent two-metre building

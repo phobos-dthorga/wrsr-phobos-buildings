@@ -1,12 +1,18 @@
 # P02: construction, four heat outlets and distance models
 
-Installed local candidate, 12 September 2026. **Not yet accepted in game.**
+Installed local candidate, 12 September 2026. **Full plant construction failed the
+author's test; small probe not yet tested.**
+
+The completed plant displays snow coverage. The 72% construction screenshot still
+shows the plant as a selection ghost. See [game-observations.json](game-observations.json)
+and the [three-author follow-up](../../../../research/2026-09-12-construction-followup.md).
+These observations supersede the earlier pending-test status below.
 P01 has been placed successfully by the author; its incomplete construction showed
 a ghost and a few dirt piles. P02's construction, distribution and performance are
 separate tests, not implied by that successful placement.
 
 P02 preserves the footprint, major proportions, hall, two tanks, switchyard and
-provisional production settings. The accepted P01 item and A03–A05 sources remain
+provisional production settings. The accepted P01 item and A03â€“A05 sources remain
 available. A new local item, **900000007**, contains two separately selectable objects:
 
 - **Phobos Construction Probe [P02]**, a small original four-group diagnostic.
@@ -33,7 +39,7 @@ have separate solid-build assignments. Groundwork deliberately references founda
 nodes again. Completed groups are intended to remain present through later phases;
 the engine's actual progression must be observed before calling this fixed.
 
-The model budget is 90,000–110,000 close triangles, with maximum targets of 35,000
+The model budget is 90,000â€“110,000 close triangles, with maximum targets of 35,000
 and 12,000 for the two distance models. Initial transitions are 600 and 1,200 m.
 These are building-specific project targets. See the measured exports and pinned
 recipes in [A06](../../source/assembly-a06/README.md).
@@ -102,5 +108,5 @@ test save that depends on it. The archive and its machine-local manifest stay ou
 of this public repository.
 
 The package verification records the preparation event; the installation record
-records the later installed state. Construction, heat delivery, visual transitions
-and runtime performance remain unverified until the author completes the tests.
+records the later installed state. Full-plant progressive construction subsequently failed the author's test. The
+small probe, heat delivery, visual transitions and runtime performance remain pending.

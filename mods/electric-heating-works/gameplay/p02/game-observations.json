@@ -1,0 +1,41 @@
+{
+  "revision": "p02",
+  "recorded_at_utc": "2026-09-12T00:35:50.550673+00:00",
+  "source": "author game-test report and two supplied screenshots",
+  "full_plant": {
+    "placed": true,
+    "completed_model_visible": true,
+    "progressive_construction": "failed-author-reported",
+    "partial_screenshot": {
+      "sha256": "148ae6e03497a5ce229f3a6370c31a5b54fa6c81fd7da491d3d85ea4da270668",
+      "game_date": "24 December 2040",
+      "progress_percent": 72,
+      "phase_label": "Steel framing",
+      "selection_ghost_visible": true,
+      "deselected_view_supplied": false
+    },
+    "snow_screenshot": {
+      "sha256": "014314fc553303b5a79bb79488c4d0faf0e85d757f2af2d194c343d5b88182ab",
+      "game_date": "27 December 2040",
+      "snow_coverage_observed": [
+        "hall roof",
+        "tank tops",
+        "site surfaces"
+      ],
+      "full_seasonal_acceptance": false
+    }
+  },
+  "construction_probe": {
+    "tested": false,
+    "source": "author explicitly answered Not tested yet"
+  },
+  "installed_first_party_files_verified": 81,
+  "installed_first_party_mismatches": 0,
+  "heat_delivery_verified": false,
+  "lod_transitions_verified": false,
+  "runtime_performance_measured": false,
+  "root_cause_confirmed": false,
+  "installed_files_changed_during_investigation": false,
+  "next_step": "Test the already installed small construction probe before choosing a new diagnostic variant.",
+  "research": "research/2026-09-12-construction-followup.md"
+}

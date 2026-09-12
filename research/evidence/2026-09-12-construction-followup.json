@@ -1,0 +1,3289 @@
+{
+  "schema_version": 1,
+  "measured_at_utc": "2026-09-12T00:32:21.078140+00:00",
+  "method": "Static installed-reference comparison; no reference assets copied; no reference gameplay test in this investigation.",
+  "tolerances": {
+    "bounds_m": 0.0001,
+    "plane_coefficients": 0.001,
+    "degenerate_cross_length": 1e-08
+  },
+  "limits": [
+    "Plane sign varies by exporter family; it is not alone a defect.",
+    "Prefix matching follows the reviewed scripting guide; this is not an engine parser emulator.",
+    "Passing bounds, planes and selector checks does not prove construction rendering.",
+    "Publisher attribution does not establish sole original authorship or grant reuse rights."
+  ],
+  "references": [
+    {
+      "workshop_id": "2844662248",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2844662248",
+      "publisher_name": "robs074",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198119183096",
+      "building_label": "Big heating plant",
+      "inspected_model": "cieplownia/1.nmf",
+      "model_sha256": "b1cee97ca80bc8df5a0e253e6b1b47886f130b602fabf679208d0649b8b992ea",
+      "renderconfig_sha256": "4ae831dae970243d7fbab2b079817be54106b7eeeb44ce2353054f10c801fad5",
+      "render_directives": [
+        "$TYPE_WORKSHOP",
+        "DERBIS_FALLED_FX",
+        "DERBIS_FALLED_SFX",
+        "DERBIS_FALLING_FX",
+        "DERBIS_FALLING_FX_MAXTIME",
+        "DERBIS_MESH",
+        "DERBIS_NUM",
+        "DERBIS_SCALE",
+        "END",
+        "EXACTSPECULAR",
+        "EXPLOSION_GROUP",
+        "LIFE",
+        "LIGHT_RGB",
+        "MATERIAL",
+        "MATERIALEMISSIVE",
+        "MODEL",
+        "PLANESHADOW",
+        "SMOKEPOINTCHANCE"
+      ],
+      "header": "B3DMH\u000010",
+      "nodes": 4,
+      "materials": 1,
+      "main_triangles": 13196,
+      "max_node_vertices": 12300,
+      "config": {
+        "sha256": "8508b703817baae7d1684727faafe410f6afc85eb916e416a17896663a000dfd",
+        "crlf_lines": 195,
+        "lone_lf_lines": 0,
+        "phases": [
+          {
+            "line": 174,
+            "phase": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+            "factor_token": "0.0",
+            "factor": 0.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "Cube.003"
+                ],
+                "matched_nodes": [
+                  "Cube.003"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "ground_asphalt",
+                  "1.00"
+                ]
+              }
+            ],
+            "stations": 1,
+            "unique_nodes": [
+              "Cube.003"
+            ]
+          },
+          {
+            "line": 181,
+            "phase": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+            "factor_token": "1.0",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "Cube.003"
+                ],
+                "matched_nodes": [
+                  "Cube.003"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "Cube.001"
+                ],
+                "matched_nodes": [
+                  "Cube.001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "Cube.002"
+                ],
+                "matched_nodes": [
+                  "Cube.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "Cylinder"
+                ],
+                "matched_nodes": [
+                  "Cylinder"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.3"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "tech_steel",
+                  "0.2"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "Cube.001",
+              "Cube.002",
+              "Cube.003",
+              "Cylinder"
+            ]
+          }
+        ],
+        "unmatched_selectors": [],
+        "unassigned_solid_nodes": []
+      },
+      "geometry_metadata": [
+        {
+          "node": "Cylinder",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 4701,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 4701,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "Cube.001",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 2448,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 2448,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "Cube.003",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 5725,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 5725,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "Cube.002",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 322,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 322,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        }
+      ]
+    },
+    {
+      "workshop_id": "2951506229",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2951506229",
+      "publisher_name": "wildbunny 獰猛 ラビット",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198043036264",
+      "building_label": "SNR-300",
+      "inspected_model": "snr300/model.nmf",
+      "model_sha256": "9e63748e1bb68f21048de5dd45aa11fab8ac82b2c70bf6aa6e16215619813b9f",
+      "renderconfig_sha256": "a0597afc53cc5d87ba59d4cc79d3618c464d5a1946bdc1d67cfd046a3fb73dcc",
+      "render_directives": [
+        "$TYPE_WORKSHOP",
+        "DERBIS_FALLED_FX",
+        "DERBIS_FALLED_SFX",
+        "DERBIS_FALLING_FX",
+        "DERBIS_FALLING_FX_MAXTIME",
+        "DERBIS_MESH",
+        "DERBIS_NUM",
+        "DERBIS_SCALE",
+        "END",
+        "EXPLOSION_GROUP",
+        "LIFE",
+        "LIGHT",
+        "LIGHT_RGB_BLICK",
+        "MATERIAL",
+        "MATERIALEMISSIVE",
+        "MODEL",
+        "MODEL_LOD1"
+      ],
+      "header": "fromObj",
+      "nodes": 33,
+      "materials": 1,
+      "main_triangles": 44045,
+      "max_node_vertices": 21312,
+      "config": {
+        "sha256": "47aeebf9fcc2e3551f3e6272b3748209e7cbf203b043ec25f7d6f21f01004141",
+        "crlf_lines": 309,
+        "lone_lf_lines": 0,
+        "phases": [
+          {
+            "line": 61,
+            "phase": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+            "factor_token": "0.0",
+            "factor": 0.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "building"
+                ],
+                "matched_nodes": [
+                  "building"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "building.001"
+                ],
+                "matched_nodes": [
+                  "building.001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "building.002"
+                ],
+                "matched_nodes": [
+                  "building.002"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "ground_asphalt",
+                  "0.3"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "building",
+              "building.001",
+              "building.002"
+            ]
+          },
+          {
+            "line": 75,
+            "phase": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+            "factor_token": "1.0",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_KEYWORD",
+                "arguments": [
+                  "$concrete"
+                ],
+                "matched_nodes": [
+                  "concrete",
+                  "concrete.001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_KEYWORD",
+                "arguments": [
+                  "$building"
+                ],
+                "matched_nodes": [
+                  "building.001",
+                  "building.002",
+                  "building"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.5"
+                ]
+              }
+            ],
+            "stations": 5,
+            "unique_nodes": [
+              "building",
+              "building.001",
+              "building.002",
+              "concrete",
+              "concrete.001"
+            ]
+          },
+          {
+            "line": 90,
+            "phase": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+            "factor_token": "1.0",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_KEYWORD",
+                "arguments": [
+                  "$roof"
+                ],
+                "matched_nodes": [
+                  "roof.003",
+                  "roof.001",
+                  "roof",
+                  "roof.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_KEYWORD",
+                "arguments": [
+                  "$metal"
+                ],
+                "matched_nodes": [
+                  "metal.005",
+                  "metal.003",
+                  "metal.011",
+                  "metal.007",
+                  "metal.001",
+                  "metal.002",
+                  "metal.004",
+                  "metal.012",
+                  "metal.010",
+                  "metal",
+                  "metal.006"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "ground_asphalt",
+                  "0.1"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "roof_steel",
+                  "0.2"
+                ]
+              }
+            ],
+            "stations": 5,
+            "unique_nodes": [
+              "metal",
+              "metal.001",
+              "metal.002",
+              "metal.003",
+              "metal.004",
+              "metal.005",
+              "metal.006",
+              "metal.007",
+              "metal.010",
+              "metal.011",
+              "metal.012",
+              "roof",
+              "roof.001",
+              "roof.002",
+              "roof.003"
+            ]
+          },
+          {
+            "line": 106,
+            "phase": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+            "factor_token": "1.0",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_KEYWORD",
+                "arguments": [
+                  "$tech"
+                ],
+                "matched_nodes": [
+                  "tech.001",
+                  "tech.003",
+                  "tech",
+                  "tech.008",
+                  "tech.002",
+                  "tech.005",
+                  "tech.006",
+                  "tech.004"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_KEYWORD",
+                "arguments": [
+                  "$elektro"
+                ],
+                "matched_nodes": [
+                  "elektro.007",
+                  "elektro.003",
+                  "elektro",
+                  "elektro.005",
+                  "elektro.002"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "tech_steel",
+                  "0.1"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "electro_steel",
+                  "0.1"
+                ]
+              }
+            ],
+            "stations": 5,
+            "unique_nodes": [
+              "elektro",
+              "elektro.002",
+              "elektro.003",
+              "elektro.005",
+              "elektro.007",
+              "tech",
+              "tech.001",
+              "tech.002",
+              "tech.003",
+              "tech.004",
+              "tech.005",
+              "tech.006",
+              "tech.008"
+            ]
+          }
+        ],
+        "unmatched_selectors": [],
+        "unassigned_solid_nodes": []
+      },
+      "geometry_metadata": [
+        {
+          "node": "building.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 3131,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 3131,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "building.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 312,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 312,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "building",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 1172,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 1172,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "concrete",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 182,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 182,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "tech.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 84,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 84,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.005",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 204,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 204,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.003",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 328,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 328,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "elektro.007",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 912,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 912,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "elektro.003",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 6464,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 6464,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "roof.003",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 1250,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 1250,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "tech.003",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 2530,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 2530,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "tech",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 348,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 348,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "tech.008",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 1080,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 1080,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "tech.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 210,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 210,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "tech.005",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 390,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 390,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "tech.006",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 660,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 660,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "concrete.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 240,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 240,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.011",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 7104,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 7104,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.007",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 192,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 192,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 280,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 280,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "roof.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 10,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 10,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 680,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 680,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "roof",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 2088,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 2088,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "tech.004",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 348,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 348,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "roof.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 48,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 48,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.004",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 1556,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 1556,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.012",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 3069,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 3069,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.010",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 904,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 904,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 324,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 324,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "elektro",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 1064,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 1064,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "elektro.005",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 212,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 212,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "elektro.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 6477,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 6477,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "metal.006",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 192,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 192,
+          "degenerate_triangles": 0
+        }
+      ]
+    },
+    {
+      "workshop_id": "2572446961",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2572446961",
+      "publisher_name": "Billman007",
+      "publisher_profile_url": "https://steamcommunity.com/profiles/76561198273869263",
+      "building_label": "School type 221-1-174",
+      "inspected_model": "221-1-174_main_building/custom.nmf",
+      "model_sha256": "06f2b1300e92373e28b2504613ae9962c7053fd6ecd3d1f7efc769d8ae3fc59e",
+      "renderconfig_sha256": "4523152ea52f2b22d58e0cd40b82b5125e0499d4a68b84fda1ce62dc7182960b",
+      "render_directives": [
+        "$TYPE_WORKSHOP",
+        "DERBIS_FALLED_FX",
+        "DERBIS_FALLED_SFX",
+        "DERBIS_FALLING_FX",
+        "DERBIS_FALLING_FX_MAXTIME",
+        "DERBIS_MESH",
+        "DERBIS_NUM",
+        "DERBIS_SCALE",
+        "END",
+        "EXPLOSION_GROUP",
+        "LIFE",
+        "MATERIAL",
+        "MATERIALEMISSIVE",
+        "MODEL",
+        "MODEL_LOD2"
+      ],
+      "header": "fromObj",
+      "nodes": 30,
+      "materials": 30,
+      "main_triangles": 14337,
+      "max_node_vertices": 13140,
+      "config": {
+        "sha256": "0dfc0a9cd8a6235a1bc6ee8cadc7937df4be95ce4fdeef5dcc7db00cd9860717",
+        "crlf_lines": 129,
+        "lone_lf_lines": 0,
+        "phases": [
+          {
+            "line": 66,
+            "phase": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+            "factor_token": "0.0",
+            "factor": 0.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_met.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_met.002"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "ground",
+                  "1.00"
+                ]
+              }
+            ],
+            "stations": 1,
+            "unique_nodes": [
+              "221-1-174_main_221-1-174_main_met.002"
+            ]
+          },
+          {
+            "line": 73,
+            "phase": "SOVIET_CONSTRUCTION_PANELS_LAYING",
+            "factor_token": "1.0",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_met.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_met.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p720.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_p720.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p720_3x.002"
+                ],
+                "matched_nodes": []
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p640.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_p640.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p720g.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_p720g.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p640g.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_p640g.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p_red_d_.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_p_red_d_.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_beton.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_beton.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_bet_s.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_bet_s.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p320.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_p320.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p320g.001"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_p320g.001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p720_x1.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_p720_x1.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_kyrpich.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_kyrpich.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_beton_while.001"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_beton_while.001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_p_red_4d_.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_p_red_4d_.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_wood.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_wood.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_vhod_group.001"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_vhod_group.001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-149_main_221-1-149_main_met.002"
+                ],
+                "matched_nodes": []
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_panels",
+                  "0.33"
+                ]
+              }
+            ],
+            "stations": 4,
+            "unique_nodes": [
+              "221-1-174_main_221-1-174_main_bet_s.002",
+              "221-1-174_main_221-1-174_main_beton.002",
+              "221-1-174_main_221-1-174_main_beton_while.001",
+              "221-1-174_main_221-1-174_main_kyrpich.002",
+              "221-1-174_main_221-1-174_main_met.002",
+              "221-1-174_main_221-1-174_main_p320.002",
+              "221-1-174_main_221-1-174_main_p320g.001",
+              "221-1-174_main_221-1-174_main_p640.002",
+              "221-1-174_main_221-1-174_main_p640g.002",
+              "221-1-174_main_221-1-174_main_p720.002",
+              "221-1-174_main_221-1-174_main_p720_x1.002",
+              "221-1-174_main_221-1-174_main_p720g.002",
+              "221-1-174_main_221-1-174_main_p_red_4d_.002",
+              "221-1-174_main_221-1-174_main_p_red_d_.002",
+              "221-1-174_main_221-1-174_main_vhod_group.001",
+              "221-1-174_main_221-1-174_main_wood.002"
+            ]
+          },
+          {
+            "line": 100,
+            "phase": "SOVIET_CONSTRUCTION_ROOFTOP_BUILDING",
+            "factor_token": "1.0",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_ruberoid.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_ruberoid.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_bitum.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_bitum.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_vent1.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_vent1.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_vent.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_vent.002"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "roof_woodbrick",
+                  "0.33"
+                ]
+              }
+            ],
+            "stations": 4,
+            "unique_nodes": [
+              "221-1-174_main_221-1-174_main_bitum.002",
+              "221-1-174_main_221-1-174_main_ruberoid.002",
+              "221-1-174_main_221-1-174_main_vent.002",
+              "221-1-174_main_221-1-174_main_vent1.002"
+            ]
+          },
+          {
+            "line": 113,
+            "phase": "SOVIET_CONSTRUCTION_INTERIOR_WORKS",
+            "factor_token": "1.0",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_main_window_n.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_main_window_n.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_main_window.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_main_window.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_main_window3_n.001"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_main_window3_n.001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_main_window4.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_main_window4.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_main_window2_n.001"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_main_window2_n.001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_main_door.002"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_main_door.002"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_main_window4_n.001"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_main_window4_n.001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "221-1-174_main_221-1-174_main_main_window1_n.001"
+                ],
+                "matched_nodes": [
+                  "221-1-174_main_221-1-174_main_main_window1_n.001"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_wood",
+                  "0.33"
+                ]
+              }
+            ],
+            "stations": 4,
+            "unique_nodes": [
+              "221-1-174_main_221-1-174_main_main_door.002",
+              "221-1-174_main_221-1-174_main_main_window.002",
+              "221-1-174_main_221-1-174_main_main_window1_n.001",
+              "221-1-174_main_221-1-174_main_main_window2_n.001",
+              "221-1-174_main_221-1-174_main_main_window3_n.001",
+              "221-1-174_main_221-1-174_main_main_window4.002",
+              "221-1-174_main_221-1-174_main_main_window4_n.001",
+              "221-1-174_main_221-1-174_main_main_window_n.002"
+            ]
+          }
+        ],
+        "unmatched_selectors": [
+          {
+            "directive": "$COST_WORK_BUILDING_NODE",
+            "arguments": [
+              "221-1-174_main_221-1-174_main_p720_3x.002"
+            ],
+            "matched_nodes": []
+          },
+          {
+            "directive": "$COST_WORK_BUILDING_NODE",
+            "arguments": [
+              "221-1-149_main_221-1-149_main_met.002"
+            ],
+            "matched_nodes": []
+          }
+        ],
+        "unassigned_solid_nodes": [
+          "221-1-174_main_221-1-174_main_FrontColor.001",
+          "221-1-174_main_221-1-174_main_musoroprovod.001"
+        ]
+      },
+      "geometry_metadata": [
+        {
+          "node": "221-1-174_main_221-1-174_main_bitum.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 994,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 994,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_beton.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 4380,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 4378,
+          "degenerate_triangles": 2
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_ruberoid.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 157,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 157,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_vent.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 360,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 360,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_vent1.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 652,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 652,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_musoroprovod.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 4,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 4,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_p320g.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 105,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 105,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_p720g.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 401,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 401,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_bet_s.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 286,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 286,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_p640g.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 99,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 99,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_p_red_d_.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 1446,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 1446,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_main_window_n.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 1010,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 1010,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_p640.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 350,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 350,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_p720.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 1517,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 1517,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_met.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 650,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 650,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_kyrpich.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 476,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 476,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_p720_x1.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 77,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 77,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_beton_while.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 182,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 182,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_main_window2_n.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 86,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 86,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_p_red_4d_.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 173,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 173,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_main_window4_n.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 18,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 18,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_p320.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 280,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 280,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_main_window.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 440,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 440,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_FrontColor.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 8,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 8,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_main_window1_n.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 12,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_vhod_group.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 88,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 88,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_main_window4.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 13,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 13,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_wood.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 30,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 30,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_main_window3_n.001",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 8,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 8,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "221-1-174_main_221-1-174_main_main_door.002",
+          "level": 0,
+          "parent": 0,
+          "vertex_mask": 262458,
+          "triangles": 35,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 0,
+          "plane_opposite_sign": 35,
+          "degenerate_triangles": 0
+        }
+      ]
+    }
+  ],
+  "p02": [
+    {
+      "author": "Phobos A. D'thorga / phobosgekko",
+      "revision": "p02",
+      "building_label": "Full plant",
+      "inspected_model": "electric_heating_works_p02/plant.nmf",
+      "model_sha256": "62c61db909f2385d3e1ff3cbe259140e81b6e663947a27f9d35a4f76d78c130e",
+      "renderconfig_sha256": "77d6867b4db733a8cf3ab51eaf94ab4a05b7b17020f0ac2014a564c8ff1728aa",
+      "render_directives": [
+        "$TYPE_WORKSHOP",
+        "DERBIS_FALLED_FX",
+        "DERBIS_FALLED_SFX",
+        "DERBIS_FALLING_FX",
+        "DERBIS_FALLING_FX_MAXTIME",
+        "DERBIS_MESH",
+        "DERBIS_NUM",
+        "DERBIS_SCALE",
+        "END",
+        "EXACTSPECULAR",
+        "EXPLOSION_GROUP",
+        "LIFE",
+        "MATERIAL",
+        "MODEL",
+        "MODEL_LOD1",
+        "MODEL_LOD2",
+        "PLANESHADOW"
+      ],
+      "header": "B3DMH\u000010",
+      "nodes": 38,
+      "materials": 20,
+      "main_triangles": 109924,
+      "max_node_vertices": 33504,
+      "config": {
+        "sha256": "9d0964b460c215406d98d3f83c888bcf33eff22e7589a303a72b724d49a69847",
+        "crlf_lines": 0,
+        "lone_lf_lines": 189,
+        "phases": [
+          {
+            "line": 96,
+            "phase": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+            "factor_token": "0",
+            "factor": 0.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_phobos_plinth"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_phobos_plinth"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_site_surface_and_access_study"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_site_surface_and_access_study"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "ground_asphalt",
+                  "0.25"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_foundation_facade_access_end",
+              "a06_foundation_facade_access_front",
+              "a06_foundation_facade_access_rear",
+              "a06_foundation_facade_plain_end",
+              "a06_foundation_facade_plain_front",
+              "a06_foundation_facade_plain_rear",
+              "a06_foundation_phobos_plinth",
+              "a06_foundation_service_aprons_and_cable_trench_001",
+              "a06_foundation_site_surface_and_access_study"
+            ]
+          },
+          {
+            "line": 111,
+            "phase": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_phobos_plinth"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_phobos_plinth"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_site_surface_and_access_study"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_site_surface_and_access_study"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_foundation_facade_access_end",
+              "a06_foundation_facade_access_front",
+              "a06_foundation_facade_access_rear",
+              "a06_foundation_facade_plain_end",
+              "a06_foundation_facade_plain_front",
+              "a06_foundation_facade_plain_rear",
+              "a06_foundation_phobos_plinth",
+              "a06_foundation_service_aprons_and_cable_trench_001",
+              "a06_foundation_site_surface_and_access_study"
+            ]
+          },
+          {
+            "line": 126,
+            "phase": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_plain_rear"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_frame_facade_access_end",
+              "a06_frame_facade_access_front",
+              "a06_frame_facade_access_rear",
+              "a06_frame_facade_plain_end",
+              "a06_frame_facade_plain_front",
+              "a06_frame_facade_plain_rear"
+            ]
+          },
+          {
+            "line": 139,
+            "phase": "SOVIET_CONSTRUCTION_PANELS_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_electrical_control_house"
+                ],
+                "matched_nodes": [
+                  "a06_walls_electrical_control_house"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_plain_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_hall_service_doors"
+                ],
+                "matched_nodes": [
+                  "a06_walls_hall_service_doors"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_pump_and_service_annex"
+                ],
+                "matched_nodes": [
+                  "a06_walls_pump_and_service_annex"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_walls_electrical_control_house",
+              "a06_walls_facade_access_end",
+              "a06_walls_facade_access_front",
+              "a06_walls_facade_access_rear",
+              "a06_walls_facade_plain_end",
+              "a06_walls_facade_plain_front",
+              "a06_walls_facade_plain_rear",
+              "a06_walls_hall_service_doors",
+              "a06_walls_pump_and_service_annex"
+            ]
+          },
+          {
+            "line": 155,
+            "phase": "SOVIET_CONSTRUCTION_ROOFTOP_BUILDING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_roof_architecture_roof_bay"
+                ],
+                "matched_nodes": [
+                  "a06_roof_architecture_roof_bay"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_roof_electrical_control_house"
+                ],
+                "matched_nodes": [
+                  "a06_roof_electrical_control_house"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_roof_pump_and_service_annex"
+                ],
+                "matched_nodes": [
+                  "a06_roof_pump_and_service_annex"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_roof_architecture_roof_bay",
+              "a06_roof_electrical_control_house",
+              "a06_roof_pump_and_service_annex"
+            ]
+          },
+          {
+            "line": 165,
+            "phase": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_thermal_thermal_headers_and_boundary_reservations"
+                ],
+                "matched_nodes": [
+                  "a06_thermal_thermal_headers_and_boundary_reservations"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_thermal_thermal_pipe_rack"
+                ],
+                "matched_nodes": [
+                  "a06_thermal_thermal_pipe_rack"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_thermal_thermal_storage_tank"
+                ],
+                "matched_nodes": [
+                  "a06_thermal_thermal_storage_tank"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "tech_steel",
+                  "0.65"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_thermal_thermal_headers_and_boundary_reservations",
+              "a06_thermal_thermal_pipe_rack",
+              "a06_thermal_thermal_storage_tank"
+            ]
+          },
+          {
+            "line": 174,
+            "phase": "SOVIET_CONSTRUCTION_WIRE_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_busbar_terminal_support"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_busbar_terminal_support"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_electrical_busbar"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_electrical_busbar"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_electrical_line_gantry"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_electrical_line_gantry"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_indicative_phase_conductors"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_indicative_phase_conductors"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_phobos_fixed_post"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_phobos_fixed_post"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_phobos_sliding_gate_frame"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_phobos_sliding_gate_frame"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_switching_group"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_switching_group"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_transformer"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_transformer"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "electro_steel",
+                  "0.55"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "tech_steel",
+                  "0.25"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_electrical_busbar_terminal_support",
+              "a06_electrical_electrical_busbar",
+              "a06_electrical_electrical_line_gantry",
+              "a06_electrical_indicative_phase_conductors",
+              "a06_electrical_phobos_fixed_post",
+              "a06_electrical_phobos_sliding_gate_frame",
+              "a06_electrical_switching_group",
+              "a06_electrical_transformer"
+            ]
+          }
+        ],
+        "unmatched_selectors": [],
+        "unassigned_solid_nodes": []
+      },
+      "geometry_metadata": [
+        {
+          "node": "a06_electrical_busbar_terminal_support",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 900,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 900,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_electrical_busbar",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 3840,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 3840,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_electrical_line_gantry",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 16256,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 16256,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_indicative_phase_conductors",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 720,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 720,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_phobos_fixed_post",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 9216,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 9216,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_phobos_sliding_gate_frame",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1128,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1128,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_switching_group",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 14320,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 14320,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_transformer",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 6520,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 6520,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_access_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 104,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 104,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_access_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 208,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 208,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_access_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 208,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 208,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_plain_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 108,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 108,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_plain_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 132,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 132,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_plain_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 132,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 132,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_phobos_plinth",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 3036,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 3036,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_service_aprons_and_cable_trench_001",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 36,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 36,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_site_surface_and_access_study",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 444,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 444,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_access_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 88,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 88,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_access_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 176,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 176,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_access_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 176,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 176,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_plain_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 792,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 792,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_plain_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 968,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 968,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_plain_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 968,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 968,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_roof_architecture_roof_bay",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 4212,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 4212,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_roof_electrical_control_house",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 12,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_roof_pump_and_service_annex",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 12,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_thermal_thermal_headers_and_boundary_reservations",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1512,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1512,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_thermal_thermal_pipe_rack",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1260,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1260,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_thermal_thermal_storage_tank",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 18488,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 18488,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_electrical_control_house",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 180,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 180,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_access_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 944,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 944,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_access_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1888,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1888,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_access_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1888,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1888,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_plain_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 5364,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 5364,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_plain_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 6556,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 6556,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_plain_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 6556,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 6556,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_hall_service_doors",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 300,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 300,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_pump_and_service_annex",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 276,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 276,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        }
+      ]
+    },
+    {
+      "author": "Phobos A. D'thorga / phobosgekko",
+      "revision": "p02",
+      "building_label": "Construction probe",
+      "inspected_model": "construction_probe/probe.nmf",
+      "model_sha256": "6ae85975c37e2a9328f49933ca149a4febdfa0265f06d84515168c538c461431",
+      "renderconfig_sha256": "912009872df3878ca56965f446b40680f338b2e57b9f3ee11d65882ae342d6ad",
+      "render_directives": [
+        "$TYPE_WORKSHOP",
+        "DERBIS_FALLED_FX",
+        "DERBIS_FALLED_SFX",
+        "DERBIS_FALLING_FX",
+        "DERBIS_FALLING_FX_MAXTIME",
+        "DERBIS_MESH",
+        "DERBIS_NUM",
+        "DERBIS_SCALE",
+        "END",
+        "EXACTSPECULAR",
+        "EXPLOSION_GROUP",
+        "LIFE",
+        "MATERIAL",
+        "MODEL",
+        "PLANESHADOW"
+      ],
+      "header": "B3DMH\u000010",
+      "nodes": 4,
+      "materials": 4,
+      "main_triangles": 180,
+      "max_node_vertices": 256,
+      "config": {
+        "sha256": "d20a6b5368fd569e7168dfd0cab2e754bc68fecae13a995b3bd0510584d650c5",
+        "crlf_lines": 0,
+        "lone_lf_lines": 33,
+        "phases": [
+          {
+            "line": 8,
+            "phase": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+            "factor_token": "0",
+            "factor": 0.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "probe_foundation"
+                ],
+                "matched_nodes": [
+                  "probe_foundation"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "ground_asphalt",
+                  "0.25"
+                ]
+              }
+            ],
+            "stations": 1,
+            "unique_nodes": [
+              "probe_foundation"
+            ]
+          },
+          {
+            "line": 13,
+            "phase": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "probe_foundation"
+                ],
+                "matched_nodes": [
+                  "probe_foundation"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              }
+            ],
+            "stations": 1,
+            "unique_nodes": [
+              "probe_foundation"
+            ]
+          },
+          {
+            "line": 18,
+            "phase": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "probe_frame"
+                ],
+                "matched_nodes": [
+                  "probe_frame"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 1,
+            "unique_nodes": [
+              "probe_frame"
+            ]
+          },
+          {
+            "line": 23,
+            "phase": "SOVIET_CONSTRUCTION_PANELS_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "probe_walls"
+                ],
+                "matched_nodes": [
+                  "probe_walls"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              }
+            ],
+            "stations": 1,
+            "unique_nodes": [
+              "probe_walls"
+            ]
+          },
+          {
+            "line": 28,
+            "phase": "SOVIET_CONSTRUCTION_ROOFTOP_BUILDING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "probe_roof"
+                ],
+                "matched_nodes": [
+                  "probe_roof"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 1,
+            "unique_nodes": [
+              "probe_roof"
+            ]
+          }
+        ],
+        "unmatched_selectors": [],
+        "unassigned_solid_nodes": []
+      },
+      "geometry_metadata": [
+        {
+          "node": "probe_foundation",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 48,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 48,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "probe_frame",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 96,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 96,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "probe_walls",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 24,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 24,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "probe_roof",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 12,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        }
+      ]
+    }
+  ]
+}
