@@ -1,6 +1,6 @@
 # P02: construction, four heat outlets and distance models
 
-Prepared local candidate, 12 September 2026. **Not yet accepted in game.**
+Installed local candidate, 12 September 2026. **Not yet accepted in game.**
 P01 has been placed successfully by the author; its incomplete construction showed
 a ghost and a few dirt piles. P02's construction, distribution and performance are
 separate tests, not implied by that successful placement.
@@ -15,7 +15,7 @@ available. A new local item, **900000007**, contains two separately selectable o
 The probe is a non-operating diagnostic in the monument category. The plant remains
 in heating/industry. This item is a local test package, not a Steam release.
 
-The checked package contains **11,789,398 ZIP bytes (11.8 MB)** and **113,990,238
+The checked package contains **11,789,517 ZIP bytes (11.8 MB)** and **113,990,514
 installed bytes (114.0 MB)**, including the probe. This is not a measured Steam
 download size. [package-verification.json](package-verification.json) records its
 size, hash and measured models; editable sources are excluded from the payload.
@@ -55,7 +55,8 @@ saves or subscribed Workshop mods. Only use a disposable test save.
    report if the frame, walls or roof appear only at 100%.
 2. Once the probe passes, test the full plant during every construction phase.
    Check that completed groups remain visible and that access is unobstructed.
-3. Compare P01 and P02 close up, then move continuously through both LOD changes.
+3. Compare P02 with retained P01 views (restore P01 only if a live comparison is
+   needed), then move continuously through both LOD changes.
    Check roof, tanks, windows, switchyard, shadows and ground flickering from several
    angles in day, sunset and night lighting.
 4. Test each heat outlet independently, then all four together under controlled
@@ -89,3 +90,17 @@ when making the ignored local payload; public configuration uses owner ID zero.
 The [reusable modelling guide](../../../../docs/3d-modelling-guide.md) and
 [dated comparison report](../../../../research/2026-09-12-model-budgets-and-construction.md)
 retain the reasoning for future buildings and vehicles.
+
+## Installed handoff
+
+[installation.json](installation.json) records the verified P02 installation. At
+the author's request, P01 and the five earlier heating-model diagnostic folders
+were moved outside active game folders into the local `heating-rollback-20260912`
+archive, with every archived file hash checked. Other local mods and subscribed
+mods remain unchanged; saves were not edited. Restore P01 before loading an older
+test save that depends on it. The archive and its machine-local manifest stay out
+of this public repository.
+
+The package verification records the preparation event; the installation record
+records the later installed state. Construction, heat delivery, visual transitions
+and runtime performance remain unverified until the author completes the tests.

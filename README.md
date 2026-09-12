@@ -3,7 +3,7 @@
 Original building mods for **Workers & Resources: Soviet Republic**, supported by a
 shared library of reusable architectural and industrial parts.
 
-**Status: P01 placed in game; P02 candidate prepared and checked for local tests.**
+**Status: P01 placed in game; P02 installed; construction probe awaiting author test.**
 Concept A has editable Blender sources, reusable components and review renders.
 P01 is a local playable prototype; construction progression, heat delivery and
 performance remain unverified. There are no Workshop uploads or supported releases.

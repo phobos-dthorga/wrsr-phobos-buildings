@@ -5,9 +5,9 @@
   "game_tested": false,
   "workshop_published": false,
   "files": 81,
-  "package_bytes": 113990238,
-  "zip_bytes": 11789398,
-  "zip_sha256": "0ff6ce93fdd5af5ec2b2622c8a5550be7328c51410b6ef044cccafd1ecd6d401",
+  "package_bytes": 113990514,
+  "zip_bytes": 11789517,
+  "zip_sha256": "e3472e42819134a65ad35bdd6e2b324afd28804f42efec93a44b098452257ffc",
   "zip_is_not_measured_steam_download": true,
   "models": [
     {

@@ -126,7 +126,7 @@ and packed images, and retain the accepted 3 cm ground-sheet top. The final Blen
 review renders retain the building's major silhouettes; transitions still need
 motion review in the game.
 
-The P02 package is 11,789,398 ZIP bytes and 113,990,238 installed bytes including its
+The P02 package is 11,789,517 ZIP bytes and 113,990,514 installed bytes including its
 probe. It has not been uploaded to Steam. [Machine-readable P02 evidence](../mods/electric-heating-works/gameplay/p02/verification.json)
 separates geometry and DDS payload measurements from unmeasured runtime cost.
 [Construction-cost inputs](../mods/electric-heating-works/gameplay/p02/construction-costs.json)

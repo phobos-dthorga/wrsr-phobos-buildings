@@ -1,0 +1,52 @@
+{
+  "revision": "p02",
+  "verified_at_utc": "2026-09-11T23:59:17.982899+00:00",
+  "model_source_commit": "1717e82cda5f8c7c74e64f0252fa1506b7d1f749",
+  "local_test_id": 900000007,
+  "installed": true,
+  "game_tested": false,
+  "workshop_published": false,
+  "package_files": 81,
+  "package_total_bytes": 113990514,
+  "installed_payload_matches_checked_sources": true,
+  "game_and_modelviewer_closed_at_installation": true,
+  "existing_destination_absent_before_installation": true,
+  "package_manifest_sha256": "2ad4ece8ba8f35ecb283c325e3cbaeae5ac361072ece594caabb2919af56afb9",
+  "archive_verified": true,
+  "rollback_archive_label": "heating-rollback-20260912",
+  "archived_game_relative_directories": [
+    {
+      "path": "workshop_wip/900000006",
+      "files": 73
+    },
+    {
+      "path": "phobos_tests/electric_heating_a03",
+      "files": 19
+    },
+    {
+      "path": "phobos_tests/electric_heating_a03_r2",
+      "files": 26
+    },
+    {
+      "path": "phobos_tests/electric_heating_a04",
+      "files": 62
+    },
+    {
+      "path": "phobos_tests/heating_diagnostics",
+      "files": 70
+    },
+    {
+      "path": "phobos_tests/heating_normals",
+      "files": 17
+    }
+  ],
+  "other_local_items_unchanged": [
+    900000002,
+    900000003,
+    900000004,
+    900000005
+  ],
+  "saves_untouched": true,
+  "subscribed_mods_untouched": true,
+  "next_manual_checkpoint": "Construct Phobos Construction Probe [P02] in a disposable save; observe solid groups before completion and report."
+}
