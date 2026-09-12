@@ -1,8 +1,11 @@
 # P02 construction follow-up: three author references
 
 12 September 2026. Read-only investigation after the author's P02 game test.
-**The full plant still fails progressive construction. The small construction
-probe has not yet been tested. No fix is claimed and no installed files were changed.**
+**Updated: the author now reports multiple stages on the small probe. The full
+plant still fails progressive construction. C1 is prepared, not installed.**
+
+The original investigation below records the evidence available before the probe
+test. See the final section for the subsequent result and the revised next step.
 
 ## What the author observed
 
@@ -113,3 +116,32 @@ the earlier model survey. It reads configurations and supported static NMF data
 and emits measurements and identifiers only. It neither edits installed files nor
 copies any external geometry or textures. Attribution remains with each author;
 configuration inspection does not grant artwork reuse rights.
+
+## Subsequent probe result and prepared C1
+
+The author reports: "The probe went through multiple stages :)". This is an
+author-reported diagnostic pass; no new screenshot or detailed retention checklist
+was supplied. It supports the basic shared export/construction approach, while
+leaving the full plant's fault unresolved.
+
+The probe uses the same LF line endings and integer factor spellings as P02, so
+those choices do not prevent construction progression in every building. P01
+already failed without LOD declarations; their presence alone is also insufficient
+to explain both failures. The wider measured sample includes seven reference
+buildings with nodes exceeding 32,767 vertices, including robs074's steel mill
+(39,956) and wildbunny's petrochemical combine (52,346). This does not prove their
+construction behaviour, but does argue against inventing a universal signed-index
+limit from three smaller examples.
+
+[C1](../mods/electric-heating-works/gameplay/p02/c1/README.md) selects the existing
+25,562-triangle LOD1 as the primary mesh instead of the 109,924-triangle close mesh.
+Both contain the same 38 nodes in the same order and 20 materials. Their largest
+nodes have 15,052 and 33,504 vertices respectively. Construction text, connections,
+materials, texture files and LOD declarations remain unchanged. Cosmetic name and
+test-instruction changes identify the candidate; the generated manifest records it.
+
+A pass would implicate some difference between detailed and simplified geometry;
+it would not distinguish an engine budget from topology or other removed detail.
+Automatic construction quantities may change with selected geometry despite
+unchanged coefficients and must be recorded, not treated as an intentional rebalance.
+The complete package is verified and awaits the author's game exit before installation.

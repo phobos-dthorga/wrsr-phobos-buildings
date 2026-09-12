@@ -26,8 +26,13 @@
     }
   },
   "construction_probe": {
-    "tested": false,
-    "source": "author explicitly answered Not tested yet"
+    "tested": true,
+    "result": "multiple stages observed; author-reported diagnostic pass",
+    "source": "The probe went through multiple stages :)",
+    "reported_at_utc": "2026-09-12T00:51:55.345097+00:00",
+    "screenshot_supplied": false,
+    "detailed_stage_retention_checklist_supplied": false,
+    "scope": "Small probe only; does not establish full plant construction acceptance."
   },
   "installed_first_party_files_verified": 81,
   "installed_first_party_mismatches": 0,
@@ -36,6 +41,7 @@
   "runtime_performance_measured": false,
   "root_cause_confirmed": false,
   "installed_files_changed_during_investigation": false,
-  "next_step": "Test the already installed small construction probe before choosing a new diagnostic variant.",
-  "research": "research/2026-09-12-construction-followup.md"
+  "next_step": "Install prepared C1 after author closes the game, then test a new full-plant site with the simpler existing primary mesh.",
+  "research": "research/2026-09-12-construction-followup.md",
+  "prepared_diagnostic": "mods/electric-heating-works/gameplay/p02/c1/package-verification.json"
 }

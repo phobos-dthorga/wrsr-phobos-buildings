@@ -140,3 +140,11 @@ Blender fresh-reopen checks; ModelViewer observations; author-reported game beha
 and measured gameplay/performance. Record unresolved issues explicitly. Maintain
 before/after figures and camera comparisons, and test in a disposable save before
 publishing ratings or performance claims.
+
+A construction stage does not normally require a separate complete model. One NMF
+can contain multiple named mesh nodes, selected by the construction configuration.
+Do not confuse those nodes with separate distance models (LODs). The small P02
+probe subsequently showed multiple stages in the author's test; full-plant success
+remains separate. Reuse an existing verified simpler mesh for a diagnostic when it
+preserves the node and material interfaces; this avoids introducing a new export
+variable solely to test whether the detailed mesh matters.

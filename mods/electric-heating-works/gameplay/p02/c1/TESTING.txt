@@ -1,0 +1,39 @@
+PHOBOS HEATING WORKS P02-C1 - CONSTRUCTION DIAGNOSTIC ONLY
+
+WHY THIS TEST
+The author reports multiple working stages on the small P02 probe, while the full
+plant stays a ghost during construction. C1 selects the already exported simpler
+plant mesh as its primary model: 25,562 triangles, with the same 38 named groups.
+Construction assignments, coefficients, connections, production, materials and
+textures are unchanged. This is a diagnostic, not the intended final appearance.
+
+INSTALLATION HANDOFF
+Save and fully close W&R and ModelViewer, then tell Codex when ready.
+The current P02 item will be archived outside the active game folders before C1
+replaces local item 900000007. Keep the successful small probe available unchanged.
+No other mods or saves should be altered. Do not install over an open game.
+
+AFTER INSTALLATION
+1. Launch W&R and open a disposable test save.
+2. Find "Phobos' Electric Heating Works [P02-C1 TEST]" in mod heating/industry.
+   If it still says P02 TEST, stop and report that the old definition is loaded.
+3. Place a NEW plant on flat terrain; do not continue an older construction site.
+4. Record the total workdays and materials shown before construction. Automatic
+   quantities may change with model bounds even though cost coefficients do not.
+5. Connect the road and build normally at normal speed. Avoid instant completion.
+6. Stay close enough to see individual hall windows. Pause in the wall or roof
+   phase, deselect the plant and check whether earlier solid groups remain visible.
+7. Send one partly built view with its phase/progress panel, and one deselected view.
+   Report whether any solid foundations, frame or walls appear before completion.
+8. Stop and report the result before further changes or heat/performance testing.
+
+HOW TO INTERPRET IT
+A pass would point towards a difference in the detailed mesh or its size. It would
+not establish a particular triangle/vertex limit: C1 also changes small geometry.
+A failure would show that substituting this simpler mesh alone did not resolve it.
+
+ROLLBACK AND LIMITS
+P02 and P01 sources and archived packages are preserved. C1 deliberately looks
+simpler close up. It is not a visual-quality acceptance candidate or a Steam release.
+No new model or texture sources were created; it reuses the pinned A06 LOD1 asset.
+Restore the archived P02 package with the game closed when this diagnostic ends.

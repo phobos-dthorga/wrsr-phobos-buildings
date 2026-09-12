@@ -3,7 +3,7 @@
 Original building mods for **Workers & Resources: Soviet Republic**, supported by a
 shared library of reusable architectural and industrial parts.
 
-**Status: P02 placed and completed; progressive construction still fails. Small probe test pending.**
+**Status: small P02 probe stages work; full plant construction fails. C1 diagnostic prepared.**
 Concept A has editable Blender sources, reusable components and review renders.
 P01 is archived for rollback; P02 is the active local prototype. Heat delivery and
 performance remain unverified. There are no Workshop uploads or supported releases.
@@ -32,6 +32,8 @@ observations do not establish construction progression or operating capacity.
 
 [P02: construction probe, four heat outlets and distance models](mods/electric-heating-works/gameplay/p02/README.md)
 keeps P01 and A03–A05 intact and records the next manual acceptance steps.
+The [C1 diagnostic](mods/electric-heating-works/gameplay/p02/c1/README.md) selects an
+existing simpler mesh while preserving the plant's construction instructions.
 
 ![A04 original complete-plant assembly, rendered in Blender](mods/electric-heating-works/source/assembly-a04/review/overall.png)
 

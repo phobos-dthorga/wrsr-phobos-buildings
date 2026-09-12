@@ -1,7 +1,7 @@
 # P02: construction, four heat outlets and distance models
 
 Installed local candidate, 12 September 2026. **Full plant construction failed the
-author's test; small probe not yet tested.**
+author's test; the small probe subsequently showed multiple stages.**
 
 The completed plant displays snow coverage. The 72% construction screenshot still
 shows the plant as a selection ghost. See [game-observations.json](game-observations.json)
@@ -109,4 +109,13 @@ of this public repository.
 
 The package verification records the preparation event; the installation record
 records the later installed state. Full-plant progressive construction subsequently failed the author's test. The
-small probe, heat delivery, visual transitions and runtime performance remain pending.
+small probe subsequently passed the author's stage test; heat delivery, visual
+transitions and runtime performance remain pending.
+
+## Probe result and C1 diagnostic
+
+The author subsequently reports multiple stages on the small probe. This narrows
+the investigation to differences in the full plant. [C1](c1/README.md) is prepared
+but not installed: it selects the existing simpler mesh as the primary model with
+all construction assignments and materials unchanged. No new Blender models or
+textures were created. Await the author's game exit before installing this test.
