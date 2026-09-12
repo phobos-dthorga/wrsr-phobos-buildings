@@ -1,6 +1,6 @@
 # C1: select the existing simpler mesh for construction
 
-Prepared diagnostic; **not installed or tested**. The author reports that the small
+Installed diagnostic; **awaiting the author's construction test**. The author reports that the small
 P02 probe went through multiple stages, following the requested visual construction
 test. The full plant's construction remains a reported failure. No additional probe
 screenshot was supplied; preserve the distinction between author report and direct
@@ -38,7 +38,11 @@ complete package in a fresh ignored `dist/` directory, then verifies the exact f
 set, every changed text and every unchanged file. It has no installation operation.
 [package-verification.json](package-verification.json) records the prepared result.
 
-Pause for the author's game exit before installation. Archive the active P02 outside
-the game before replacing the same local item ID 900000007, preserving a clear active
-candidate and rollback. Afterwards use a new site in a disposable save and inspect
-solid geometry before completion. Retain P01 and the original P02 sources unchanged.
+The author authorised installation with the game closed. P02 and its generated
+cache files were archived outside the game before C1 replaced item 900000007. All
+85 archived files and 81 installed payload files were verified. The new candidate
+contains no old generated caches. The probe is unchanged.
+
+[installation.json](installation.json) records the installed state; package verification
+records the earlier preparation event. Use a new site in a disposable save and inspect
+solid geometry before completion. P01 and the original P02 sources remain unchanged.

@@ -115,7 +115,6 @@ transitions and runtime performance remain pending.
 ## Probe result and C1 diagnostic
 
 The author subsequently reports multiple stages on the small probe. This narrows
-the investigation to differences in the full plant. [C1](c1/README.md) is prepared
-but not installed: it selects the existing simpler mesh as the primary model with
+the investigation to differences in the full plant. [C1](c1/README.md) is now installed for testing: it selects the existing simpler mesh as the primary model with
 all construction assignments and materials unchanged. No new Blender models or
-textures were created. Await the author's game exit before installing this test.
+textures were created. The prior P02 package is archived; the author's new-site construction test is next.

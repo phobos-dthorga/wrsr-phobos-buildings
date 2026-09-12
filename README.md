@@ -3,7 +3,7 @@
 Original building mods for **Workers & Resources: Soviet Republic**, supported by a
 shared library of reusable architectural and industrial parts.
 
-**Status: small P02 probe stages work; full plant construction fails. C1 diagnostic prepared.**
+**Status: small P02 probe stages work; full plant construction fails. C1 installed for the next construction test.**
 Concept A has editable Blender sources, reusable components and review renders.
 P01 is archived for rollback; P02 is the active local prototype. Heat delivery and
 performance remain unverified. There are no Workshop uploads or supported releases.

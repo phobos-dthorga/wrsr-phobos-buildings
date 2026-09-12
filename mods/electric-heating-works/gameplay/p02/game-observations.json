@@ -41,7 +41,8 @@
   "runtime_performance_measured": false,
   "root_cause_confirmed": false,
   "installed_files_changed_during_investigation": false,
-  "next_step": "Install prepared C1 after author closes the game, then test a new full-plant site with the simpler existing primary mesh.",
+  "next_step": "C1 is installed. Test a new full-plant site with the simpler primary mesh and record construction costs and solid progression.",
   "research": "research/2026-09-12-construction-followup.md",
-  "prepared_diagnostic": "mods/electric-heating-works/gameplay/p02/c1/package-verification.json"
+  "prepared_diagnostic": "mods/electric-heating-works/gameplay/p02/c1/package-verification.json",
+  "c1_installation": "mods/electric-heating-works/gameplay/p02/c1/installation.json"
 }
