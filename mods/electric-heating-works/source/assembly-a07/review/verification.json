@@ -1,0 +1,14 @@
+{
+  "source_sha256": "cb5120c9d5b9e75398848071d55ffa9bf5a0a27faae1567c82286fb7cbcc6723",
+  "recipe_sha256": "b01aab94605f99ff428460c390e1159afa5b4f5d8c387bccfed79a36a0d2ee2e",
+  "reviewed": [
+    "Eight pipe pairs fit within the existing tank-side area.",
+    "Road entrance meets raised yard continuously after the boundary split.",
+    "Pedestrian approach meets pad edge."
+  ],
+  "game_acceptance": false,
+  "images": {
+    "outlets.png": "80713a75279cf7fb9ca4991370a7167d4d6e435f6d55c2bc8e9bffb7b0b2333d",
+    "entrance.png": "1b23cf91fad47fa9a699e34f794b6c21b2546dda307c0316dd4dd4fd70bedbad"
+  }
+}

@@ -1,0 +1,2375 @@
+{
+  "all_bounds_planes_and_node_references_valid": true,
+  "models": [
+    {
+      "model": "plant.nmf",
+      "sha256": "03e8d335fb5753e244b59cdfb30fb02c0f7c87d25836b7fc3afb57cc193c03ce",
+      "metadata": [
+        {
+          "node": "a06_electrical_busbar_terminal_support",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 384,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 384,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_electrical_busbar",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1680,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1680,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_electrical_line_gantry",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1968,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1968,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_indicative_phase_conductors",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 432,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 432,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_phobos_fixed_post",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1536,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1536,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_phobos_sliding_gate_frame",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 168,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 168,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_switching_group",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 5528,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 5528,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_transformer",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 2196,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 2196,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_access_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 40,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 40,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_access_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 80,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 80,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_access_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 80,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 80,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_plain_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 108,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 108,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_plain_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 132,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 132,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_plain_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 132,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 132,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_phobos_plinth",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1524,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1524,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_service_aprons_and_cable_trench_001",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 12,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_site_surface_and_access_study",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 182,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 182,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_access_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 28,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 28,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_access_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 56,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 56,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_access_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 56,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 56,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_plain_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 252,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 252,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_plain_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 308,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 308,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_plain_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 308,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 308,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_roof_architecture_roof_bay",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 2418,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 2418,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_roof_electrical_control_house",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 12,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_roof_pump_and_service_annex",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 12,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_thermal_thermal_headers_and_boundary_reservations",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 918,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 918,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_thermal_thermal_pipe_rack",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 672,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 672,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_thermal_thermal_storage_tank",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 906,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 906,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_electrical_control_house",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 124,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 124,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_access_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 128,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 128,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_access_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 256,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 256,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_access_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 256,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 256,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_plain_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 792,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 792,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_plain_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 968,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 968,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_plain_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 968,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 968,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_hall_service_doors",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 52,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 52,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_pump_and_service_annex",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 188,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 188,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        }
+      ],
+      "construction": {
+        "sha256": "b9ecf3ea80eed6075299c43d1c7287d3d8acb9b1382f79baf2bd835610703118",
+        "crlf_lines": 0,
+        "lone_lf_lines": 205,
+        "phases": [
+          {
+            "line": 112,
+            "phase": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+            "factor_token": "0",
+            "factor": 0.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_phobos_plinth"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_phobos_plinth"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_site_surface_and_access_study"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_site_surface_and_access_study"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "ground_asphalt",
+                  "0.25"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_foundation_facade_access_end",
+              "a06_foundation_facade_access_front",
+              "a06_foundation_facade_access_rear",
+              "a06_foundation_facade_plain_end",
+              "a06_foundation_facade_plain_front",
+              "a06_foundation_facade_plain_rear",
+              "a06_foundation_phobos_plinth",
+              "a06_foundation_service_aprons_and_cable_trench_001",
+              "a06_foundation_site_surface_and_access_study"
+            ]
+          },
+          {
+            "line": 127,
+            "phase": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_phobos_plinth"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_phobos_plinth"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_site_surface_and_access_study"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_site_surface_and_access_study"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_foundation_facade_access_end",
+              "a06_foundation_facade_access_front",
+              "a06_foundation_facade_access_rear",
+              "a06_foundation_facade_plain_end",
+              "a06_foundation_facade_plain_front",
+              "a06_foundation_facade_plain_rear",
+              "a06_foundation_phobos_plinth",
+              "a06_foundation_service_aprons_and_cable_trench_001",
+              "a06_foundation_site_surface_and_access_study"
+            ]
+          },
+          {
+            "line": 142,
+            "phase": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_plain_rear"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_frame_facade_access_end",
+              "a06_frame_facade_access_front",
+              "a06_frame_facade_access_rear",
+              "a06_frame_facade_plain_end",
+              "a06_frame_facade_plain_front",
+              "a06_frame_facade_plain_rear"
+            ]
+          },
+          {
+            "line": 155,
+            "phase": "SOVIET_CONSTRUCTION_PANELS_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_electrical_control_house"
+                ],
+                "matched_nodes": [
+                  "a06_walls_electrical_control_house"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_plain_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_hall_service_doors"
+                ],
+                "matched_nodes": [
+                  "a06_walls_hall_service_doors"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_pump_and_service_annex"
+                ],
+                "matched_nodes": [
+                  "a06_walls_pump_and_service_annex"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_walls_electrical_control_house",
+              "a06_walls_facade_access_end",
+              "a06_walls_facade_access_front",
+              "a06_walls_facade_access_rear",
+              "a06_walls_facade_plain_end",
+              "a06_walls_facade_plain_front",
+              "a06_walls_facade_plain_rear",
+              "a06_walls_hall_service_doors",
+              "a06_walls_pump_and_service_annex"
+            ]
+          },
+          {
+            "line": 171,
+            "phase": "SOVIET_CONSTRUCTION_ROOFTOP_BUILDING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_roof_architecture_roof_bay"
+                ],
+                "matched_nodes": [
+                  "a06_roof_architecture_roof_bay"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_roof_electrical_control_house"
+                ],
+                "matched_nodes": [
+                  "a06_roof_electrical_control_house"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_roof_pump_and_service_annex"
+                ],
+                "matched_nodes": [
+                  "a06_roof_pump_and_service_annex"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_roof_architecture_roof_bay",
+              "a06_roof_electrical_control_house",
+              "a06_roof_pump_and_service_annex"
+            ]
+          },
+          {
+            "line": 181,
+            "phase": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_thermal_thermal_headers_and_boundary_reservations"
+                ],
+                "matched_nodes": [
+                  "a06_thermal_thermal_headers_and_boundary_reservations"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_thermal_thermal_pipe_rack"
+                ],
+                "matched_nodes": [
+                  "a06_thermal_thermal_pipe_rack"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_thermal_thermal_storage_tank"
+                ],
+                "matched_nodes": [
+                  "a06_thermal_thermal_storage_tank"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "tech_steel",
+                  "0.65"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_thermal_thermal_headers_and_boundary_reservations",
+              "a06_thermal_thermal_pipe_rack",
+              "a06_thermal_thermal_storage_tank"
+            ]
+          },
+          {
+            "line": 190,
+            "phase": "SOVIET_CONSTRUCTION_WIRE_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_busbar_terminal_support"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_busbar_terminal_support"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_electrical_busbar"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_electrical_busbar"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_electrical_line_gantry"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_electrical_line_gantry"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_indicative_phase_conductors"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_indicative_phase_conductors"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_phobos_fixed_post"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_phobos_fixed_post"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_phobos_sliding_gate_frame"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_phobos_sliding_gate_frame"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_switching_group"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_switching_group"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_transformer"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_transformer"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "electro_steel",
+                  "0.55"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "tech_steel",
+                  "0.25"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_electrical_busbar_terminal_support",
+              "a06_electrical_electrical_busbar",
+              "a06_electrical_electrical_line_gantry",
+              "a06_electrical_indicative_phase_conductors",
+              "a06_electrical_phobos_fixed_post",
+              "a06_electrical_phobos_sliding_gate_frame",
+              "a06_electrical_switching_group",
+              "a06_electrical_transformer"
+            ]
+          }
+        ],
+        "unmatched_selectors": [],
+        "unassigned_solid_nodes": []
+      }
+    },
+    {
+      "model": "plant_lod2.nmf",
+      "sha256": "c0e12b14979fa390ebd56e06d994a4ce572b4953e93a739310083f199f69a05d",
+      "metadata": [
+        {
+          "node": "a06_electrical_busbar_terminal_support",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 96,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 96,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_electrical_busbar",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 528,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 528,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_electrical_line_gantry",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 816,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 816,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_indicative_phase_conductors",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 432,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 432,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_phobos_fixed_post",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 384,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 384,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_phobos_sliding_gate_frame",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 264,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 264,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_switching_group",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 1568,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 1568,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_electrical_transformer",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 744,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 744,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_access_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 28,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 28,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_access_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 56,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 56,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_access_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 56,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 56,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_plain_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 108,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 108,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_plain_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 132,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 132,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_facade_plain_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 132,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 132,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_phobos_plinth",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 384,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 384,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_service_aprons_and_cable_trench_001",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 12,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_foundation_site_surface_and_access_study",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 182,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 182,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_access_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 24,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 24,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_access_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 48,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 48,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_access_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 48,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 48,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_plain_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 216,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 216,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_plain_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 264,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 264,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_frame_facade_plain_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 264,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 264,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_roof_architecture_roof_bay",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 780,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 780,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_roof_electrical_control_house",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 12,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_roof_pump_and_service_annex",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 12,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 12,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_thermal_thermal_headers_and_boundary_reservations",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 696,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 696,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_thermal_thermal_pipe_rack",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 588,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 588,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_thermal_thermal_storage_tank",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 500,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 500,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_electrical_control_house",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 52,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 52,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_access_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 76,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 76,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_access_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 152,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 152,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_access_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 152,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 152,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_plain_end",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 360,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 360,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_plain_front",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 440,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 440,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_facade_plain_rear",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 440,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 440,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_hall_service_doors",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 52,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 52,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        },
+        {
+          "node": "a06_walls_pump_and_service_annex",
+          "level": 0,
+          "parent": -1,
+          "vertex_mask": 262457,
+          "triangles": 68,
+          "face_planes_present": true,
+          "node_bounds_match": true,
+          "triangle_bounds_mismatch": 0,
+          "face_plane_other": 0,
+          "plane_same_sign": 68,
+          "plane_opposite_sign": 0,
+          "degenerate_triangles": 0
+        }
+      ],
+      "construction": {
+        "sha256": "b9ecf3ea80eed6075299c43d1c7287d3d8acb9b1382f79baf2bd835610703118",
+        "crlf_lines": 0,
+        "lone_lf_lines": 205,
+        "phases": [
+          {
+            "line": 112,
+            "phase": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+            "factor_token": "0",
+            "factor": 0.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_phobos_plinth"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_phobos_plinth"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_site_surface_and_access_study"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_site_surface_and_access_study"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "ground_asphalt",
+                  "0.25"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_foundation_facade_access_end",
+              "a06_foundation_facade_access_front",
+              "a06_foundation_facade_access_rear",
+              "a06_foundation_facade_plain_end",
+              "a06_foundation_facade_plain_front",
+              "a06_foundation_facade_plain_rear",
+              "a06_foundation_phobos_plinth",
+              "a06_foundation_service_aprons_and_cable_trench_001",
+              "a06_foundation_site_surface_and_access_study"
+            ]
+          },
+          {
+            "line": 127,
+            "phase": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_facade_plain_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_phobos_plinth"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_phobos_plinth"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_service_aprons_and_cable_trench_001"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_foundation_site_surface_and_access_study"
+                ],
+                "matched_nodes": [
+                  "a06_foundation_site_surface_and_access_study"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_foundation_facade_access_end",
+              "a06_foundation_facade_access_front",
+              "a06_foundation_facade_access_rear",
+              "a06_foundation_facade_plain_end",
+              "a06_foundation_facade_plain_front",
+              "a06_foundation_facade_plain_rear",
+              "a06_foundation_phobos_plinth",
+              "a06_foundation_service_aprons_and_cable_trench_001",
+              "a06_foundation_site_surface_and_access_study"
+            ]
+          },
+          {
+            "line": 142,
+            "phase": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_frame_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_frame_facade_plain_rear"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_frame_facade_access_end",
+              "a06_frame_facade_access_front",
+              "a06_frame_facade_access_rear",
+              "a06_frame_facade_plain_end",
+              "a06_frame_facade_plain_front",
+              "a06_frame_facade_plain_rear"
+            ]
+          },
+          {
+            "line": 155,
+            "phase": "SOVIET_CONSTRUCTION_PANELS_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_electrical_control_house"
+                ],
+                "matched_nodes": [
+                  "a06_walls_electrical_control_house"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_access_end"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_access_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_access_front"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_access_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_access_rear"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_access_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_plain_end"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_plain_end"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_plain_front"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_plain_front"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_facade_plain_rear"
+                ],
+                "matched_nodes": [
+                  "a06_walls_facade_plain_rear"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_hall_service_doors"
+                ],
+                "matched_nodes": [
+                  "a06_walls_hall_service_doors"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_walls_pump_and_service_annex"
+                ],
+                "matched_nodes": [
+                  "a06_walls_pump_and_service_annex"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_walls_electrical_control_house",
+              "a06_walls_facade_access_end",
+              "a06_walls_facade_access_front",
+              "a06_walls_facade_access_rear",
+              "a06_walls_facade_plain_end",
+              "a06_walls_facade_plain_front",
+              "a06_walls_facade_plain_rear",
+              "a06_walls_hall_service_doors",
+              "a06_walls_pump_and_service_annex"
+            ]
+          },
+          {
+            "line": 171,
+            "phase": "SOVIET_CONSTRUCTION_ROOFTOP_BUILDING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_roof_architecture_roof_bay"
+                ],
+                "matched_nodes": [
+                  "a06_roof_architecture_roof_bay"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_roof_electrical_control_house"
+                ],
+                "matched_nodes": [
+                  "a06_roof_electrical_control_house"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_roof_pump_and_service_annex"
+                ],
+                "matched_nodes": [
+                  "a06_roof_pump_and_service_annex"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_concrete",
+                  "0.65"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "wall_steel",
+                  "0.15"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_roof_architecture_roof_bay",
+              "a06_roof_electrical_control_house",
+              "a06_roof_pump_and_service_annex"
+            ]
+          },
+          {
+            "line": 181,
+            "phase": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_thermal_thermal_headers_and_boundary_reservations"
+                ],
+                "matched_nodes": [
+                  "a06_thermal_thermal_headers_and_boundary_reservations"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_thermal_thermal_pipe_rack"
+                ],
+                "matched_nodes": [
+                  "a06_thermal_thermal_pipe_rack"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_thermal_thermal_storage_tank"
+                ],
+                "matched_nodes": [
+                  "a06_thermal_thermal_storage_tank"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "tech_steel",
+                  "0.65"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_thermal_thermal_headers_and_boundary_reservations",
+              "a06_thermal_thermal_pipe_rack",
+              "a06_thermal_thermal_storage_tank"
+            ]
+          },
+          {
+            "line": 190,
+            "phase": "SOVIET_CONSTRUCTION_WIRE_LAYING",
+            "factor_token": "1",
+            "factor": 1.0,
+            "selectors": [
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_busbar_terminal_support"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_busbar_terminal_support"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_electrical_busbar"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_electrical_busbar"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_electrical_line_gantry"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_electrical_line_gantry"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_indicative_phase_conductors"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_indicative_phase_conductors"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_phobos_fixed_post"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_phobos_fixed_post"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_phobos_sliding_gate_frame"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_phobos_sliding_gate_frame"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_switching_group"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_switching_group"
+                ]
+              },
+              {
+                "directive": "$COST_WORK_BUILDING_NODE",
+                "arguments": [
+                  "a06_electrical_transformer"
+                ],
+                "matched_nodes": [
+                  "a06_electrical_transformer"
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "electro_steel",
+                  "0.55"
+                ]
+              },
+              {
+                "directive": "$COST_RESOURCE_AUTO",
+                "arguments": [
+                  "tech_steel",
+                  "0.25"
+                ]
+              }
+            ],
+            "stations": 3,
+            "unique_nodes": [
+              "a06_electrical_busbar_terminal_support",
+              "a06_electrical_electrical_busbar",
+              "a06_electrical_electrical_line_gantry",
+              "a06_electrical_indicative_phase_conductors",
+              "a06_electrical_phobos_fixed_post",
+              "a06_electrical_phobos_sliding_gate_frame",
+              "a06_electrical_switching_group",
+              "a06_electrical_transformer"
+            ]
+          }
+        ],
+        "unmatched_selectors": [],
+        "unassigned_solid_nodes": []
+      }
+    }
+  ]
+}

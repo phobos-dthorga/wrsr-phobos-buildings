@@ -3,7 +3,9 @@
 Original building mods for **Workers & Resources: Soviet Republic**, supported by a
 shared library of reusable architectural and industrial parts.
 
-**Status: progressive construction observed; author confirms scaffolding disappears and the completed model appears at 100%. Save/reload, heat delivery and LOD checks remain pending.**
+**Status: C1 construction, completion and save/reload confirmed. P03 is prepared
+with more ground clearance, doubled heat/electricity settings and eight outlets;
+installation and gameplay checks are pending.**
 Concept A has editable Blender sources, reusable components and review renders.
 P01 is archived for rollback; P02 is the active local prototype. Heat delivery and
 performance remain unverified. There are no Workshop uploads or supported releases.
@@ -84,3 +86,8 @@ Independent community project; not affiliated with or endorsed by 3Division or
 Hooded Horse. W&R and its assets belong to their respective owners.
 
 Run repository checks with `python scripts/check_repository.py`.
+
+[P03 revision and test instructions](mods/electric-heating-works/gameplay/p03/README.md)
+cover the raised pad, retained construction costs and doubled heating capacity.
+See the [dated P03 research notes](research/2026-09-13-raised-pad-and-heating-capacity.md)
+for capacity assumptions, access geometry and construction-cost checks.

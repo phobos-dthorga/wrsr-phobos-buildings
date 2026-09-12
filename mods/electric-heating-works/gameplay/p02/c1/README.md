@@ -8,8 +8,8 @@ in these views; C1 is the expected installed candidate. Earlier failure evidence
 is retained in [game-observations.json](../game-observations.json). The cause of the
 changed result remains unknown; this does not prove a triangle-limit diagnosis.
 On 13 September the author confirms scaffolding disappears and the completed model
-appears at 100%. Save/reload, heat delivery and distance-transition acceptance remain
-pending. An informal test found no clear link to LOD; that hypothesis remains
+appears at 100%. The subsequent save/reload appearance check is also author-confirmed.
+Heat delivery and distance-transition acceptance remain pending. An informal test found no clear link to LOD; that hypothesis remains
 inconclusive.
 
 The sole rendering change is `MODEL plant.nmf` to `MODEL plant_lod1.nmf`.

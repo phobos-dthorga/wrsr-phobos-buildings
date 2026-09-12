@@ -148,3 +148,12 @@ probe subsequently showed multiple stages in the author's test; full-plant succe
 remains separate. Reuse an existing verified simpler mesh for a diagnostic when it
 preserves the node and material interfaces; this avoids introducing a new export
 variable solely to test whether the detailed mesh matters.
+
+## Raised-pad revision example
+
+The [P03 follow-up](../research/2026-09-13-raised-pad-and-heating-capacity.md)
+records a 30 cm site lift, matching connector/access changes, entrance-triangle
+splitting at the pad edge and preservation of construction-node dimensions.
+Compare actual automatic construction costs after geometry edits, even when
+selectors and coefficients are unchanged. Preserve successful test evidence
+separately from still-unverified revisions.

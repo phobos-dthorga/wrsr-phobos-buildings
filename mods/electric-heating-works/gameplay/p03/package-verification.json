@@ -1,0 +1,40 @@
+{
+  "revision": "p03",
+  "verified_at_utc": "2026-09-12T15:40:15.979837+00:00",
+  "prepared": true,
+  "installed": false,
+  "game_tested": false,
+  "workshop_published": false,
+  "display_name": "Phobos' Electric Heating Works [P03 TEST]",
+  "local_item_id": 900000007,
+  "building_folder": "electric_heating_works_p02",
+  "files": 81,
+  "installed_payload_bytes": 101316239,
+  "models": [
+    {
+      "file": "plant.nmf",
+      "triangles": 25860,
+      "max_node_vertices": 15214
+    },
+    {
+      "file": "plant_lod2.nmf",
+      "triangles": 11166,
+      "max_node_vertices": 3708
+    }
+  ],
+  "ground_lift_m": 0.3,
+  "heat_coefficient": 700,
+  "electricity_per_second_coefficient": 1.0,
+  "heat_outlets": 8,
+  "workers": 30,
+  "cost_node_dimensions_and_coefficients_preserved": true,
+  "exact_in_game_costs_verified": false,
+  "materials_and_60_textures_unchanged": true,
+  "probe_unchanged": true,
+  "source_reopened_and_matched": true,
+  "baseline_c1_manifest_sha256": "97143c5585c85e396ac434dc8376b325fdc31dbfa7af45aa7518a29ac58d86a0",
+  "manifest_sha256": "00d0d12a84618583b105f8321ab27ea9c1daa16ccf36d11c3d282fc7f54053ca",
+  "preparation_recipe_sha256": "5124c7dcabf4ec6626a6b40de87656378d3b0b0a728af7d0d2bc5ab9056145d6",
+  "game_writes_performed": false,
+  "zip_bytes": 8573597
+}

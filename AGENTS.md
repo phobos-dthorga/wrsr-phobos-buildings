@@ -17,6 +17,11 @@
   local item before pausing for game exit and staged manual acceptance.
 - If a step requires the author to close the running game, use the mouse or otherwise
   intervene, pause and explain the required action before continuing.
+- On 13 September the author authorised P03: more ground clearance, doubled heat
+  and production electricity settings, and suitable heat outlets. Retain staffing
+  and the accepted construction-material requirements; check automatic quantities
+  after geometry changes. This supersedes the earlier requirement to preserve
+  production/power for this revision. Prepare before requesting game exit.
 - This repository is public. Do not copy private forks, Workshop donor assets,
   game assets, saves, proprietary tools, credentials, logs or machine-local paths.
 - Make first-party building art original. Reuse of external components needs

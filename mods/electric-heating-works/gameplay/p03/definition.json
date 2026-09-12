@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "revision": "p03",
+  "mod_id": "electric-heating-works",
+  "name": "Phobos' Electric Heating Works [P03 TEST]",
+  "building_folder": "electric_heating_works_p02",
+  "local_item_id": 900000007,
+  "workshop_published": false,
+  "game_tested": false,
+  "coordinate_system": "Site-plan metres [X,Y,height]. Native [X-75,height,56-Y].",
+  "provisional": {
+    "workers": 30,
+    "heat_coefficient": 700,
+    "electricity_per_second_coefficient": 1.0,
+    "water_storage_m3": 10,
+    "sewage_storage_m3": 10,
+    "final_rating": false
+  },
+  "connections": [
+    {
+      "id": "road",
+      "type": "ROAD",
+      "outer": [
+        72,
+        119,
+        0.0
+      ],
+      "inner": [
+        72,
+        116,
+        0.12857142857142856
+      ],
+      "advanced": [
+        [
+          72,
+          110,
+          0.3
+        ],
+        [
+          72,
+          105,
+          0.3
+        ],
+        [
+          82,
+          105,
+          0.3
+        ]
+      ]
+    },
+    {
+      "id": "pedestrian",
+      "type": "PEDESTRIAN",
+      "outer": [
+        80,
+        119,
+        0.0
+      ],
+      "inner": [
+        80,
+        116,
+        0.12857142857142856
+      ],
+      "advanced": [
+        [
+          80,
+          113,
+          0.2571428571428571
+        ],
+        [
+          75,
+          110,
+          0.3
+        ],
+        [
+          75,
+          101,
+          0.3
+        ],
+        [
+          87,
+          101,
+          0.3
+        ],
+        [
+          87,
+          91.7,
+          0.7
+        ]
+      ]
+    },
+    {
+      "id": "hv_1",
+      "type": "ELETRIC_HIGH_INPUT",
+      "outer": [
+        24,
+        -1,
+        0
+      ],
+      "inner": [
+        24,
+        1,
+        0
+      ],
+      "advanced": [
+        [
+          20.2,
+          1,
+          11.3
+        ],
+        [
+          24,
+          1,
+          11.3
+        ],
+        [
+          27.8,
+          1,
+          11.3
+        ]
+      ]
+    },
+    {
+      "id": "hv_2",
+      "type": "ELETRIC_HIGH_INPUT",
+      "outer": [
+        44,
+        -1,
+        0
+      ],
+      "inner": [
+        44,
+        1,
+        0
+      ],
+      "advanced": [
+        [
+          40.2,
+          1,
+          11.3
+        ],
+        [
+          44,
+          1,
+          11.3
+        ],
+        [
+          47.8,
+          1,
+          11.3
+        ]
+      ]
+    },
+    {
+      "id": "heat",
+      "type": "HEATING_BIG",
+      "outer": [
+        149,
+        82,
+        5.5
+      ],
+      "inner": [
+        147,
+        82,
+        5.5
+      ],
+      "advanced": []
+    },
+    {
+      "id": "water",
+      "type": "WATERPIPE_INPUT",
+      "outer": [
+        81,
+        113,
+        -3
+      ],
+      "inner": [
+        81,
+        110,
+        -3
+      ],
+      "advanced": []
+    },
+    {
+      "id": "sewage",
+      "type": "SEWAGE_OUTPUT",
+      "outer": [
+        87,
+        113,
+        -3
+      ],
+      "inner": [
+        87,
+        110,
+        -3
+      ],
+      "advanced": []
+    },
+    {
+      "id": "heat_72",
+      "type": "HEATING_BIG",
+      "outer": [
+        149,
+        72,
+        5.5
+      ],
+      "inner": [
+        147,
+        72,
+        5.5
+      ],
+      "advanced": []
+    },
+    {
+      "id": "heat_77",
+      "type": "HEATING_BIG",
+      "outer": [
+        149,
+        77,
+        5.5
+      ],
+      "inner": [
+        147,
+        77,
+        5.5
+      ],
+      "advanced": []
+    },
+    {
+      "id": "heat_87",
+      "type": "HEATING_BIG",
+      "outer": [
+        149,
+        87,
+        5.5
+      ],
+      "inner": [
+        147,
+        87,
+        5.5
+      ],
+      "advanced": []
+    },
+    {
+      "id": "heat_74_5",
+      "type": "HEATING_BIG",
+      "outer": [
+        149,
+        74.5,
+        5.5
+      ],
+      "inner": [
+        147,
+        74.5,
+        5.5
+      ],
+      "advanced": []
+    },
+    {
+      "id": "heat_79_5",
+      "type": "HEATING_BIG",
+      "outer": [
+        149,
+        79.5,
+        5.5
+      ],
+      "inner": [
+        147,
+        79.5,
+        5.5
+      ],
+      "advanced": []
+    },
+    {
+      "id": "heat_84_5",
+      "type": "HEATING_BIG",
+      "outer": [
+        149,
+        84.5,
+        5.5
+      ],
+      "inner": [
+        147,
+        84.5,
+        5.5
+      ],
+      "advanced": []
+    },
+    {
+      "id": "heat_89_5",
+      "type": "HEATING_BIG",
+      "outer": [
+        149,
+        89.5,
+        5.5
+      ],
+      "inner": [
+        147,
+        89.5,
+        5.5
+      ],
+      "advanced": []
+    }
+  ],
+  "vehicle_station": [
+    [
+      82,
+      105,
+      0.3
+    ],
+    [
+      90,
+      105,
+      0.3
+    ]
+  ],
+  "road_dead_segments": [
+    [
+      [
+        72,
+        119,
+        0.0
+      ],
+      [
+        72,
+        105,
+        0.3
+      ]
+    ],
+    [
+      [
+        72,
+        105,
+        0.3
+      ],
+      [
+        96,
+        105,
+        0.3
+      ]
+    ]
+  ],
+  "road_area": [
+    [
+      68,
+      102
+    ],
+    [
+      96,
+      108
+    ]
+  ],
+  "pedestrian_dead_segments": [
+    [
+      [
+        75,
+        110,
+        0.3
+      ],
+      [
+        75,
+        101,
+        0.3
+      ]
+    ],
+    [
+      [
+        75,
+        101,
+        0.3
+      ],
+      [
+        87,
+        101,
+        0.3
+      ]
+    ],
+    [
+      [
+        87,
+        101,
+        0.3
+      ],
+      [
+        87,
+        91.7,
+        0.7
+      ]
+    ]
+  ],
+  "construction_stations": [
+    [
+      [
+        82,
+        105,
+        0.3
+      ],
+      [
+        90,
+        105,
+        0.3
+      ]
+    ],
+    [
+      [
+        99,
+        80,
+        0.3
+      ],
+      [
+        99,
+        87,
+        0.3
+      ]
+    ],
+    [
+      [
+        67,
+        55,
+        0.3
+      ],
+      [
+        75,
+        55,
+        0.3
+      ]
+    ]
+  ],
+  "construction": [
+    {
+      "id": "ground",
+      "work": "SOVIET_CONSTRUCTION_GROUNDWORKS",
+      "factor": 0,
+      "nodes": [
+        "a06_foundation_facade_access_end",
+        "a06_foundation_facade_access_front",
+        "a06_foundation_facade_access_rear",
+        "a06_foundation_facade_plain_end",
+        "a06_foundation_facade_plain_front",
+        "a06_foundation_facade_plain_rear",
+        "a06_foundation_phobos_plinth",
+        "a06_foundation_service_aprons_and_cable_trench_001",
+        "a06_foundation_site_surface_and_access_study"
+      ],
+      "resources": {
+        "ground_asphalt": 0.25
+      }
+    },
+    {
+      "id": "foundation",
+      "work": "SOVIET_CONSTRUCTION_SKELETON_CASTING",
+      "factor": 1,
+      "nodes": [
+        "a06_foundation_facade_access_end",
+        "a06_foundation_facade_access_front",
+        "a06_foundation_facade_access_rear",
+        "a06_foundation_facade_plain_end",
+        "a06_foundation_facade_plain_front",
+        "a06_foundation_facade_plain_rear",
+        "a06_foundation_phobos_plinth",
+        "a06_foundation_service_aprons_and_cable_trench_001",
+        "a06_foundation_site_surface_and_access_study"
+      ],
+      "resources": {
+        "wall_concrete": 0.65
+      }
+    },
+    {
+      "id": "frame",
+      "work": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+      "factor": 1,
+      "nodes": [
+        "a06_frame_facade_access_end",
+        "a06_frame_facade_access_front",
+        "a06_frame_facade_access_rear",
+        "a06_frame_facade_plain_end",
+        "a06_frame_facade_plain_front",
+        "a06_frame_facade_plain_rear"
+      ],
+      "resources": {
+        "wall_concrete": 0.65,
+        "wall_steel": 0.15
+      }
+    },
+    {
+      "id": "walls",
+      "work": "SOVIET_CONSTRUCTION_PANELS_LAYING",
+      "factor": 1,
+      "nodes": [
+        "a06_walls_electrical_control_house",
+        "a06_walls_facade_access_end",
+        "a06_walls_facade_access_front",
+        "a06_walls_facade_access_rear",
+        "a06_walls_facade_plain_end",
+        "a06_walls_facade_plain_front",
+        "a06_walls_facade_plain_rear",
+        "a06_walls_hall_service_doors",
+        "a06_walls_pump_and_service_annex"
+      ],
+      "resources": {
+        "wall_concrete": 0.65,
+        "wall_steel": 0.15
+      }
+    },
+    {
+      "id": "roof",
+      "work": "SOVIET_CONSTRUCTION_ROOFTOP_BUILDING",
+      "factor": 1,
+      "nodes": [
+        "a06_roof_architecture_roof_bay",
+        "a06_roof_electrical_control_house",
+        "a06_roof_pump_and_service_annex"
+      ],
+      "resources": {
+        "wall_concrete": 0.65,
+        "wall_steel": 0.15
+      }
+    },
+    {
+      "id": "thermal",
+      "work": "SOVIET_CONSTRUCTION_STEEL_LAYING",
+      "factor": 1,
+      "nodes": [
+        "a06_thermal_thermal_headers_and_boundary_reservations",
+        "a06_thermal_thermal_pipe_rack",
+        "a06_thermal_thermal_storage_tank"
+      ],
+      "resources": {
+        "tech_steel": 0.65
+      }
+    },
+    {
+      "id": "electrical",
+      "work": "SOVIET_CONSTRUCTION_WIRE_LAYING",
+      "factor": 1,
+      "nodes": [
+        "a06_electrical_busbar_terminal_support",
+        "a06_electrical_electrical_busbar",
+        "a06_electrical_electrical_line_gantry",
+        "a06_electrical_indicative_phase_conductors",
+        "a06_electrical_phobos_fixed_post",
+        "a06_electrical_phobos_sliding_gate_frame",
+        "a06_electrical_switching_group",
+        "a06_electrical_transformer"
+      ],
+      "resources": {
+        "electro_steel": 0.55,
+        "tech_steel": 0.25
+      }
+    }
+  ],
+  "diagnostic_folder": "construction_probe",
+  "lod_distances_m": [
+    600,
+    1200
+  ],
+  "status": {
+    "placement": "P03 ground clearance untested",
+    "construction": "C1 progression, completion and save/reload passed; P03 cost comparison pending",
+    "heat_delivery": "eight outlets; doubled output and electricity input unverified in game",
+    "performance": "C1-derived main mesh; LOD transitions and runtime measurements pending"
+  },
+  "source_revision": "a07",
+  "extra_ground_clearance_m": 0.3,
+  "automatic_construction_costs": "Same selectors, coefficients and bounding dimensions as C1; verify actual quantities in game."
+}

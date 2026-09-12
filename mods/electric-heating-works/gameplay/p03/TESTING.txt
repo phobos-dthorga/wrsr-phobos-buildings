@@ -1,0 +1,50 @@
+PHOBOS ELECTRIC HEATING WORKS - P03 LOCAL TEST
+
+Keep a disposable save. This revision is not published to Steam Workshop.
+Name: Phobos' Electric Heating Works [P03 TEST]
+This replaces the earlier local plant in the same item/object slot after exit.
+The small construction probe is unchanged. Earlier packages remain archived.
+
+Changes: an extra 30 cm ground clearance, sloped access at the entrances,
+eight large heat outlets, double the heat and production electricity settings.
+Staffing remains 30. Construction phases, cost selectors and cost coefficients
+are retained; every costed node retains its bounding dimensions. Compare the
+actual quantities because automatic cost calculations are performed by the game.
+
+1. Before installation, record the TOTAL requirements for a NEW, unstarted C1
+   construction site if convenient. Existing screenshots show remaining costs
+   during construction, so they cannot establish the original total quantities.
+   Save the disposable comparison game and fully exit. Tell Codex when closed.
+
+2. After Codex confirms installation, start the game and place a NEW P03 site.
+   Confirm the name has P03 TEST. Compare its starting material requirements
+   against C1. No construction-cost rebalance is intended.
+
+3. Check the pad on reasonably level terrain with small surface variations.
+   The pad top is 33 cm above the reference plane (previously 3 cm).
+   The entrances slope down to their previous outer heights. Check that roads
+   and footpaths connect without a step, and that vehicles/workers use them.
+   This does not make a 151 x 119 m site suitable for an unlevel hillside.
+
+4. Check at least one partial construction stage, then completion. Previously
+   completed parts should persist; scaffolding should disappear at 100%.
+   Save and reload. C1 passed these checks, but P03 is a new geometry revision.
+
+5. With sufficient electricity, workers and cold-weather demand, check the
+   expected maximum production display: 420 GJ of heat and 60 MWh of production
+   electricity per workday, versus the previous 210 GJ / 30 MWh. These expected
+   display values are not yet verified; ancillary electricity may be additional.
+   If stopped by its temperature setting, use cold conditions for the test.
+
+6. Connect each of the EIGHT large outlets to a separate short large pipe and
+   heat exchanger with demand. Check each individually, then all together.
+   Avoid combining them through a shared bottleneck. Record plant production,
+   power supply and downstream temperatures. Nominal 2,400 m3 pipe capacity
+   versus an estimated 2,100 m3 requirement does not prove heat delivery.
+
+7. Zoom slowly in/out and inspect flicker, shadows and detail changes. The main
+   and first distance reference use identical geometry; the simpler second
+   model is selected at 1,200 m. Save/reload the connected test layout.
+
+Report the first failed step and a screenshot of the relevant panel/view.
+Do not overwrite the saved rollback package or publish this test item.

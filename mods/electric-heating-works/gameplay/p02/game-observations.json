@@ -41,7 +41,7 @@
   "runtime_performance_measured": false,
   "root_cause_confirmed": false,
   "installed_files_changed_during_investigation": false,
-  "next_step": "Save and reload the completed plant in the disposable test game, then verify heat delivery through all four outlets. Keep current installation; LOD visual acceptance and performance measurements remain pending.",
+  "next_step": "P03 prepared at author request: raised pad, doubled output/electricity and eight outlets. Await game exit for replacement; preserve C1 rollback and compare construction costs.",
   "research": "research/2026-09-12-construction-followup.md",
   "prepared_diagnostic": "mods/electric-heating-works/gameplay/p02/c1/package-verification.json",
   "c1_installation": "mods/electric-heating-works/gameplay/p02/c1/installation.json",
@@ -135,5 +135,20 @@
     "result": "inconclusive-no-clear-link-observed",
     "lod_cause_confirmed": false,
     "scope": "Does not establish acceptance of LOD transitions or rule out every distance-related effect."
+  },
+  "save_reload_followup": {
+    "recorded_at_utc": "2026-09-12T15:33:52.731309+00:00",
+    "report_date_local": "2026-09-13",
+    "author_report": "Yup, it still looks correct.",
+    "source": "author confirmation after requested save/reload test",
+    "completed_appearance_after_reload": true,
+    "new_screenshot_supplied": false
+  },
+  "current_c1_acceptance": {
+    "construction_progression_observed": true,
+    "completion_transition_author_confirmed": true,
+    "save_reload_appearance_author_confirmed": true,
+    "heat_delivery_verified": false,
+    "lod_transitions_verified": false
   }
 }
