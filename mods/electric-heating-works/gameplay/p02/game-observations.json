@@ -41,7 +41,7 @@
   "runtime_performance_measured": false,
   "root_cause_confirmed": false,
   "installed_files_changed_during_investigation": false,
-  "next_step": "Pause the incomplete C1 site and capture a deselected view at the same progress, then a selected phase view. No reinstall required.",
+  "next_step": "Keep the current installation. Complete the site and check scaffold removal, completed appearance and save/reload; heat delivery and LOD transitions remain separate pending tests.",
   "research": "research/2026-09-12-construction-followup.md",
   "prepared_diagnostic": "mods/electric-heating-works/gameplay/p02/c1/package-verification.json",
   "c1_installation": "mods/electric-heating-works/gameplay/p02/c1/installation.json",
@@ -60,5 +60,59 @@
       "deselected_view_supplied": false
     },
     "interpretation": "Selecting the simpler primary mesh did not resolve the reported failure. Root cause remains unknown; selected screenshot alone does not isolate solid geometry from the selection overlay."
+  },
+  "subsequent_construction_success": {
+    "recorded_at_utc": "2026-09-12T06:23:09.474609+00:00",
+    "author_report": "It works this time!",
+    "result": "progressive-construction-observed-before-completion",
+    "expected_installed_variant": "p02-c1",
+    "variant_suffix_readable_in_screenshots": false,
+    "screenshots": [
+      {
+        "sha256": "20b4fc6aecc2050d15e1bbdd1ab5821def031dd592abeb860fbafb4f599d2c38",
+        "phase_label": "Steel framing",
+        "progress_percent": 53,
+        "game_date": "26 March 2041",
+        "selected": true
+      },
+      {
+        "sha256": "075e6c6ec14934885d61e8fab5f925cc6bed194d0fec90c66b1587a98e2fa4d2",
+        "phase_label": "Installing prefab panels",
+        "progress_percent": 63,
+        "game_date": "27 March 2041",
+        "selected": true
+      },
+      {
+        "sha256": "6ea447f4bc2854bcac8723b83994ebee41fb1521a55080554122ccc1f870de66",
+        "phase_label": "Constructing rooftop",
+        "progress_percent": 78,
+        "game_date": "27 March 2041",
+        "selected": true
+      },
+      {
+        "sha256": "8ea4229964d9cea0c2f6abe2c66eb75231021078f6c74eb590be5e5829da2744",
+        "phase_label": "Wiring installation",
+        "progress_percent": 87,
+        "game_date": "27 March 2041",
+        "selected": true
+      },
+      {
+        "sha256": "0e0f14d3ab431c7809e99f9fbadb3c23e0f047f5ba13b718418515e4b2439df2",
+        "phase_label": "Wiring installation",
+        "progress_percent": 97,
+        "game_date": "28 March 2041",
+        "selected": true
+      }
+    ],
+    "observations": [
+      "Visible scaffolding changes between construction phases.",
+      "Hall and tanks appear solid under selection highlighting by 87%, before overall completion.",
+      "Hall and tanks remain visible at 97% while electrical-site construction continues."
+    ],
+    "limits": [
+      "All five screenshots are selected views.",
+      "No 100% completion or save/reload screenshot in this set.",
+      "This success does not establish the cause of the earlier reported failure or prove that reducing triangles was necessary."
+    ]
   }
 }

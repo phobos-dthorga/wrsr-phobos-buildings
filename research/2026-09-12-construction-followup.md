@@ -173,3 +173,26 @@ paused and deselected. Pair that image with the phase/progress panel view. This
 removes an observation ambiguity without changing any model, material, game
 configuration or installation. Preserve the working small probe and existing
 rollback packages. Historical installation and preparation records remain intact.
+
+## Subsequent successful full-plant sequence
+
+The author subsequently reports "It works this time!" and supplies five selected
+views: 53% Steel framing (26 March 2041), 63% Installing prefab panels, 78%
+Constructing rooftop, 87% Wiring installation (27 March), and 97% Wiring
+installation (28 March). Scaffolding changes between phases. By 87%, the hall
+and tanks appear solid beneath selection highlighting and remain visible at 97%
+while electrical-site construction continues. This supports progressive appearance
+and retention before overall completion, superseding the earlier failure report
+as the latest observed outcome. Screenshot hashes are in the game observations.
+
+C1 remains the expected installed candidate; these screenshots truncate the name
+before its revision suffix. No new installation was performed between the previous
+report and this response. Do not attribute success specifically to deselection:
+all supplied views are selected. Nor does the sequence prove that fewer triangles
+were necessary, identify an engine limit, or explain the earlier failure. Preserve
+the earlier report and the passing probe as part of the test history.
+
+Keep the current package for completion and save/reload checks before making another
+construction change. Confirm scaffolding disappears at completion and the completed
+model persists after reloading. Heat delivery and LOD transitions remain independent
+acceptance tests. No completed-stage screenshot was supplied in this sequence.

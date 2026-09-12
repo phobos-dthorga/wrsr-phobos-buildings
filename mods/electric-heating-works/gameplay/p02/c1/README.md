@@ -1,10 +1,13 @@
 # C1: select the existing simpler mesh for construction
 
-Installed diagnostic; **construction still fails according to the author**, at 75% during panel installation. A deselected view is pending to distinguish solid parts from the yellow overlay. The author reports that the small
-P02 probe went through multiple stages, following the requested visual construction
-test. The full plant's construction remains a reported failure. No additional probe
-screenshot was supplied; preserve the distinction between author report and direct
-visual evidence in [game-observations.json](../game-observations.json).
+Installed diagnostic; **the subsequent author test shows progressive construction
+through 97%**, superseding the earlier failure as the latest observed result.
+Five selected screenshots show framing, panels, roofing and wiring phases, with
+the hall and tanks visible before completion. The exact variant suffix is truncated
+in these views; C1 is the expected installed candidate. Earlier failure evidence
+is retained in [game-observations.json](../game-observations.json). The cause of the
+changed result remains unknown; this does not prove a triangle-limit diagnosis.
+Completion, save/reload, heat delivery and distance transitions remain pending.
 
 The sole rendering change is `MODEL plant.nmf` to `MODEL plant_lod1.nmf`.
 The two external LOD declarations and their distances remain unchanged. C1 has
