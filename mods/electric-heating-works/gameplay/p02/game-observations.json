@@ -41,8 +41,24 @@
   "runtime_performance_measured": false,
   "root_cause_confirmed": false,
   "installed_files_changed_during_investigation": false,
-  "next_step": "C1 is installed. Test a new full-plant site with the simpler primary mesh and record construction costs and solid progression.",
+  "next_step": "Pause the incomplete C1 site and capture a deselected view at the same progress, then a selected phase view. No reinstall required.",
   "research": "research/2026-09-12-construction-followup.md",
   "prepared_diagnostic": "mods/electric-heating-works/gameplay/p02/c1/package-verification.json",
-  "c1_installation": "mods/electric-heating-works/gameplay/p02/c1/installation.json"
+  "c1_installation": "mods/electric-heating-works/gameplay/p02/c1/installation.json",
+  "c1_result": {
+    "reported_at_utc": "2026-09-12T05:59:27.407847+00:00",
+    "tested": true,
+    "progressive_construction": "failed-author-reported",
+    "author_report": "Hmm, still not working.",
+    "partial_screenshot": {
+      "sha256": "53e6b5f2f624627640ad186b933d4b9ebe38a4db1443403433e2f5ff3ef64e99",
+      "visible_variant": "P02-C1 TEST",
+      "game_date": "17 February 2041",
+      "progress_percent": 75,
+      "phase_label": "Installing prefab panels",
+      "selection_ghost_visible": true,
+      "deselected_view_supplied": false
+    },
+    "interpretation": "Selecting the simpler primary mesh did not resolve the reported failure. Root cause remains unknown; selected screenshot alone does not isolate solid geometry from the selection overlay."
+  }
 }

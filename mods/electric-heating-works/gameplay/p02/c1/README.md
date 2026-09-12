@@ -1,6 +1,6 @@
 # C1: select the existing simpler mesh for construction
 
-Installed diagnostic; **awaiting the author's construction test**. The author reports that the small
+Installed diagnostic; **construction still fails according to the author**, at 75% during panel installation. A deselected view is pending to distinguish solid parts from the yellow overlay. The author reports that the small
 P02 probe went through multiple stages, following the requested visual construction
 test. The full plant's construction remains a reported failure. No additional probe
 screenshot was supplied; preserve the distinction between author report and direct

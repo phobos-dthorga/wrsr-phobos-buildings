@@ -145,3 +145,31 @@ it would not distinguish an engine budget from topology or other removed detail.
 Automatic construction quantities may change with selected geometry despite
 unchanged coefficients and must be recorded, not treated as an intentional rebalance.
 The complete package is verified and awaits the author's game exit before installation.
+
+## C1 result: reported failure at 75%
+
+The latest author report is "Hmm, still not working." The screenshot identifies
+P02-C1 TEST, 17 February 2041, 75% overall progress, and Installing prefab panels.
+The yellow selection ghost is visible. No deselected view of this partial stage
+has been supplied. The screenshot hash and observations are recorded in
+[game observations](../mods/electric-heating-works/gameplay/p02/game-observations.json).
+
+Using the 25,562-triangle primary mesh did not resolve the reported construction
+failure. This is evidence against that specific remedy, not proof that all
+geometry or exporter differences are irrelevant. Construction acceptance remains
+failed; the root cause remains unknown. The costs shown are remaining quantities,
+not initial construction totals, and must not be used as initial-cost measurements.
+
+Further static comparison: the probe has four nodes and four matching material
+names, whereas the full plant has 38 nodes and 20 materials. The measured robs074
+big heating plant has four nodes and one material, wildbunny SNR-300 has 33 nodes
+and one material, and Billman007 School 221-1-174 has 30 nodes and 30 materials.
+These counts come from the existing comparison evidence. They do not establish
+that node and material names must match, or a universal material-count limit.
+The reference buildings have not undergone fresh construction tests in this audit.
+
+Before preparing another changed package, inspect the same incomplete site while
+paused and deselected. Pair that image with the phase/progress panel view. This
+removes an observation ambiguity without changing any model, material, game
+configuration or installation. Preserve the working small probe and existing
+rollback packages. Historical installation and preparation records remain intact.

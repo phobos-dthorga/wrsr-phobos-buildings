@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "electric-heating-works",
   "name": "Phobos' Electric Heating Works",
-  "status": "p02-c1-installed-awaiting-construction-test",
+  "status": "p02-c1-construction-failed-awaiting-deselected-view",
   "license": "MIT",
   "workshop_id": null,
   "target_game_build": null,
@@ -83,9 +83,10 @@
       "revision": "p02-c1",
       "prepared": true,
       "installed": true,
-      "game_tested": false,
+      "game_tested": true,
       "review": "mods/electric-heating-works/gameplay/p02/c1/README.md",
-      "installation_record": "mods/electric-heating-works/gameplay/p02/c1/installation.json"
+      "installation_record": "mods/electric-heating-works/gameplay/p02/c1/installation.json",
+      "acceptance_status": "construction-failed-author-reported"
     },
     "active_variant": "p02-c1"
   }
