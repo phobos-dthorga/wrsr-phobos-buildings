@@ -3,11 +3,11 @@
 Original building mods for **Workers & Resources: Soviet Republic**, supported by a
 shared library of reusable architectural and industrial parts.
 
-**Status: C1 construction, completion and save/reload confirmed. P03 is prepared
-with more ground clearance, doubled heat/electricity settings and eight outlets;
-installation and gameplay checks are pending.**
+**Status: P03 is installed for local testing, with more ground clearance, doubled
+heat/electricity settings and eight outlets. P03 gameplay checks are pending.**
+C1 construction, completion and save/reload were author-confirmed.
 Concept A has editable Blender sources, reusable components and review renders.
-P01 is archived for rollback; P02 is the active local prototype. Heat delivery and
+P01, P02 and C1 are archived for rollback; P03 is the active local prototype. Heat delivery and
 performance remain unverified. There are no Workshop uploads or supported releases.
 The first project is **Phobos'
 Electric Heating Works**: a large electric district-heating complex with a substantial

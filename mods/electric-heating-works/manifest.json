@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "electric-heating-works",
   "name": "Phobos' Electric Heating Works",
-  "status": "p03-prepared-c1-still-installed",
+  "status": "p03-installed-awaiting-game-test",
   "license": "MIT",
   "workshop_id": null,
   "target_game_build": null,
@@ -59,7 +59,7 @@
     "revision": "p02",
     "local_test_id": 900000007,
     "prepared": true,
-    "installed": true,
+    "installed": false,
     "game_tested": true,
     "workshop_published": false,
     "definition": "mods/electric-heating-works/gameplay/p02/definition.json",
@@ -82,19 +82,21 @@
     "construction_diagnostic": {
       "revision": "p02-c1",
       "prepared": true,
-      "installed": true,
+      "installed": false,
       "game_tested": true,
       "review": "mods/electric-heating-works/gameplay/p02/c1/README.md",
       "installation_record": "mods/electric-heating-works/gameplay/p02/c1/installation.json",
       "acceptance_status": "progression-observed-completion-author-confirmed",
-      "save_reload_appearance_author_confirmed": true
+      "save_reload_appearance_author_confirmed": true,
+      "archived_for_rollback": true
     },
-    "active_variant": "p02-c1"
+    "active_variant": null,
+    "archived_for_rollback": true
   },
   "p03_candidate": {
     "revision": "p03",
     "prepared": true,
-    "installed": false,
+    "installed": true,
     "game_tested": false,
     "workshop_published": false,
     "local_item_id": 900000007,
@@ -109,6 +111,8 @@
     "electricity_per_second_coefficient": 1.0,
     "workers": 30,
     "construction_cost_rebalance_intended": false,
-    "actual_cost_comparison_pending": true
+    "actual_cost_comparison_pending": true,
+    "installation_record": "mods/electric-heating-works/gameplay/p03/installation.json",
+    "construction_cost_comparison": "mods/electric-heating-works/gameplay/p03/construction-cost-comparison.json"
   }
 }

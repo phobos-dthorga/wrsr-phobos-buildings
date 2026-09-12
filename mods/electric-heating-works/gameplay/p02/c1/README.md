@@ -1,10 +1,11 @@
 # C1: select the existing simpler mesh for construction
 
-Installed diagnostic; **the subsequent author test shows progressive construction
+Archived diagnostic, replaced locally by [P03](../../p03/README.md) on
+13 September 2026; **the subsequent author test shows progressive construction
 through 97%**, superseding the earlier failure as the latest observed result.
 Five selected screenshots show framing, panels, roofing and wiring phases, with
 the hall and tanks visible before completion. The exact variant suffix is truncated
-in these views; C1 is the expected installed candidate. Earlier failure evidence
+in these views; C1 was the expected installed candidate at the time. Earlier failure evidence
 is retained in [game-observations.json](../game-observations.json). The cause of the
 changed result remains unknown; this does not prove a triangle-limit diagnosis.
 On 13 September the author confirms scaffolding disappears and the completed model
@@ -50,5 +51,8 @@ cache files were archived outside the game before C1 replaced item 900000007. Al
 contains no old generated caches. The probe is unchanged.
 
 [installation.json](installation.json) records the installed state; package verification
-records the earlier preparation event. Use a new site in a disposable save and inspect
-solid geometry before completion. P01 and the original P02 sources remain unchanged.
+records the earlier preparation event. Both are historical records. The entire
+C1 item, including its four generated caches, is now preserved in the verified
+`heating-c1-rollback-before-p03-20260913` local archive outside the game.
+[P03 installation evidence](../../p03/installation.json) records the replacement.
+P01 and the original P02 sources remain unchanged.

@@ -8,8 +8,8 @@ claim is made about why the previous report differed.
 The author requests additional ground clearance, approximately doubled heat and
 electricity consumption, suitable outlet capacity, and retention of the accepted
 construction-material requirements. [P03](../mods/electric-heating-works/gameplay/p03/README.md)
-implements that direction as a prepared local candidate. It is not installed or
-game-tested yet.
+implements that direction and is now installed locally after the author
+confirmed the game was closed. P03 has not yet been game-tested.
 
 ## Ground clearance and access
 
@@ -55,8 +55,19 @@ Retain all 38 node names, phase memberships, work factors, automatic resource
 coefficients and node bounding dimensions from C1. There is no intentional cost
 rebalance. Compare the initial total quantities in-game because the surface edits
 and additional pipe faces cannot be assumed irrelevant to engine cost calculations.
-Previous screenshots show remaining quantities at partial completion, which must
-not be mistaken for initial total costs.
+Earlier screenshots showed remaining quantities at partial completion, which
+must not be mistaken for initial total costs. The author has now supplied two
+0% Groundworks screenshots dated 24 November 2041 in-game. Their total is
+9,893 workdays, 1,153 t concrete, 189 t gravel, 151 t asphalt, 351 t steel,
+8.2 t mechanical components and 7.6 t electrical components. The separate
+groundworks-only figures are 2,837 workdays, 245 t concrete, 189 t gravel and
+151 t asphalt. These readings are rounded by the game UI.
+
+The author notes extreme late-game inflation compared with a 1980 start. The
+quotes of 6,800,805 rubles and 1,076,129 dollars are contextual observations;
+compare tonnes and workdays to assess construction requirements. The
+[machine-readable cost comparison](../mods/electric-heating-works/gameplay/p03/construction-cost-comparison.json)
+records both screenshot hashes and leaves P03 quantities pending.
 
 Keep the accepted simpler main model as the base. The 600 m LOD1 declaration points
 to identical geometry; the second, simpler model remains at 1,200 m. Preserve the
@@ -74,8 +85,11 @@ None is a measured frame-rate improvement or Steam download size.
 - [Historical C1 game observations](../mods/electric-heating-works/gameplay/p02/game-observations.json)
 - [Manual test instructions](../mods/electric-heating-works/gameplay/p03/TESTING.txt)
 
-Prepare and verify the package before asking for game exit. Archive the complete
-installed C1 item outside the game's active folders before replacing it, preserving
-its generated caches for rollback while installing a clean P03 candidate. Do not
-edit saves, other mods or installed Workshop references. Steam publication remains
-outside this revision.
+[Installation evidence](../mods/electric-heating-works/gameplay/p03/installation.json)
+records the completed replacement: 85 C1 files, including four generated caches,
+were archived and hash-verified outside the game; all 81 P03 files were checked
+against the prepared package and source. The same local item and object folder
+were reused, avoiding an additional plant catalogue entry. Saves, other mods and
+installed Workshop references were not edited. The preparation record remains
+unchanged as historical evidence. P03 game checks and exact cost comparison are
+pending; Steam publication remains outside this revision.

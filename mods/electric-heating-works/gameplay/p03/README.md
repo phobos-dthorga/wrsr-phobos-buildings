@@ -1,7 +1,11 @@
 # P03: raised pad and doubled heating output
 
-Prepared revision; **not installed or game-tested**. It follows the successful
-C1 construction, completion and author-confirmed save/reload tests.
+**Installed for local testing on 13 September 2026; not yet game-tested.**
+It follows the successful C1 construction, completion and author-confirmed
+save/reload tests. [Installation evidence](installation.json) records all 81
+verified payload files and the complete 85-file C1 rollback archive, including
+four generated cache files. The earlier [package verification](package-verification.json)
+remains a historical record of preparation.
 
 - Raise the original C1-derived plant geometry by 30 cm. The main pad top moves
   from 3 cm to 33 cm above the reference plane; the existing skirt remains buried.
@@ -23,6 +27,15 @@ The eight outlets provide a **nominal** 2,400 m3 compared with the estimated
 2,100 m3 associated with the doubled heat setting. The [official heating wiki](https://wiki.hoodedhorse.com/Workers_Resources_Soviet_Republic/Heating)
 lists 300 m3 for a large pipe; the page is flagged for content review. Treat this
 arithmetic as a distribution estimate, not tested simultaneous delivery.
+
+The author has supplied the unstarted C1 cost baseline and closed the game;
+step 1 of the packaged instructions is complete. Start with a NEW
+**Phobos' Electric Heating Works [P03 TEST]** site in a disposable save and capture
+the total requirements at 0% before funding it. The [comparison record](construction-cost-comparison.json)
+contains 9,893 workdays, 1,153 t concrete, 189 t gravel, 151 t asphalt, 351 t steel,
+8.2 t mechanical components and 7.6 t electrical components. These are rounded
+game-panel readings. Currency quotes are retained with the author's inflation
+context and are not the material-balance baseline.
 
 [Test instructions](TESTING.txt) cover clearance, construction costs, progression,
 access, save/reload and individual/simultaneous outlet demand. Reasonable terrain
@@ -48,6 +61,8 @@ the preserved C1 and P02 packages. It never writes to the game directory.
 
 Use local item 900000007 and the existing `electric_heating_works_p02` object folder
 to avoid catalogue duplicates and preserve object identity. The display name
-identifies P03. Installation requires game exit and an archive of the entire
-current item, including generated caches, before replacing it with checked files.
-No save is edited and no Workshop publication is authorised by this revision.
+identifies P03. Installation replaced that same item after game exit and
+archived the entire C1 item outside the game's active folders. The clean P03
+installation contains no old generated caches. The construction probe is
+unchanged; saves and other mods were not edited. No Workshop publication is
+authorised by this revision.

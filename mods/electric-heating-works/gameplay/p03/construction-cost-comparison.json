@@ -1,0 +1,58 @@
+{
+  "revision": "p03",
+  "recorded_at_utc": "2026-09-12T20:33:25.551385+00:00",
+  "comparison_status": "c1-initial-baseline-recorded-p03-game-quantities-pending",
+  "intentional_cost_rebalance": false,
+  "baseline": {
+    "expected_installed_variant": "p02-c1",
+    "variant_suffix_readable_in_screenshots": false,
+    "installed_c1_payload_verified_before_replacement": true,
+    "source": "Author-supplied screenshots of an unstarted construction site",
+    "screenshot_game_date": "24 November 2041",
+    "progress_percent": 0,
+    "phase_label": "Groundworks",
+    "workers_on_site": 0,
+    "mechanisms_on_site": 0,
+    "maximum_workers": 988,
+    "total_workdays": 9893,
+    "total_materials_t": {
+      "concrete": 1153,
+      "gravel": 189,
+      "asphalt": 151,
+      "steel": 351,
+      "mechanical_components": 8.2,
+      "electrical_components": 7.6
+    },
+    "current_phase_workdays": 2837,
+    "current_phase_materials_t": {
+      "concrete": 245,
+      "gravel": 189,
+      "asphalt": 151
+    },
+    "currency_quotes": {
+      "dollars": 1076129,
+      "rubles": 6800805,
+      "use_for_balance": false,
+      "context": "Author notes extreme late-game inflation compared with a 1980 start; preserve prices as contextual observations, not baseline-year costs."
+    },
+    "screenshots": [
+      {
+        "sha256": "16aa655dba17ed4f7a1afe84ed3088069837603edb70a049ba5f3aa22b18e400",
+        "currency_tooltip": "dollars"
+      },
+      {
+        "sha256": "5604e3cf6ed3443a58b59a86c901877fe90da32994599a1dbbbb439a8ce00538",
+        "currency_tooltip": "rubles"
+      }
+    ],
+    "measurement_limits": [
+      "Quantities are rounded values read from the game UI, not exact engine values.",
+      "The total is distinguished from the current groundworks-only requirements.",
+      "The name suffix is truncated; the installed C1 files were verified separately."
+    ]
+  },
+  "p03_observed": null,
+  "material_differences_t": null,
+  "workday_difference": null,
+  "next_step": "Capture the total requirements at 0% for a NEW P03 construction site; compare tonnes and workdays before funding construction."
+}

@@ -1,0 +1,33 @@
+{
+  "revision": "p03",
+  "verified_at_utc": "2026-09-12T20:29:26.1571610Z",
+  "source_commit": "e24199d28bb563783bd36b99c56fc8257314196c",
+  "local_test_id": 900000007,
+  "installed": true,
+  "game_tested": false,
+  "workshop_published": false,
+  "display_name": "Phobos' Electric Heating Works [P03 TEST]",
+  "building_folder": "electric_heating_works_p02",
+  "payload_files": 81,
+  "payload_bytes": 101316239,
+  "manifest_sha256": "00d0d12a84618583b105f8321ab27ea9c1daa16ccf36d11c3d282fc7f54053ca",
+  "installed_payload_verified_against_prepared_package_and_source": true,
+  "game_and_modelviewer_closed_at_installation": true,
+  "rollback_archive_label": "heating-c1-rollback-before-p03-20260913",
+  "archived_revision": "p02-c1",
+  "archived_files": 85,
+  "archived_file_hashes_verified": true,
+  "archived_extra_files": [
+    "construction_probe/building.bbox",
+    "construction_probe/building.fire",
+    "electric_heating_works_p02/building.bbox",
+    "electric_heating_works_p02/building.fire"
+  ],
+  "previous_game_generated_caches_archived": true,
+  "old_caches_copied_into_candidate": false,
+  "same_active_item_replaced": true,
+  "construction_probe_unchanged": true,
+  "other_mods_untouched": true,
+  "saves_untouched": true,
+  "next_step": "Place a NEW P03 plant in a disposable save; compare initial material quantities, check clearance and repeat construction/access tests before heat-delivery acceptance."
+}

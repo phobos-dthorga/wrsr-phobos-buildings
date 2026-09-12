@@ -41,7 +41,7 @@
   "runtime_performance_measured": false,
   "root_cause_confirmed": false,
   "installed_files_changed_during_investigation": false,
-  "next_step": "P03 prepared at author request: raised pad, doubled output/electricity and eight outlets. Await game exit for replacement; preserve C1 rollback and compare construction costs.",
+  "next_step": "P03 installed after author-confirmed game exit; C1 archived for rollback. Compare the new P03 starting costs and repeat clearance/construction/access checks.",
   "research": "research/2026-09-12-construction-followup.md",
   "prepared_diagnostic": "mods/electric-heating-works/gameplay/p02/c1/package-verification.json",
   "c1_installation": "mods/electric-heating-works/gameplay/p02/c1/installation.json",
@@ -150,5 +150,13 @@
     "save_reload_appearance_author_confirmed": true,
     "heat_delivery_verified": false,
     "lod_transitions_verified": false
+  },
+  "c1_initial_cost_baseline": {
+    "recorded_at_utc": "2026-09-12T20:33:25.551385+00:00",
+    "source": "Two author-supplied 0% construction screenshots",
+    "record": "mods/electric-heating-works/gameplay/p03/construction-cost-comparison.json",
+    "total_workdays": 9893,
+    "late_game_inflation_context_recorded": true,
+    "p03_quantities_verified": false
   }
 }
